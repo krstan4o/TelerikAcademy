@@ -1,4 +1,0 @@
-snakegame
-=========
-
-Console Snake Game
