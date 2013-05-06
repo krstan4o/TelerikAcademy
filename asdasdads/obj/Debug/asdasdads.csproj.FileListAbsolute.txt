@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\asdasdads\asdasdads\bin\Debug\asdasdads.exe.config
+C:\Users\krstan4o\Desktop\asdasdads\asdasdads\bin\Debug\asdasdads.exe
+C:\Users\krstan4o\Desktop\asdasdads\asdasdads\bin\Debug\asdasdads.pdb
+C:\Users\krstan4o\Desktop\asdasdads\asdasdads\obj\Debug\asdasdads.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\asdasdads\asdasdads\obj\Debug\asdasdads.exe
+C:\Users\krstan4o\Desktop\asdasdads\asdasdads\obj\Debug\asdasdads.pdb
