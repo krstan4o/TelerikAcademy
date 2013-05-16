@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\CourceProject\CourceProject\bin\Debug\CourceProject.exe.config
+C:\Users\krstan4o\Desktop\CourceProject\CourceProject\bin\Debug\CourceProject.exe
+C:\Users\krstan4o\Desktop\CourceProject\CourceProject\bin\Debug\CourceProject.pdb
+C:\Users\krstan4o\Desktop\CourceProject\CourceProject\obj\Debug\CourceProject.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\CourceProject\CourceProject\obj\Debug\CourceProject.exe
+C:\Users\krstan4o\Desktop\CourceProject\CourceProject\obj\Debug\CourceProject.pdb
