@@ -1,5 +1,0 @@
-D:\Telerik\KPK\HW\Hight_Quality_Clasess_HW\Abstraction\bin\Debug\Abstraction.exe
-D:\Telerik\KPK\HW\Hight_Quality_Clasess_HW\Abstraction\bin\Debug\Abstraction.pdb
-D:\Telerik\KPK\HW\Hight_Quality_Clasess_HW\Abstraction\obj\Debug\Abstraction.csprojResolveAssemblyReference.cache
-D:\Telerik\KPK\HW\Hight_Quality_Clasess_HW\Abstraction\obj\Debug\Abstraction.exe
-D:\Telerik\KPK\HW\Hight_Quality_Clasess_HW\Abstraction\obj\Debug\Abstraction.pdb
