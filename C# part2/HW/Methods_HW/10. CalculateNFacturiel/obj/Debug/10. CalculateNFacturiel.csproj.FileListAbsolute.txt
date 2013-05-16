@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\10. CalculateNFacturiel\bin\Debug\_10.CalculateNFacturiel.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\10. CalculateNFacturiel\bin\Debug\_10.CalculateNFacturiel.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\10. CalculateNFacturiel\bin\Debug\_10.CalculateNFacturiel.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\10. CalculateNFacturiel\obj\Debug\_10.CalculateNFacturiel.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\10. CalculateNFacturiel\obj\Debug\_10.CalculateNFacturiel.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\10. CalculateNFacturiel\obj\Debug\10. CalculateNFacturiel.csprojResolveAssemblyReference.cache

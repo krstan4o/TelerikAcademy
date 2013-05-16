@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Counts given number in array.</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+  
+    <a href="#"  onClick="inputOutputFunction()">Check It.</a>
+   
+    
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    
+    
+    <script>
+        function returnBiggerThanNeighbors(arr) {
+            var result = -1;
+            for (var i = 1; i < arr.length-1; i++) {
+                if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1])
+                    result = i;
+            }
+            return result;
+        }
+        function inputOutputFunction() {
+            var arr = [1, 2, 3, 4, 5, 6];
+           
+            jsConsole.writeLine(returnBiggerThanNeighbors(arr));
+        }
+    </script>
+
+</body>
+</html>

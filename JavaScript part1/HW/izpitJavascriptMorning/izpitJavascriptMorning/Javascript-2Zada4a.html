@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>kjh</title>
+</head>
+<body onload="Input()">
+    <script>
+
+        function Solve(args) {
+            var NMJ = args[0].split(' ');
+            var N = parseInt(NMJ[0]);
+            var M = parseInt(NMJ[1]);
+            var J = parseInt(NMJ[2]);
+            var isEscaped = false;
+            var RC = args[1].split(' ');
+            var R = parseInt(RC[0]);
+            var C = parseInt(RC[1]);
+            if ((R < 0 || R >= N) || (C < 0 || C >= M)) {
+                return "escaped 0"
+            }
+
+            else {
+                var checked = [];
+                for (var k = 0; k < N; k++) {
+                    checked[k] = new Array(M);
+                    for (var l = 0; l < M; l++) {
+                        checked[k][l] = false;
+                    }
+                }
+                checked[R][C] = true;
+                var arrNumbers = [];
+                arrNumbers.push((R * M + 1) + (C + 1) - 1);
+                for (var i = 2; i < args.length; i++) {
+                    var rowAndCol = args[i].split(' ');
+                     R += parseInt(rowAndCol[0]);
+                     C += parseInt(rowAndCol[1]);
+                   
+                    if ((R < 0 || R >= N) || (C < 0 || C >= M)) {
+                        isEscaped = true;
+                        break;
+                    }
+                    else if (checked[R][C]) {
+                        isEscaped = false;
+                        break;
+                    }
+                    else {
+                        arrNumbers.push((R * M + 1) + (C + 1) - 1);
+                        checked[R][C] = true;
+                    }
+                    if (i == args.length - 1) {
+                        i = 1;
+                    }
+                }
+                if (isEscaped) {
+                    var sum = 0;
+                    for (var j = 0; j < arrNumbers.length; j++) {
+                        sum += arrNumbers[j];
+                    }
+                   return "escaped " + sum;
+                }
+                else {
+                    var result = arrNumbers.length;
+                   return "caught " + result;
+                }
+            }
+           
+        }
+        function Input() {
+            var argums = ["6 7 6", "0 0",
+                "0 1", "0 2", "0 1", "0 1", "0 0", "3 -2","0 0"];
+            Solve(argums);
+        }
+    </script>
+</body>
+</html>

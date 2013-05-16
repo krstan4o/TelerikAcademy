@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\09. FindsMaxElementAndSortsArray\bin\Debug\_09.FindsMaxElementAndSortsArray.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\09. FindsMaxElementAndSortsArray\bin\Debug\_09.FindsMaxElementAndSortsArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\09. FindsMaxElementAndSortsArray\bin\Debug\_09.FindsMaxElementAndSortsArray.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\09. FindsMaxElementAndSortsArray\obj\Debug\09. FindsMaxElementAndSortsArray.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\09. FindsMaxElementAndSortsArray\obj\Debug\_09.FindsMaxElementAndSortsArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\09. FindsMaxElementAndSortsArray\obj\Debug\_09.FindsMaxElementAndSortsArray.pdb

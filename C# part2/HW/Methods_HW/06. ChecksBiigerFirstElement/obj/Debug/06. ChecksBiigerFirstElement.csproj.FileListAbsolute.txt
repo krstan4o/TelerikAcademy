@@ -1,0 +1,8 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\bin\Debug\_06.ChecksBiigerFirstElement.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\bin\Debug\_06.ChecksBiigerFirstElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\bin\Debug\_06.ChecksBiigerFirstElement.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\bin\Debug\_05.ChecksBiggerGivenElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\bin\Debug\_05.ChecksBiggerGivenElement.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\obj\Debug\06. ChecksBiigerFirstElement.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\obj\Debug\_06.ChecksBiigerFirstElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\06. ChecksBiigerFirstElement\obj\Debug\_06.ChecksBiigerFirstElement.pdb

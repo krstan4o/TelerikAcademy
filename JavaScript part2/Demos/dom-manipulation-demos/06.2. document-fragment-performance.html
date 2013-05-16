@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Manipulation - DocumentFragment</title>
+</head>
+<body>
+	<div class="holders">
+	</div>
+	<div class="holders">
+	</div>
+	<div class="holders">
+	</div>
+	<div class="holders">
+	</div>
+	<div class="holders">
+	</div>
+	<div class="holders">
+	</div>
+	<script>
+		function createNode(type, innerHTML) {
+			var node = document.createElement(type);
+			node.innerHTML = innerHTML;
+			node.style.display = "none";
+			return node;
+		}
+
+		var elements = [
+		createNode("p", "text"), createNode("b", "text"), createNode("ul", "<li>1</li><li>2</li>"), createNode("div", document.body.innerHTML)];
+
+		var holders = document.getElementsByClassName("holders");
+		holders[0].innerHTML = holders.length + " ";
+	</script>
+	<script>
+		var setup = function () {
+			for (var k = 0; k < holders.length; k++) {
+				var holder = holders[k];
+				holders[0].innerHTML = len + "";
+
+				while (holder.firstChild) {
+					holder.removeChild(holder.firstChild);
+				}
+			}
+		};
+
+		for (var i = 0, len = holders.length; i < len; i++) {
+			for (var j = 0; j < elements.length; j++) {
+				holders[i].appendChild(elements[j].cloneNode(true));
+			}
+		}
+
+		setup();
+
+		var fragment = document.createDocumentFragment();
+		for (var i = 0; i < elements.length; i++) {
+			fragment.appendChild(elements[i])
+		}
+
+		for (var i = 0, len = holders.length; i < len; i++) {
+			holders[i].appendChild(fragment.cloneNode(true));
+		}
+
+
+	</script>
+</body>
+</html>

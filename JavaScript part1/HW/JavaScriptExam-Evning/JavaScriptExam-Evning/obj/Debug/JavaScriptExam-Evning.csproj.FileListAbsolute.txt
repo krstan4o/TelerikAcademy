@@ -1,0 +1,5 @@
+D:\Telerik\JavaScript part1\HW\JavaScriptExam-Evning\JavaScriptExam-Evning\bin\JavaScriptExam-Evning.dll
+D:\Telerik\JavaScript part1\HW\JavaScriptExam-Evning\JavaScriptExam-Evning\bin\JavaScriptExam-Evning.pdb
+D:\Telerik\JavaScript part1\HW\JavaScriptExam-Evning\JavaScriptExam-Evning\obj\Debug\JavaScriptExam-Evning.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScript part1\HW\JavaScriptExam-Evning\JavaScriptExam-Evning\obj\Debug\JavaScriptExam-Evning.dll
+D:\Telerik\JavaScript part1\HW\JavaScriptExam-Evning\JavaScriptExam-Evning\obj\Debug\JavaScriptExam-Evning.pdb

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Manipulation - Creating HTML elements</title>
+	<style>
+		#content div.colored {
+			border: 1px solid black;
+			border-radius: 15px;
+			width: 75px;
+			height: 75px;
+			margin: 5px;
+			padding: 0;
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+		}
+
+			#content div.colored:nth-of-type(2n+1) {
+				border-color: lightblue;
+			}
+	</style>
+</head>
+<body>
+	<input type="text" id="tb-box-count" />
+	<a href="#" id="generate-boxes-btn" onclick="onGenerateBoxesButtonClick()">Generate boxes</a>
+	<div id="content">
+	</div>
+	<script>
+		function onGenerateBoxesButtonClick() {
+			var startTime = new Date();
+
+			var contentDiv = document.getElementById("content");
+			while (contentDiv.firstChild) contentDiv.removeChild(contentDiv.firstChild);
+
+			var count = (document.getElementById("tb-box-count").value | 0) || 5;
+
+			for (var i = 0; i < count; i++) {
+				var div = document.createElement("div");
+				div.className = "colored";
+				contentDiv.appendChild(div);
+			}
+
+			console.log(new Date() - startTime);
+			return false;
+		}
+
+
+	</script>
+</body>
+</html>

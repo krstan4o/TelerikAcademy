@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\01. PrintsName\bin\Debug\_01.PrintsName.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\01. PrintsName\bin\Debug\_01.PrintsName.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\01. PrintsName\bin\Debug\_01.PrintsName.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\01. PrintsName\obj\Debug\01. PrintsName.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\01. PrintsName\obj\Debug\_01.PrintsName.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\01. PrintsName\obj\Debug\_01.PrintsName.pdb

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check the brackets of expression.</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+  Please enter an expresion to check the brackets:  <input type="text" id="tb_input" />
+    <br />
+    <a href="#"  onClick="check()">Check It.</a>
+   
+    
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    
+    
+    <script>
+        function check() {
+            var expresion = jsConsole.read("#tb_input");
+            expresion.toString();
+            var count =0;
+            for (var i = 0; i < expresion.length; i++) {
+                if (expresion[i] === "(") {
+                    count++;
+                }
+                else if (expresion[i] === ")") {
+                    count--;
+                }
+            }
+
+            if (count === 0) {
+                jsConsole.writeLine("Correct bracets.");
+            }
+            else {
+                jsConsole.writeLine("Incorect bracets.");
+            }
+        }
+
+    </script>
+
+</body>
+</html>

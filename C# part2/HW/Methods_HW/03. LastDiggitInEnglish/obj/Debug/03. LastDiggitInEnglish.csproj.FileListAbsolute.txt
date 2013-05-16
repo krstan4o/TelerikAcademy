@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\03. LastDiggitInEnglish\bin\Debug\_03.LastDiggitInEnglish.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\03. LastDiggitInEnglish\bin\Debug\_03.LastDiggitInEnglish.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\03. LastDiggitInEnglish\bin\Debug\_03.LastDiggitInEnglish.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\03. LastDiggitInEnglish\obj\Debug\_03.LastDiggitInEnglish.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\03. LastDiggitInEnglish\obj\Debug\_03.LastDiggitInEnglish.pdb

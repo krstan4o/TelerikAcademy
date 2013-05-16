@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\14. MinMaxSumProductOfIntegers\bin\Debug\_14.MinMaxSumProductOfIntegers.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\14. MinMaxSumProductOfIntegers\bin\Debug\_14.MinMaxSumProductOfIntegers.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\14. MinMaxSumProductOfIntegers\bin\Debug\_14.MinMaxSumProductOfIntegers.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\14. MinMaxSumProductOfIntegers\obj\Debug\_14.MinMaxSumProductOfIntegers.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\14. MinMaxSumProductOfIntegers\obj\Debug\_14.MinMaxSumProductOfIntegers.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\14. MinMaxSumProductOfIntegers\obj\Debug\14. MinMaxSumProductOfIntegers.csprojResolveAssemblyReference.cache

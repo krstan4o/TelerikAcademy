@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\05. ChecksBiggerGivenElement\bin\Debug\_05.ChecksBiggerGivenElement.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\05. ChecksBiggerGivenElement\bin\Debug\_05.ChecksBiggerGivenElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\05. ChecksBiggerGivenElement\bin\Debug\_05.ChecksBiggerGivenElement.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\05. ChecksBiggerGivenElement\obj\Debug\05. ChecksBiggerGivenElement.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\05. ChecksBiggerGivenElement\obj\Debug\_05.ChecksBiggerGivenElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\05. ChecksBiggerGivenElement\obj\Debug\_05.ChecksBiggerGivenElement.pdb
