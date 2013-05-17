@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Manipulation - Altering HTML elements</title>
+</head>
+<body>
+	<label for="tb-st-name">Student name:</label>
+	<input type="text" id="tb-st-name" />
+	<a href="#" onclick="onAddNameButtonClick(event)">Add name</a>
+	<ul id="students-list" data-sort="false">
+	</ul>
+	<a href="#" id="btn-sort-students" onclick="onSortButtonClick(event)">Sort</a>
+	<script>
+
+		var students = [];
+		var stList = document.getElementById("students-list");
+
+		function onAddNameButtonClick(e) {
+			if (!e) e = window.event;
+
+			var name = document.getElementById("tb-st-name").value;
+			var stItem = document.createElement("li");
+			stItem.innerHTML = name;
+			stList.appendChild(stItem);
+			students.push({ index: students.length, value: name, item: stItem });
+
+			if (e.preventDefault) {
+				e.preventDefault();
+			}
+			return false;													
+		}
+
+		function onSortButtonClick(e) {
+			if (!e) e = window.event;
+
+			var isSorted = stList.getAttribute("data-sort");
+			if (isSorted == "true") {
+				students = students.sort(function (x, y) {
+					return x.index > y.index ? 1 : x.index < y.index ? -1 : 0;
+				});
+				document.getElementById("btn-sort-students").innerHTML = "sort";
+				stList.setAttribute("data-sort", "false");
+			}
+			else {
+				students = students.sort(function (x, y) {
+					return x.value > y.value ? 1 : x.value < y.value ? -1 : 0;
+				});
+				document.getElementById("btn-sort-students").innerHTML = "unsort";
+				stList.setAttribute("data-sort", "true");
+			}
+			reArrangeStudents();
+
+
+			if (e.preventDefault) {
+				e.preventDefault();
+			}
+			return false;
+		}
+
+		function reArrangeStudents() {
+			for (var i = 0; i < students.length; i++) {
+				stList.appendChild(students[i].item);
+			}
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\07. ReversDigitsOfNumber\bin\Debug\_07.ReversDigitsOfNumber.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\07. ReversDigitsOfNumber\bin\Debug\_07.ReversDigitsOfNumber.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\07. ReversDigitsOfNumber\bin\Debug\_07.ReversDigitsOfNumber.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\07. ReversDigitsOfNumber\obj\Debug\_07.ReversDigitsOfNumber.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\07. ReversDigitsOfNumber\obj\Debug\_07.ReversDigitsOfNumber.pdb

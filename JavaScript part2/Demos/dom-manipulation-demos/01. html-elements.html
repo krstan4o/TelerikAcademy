@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Manipulation - HTML Elements</title>
+</head>
+<body>
+	<ul class="trainers-list">
+		<li><strong>Doncho Minkov</strong> : <span>43</span></li>
+		<li><strong>Svetlin Nakov</strong> : <span>14</span></li>
+		<li><strong>Georgi Georgiev</strong> : <span>21</span></li>
+		<li><strong>Nikolay Kostov</strong> : <span>73</span></li>
+		<li><strong>Asya Georgieva</strong> : <span>11</span></li>
+	</ul>
+	<script>
+		var list = document.getElementsByClassName("trainers-list")[0];
+		console.log(list.innerHTML);
+		console.log(list.outerHTML);
+		console.log(list.innerText);
+		console.log(list.outerText);
+	</script>
+</body>
+</html>

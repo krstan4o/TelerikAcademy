@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reverses a string.</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+  Please enter a string to reverse it:  <input type="text" id="tb_input" />
+    <br />
+    <a href="#"  onClick="Reverse()">Reverse It.</a>
+   
+    
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    
+    
+    <script>
+        function Reverse() {
+            var str = jsConsole.read("#tb_input");
+            str.toString();
+            var reversedStr = "";
+            for (var i = str.length - 1; i >= 0; i--) {
+                reversedStr += str[i];
+            }
+            jsConsole.writeLine(reversed);
+        }
+
+    </script>
+
+</body>
+</html>

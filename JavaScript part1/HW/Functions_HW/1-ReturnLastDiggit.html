@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Return last diggit in word.</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+  Please enter a number:  <input type="text" id="tb_input" />
+    <br />
+    <a href="#"  onClick="LastDiggitWord()">LastDiggitWord</a>
+   
+    
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    
+    
+    <script>
+        function LastDiggitWord() {
+            var number = jsConsole.readInteger("#tb_input");
+            var diggitWord;
+            switch (number % 10) {
+                case 0: diggitWord = "Zero."; break;
+                case 1: diggitWord = "One."; break;
+                case 2: diggitWord = "Two."; break;
+                case 3: diggitWord = "Three."; break;
+                case 4: diggitWord = "Four."; break;
+                case 5: diggitWord = "Five."; break;
+                case 6: diggitWord = "Six."; break;
+                case 7: diggitWord = "Seven."; break;
+                case 8: diggitWord = "Eight."; break;
+                case 9: diggitWord = "Nine."; break;
+                default: diggitWord = "Invalid number.";
+            }
+            jsConsole.writeLine(diggitWord);
+        }
+
+    </script>
+
+</body>
+</html>

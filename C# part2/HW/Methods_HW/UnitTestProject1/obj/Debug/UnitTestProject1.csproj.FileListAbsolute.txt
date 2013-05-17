@@ -1,0 +1,7 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\bin\Debug\_01.PrintsName.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\bin\Debug\_01.PrintsName.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Manipulation - Traversing the DOM</title>
+</head>
+<body>
+	<div id="wrapper">
+		<ul class="trainers-list">
+			<li><strong>Doncho Minkov</strong> : <span>43</span></li>
+			<li><strong>Svetlin Nakov</strong> : <span>14</span></li>
+			<li><strong>Georgi Georgiev</strong> : <span>21</span></li>
+			<li><strong>Nikolay Kostov</strong> : <span>73</span></li>
+			<li><strong>Asya Georgieva</strong> : <span>11</span></li>
+		</ul>
+	</div>
+	<script>
+
+		function showChildElements(element) {
+			log("elements in trainers-list: " + element.childNodes.length);
+			log("-----------");
+			log("element in trainers-list");
+			var currentNode = element.firstChild;
+			while (currentNode) {
+				log(currentNode.nodeName + " content: " + currentNode.innerHTML);
+				currentNode = currentNode.nextSibling;
+			}
+		}
+
+		var log = console.log;
+		var trainersList = document.getElementsByClassName("trainers-list")[0];
+
+		var parent = trainersList.parentNode;
+		log("parent of trainers-list: " + parent.nodeName + " with id: " + parent.id);
+
+		showChildElements(trainersList)
+
+		////removing the first node
+		//var firstLiNode = trainersList.firstChild;
+		//while (!(firstLiNode instanceof HTMLLIElement)) {
+		//	firstLiNode = firstLiNode.nextSibling;
+		//}
+
+		//firstLiNode.parentNode.removeChild(firstLiNode);		
+		//showChildElements(trainersList)
+
+
+		////removing the first node
+		//var lastLiNode = trainersList.lastChild;
+		//while (!(lastLiNode instanceof HTMLLIElement)) {
+		//	lastLiNode = lastLiNode.previousSibling;
+		//}
+
+		//lastLiNode.parentNode.removeChild(lastLiNode);
+		//showChildElements(trainersList)
+	</script>
+</body>
+</html>

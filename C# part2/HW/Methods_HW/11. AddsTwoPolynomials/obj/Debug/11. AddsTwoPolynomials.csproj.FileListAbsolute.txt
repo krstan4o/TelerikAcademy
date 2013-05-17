@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\11. AddsTwoPolynomials\bin\Debug\_11.AddsTwoPolynomials.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\11. AddsTwoPolynomials\bin\Debug\_11.AddsTwoPolynomials.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\11. AddsTwoPolynomials\bin\Debug\_11.AddsTwoPolynomials.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\11. AddsTwoPolynomials\obj\Debug\_11.AddsTwoPolynomials.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\11. AddsTwoPolynomials\obj\Debug\_11.AddsTwoPolynomials.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\11. AddsTwoPolynomials\obj\Debug\11. AddsTwoPolynomials.csprojResolveAssemblyReference.cache

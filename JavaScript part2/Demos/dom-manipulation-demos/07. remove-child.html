@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Manipulation - Remove Child</title>
+	<style>
+		ul {
+			list-style-type: none;
+		}
+
+			ul li {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border: 1px solid black;
+				border-radius: 5px;
+				text-align: center;
+				padding: 5px;
+				font-size: 20px;
+			}
+	</style>
+
+</head>
+<body>
+	<label for="even-radio">Even: </label>
+	<input type="radio" id="even-radio" value="0" name="type-radios" checked="checked" /><br />
+	<label for="odd-radio">Odd: </label>
+	<input type="radio" id="odd-radio" value="1" name="type-radios" />
+	<br />
+	<a href="#" id="delete-items-button" onclick="onDeleteItemsButton()">Delete items</a>
+	<ul>
+	</ul>
+
+	<script>
+		function generateItems(count) {
+			var docFragment = document.createDocumentFragment();
+			for (var i = 0; i < count; i++) {
+				var item = document.createElement("li");
+				item.innerHTML = i + "";
+				docFragment.appendChild(item);
+			}
+
+			document.getElementsByTagName("ul")[0].appendChild(docFragment);
+		}
+
+
+		function getIndexUpdate() {
+			var radios = document.getElementsByName("type-radios");
+			for (var i = 0; i < radios.length; i++) {
+				if (radios[i].checked) {
+					return parseInt(radios[i].value);
+				}
+			}
+		}
+
+		function onDeleteItemsButton() {
+			var items = document.querySelectorAll("li");
+			var indexUpdate = getIndexUpdate();
+
+			for (var i = indexUpdate; i < items.length; i += 2) {
+				var parent = items[i].parentNode;
+				parent.removeChild(items[i]);
+			}
+		}
+
+		generateItems(50);
+
+	</script>
+</body>
+</html>

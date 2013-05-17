@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\04. CountsGivenNumberInArray\bin\Debug\_04.CountsGivenNumberInArray.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\04. CountsGivenNumberInArray\bin\Debug\_04.CountsGivenNumberInArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\04. CountsGivenNumberInArray\bin\Debug\_04.CountsGivenNumberInArray.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\04. CountsGivenNumberInArray\obj\Debug\_04.CountsGivenNumberInArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\04. CountsGivenNumberInArray\obj\Debug\_04.CountsGivenNumberInArray.pdb
