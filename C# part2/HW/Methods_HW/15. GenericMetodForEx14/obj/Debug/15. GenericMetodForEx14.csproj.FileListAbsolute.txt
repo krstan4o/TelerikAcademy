@@ -1,6 +1,0 @@
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\15. GenericMetodForEx14\bin\Debug\_15.GenericMetodForEx14.exe.config
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\15. GenericMetodForEx14\bin\Debug\_15.GenericMetodForEx14.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\15. GenericMetodForEx14\bin\Debug\_15.GenericMetodForEx14.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\15. GenericMetodForEx14\obj\Debug\_15.GenericMetodForEx14.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\15. GenericMetodForEx14\obj\Debug\_15.GenericMetodForEx14.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\15. GenericMetodForEx14\obj\Debug\15. GenericMetodForEx14.csprojResolveAssemblyReference.cache

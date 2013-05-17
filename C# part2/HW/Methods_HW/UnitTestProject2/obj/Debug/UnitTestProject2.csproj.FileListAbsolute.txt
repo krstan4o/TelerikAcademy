@@ -1,7 +1,0 @@
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\bin\Debug\UnitTestProject2.dll
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\bin\Debug\UnitTestProject2.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\obj\Debug\UnitTestProject2.dll
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\obj\Debug\UnitTestProject2.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\obj\Debug\UnitTestProject2.csprojResolveAssemblyReference.cache
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\bin\Debug\_04.CountsGivenNumberInArray.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\UnitTestProject2\bin\Debug\_04.CountsGivenNumberInArray.pdb

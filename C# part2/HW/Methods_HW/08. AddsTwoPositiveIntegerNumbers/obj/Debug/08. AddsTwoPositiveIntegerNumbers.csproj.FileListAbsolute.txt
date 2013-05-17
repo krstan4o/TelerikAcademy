@@ -1,6 +1,0 @@
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\08. AddsTwoPositiveIntegerNumbers\bin\Debug\_08.AddsTwoPositiveIntegerNumbers.exe.config
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\08. AddsTwoPositiveIntegerNumbers\bin\Debug\_08.AddsTwoPositiveIntegerNumbers.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\08. AddsTwoPositiveIntegerNumbers\bin\Debug\_08.AddsTwoPositiveIntegerNumbers.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\08. AddsTwoPositiveIntegerNumbers\obj\Debug\_08.AddsTwoPositiveIntegerNumbers.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\08. AddsTwoPositiveIntegerNumbers\obj\Debug\_08.AddsTwoPositiveIntegerNumbers.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\08. AddsTwoPositiveIntegerNumbers\obj\Debug\08. AddsTwoPositiveIntegerNumbers.csprojResolveAssemblyReference.cache

@@ -1,5 +1,0 @@
-D:\Telerik\KPK\SnakeGameProject\SimpleSnakeGameJavaScriptCanvas\bin\SimpleSnakeGameJavaScriptCanvas.dll
-D:\Telerik\KPK\SnakeGameProject\SimpleSnakeGameJavaScriptCanvas\bin\SimpleSnakeGameJavaScriptCanvas.pdb
-D:\Telerik\KPK\SnakeGameProject\SimpleSnakeGameJavaScriptCanvas\obj\Debug\SimpleSnakeGameJavaScriptCanvas.csprojResolveAssemblyReference.cache
-D:\Telerik\KPK\SnakeGameProject\SimpleSnakeGameJavaScriptCanvas\obj\Debug\SimpleSnakeGameJavaScriptCanvas.dll
-D:\Telerik\KPK\SnakeGameProject\SimpleSnakeGameJavaScriptCanvas\obj\Debug\SimpleSnakeGameJavaScriptCanvas.pdb

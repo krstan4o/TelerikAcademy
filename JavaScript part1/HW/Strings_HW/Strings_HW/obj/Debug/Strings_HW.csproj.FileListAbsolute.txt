@@ -1,5 +1,0 @@
-D:\Telerik\JavaScript part1\HW\Strings_HW\Strings_HW\bin\Strings_HW.dll
-D:\Telerik\JavaScript part1\HW\Strings_HW\Strings_HW\bin\Strings_HW.pdb
-D:\Telerik\JavaScript part1\HW\Strings_HW\Strings_HW\obj\Debug\Strings_HW.csprojResolveAssemblyReference.cache
-D:\Telerik\JavaScript part1\HW\Strings_HW\Strings_HW\obj\Debug\Strings_HW.dll
-D:\Telerik\JavaScript part1\HW\Strings_HW\Strings_HW\obj\Debug\Strings_HW.pdb

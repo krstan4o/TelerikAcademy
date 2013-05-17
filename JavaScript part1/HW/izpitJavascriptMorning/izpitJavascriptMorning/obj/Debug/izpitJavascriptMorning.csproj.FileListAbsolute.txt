@@ -1,5 +1,0 @@
-D:\Telerik\JavaScript part1\HW\izpitJavascriptMorning\izpitJavascriptMorning\bin\izpitJavascriptMorning.dll
-D:\Telerik\JavaScript part1\HW\izpitJavascriptMorning\izpitJavascriptMorning\bin\izpitJavascriptMorning.pdb
-D:\Telerik\JavaScript part1\HW\izpitJavascriptMorning\izpitJavascriptMorning\obj\Debug\izpitJavascriptMorning.csprojResolveAssemblyReference.cache
-D:\Telerik\JavaScript part1\HW\izpitJavascriptMorning\izpitJavascriptMorning\obj\Debug\izpitJavascriptMorning.dll
-D:\Telerik\JavaScript part1\HW\izpitJavascriptMorning\izpitJavascriptMorning\obj\Debug\izpitJavascriptMorning.pdb

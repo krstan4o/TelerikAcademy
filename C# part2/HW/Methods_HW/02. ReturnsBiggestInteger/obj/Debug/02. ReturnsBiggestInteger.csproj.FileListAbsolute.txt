@@ -1,5 +1,0 @@
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\02. ReturnsBiggestInteger\bin\Debug\_02.ReturnsBiggestInteger.exe.config
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\02. ReturnsBiggestInteger\bin\Debug\_02.ReturnsBiggestInteger.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\02. ReturnsBiggestInteger\bin\Debug\_02.ReturnsBiggestInteger.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\02. ReturnsBiggestInteger\obj\Debug\_02.ReturnsBiggestInteger.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\02. ReturnsBiggestInteger\obj\Debug\_02.ReturnsBiggestInteger.pdb

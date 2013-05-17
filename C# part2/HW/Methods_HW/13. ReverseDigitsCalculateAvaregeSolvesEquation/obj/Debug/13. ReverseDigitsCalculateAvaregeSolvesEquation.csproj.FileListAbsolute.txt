@@ -1,6 +1,0 @@
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\13. ReverseDigitsCalculateAvaregeSolvesEquation\bin\Debug\_13.ReverseDigitsCalculateAvaregeSolvesEquation.exe.config
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\13. ReverseDigitsCalculateAvaregeSolvesEquation\bin\Debug\_13.ReverseDigitsCalculateAvaregeSolvesEquation.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\13. ReverseDigitsCalculateAvaregeSolvesEquation\bin\Debug\_13.ReverseDigitsCalculateAvaregeSolvesEquation.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\13. ReverseDigitsCalculateAvaregeSolvesEquation\obj\Debug\_13.ReverseDigitsCalculateAvaregeSolvesEquation.exe
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\13. ReverseDigitsCalculateAvaregeSolvesEquation\obj\Debug\_13.ReverseDigitsCalculateAvaregeSolvesEquation.pdb
-D:\U4ilishte\Telerik\C# 2 4ast\HW\Methods_HW\13. ReverseDigitsCalculateAvaregeSolvesEquation\obj\Debug\13. ReverseDigitsCalculateAvaregeSolvesEquation.csprojResolveAssemblyReference.cache

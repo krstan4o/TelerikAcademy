@@ -1,5 +1,0 @@
-D:\Telerik\JavaScript part2\Izpit\WebApplication1\WebApplication1\bin\WebApplication1.dll
-D:\Telerik\JavaScript part2\Izpit\WebApplication1\WebApplication1\bin\WebApplication1.pdb
-D:\Telerik\JavaScript part2\Izpit\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
-D:\Telerik\JavaScript part2\Izpit\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
-D:\Telerik\JavaScript part2\Izpit\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
