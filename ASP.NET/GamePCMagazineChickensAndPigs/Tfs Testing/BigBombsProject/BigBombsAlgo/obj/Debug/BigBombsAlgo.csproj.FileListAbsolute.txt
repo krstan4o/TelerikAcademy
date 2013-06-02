@@ -1,0 +1,5 @@
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsAlgo\bin\Debug\BigBombsAlgo.exe
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsAlgo\bin\Debug\BigBombsAlgo.pdb
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsAlgo\obj\Debug\BigBombsAlgo.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsAlgo\obj\Debug\BigBombsAlgo.exe
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsAlgo\obj\Debug\BigBombsAlgo.pdb

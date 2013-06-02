@@ -1,0 +1,7 @@
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\bin\Debug\_04.FindLongestSubseqOfEqualNumbers.Tests.dll
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\bin\Debug\_04.FindLongestSubseqOfEqualNumbers.Tests.pdb
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\obj\Debug\04. FindLongestSubseqOfEqualNumbers.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\obj\Debug\_04.FindLongestSubseqOfEqualNumbers.Tests.dll
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\obj\Debug\_04.FindLongestSubseqOfEqualNumbers.Tests.pdb
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\bin\Debug\_04.FindLongestSubseqOfEqualNumbers.exe
+D:\Telerik\DSA\HW\LinearDataStructures_HW\04. FindLongestSubseqOfEqualNumbers.Tests\bin\Debug\_04.FindLongestSubseqOfEqualNumbers.pdb

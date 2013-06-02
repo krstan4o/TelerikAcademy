@@ -1,0 +1,17 @@
+﻿ul {
+    border:1px solid black;
+    list-style:none;
+    display:block;
+    margin:0px;
+    padding:0px;
+}
+a {
+   color:black;
+   padding-left:200px;
+}
+div {
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+    vertical-align:top;
+}

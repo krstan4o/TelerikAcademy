@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ImageGallery</title>
+    <link href="Task1-GaleryStyles.css" rel="stylesheet" />
+    <script src="Task1-ImageGalery.js"></script>
+    <script src="ImageGaleryRepositoryTask4.js"></script>
+    
+</head>
+<body>
+    <div id="image-gallery-holder">
+
+    </div>
+    <div id="viewedImage">
+
+    </div>
+  
+    <script>
+        //Testing the image galery tasks: 1 - 2 - 3 - 7
+        var gallery = controls.getImageGallery("#image-gallery-holder");
+        gallery.addImage("Nakov", "img/sampleImage.jpg");
+        gallery.addImage("Nakov", "img/sampleImage.jpg");
+        gallery.addImage("Nakov", "img/sampleImage.jpg");
+         var ninjasAlbum = gallery.addAlbum('Ninjas');
+
+        ninjasAlbum.addImage("ninja", "img/ninja.png");
+        ninjasAlbum.addImage("ninja", "img/ninja.png");
+        ninjasAlbum.addImage("ninja", "img/ninja.png");
+        var kidsAlbum = ninjasAlbum.addAlbum("Kid Ninjas");
+        kidsAlbum.addImage("Kid Ninja", "img/ninja.png");
+        kidsAlbum.addImage("Kid Ninja", "img/ninja.png");
+        gallery.render();
+        
+        //Testing Task 4
+        var imageGalleryData = ninjasAlbum;
+        imageGalleryRepository.save("Ninjas-Galery", imageGalleryData);
+        var dublicatedGalerry = imageGalleryRepository.load("Ninjas-Galery");
+     
+    </script>
+</body>
+</html>

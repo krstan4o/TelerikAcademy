@@ -1,0 +1,11 @@
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\BigBombsWebTempTest.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\BigBombsWebTempTest.pdb
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\Microsoft.Web.Infrastructure.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\Newtonsoft.Json.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\Owin.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\bin\Newtonsoft.Json.xml
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\obj\Debug\BigBombsWebTempTest.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\obj\Debug\BigBombsWebTempTest.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsWebTempTest\obj\Debug\BigBombsWebTempTest.pdb

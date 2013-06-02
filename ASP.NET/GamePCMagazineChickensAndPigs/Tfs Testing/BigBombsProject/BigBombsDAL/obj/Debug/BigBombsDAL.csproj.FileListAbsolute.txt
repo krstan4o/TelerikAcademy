@@ -1,0 +1,4 @@
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsDAL\bin\Debug\BigBombsDAL.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsDAL\bin\Debug\BigBombsDAL.pdb
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.dll
+D:\Telerik\ASP.NET\GamePCMagazineChickensAndPigs\Tfs Testing\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.pdb
