@@ -19,7 +19,7 @@ namespace BigBombsAlgoTest
             //playField.InsertChicken(0, 0, 1);
             //playField.InsertChicken(5, 5, 1);
             //playField.InsertMine(0, 0);
-
+			//
             for (int x = 0; x < playField.Size; x++)
             {
                 for (int y = 0; y < playField.Size; y++)
