@@ -1,0 +1,28 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="SCRUMMasterPage" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <a href="GameList.aspx" style="">
+        <img src="images/header.jpg" style="border-style: none"/></a><br />
+        <asp:ScriptManager id="ScriptManager1" runat="server" OnAsyncPostBackError="ScriptManager1_AsyncPostBackError">
+        </asp:ScriptManager>
+        <p>
+            <a href="GameList.aspx">Games List</a></p><h2>
+        Welcome,
+        <asp:Label ID="Label1" runat="server" Text="Label" Width="158px"></asp:Label></h2>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

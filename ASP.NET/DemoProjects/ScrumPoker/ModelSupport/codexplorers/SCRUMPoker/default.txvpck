@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="orqlatl5ejrnya42f_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="csharp:e_class:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="40,140,183,95" />
+      <reference referencedUin="csharp:e_property:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game.Participants">
+        <property name="bounds" value="35,1,0,0" />
+        <reference referencedUin="csharp:e_method:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game.Participants.get_Participants" />
+        <reference referencedUin="csharp:e_method:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game.Participants.set_Participants" />
+      </reference>
+      <reference referencedUin="csharp:e_property:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game.Subject">
+        <property name="bounds" value="35,1,0,0" />
+        <reference referencedUin="csharp:e_method:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game.Subject.get_Subject" />
+        <reference referencedUin="csharp:e_method:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Game.Subject.set_Subject" />
+      </reference>
+    </reference>
+    <reference referencedUin="csharp:e_class:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,140,166,95" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote.VoteParticipant" />
+      <reference referencedUin="csharp:l_ast:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote.VoteParticipant">
+        <property name="sourceAnchor" value="466,171" />
+        <property name="targetAnchor" value="580,171" />
+        <property name="bendpoints" value="" />
+        <reference referencedUin="label:clientCardinality:csharp:l_ast:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote.VoteParticipant">
+          <property name="bounds" value="476,152,11,16" />
+        </reference>
+        <reference referencedUin="label:supplierCardinality:csharp:l_ast:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote.VoteParticipant">
+          <property name="bounds" value="559,152,11,16" />
+        </reference>
+      </reference>
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote.VoteCard">
+        <property name="bounds" value="35,27,0,0" />
+      </reference>
+      <reference referencedUin="csharp:l_ast:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerVote.VoteCard">
+        <property name="sourceAnchor" value="465,234" />
+        <property name="targetAnchor" value="620,324" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="csharp:e_class:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.Participant">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="580,140,72,63" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="620,260,72,173" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c5" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c8" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.cCoffee" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c0" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c13" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c2" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c3" />
+      <reference referencedUin="csharp:e_field:src:C|\Documents and Settings\dpolistchuck\My Documents\Visual Studio 2005\WebSites\ScrumPoker\:codexplorers.SCRUMPoker.PokerCard.c1" />
+    </reference>
+  </view>
+</nodeSet>

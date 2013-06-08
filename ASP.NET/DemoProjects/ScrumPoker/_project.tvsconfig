@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.Namespace1" Type="System.String" Value="Namespace1" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Borland" Type="System.String" Value="Borland" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Borland.Namespace1" Type="System.String" Value="Borland\Namespace1" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Borland.SCRUMPoker" Type="System.String" Value="Borland\SCRUMPoker" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.codexplorers" Type="System.String" Value="Borland" Category="General" IsBrowsable="False" />
+</TgConfig>

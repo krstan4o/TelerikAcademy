@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="rf8asi5u0bobe0i0m_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::orqlatl5ejrnya42f_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="@__package_fqn" value="Borland.SCRUMPoker" />
+    </reference>
+  </view>
+</nodeSet>
