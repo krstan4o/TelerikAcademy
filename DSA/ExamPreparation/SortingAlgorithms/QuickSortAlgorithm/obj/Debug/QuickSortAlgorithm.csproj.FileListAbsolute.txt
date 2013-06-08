@@ -1,0 +1,6 @@
+D:\Telerik\DSA\ExamPreparation\SortingAlgorithms\QuickSortAlgorithm\bin\Debug\QuickSortAlgorithm.exe.config
+D:\Telerik\DSA\ExamPreparation\SortingAlgorithms\QuickSortAlgorithm\bin\Debug\QuickSortAlgorithm.exe
+D:\Telerik\DSA\ExamPreparation\SortingAlgorithms\QuickSortAlgorithm\bin\Debug\QuickSortAlgorithm.pdb
+D:\Telerik\DSA\ExamPreparation\SortingAlgorithms\QuickSortAlgorithm\obj\Debug\QuickSortAlgorithm.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\ExamPreparation\SortingAlgorithms\QuickSortAlgorithm\obj\Debug\QuickSortAlgorithm.exe
+D:\Telerik\DSA\ExamPreparation\SortingAlgorithms\QuickSortAlgorithm\obj\Debug\QuickSortAlgorithm.pdb

@@ -1,0 +1,7 @@
+D:\Telerik\ASP.NET\PasarelForum.Models\bin\Debug\PasarelForum.Models.dll.config
+D:\Telerik\ASP.NET\PasarelForum.Models\bin\Debug\PasarelForum.Models.dll
+D:\Telerik\ASP.NET\PasarelForum.Models\bin\Debug\PasarelForum.Models.pdb
+D:\Telerik\ASP.NET\PasarelForum.Models\bin\Debug\EntityFramework.dll
+D:\Telerik\ASP.NET\PasarelForum.Models\bin\Debug\EntityFramework.xml
+D:\Telerik\ASP.NET\PasarelForum.Models\obj\Debug\PasarelForum.Models.dll
+D:\Telerik\ASP.NET\PasarelForum.Models\obj\Debug\PasarelForum.Models.pdb
