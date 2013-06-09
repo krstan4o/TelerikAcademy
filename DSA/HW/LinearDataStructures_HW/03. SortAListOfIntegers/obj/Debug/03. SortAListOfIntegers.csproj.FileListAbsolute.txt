@@ -1,5 +1,0 @@
-D:\Telerik\DSA\HW\LinearDataStructures_HW\03. SortAListOfIntegers\bin\Debug\_03.SortAListOfIntegers.exe.config
-D:\Telerik\DSA\HW\LinearDataStructures_HW\03. SortAListOfIntegers\bin\Debug\_03.SortAListOfIntegers.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\03. SortAListOfIntegers\bin\Debug\_03.SortAListOfIntegers.pdb
-D:\Telerik\DSA\HW\LinearDataStructures_HW\03. SortAListOfIntegers\obj\Debug\_03.SortAListOfIntegers.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\03. SortAListOfIntegers\obj\Debug\_03.SortAListOfIntegers.pdb

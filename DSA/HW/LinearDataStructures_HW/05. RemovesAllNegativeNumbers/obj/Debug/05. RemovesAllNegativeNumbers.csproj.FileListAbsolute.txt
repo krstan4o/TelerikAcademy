@@ -1,8 +1,0 @@
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\bin\Debug\_05.RemovesAllNegativeNumbers.exe.config
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\bin\Debug\_05.RemovesAllNegativeNumbers.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\bin\Debug\_05.RemovesAllNegativeNumbers.pdb
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\bin\Debug\_04.FindLongestSubseqOfEqualNumbers.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\bin\Debug\_04.FindLongestSubseqOfEqualNumbers.pdb
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\obj\Debug\05. RemovesAllNegativeNumbers.csprojResolveAssemblyReference.cache
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\obj\Debug\_05.RemovesAllNegativeNumbers.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\05. RemovesAllNegativeNumbers\obj\Debug\_05.RemovesAllNegativeNumbers.pdb

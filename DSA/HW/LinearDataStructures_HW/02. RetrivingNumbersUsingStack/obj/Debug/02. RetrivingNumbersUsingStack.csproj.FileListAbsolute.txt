@@ -1,5 +1,0 @@
-D:\Telerik\DSA\HW\LinearDataStructures_HW\02. RetrivingNumbersUsingStack\bin\Debug\_02.RetrivingNumbersUsingStack.exe.config
-D:\Telerik\DSA\HW\LinearDataStructures_HW\02. RetrivingNumbersUsingStack\bin\Debug\_02.RetrivingNumbersUsingStack.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\02. RetrivingNumbersUsingStack\bin\Debug\_02.RetrivingNumbersUsingStack.pdb
-D:\Telerik\DSA\HW\LinearDataStructures_HW\02. RetrivingNumbersUsingStack\obj\Debug\_02.RetrivingNumbersUsingStack.exe
-D:\Telerik\DSA\HW\LinearDataStructures_HW\02. RetrivingNumbersUsingStack\obj\Debug\_02.RetrivingNumbersUsingStack.pdb
