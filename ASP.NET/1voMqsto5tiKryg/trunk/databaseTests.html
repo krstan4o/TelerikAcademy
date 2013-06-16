@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-2.0.0.js"></script>
+    <script src="Scripts/jquery.signalR-1.1.0-beta1.js"></script>
+    <script src="signalr/hubs"></script>
+</head>
+<body>
+
+    <input type="text" id="name-txt" />
+    <input type="text" id="score-txt" />
+    <input type="button" id="insert-btn" value="Insert score" />
+    <input type="button" id="get-btn" value="Update Board" />
+    <input type="button" id="del-btn" value="Clear DB" />
+
+    <ul id="score-board">
+    </ul>
+
+    <script>
+
+        var controll = $.connection.sinkbreaker;
+        var allEntries = new Array();
+
+        //  UPDATES THE CURRENT SHORTEST PATH
+        controll.client.alert = function (data) {
+            alert(data);
+        };
+
+        controll.client.updateEntries = function (data) {
+            allEntries = new Array();
+            var dataEntries = data.split("|");
+
+            var len = dataEntries.length;
+
+            for (var i = 0; i < len; i++) {
+                var currentEntry = dataEntries[i].split(" ")
+                allEntries.push({ name: currentEntry[0], score: parseInt(currentEntry[1]) });
+            }
+            populateAllEntries();
+        }
+
+        function populateAllEntries() {
+            var board = document.getElementById("score-board");
+            board.innerHTML = "";
+            for (var i = 0; i < allEntries.length; i++) {
+                var currentEntry = allEntries[i];
+                var newLI = document.createElement("li");
+                board.appendChild(newLI);
+                newLI.innerHTML = ("Name: " + currentEntry.name + " Score: " + currentEntry.score);
+            }
+        }
+
+        // Sends a player name and score to the Database
+        $.connection.hub.start().done(function () {
+            $("#insert-btn").click(function () {
+                controll.server.insertEntry($("#name-txt").val(), parseInt($("#score-txt").val()));
+            });
+        });
+
+        // Gets an array of the top 10 players
+        $.connection.hub.start().done(function () {
+            $("#get-btn").click(function () {
+                controll.server.getAllEntries();
+            });
+        });
+
+        // Deletes all entries
+        $.connection.hub.start().done(function () {
+            $("#del-btn").click(function () {
+                controll.server.deleteAllEntries();
+            });
+        });
+
+    </script>
+</body>
+</html>

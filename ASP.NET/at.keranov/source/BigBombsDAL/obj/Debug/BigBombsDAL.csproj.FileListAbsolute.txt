@@ -1,0 +1,10 @@
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\bin\Debug\BigBombsDAL.dll
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\bin\Debug\BigBombsDAL.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.dll
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.pdb
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsDAL\bin\Debug\BigBombsDAL.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsDAL\bin\Debug\BigBombsDAL.pdb
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsDAL\obj\Debug\BigBombsDAL.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsDAL\obj\Debug\BigBombsDAL.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsDAL\obj\Debug\BigBombsDAL.pdb

@@ -1,0 +1,49 @@
+﻿<div class="add-contact">
+    <img alt="Go back to tasks" src="../images/back.png" onclick="location.href='#/contacts.html';" />
+
+    <div id="add-contact-legend">
+        Create new Contact
+    </div>
+
+    <form id="add-contact-form">
+        <div id="left-contact-pane">
+            <label for="firstName">First name: </label>
+            <input id="contact-fname" type="text" name="firstName" />
+
+            <label for="middleName">Middle name: </label>
+            <input id="contact-mname" type="text" name="middleName" />
+
+            <label for="lastName">Last name: </label>
+            <input id="contact-lname" type="text" name="lastName" />
+
+            <label for="phoneNumber">Phone number: </label>
+            <input id="contact-phone" type="text" name="phoneNumber" />
+
+            <label for="email">Email: </label>
+            <input id="contact-email" type="text" name="email" />
+
+            <label for="birthday">Birthday: </label>
+            <input id="contact-bdate" type="date" name="birthday" />
+
+            <label for="occupation">Occupation: </label>
+            <input id="contact-occupation" type="text" name="occupation" />
+
+            <label for="bloodGroup">Blood group: </label>
+            <input id="contact-blood" type="text" name="bloodGroup" />
+
+            <img id="share_button" src="images/fbshare.png" />
+
+            <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Ftwitter.com%2Fabout%2Fresources%2Fbuttons&amp;text=chili_Organizer%20%2F%20rulez%20" class="twitter-share-button">Tweet</a>
+
+        </div>
+        <div id="right-contact-pane">
+            <label for="address"></label>
+            <textarea id="contact-address" name="address" placeholder="Add an Address"></textarea>
+
+            <label for="website"></label>
+            <textarea id="contact-site" name="website" placeholder="Add a website"></textarea>
+        </div>
+
+        <a id="submit-new-contact" href="#/contacts.html" onclick="addContactToDatabase();"></a>
+    </form>
+</div>

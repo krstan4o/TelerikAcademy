@@ -1,0 +1,5 @@
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\bin\Release\BigBombsAlgo.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\obj\Release\BigBombsAlgo.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\bin\Release\BigBombsAlgo.exe
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\obj\Release\BigBombsAlgo.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\obj\Release\BigBombsAlgo.exe

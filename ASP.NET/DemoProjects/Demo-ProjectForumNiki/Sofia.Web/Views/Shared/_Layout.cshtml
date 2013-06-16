@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        <link href="~/Content/KendoUI/kendo.common.min.css" type="text/css" rel="stylesheet" />
+        <link href="~/Content/KendoUI/kendo.default.min.css" type="text/css" rel="stylesheet" />
+        <script src="~/Scripts/jquery.min.js" type="text/javascript"></script>
+        <script src="~/Scripts/kendo.all.min.js" type="text/javascript"></script>
+        <script src="~/Scripts/kendo.aspnetmvc.min.js" type="text/javascript"></script>
+        @RenderSection("scripts", required: false)
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="Menu">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Home/About">About</a></li>
+                            <li><a href="/ForumPosts/Create">Ask question</a></li>
+                            <li>
+                                Userful links
+                                <ul>
+                                    <li><a href="http://academy.telerik.com">Academy</a></li>
+                                    <li><a href="http://academy.telerik.com">School Academy</a></li>
+                                    <li><a href="http://academy.telerik.com">BGCoder</a></li>
+                                    <li><a href="http://academy.telerik.com">Forum</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - School Academy</p>
+                </div>
+            </div>
+        </footer>
+        <script>
+            $("#Menu").kendoMenu();
+        </script>
+    </body>
+</html>

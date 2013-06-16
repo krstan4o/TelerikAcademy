@@ -1,0 +1,39 @@
+﻿@model Sofia.Models.ForumPost
+
+@{
+    ViewBag.Title = "Create new forum post";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("DoCreate", "ForumPosts"))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>ForumPost</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Title)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Title)
+            @Html.ValidationMessageFor(model => model.Title)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Content)
+        </div>
+        <div class="editor-field">
+            @Html.Kendo().Editor().Name("Content")
+            @Html.ValidationMessageFor(model => model.Content)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

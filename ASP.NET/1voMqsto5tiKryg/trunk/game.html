@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Styles/style.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-1.6.3.min.js"></script>
+    <script src="Scripts/jquery.spritely-0.6.js"></script>
+    
+    <script type="text/javascript">
+
+         (function ($) {
+             $(document).ready(function () {
+
+                 $('#hero').sprite({ fps: 6, no_of_frames: 3 });
+                 $('#up-btn').sprite({ fps: 2, no_of_frames: 2 });
+                 $('#right-btn').sprite({ fps: 2, no_of_frames: 2 });
+                 $('#down-btn').sprite({ fps: 2, no_of_frames: 2 });
+                 $('#left-btn').sprite({ fps: 2, no_of_frames: 2 });
+                 $('#space-btn').sprite({ fps: 2, no_of_frames: 2 });
+                 $('#nerva').sprite({ fps: 8, no_of_frames: 11 });
+
+
+             });
+         })(jQuery);
+
+    </script>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td></td>
+            <td id="up-btn"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td  id="left-btn"></td>
+            <td></td>
+            <td id="right-btn"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="down-btn"></td>
+            <td></td>
+        </tr>       
+    </table>
+
+    <input type="button" value="How to play" />
+    <input type="button" value="Train mode" />
+    <input type="button" value="Play game" />
+
+    <img src="Images/logo.png" />
+
+         
+    <div id="hero"></div>
+    <div id="space-btn"></div>
+
+    <div id="nerva"></div>
+
+    <div id="field"></div>
+    
+
+
+<!--    <img src="Images/tile.gif" /><img src="Images/tile.gif" /><img src="Images/tile.gif" /><img src="Images/tile.gif" />
+
+    <div id="coords">
+        coords
+        </div>
+
+    <div id="currcell">
+        cell
+        </div>
+
+    <div id="currfig">
+        curfigure
+        </div>
+
+    <script src="Scripts/Custom/JSGraph.js"></script>
+    <script src="Scripts/Custom/game.js"></script>-->
+
+    
+    
+</body>
+</html>

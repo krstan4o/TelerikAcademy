@@ -1,0 +1,17 @@
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\TestingNET40.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\TestingNET40.pdb
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.Web.Infrastructure.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Newtonsoft.Json.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Owin.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\bin\Newtonsoft.Json.xml
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\obj\Debug\TestingNET40.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\obj\Debug\TestingNET40.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\TestingNET40\obj\Debug\TestingNET40.pdb

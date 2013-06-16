@@ -1,0 +1,56 @@
+﻿.hidden {
+    display: none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#wrapper {
+    position: relative;
+    left: -80px;
+}
+
+#console {
+    height: 100px;    
+    overflow-y: auto;
+    background-color: #222;
+    padding: 10px 20px;
+}
+
+#cover {
+    position: absolute;
+    z-index: 1000;
+}
+
+#overlaps .overlap {
+    color: #f00;
+}
+
+#wrapper #overlaps {
+    width: 250px;
+    height: 270px;
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;    
+    background: #8bc8a3;
+    color: #fefefe;
+    position: relative;
+    top: -340px;
+    left: 435px; /* width + 100 */ 
+    font-size: .6em;
+    line-height: 1.5em;
+    margin:0 auto;
+    border-radius: 0 50px 50px 0;
+    z-index: -5;
+}

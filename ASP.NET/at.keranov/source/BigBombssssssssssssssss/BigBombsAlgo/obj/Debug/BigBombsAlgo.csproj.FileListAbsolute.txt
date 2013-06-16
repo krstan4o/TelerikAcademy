@@ -1,0 +1,10 @@
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\bin\Debug\BigBombsAlgo.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\obj\Debug\BigBombsAlgo.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\obj\Debug\BigBombsAlgo.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\bin\Debug\BigBombsAlgo.exe
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgo\obj\Debug\BigBombsAlgo.exe
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsAlgo\obj\Debug\BigBombsAlgo.exe
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsAlgo\obj\Debug\BigBombsAlgo.pdb
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsAlgo\bin\Debug\BigBombsAlgo.exe
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsAlgo\bin\Debug\BigBombsAlgo.pdb
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsAlgo\obj\Debug\BigBombsAlgo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,188 @@
+﻿body, div, a {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1024px;
+    height: 768px;
+    padding: 5px;
+}
+
+#global-wrapper {
+    width: 100%;
+    height: 100%;
+    /*margin: 0 auto;*/
+    /*border: 1px solid black;*/
+}
+
+.main {
+    /*padding: 5px;*/
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+    .main > a {
+        width: 33%;
+        height: 99%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 20px;
+        background: url('../images/background2_min.jpg') no-repeat;
+        position: relative;
+        /*background-color: #2c8638;*/
+    }
+
+    .main #footer {
+        margin: 0 auto;
+        display: table-cell;
+        width: 350px;
+        height: 480px;
+        color: #0094ff;
+        font-family: 'Segoe UI', sans-serif;
+        vertical-align: bottom;
+    }
+/*.main > a:first-child {
+            background-color: #811616;
+        }
+
+        .main > a:last-child {
+            background-color: #27418b;
+        }*/
+
+.contacts {
+    width: 100%;
+    height: 100%;
+    color: white;
+    /*background-color: #27418b;*/
+    background-color: #efefef;
+    position: relative;
+}
+
+.tasks {
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: relative;
+    /*background-color: #2c8638;*/
+    background-color: #efefef;
+}
+
+.calendar {
+    width: 100%;
+    height: 100%;
+    color: white;
+    /*background-color: #811616;*/
+    background-color: #efefef;
+    position: relative;
+}
+
+.add-calendarevent {
+    width: 100%;
+    height: 100%;
+    color: white;
+    /*background-color: #789e0a;*/
+    background-color: #efefef;
+    position: relative;
+}
+
+.add-contact {
+    width: 100%;
+    height: 100%;
+    color: white;
+    /*background-color: #0a5186;*/
+    background-color: #efefef;
+    position: relative;
+}
+
+div.contacts img,
+div.tasks img,
+div.calendar img,
+div.add-calendarevent img,
+div.add-contact img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+    /*div.add-contact img#share_button {
+    width: auto;
+    height: auto;
+    top: 150px;
+}*/
+
+    div.calendar img.add-newtask-button {
+        top: 60px;
+    }
+
+    div.tasks img.add-newtask-button {
+        top: 60px;
+    }
+
+    div.contacts img.add-contact-button {
+        top: 60px;
+        /*background-image: url('../images/add_blue.png')*/
+    }
+
+img.add-contact-button:hover,
+img.add-newtask-button:hover {
+    top: 55px;
+    border-radius: 45px;
+    /*-webkit-box-shadow: 2px 2px 5px #808080;
+    box-shadow: 2px 2px 5px #808080;*/
+    -webkit-filter: drop-shadow(2px 2px 2px #808080);
+    filter: drop-shadow(2px 2px 2px #808080);
+}
+
+
+div.tasks img.remove-contact-button {
+    top: 115px;
+}
+
+div.contacts img.remove-contact-button {
+    top: 115px;
+    /*background-image: url('../images/add_blue.png')*/
+}
+
+img.remove-contact-button:hover,
+img.remove-contact-button:hover {
+    top: 55px;
+    border-radius: 45px;
+    /*-webkit-box-shadow: 2px 2px 5px #808080;
+    box-shadow: 2px 2px 5px #808080;*/
+    -webkit-filter: drop-shadow(2px 2px 2px #808080);
+    filter: drop-shadow(2px 2px 2px #808080);
+}
+
+
+
+div.main a {
+    text-decoration: none;
+    color: black;
+}
+
+    div.main a img {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+        div.main a img:hover {
+            -webkit-filter: drop-shadow(3px 3px 3px #808080);
+            filter: drop-shadow(3px 3px 3px #808080);
+            margin: 0 auto;
+            margin-top: 100px;
+            /*border-radius: 10px;*/
+            /*box-shadow: 2px 2px 2px #808080;*/
+        }
+
+    div.main a span {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Verdana;
+    }

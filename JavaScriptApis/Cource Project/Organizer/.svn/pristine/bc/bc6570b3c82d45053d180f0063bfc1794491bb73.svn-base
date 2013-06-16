@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Organizer</title>
+
+    <meta http-equiv="cache-control" content="no-cache" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/kendo_calendar_style.css" rel="stylesheet" />
+    <link href="styles/add_event.css" rel="stylesheet" />
+    <link href="styles/add_contact.css" rel="stylesheet" />
+    <link href="styles/tasks.css" rel="stylesheet" />
+    <link href="styles/contacts.css" rel="stylesheet" />
+
+    <script src="scripts/external/jquery-2.0.2.js"></script>
+    <script src="scripts/external/jquery-ui.min.js"></script>
+    <script src="scripts/object_utils.js"></script>
+    <script src="scripts/enums.js"></script>
+    <script src="scripts/calendar-controller.js"></script>
+    <script src="scripts/contact-controller.js"></script>
+    <script src="scripts/share-controller.js"></script>
+
+    <script src="scripts/external/MongoLab.js"></script>
+    <script src="scripts/external/kendo.all.min.js"></script>
+    <script src="scripts/jQuery_plugins.js"></script>
+    <script src="scripts/external/localStorageExtension.js"></script>
+
+    <script src="scripts/external/knockout-2.2.1.js"></script>
+    <script src="scripts/external/jquery.tmpl.js"></script>
+
+    <script src="scripts/external/opentip-jquery.js"></script>
+    <script src="scripts/external/bootstrap.js"></script>
+
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+</head>
+<body>
+    <div id="global-wrapper">
+    </div>
+
+    <div id="fb-root"></div>
+
+    <script>
+        //Ajax routing logic
+        var router = new kendo.Router();
+
+        router.route("/main.html", function () {
+            $.get('templates/main.html', function (data) {
+                $('#global-wrapper').html(data);
+            });
+        });
+
+        router.route("/calendar.html", function () {
+            $.get('templates/calendar.html', function (data) {
+                $('#global-wrapper').html(data);
+            });
+        });
+
+        router.route("/tasks.html", function () {
+            $.get('templates/tasks.html', function (data) {
+                $('#global-wrapper').html(data);
+            });
+        });
+
+        router.route("/contacts.html", function () {
+            $.get('templates/contacts.html', function (data) {
+                $('#global-wrapper').html(data);
+            });
+        });
+
+        router.route("/addevent.html", function () {
+            $.get('templates/addevent.html', function (data) {
+                $('#global-wrapper').html(data);
+            });
+        });
+
+        router.route("/addcontact.html", function () {
+            $.get('templates/addcontact.html', function (data) {
+                $('#global-wrapper').html(data);
+            });
+        });
+
+        //Global INFO
+        calendarEventsFromDb = [];
+        contacts = [];
+
+        //Mongo DB logic
+        mongoDB = new MongoLab('FqC6oznteOaWZVXL9m8VJzdx5T7Op7Nd');
+
+        //load data from database
+        mongoDB.listDocuments('team_chili', 'calendarEvents', function (data) {
+            for (var i = 0; i < data.length; i++) {
+                calendarEventsFromDb.push(data[i]);
+            }
+        });
+        mongoDB.listDocuments('team_chili', 'contacts', function (data) {
+            for (var i = 0; i < data.length; i++) {
+                contacts.push(data[i]);
+            }
+        });
+        
+        //read events from TelerikAcademy calendar
+        $.getJSON('./TelerikProxy/Handler1.ashx?url=https%3A%2F%2Ftelerikacademy.com%2FApi%2FCalendar%2FMyEvents%2Faad31626d84570188afc118fea9cc84a', function (data) {
+            for (var i in data) {
+                var start = new Date(data[i].start);
+                var end = new Date(data[i].end);
+                var duration = (end - start).toString();
+                var toAdd = new calendarController.Task(data[i].title, "#40b801", Priority.high, "From Telerik Calendar", data[i].start,
+                    CategoryType.TelerikAcademy, duration, "TelerikAcademy");
+                calendarEventsFromDb.push(toAdd);
+            }
+            
+            router.start();
+            
+            console.log(calendarEventsFromDb);
+            console.log(contacts);
+
+            if (location.hash.length <= 1) {
+                router.navigate("/main.html");
+            }
+        });
+
+        //Add data handlers
+        function addEventToDatabase() {
+            var eventForm = $('#add-event-form').serializeObject();
+            mongoDB.insertDocuments('team_chili', 'calendarEvents', eventForm, function (data) {
+                console.log('Inserted Documents : ', data);
+            });
+
+            calendarEventsFromDb.push(eventForm);
+        }
+
+        function addContactToDatabase() {
+            var contactForm = $('#add-contact-form').serializeObject();
+            mongoDB.insertDocuments('team_chili', 'contacts', contactForm, function (data) {
+                console.log('Inserted Documents : ', data);
+            });
+
+            contacts.push(contactForm);
+        }
+        
+        function deleteEventFromDatabase() {
+            var confirmResponse = confirm("Do you really want to delete this tasks?");
+            if (confirmResponse === true) {
+                console.log("Deleted!");
+                var selected = $('#tasks-container .ui-selected');
+                console.log(selected);
+                //for (var i in selected) {
+                //    var id = selected[i]._id.oid;
+                //    console.log(id);
+                //}
+            } else {
+                console.log("Canceled!");
+            }
+            
+        }
+        
+        function deleteContactFromDatabase() {
+            var confirmResponse = confirm("Do you really want to delete this contacts?");
+            if (confirmResponse === true) {
+                console.log("Deleted!");
+                var selected = $('#contacts-container .ui-selected');
+                console.log(selected);
+                //for (var i in selected) {
+                //    var id = selected[i]._id.oid;
+                //    console.log(id);
+                //}
+            } else {
+                console.log("Canceled!");
+            }
+        }
+
+    </script>
+
+    <script>
+        //add Facebook JS SDK
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '118264855010713',
+                status: true,
+                cookie: true,
+                xfbml: true
+            });
+        };
+
+    </script>
+
+    <script type="text/javascript">
+        //add sharing functionality to the FB share button
+        $(document).ready(function () {
+            $('#share_button').on('click', function (e) {
+                e.preventDefault();
+                FB.ui(
+                    {
+                        method: 'feed',
+                        name: 'Organizer',
+                        link: 'http://boyanmarinov.com/projects/Organizer',
+                        picture: 'http://www.hyperarts.com/_img/TabPress-LOGO-Home.png',
+                        caption: 'I love to pin my tasks',
+                        description: 'Our organizer provides functionality for managing your tasks and contacts',
+                        message: ''
+                    });
+            });
+        });
+    </script>
+
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        })(document, 'script', 'twitter-wjs');
+    </script>
+
+</body>
+</html>

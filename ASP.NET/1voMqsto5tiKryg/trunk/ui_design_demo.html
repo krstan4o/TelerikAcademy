@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>    
+    <script src="Scripts/jquery-1.6.3.min.js"></script>
+    <link href="Styles/normalize.css" rel="stylesheet" />
+    <link href="Styles/style.css" rel="stylesheet" />
+    <script src="Scripts/jquery.leanModal.min.js"></script>
+
+    <script src="Scripts/jquery.spritely-0.6.js"></script>
+    
+    <script type="text/javascript">
+
+        (function ($) {
+            $(document).ready(function () {
+
+                $('#hero').sprite({ fps: 6, no_of_frames: 3 });
+                $('#up-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#right-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#down-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#left-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#space-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#v-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#nerva').sprite({ fps: 8, no_of_frames: 11 });
+
+
+            });
+        })(jQuery);
+
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+    <img src="Images/logo.png" />
+   <nav id="main-menu">
+        <ul>
+            <li><a href="#howto" class="button" rel="leanModal" >How to play</a></li>
+            <li><a class="button" href="login.html" >Multiplayer</a></li>
+        </ul>
+    </nav>
+    </div>
+
+   <div id="howto" class="modal">
+
+      <div id="howto-story">
+          You can move in four directions accross the field - up, down, left and right. You can pick up and move figures. Your goal is to move every figure while walking the shortest possible path. If you walk too much over it, you Nerva is rising. When the Nerva is 100, you're too angry to continue and the game is over. 
+      </div>
+
+     <div id="howto-table">         
+     <table>
+        <tr>
+            <td></td>
+            <td id="up-btn"></td>
+            <td></td>            
+        </tr>
+        <tr>
+            <td  id="left-btn"></td>
+            <td></td>
+            <td id="right-btn"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="down-btn"></td>
+            <td></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td id="v-btn"></td>
+            <td></td>
+        </tr>
+
+    </table>
+         </div>
+
+       <!--<div id="nerva"></div>-->
+
+
+       <div class="howto-explain">
+           <p>To move upwards, press the up arrow key (&uarr;) on your keyboard.</p>
+           <p>To move downwards, press the down arrow key (&darr;) on your keyboard.</p>
+           <p>To move left, press the left arrow key (&larr;) on your keyabord.</p>
+           <p>To move right, press the right arrow key (&rarr;) on your keyabord.</p>
+
+           <p>To pick up or put down a figure, press the V key on (V) on your keyboard.</p>
+
+       </div>
+
+   </div>
+
+    <audio src="Audio/Jaunty%20Gumption.mp3" controls="controls" id="initAudio"/>
+    <audio src="Audio/166186__drminky__menu-screen-mouse-over.wav" controls="controls" id="hoverAudio" />
+    <audio src="Audio/click.wav" controls="controls" id="clickAudio" />
+
+    <script>
+        var inputs = $(".button");
+        var first = inputs[0];
+        
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener("mouseover", function () {
+                document.getElementById("hoverAudio").play();
+            });
+
+            inputs[i].addEventListener("click", function () {
+                document.getElementById("clickAudio").play();
+            });            
+        }
+
+        
+        $("a[rel*=leanModal]").leanModal();
+       
+
+
+    </script>
+</body>
+</html>

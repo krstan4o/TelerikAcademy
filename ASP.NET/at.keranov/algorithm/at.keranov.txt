@@ -1,0 +1,6 @@
+5
+chickens 94 0 0
+chickens 94 32 0
+mine 98 98
+chickens 3 97 98
+chickens 3 34 0

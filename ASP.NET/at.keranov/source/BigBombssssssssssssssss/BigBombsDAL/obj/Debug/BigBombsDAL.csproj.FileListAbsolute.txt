@@ -1,0 +1,10 @@
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\bin\Debug\BigBombsDAL.dll
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\bin\Debug\BigBombsDAL.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.dll
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsDAL\obj\Debug\BigBombsDAL.pdb
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsDAL\bin\Debug\BigBombsDAL.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsDAL\bin\Debug\BigBombsDAL.pdb
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsDAL\obj\Debug\BigBombsDAL.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsDAL\obj\Debug\BigBombsDAL.dll
+D:\Telerik\ASP.NET\at.keranov\source\BigBombssssssssssssssss\BigBombsDAL\obj\Debug\BigBombsDAL.pdb

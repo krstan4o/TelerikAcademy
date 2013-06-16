@@ -1,0 +1,316 @@
+﻿html {
+    min-height: 100%;
+}
+
+body {
+    background: #f0f9ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(47%,#cbebff), color-stop(100%,#a1dbff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+    font-size: 12px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+}
+
+#chrome {
+    position: absolute;
+    right: 5%;
+    bottom: 20px;
+    background: url(../Images/chromeicon.png) no-repeat center top;
+    padding-top: 90px;
+    font-size: 18px;
+    color: #fefefe;
+}
+
+#multy-controlls {
+    position: absolute;
+    top: 490px;
+}
+
+audio {
+    display: none;
+}
+
+.ingame {
+    color: #fefefe;
+}
+
+#hero {
+    background: transparent url(../Images/hero-sprite.png) 0 0 no-repeat;
+    width: 26px;
+    height: 36px;
+}
+
+#up-btn {
+    background: transparent url(../Images/btn-sprite.png) 0 0 no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+#right-btn {
+    background: transparent url(../Images/btn-sprite.png) 0 -45px no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+#down-btn {
+    background: transparent url(../Images/btn-sprite.png) 0 -90px no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+#left-btn {
+    background: transparent url(../Images/btn-sprite.png) 0 -135px no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+#v-btn {
+    background: transparent url(../Images/btn-sprite.png) 0 -180px no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+#nerva {
+    background: transparent url(../Images/nerva-sprite.png) 0 0 no-repeat;
+    width: 60px;
+    height: 151px;
+    position: relative;
+    top: -650px;
+    left: 568px;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    background-color: #5fb5c4;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding: 10px 30px;
+    margin: 10px 0;
+    background-image: linear-gradient(bottom, #5fb5c4 0%, #7cc2ce 100%);
+    background-image: -o-linear-gradient(bottom, #5fb5c4 0%, #7cc2ce 100%);
+    background-image: -moz-linear-gradient(bottom, #5fb5c4 0%, #7cc2ce 100%);
+    background-image: -webkit-linear-gradient(bottom, #5fb5c4 0%, #7cc2ce 100%);
+    background-image: -ms-linear-gradient(bottom, #5fb5c4 0%, #7cc2ce 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5fb5c4), color-stop(1, #7cc2ce));
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 0px #5fb5c4, 0px 5px 0px 0px #388895, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #5fb5c4, 0px 5px 0px 0px #388895, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #5fb5c4, 0px 5px 0px 0px #388895, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #5fb5c4, 0px 5px 0px 0px #388895, 0px 10px 5px #999;
+}
+
+    .button:hover {
+        cursor: pointer;
+        top: 3px;
+        background-image: linear-gradient(bottom, #7cc2ce 0%, #5fb5c4 100%);
+        background-image: -o-linear-gradient(bottom, #7cc2ce 0%, #5fb5c4 100%);
+        background-image: -moz-linear-gradient(bottom, #7cc2ce 0%, #5fb5c4 100%);
+        background-image: -webkit-linear-gradient(bottom, #7cc2ce 0%, #5fb5c4 100%);
+        background-image: -ms-linear-gradient(bottom, #7cc2ce 0%, #5fb5c4 100%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #7cc2ce), color-stop(1, #5fb5c4));
+        -webkit-box-shadow: inset 0px 1px 0px #7cc2ce, 0px 2px 0px 0px #388895, 0px 5px 3px #999;
+        -moz-box-shadow: inset 0px 1px 0px #7cc2ce, 0px 2px 0px 0px #388895, 0px 5px 3px #999;
+        -o-box-shadow: inset 0px 1px 0px #7cc2ce, 0px 2px 0px 0px #388895, 0px 5px 3px #999;
+        box-shadow: inset 0px 1px 0px #7cc2ce, 0px 2px 0px 0px #388895, 0px 5px 3px #999;
+    }
+
+#field {
+    background: url(../Images/tile.gif);
+    width: 300px;
+    height: 300px;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingame #wrapper {
+    margin-top: -100px;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.modal {
+    display: none;
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px #000;
+    background: #fff;
+}
+
+/************************
+*       MAIN-MENU       *    
+*************************/
+
+
+#main-menu ul {
+    list-style-type: none;
+}
+
+#howto-table {
+    float: left;
+    display: block;
+    width: 200px;
+}
+
+.howto-explain {
+    float: left;
+    display: inline-block;
+    width: 450px;
+}
+
+#howto-story {
+    padding: 10px 20px;
+}
+
+#login-form {
+    width: 350px;
+    margin: 20% auto;
+    text-align: center;
+    font-size: 2em;
+    color: #5fb5c4;
+}
+
+    #login-form input[type=text] {
+        border: 1px solid #5fb5c4;
+        width: 300px;
+        height: 50px;
+        font-size: 28px;
+        padding: 4px 9px;
+        color: #666;
+    }
+
+#currMove {
+    width: 100px;
+    height: 60px;
+    display: block;
+    background: #5fb5c4;
+    position: relative;
+    top: 300px;
+    left: -100px;
+    border-radius: 20px 0 0 20px;
+    font-size: 2em;
+    line-height: 2.3em;
+}
+
+#sink {
+    background: url(../Images/sink-sprite.png) 0 0 no-repeat;
+    width: 115px;
+    height: 170px;
+    position: relative;
+    left: -110px;
+    top: -610px;
+}
+
+#maxPath {
+    width: 100px;
+    height: 25px;
+    display: block;
+    padding-top: 5px;
+    background: #8d6aac;
+    position: relative;
+    top: 280px;
+    left: -100px;
+    border-radius: 20px 0 0 20px;
+}
+
+#currPlayer {
+    width: 200px;
+    height: 50px;
+    display: block;
+    background: #8bc8a3;
+    position: relative;
+    top: 95px;
+    font-size: 1.6em;
+    line-height: 2.5em;
+    margin: 0 auto;
+    border-radius: 200% 200% 0 0;
+}
+
+#chat-input {
+    border: 1px solid #5fb5c4;
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    padding: 3px 7px;
+}
+
+#chat-container {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 550px;
+    left: 70px;
+}
+
+#chat {
+    text-align: left;
+    padding: 0 10px;
+    height: 190px;
+    overflow-y: auto;
+}
+
+    #chat li {
+        background: #7cc2ce;
+        color: #fff;
+        padding: 5px 5px;
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+        #chat li:hover {
+            background: #fff;
+            color: #7cc2ce;
+        }
+
+#logo {
+    position: absolute;
+    right: -200px;
+    top: 4%;
+}
+
+.ingame #logo img {
+    width: 350px;
+    height: auto;
+}
+
+.home-btn {
+    position: relative;
+    top: 20%;
+}
+
+.figures-explain {
+    clear: both;
+}
+
+#mute {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../Images/mute-sprite.png) 0 0 no-repeat;
+}

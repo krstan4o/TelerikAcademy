@@ -1,0 +1,73 @@
+﻿<div class="calendar">
+    <img alt="Go back to main menu" src="../images/back.png" onclick="location.href='#/main.html';" />
+    <img class="add-newtask-button" alt="Create new task" src="../images/add_blue.png" onclick="location.href='#/addevent.html';" />
+
+    <div id="calendar_wrapper" class="k-content">
+        <div class="demo-section">
+            <div id="special-days">
+                <div id="calendar"></div>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+
+                //var telerikEvents = [];
+                //var telerikApi = "https://telerikacademy.com/Api/Calendar/MyEvents/aad31626d84570188afc118fea9cc84acallback=?";
+                //$.ajax({
+                //    url: "http://boyanmarinov.com/projects/jsonTest.js",
+                //    data: false,
+                //    type: "GET",
+                //    contentType: 'application/json',
+                //    success: function (res) {
+                //        console.log(res);
+                //    }
+                //});
+
+                var today = new Date();
+                var events = [];
+
+                $("#calendar").kendoCalendar({
+                    value: today,
+                    //calendarEvents: window.calendarEventsFromDb,
+                    dates: events,
+                    month: {
+                        // template for dates in month view
+                        //kendo.template($("#cellTemplate").html()),
+                        content: '#= data.value #' +
+                                    '# for(var i = 0; i < calendarEventsFromDb.length; i++) { #' +
+                                        '# var thisDate = new Date(calendarEventsFromDb[i].date) #' +
+                                        '# if(data.dateString === thisDate.getFullYear() + "/" + thisDate.getMonth() + "/" + thisDate.getDate()) { #' +
+                                            '<div class="calendar-cell-content"' +
+                                                ' style="background-color:' + '#=calendarEventsFromDb[i].color #' + ';">' +
+                                                '<span data-toggle="tooltip" title="' + '#=calendarEventsFromDb[i].title #' + '">' +
+                                                    '#=calendarEventsFromDb[i].title #' +
+                                                '</span>' +
+                                            '</div>' +
+                                        '# } #' +
+                                    '# } #'
+                    },
+                    footer: false
+                });
+                
+                ////manage tips in calendar
+                //var myInput = $(".calendar-cell-content");
+                //var inputOpentip = new Opentip(myInput, { showOn: null, style: 'alert' });
+
+                //// Hide the tooltip on focus so we don't bother the user while editing.
+                //myInput.focus(function () { inputOpentip.hide(); });
+                //myInput.change(function () {
+                //    if (myInput.val()) {
+                //        // Everything fine
+                //        inputOpentip.hide();
+                //    }
+                //    else {
+                //        // Oh oh
+                //        inputOpentip.setContent("Blablabla");
+                //        inputOpentip.show();
+                //    }
+                //});
+            });
+        </script>
+    </div>
+</div>

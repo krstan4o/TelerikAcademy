@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Task 1 - Slider control</title>
+        <link href="slider-styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div id="container">
+            
+        </div>
+        <div id="slider-controls">
+            <img id="left-arrow" src="images/btn-leftarrow.png"/>
+            <img id="right-arrow" src="images/btn-rightarrow.png"/>
+        </div>
+        <script src="../jQuery/jquery-1.10.1.min.js"></script>
+        <script src="slider-control.js"></script>
+       <script>
+           slider.AddNewSlide(2123123);
+           slider.AddNewSlide("sadasda");
+           
+           slider.AddNewSlide("<img src = 'images/telerik.jpg' />");
+           slider.AddNewSlide("<a href = 'http://google.bg' >Google</a></br><a href='http://telerikacademy.com'>Telerik Academy</a>");
+           slider.AddNewSlide(" HeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeadingHeading 1");
+           slider.Render("#container");
+       </script>
+    </body>
+</html>

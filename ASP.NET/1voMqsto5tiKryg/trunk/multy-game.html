@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sinkbreaker</title>
+    <script src="Scripts/jquery-2.0.0.js"></script>
+    <script src="Scripts/jquery.signalR-1.1.0-beta1.js"></script>
+    <script src="signalr/hubs"></script>
+    <script src="Scripts/fabric.js"></script>
+    <link href="Styles/fabricTESTS.css" rel="stylesheet" />
+    <link href="Styles/style.css" rel="stylesheet" />
+    <link href="Styles/introjs/introjs.css" rel="stylesheet" />
+    <script src="Styles/introjs/intro.min.js"></script>  
+</head>
+
+<body class="ingame">
+    <a href="index.html" class="button">Home</a>
+ 
+    <div id="wrapper">
+        
+        <div id="logo">
+            <img src="Images/logo.png" />
+        </div>
+        <div id="currPlayer" data-intro="Това е името на играча" data-step="1">Nickname</div>
+
+        <div id="maxPath" data-intro="Това е максималният път, който трябва да извървиш, преди да поставиш някоя фигура" data-step="3">Max Path</div>
+        <div id="currMove" data-intro="Толкова стъпки си направил" data-step="4" data-position="right">0 / 0</div>
+
+
+        <div id="inner-wrapper" class="clearfix">
+            <div id="cover"></div>
+            <canvas id="c" height="360"></canvas>
+            <div id="overlaps"  data-intro="Схема на полето на противника" data-step="6" data-position="left"></div>
+
+        </div>
+        
+        <div id="multy-controlls">
+                    <input type="button" id="queue-btn" class="button" value="Join game" />
+                    <input type="button" id="unqueue-btn" class="button" value="Leave game" />
+        </div>
+
+        <div id="sink" data-intro="Това е мивката, която Бай Иван троши като се изнерви здраво." data-step="2" data-position="top"></div>
+        <div id="nerva" data-intro="Показва колко е нервата в момента" data-step="5" data-position="left"></div>
+
+        <div id="chat-container">
+            <input type="text" id="chat-input" />
+            <input type="button" id="chat-btn" value="send" class="button" />
+
+            <ul id="chat">
+            </ul>
+        </div>
+    </div>
+
+    <audio src="Audio/click.wav" controls="controls" id="clickAudio" class="hidden" />
+
+    <script src="Scripts/Custom/JSGraph.js"></script>
+    <script src="Scripts/Custom/engine.js"></script>
+
+    <script>      
+        var engine = new Engine(500, 360, 20, true);
+    </script>
+</body>
+</html>

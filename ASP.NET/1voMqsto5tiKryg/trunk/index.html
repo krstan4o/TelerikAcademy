@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.6.3.min.js"></script>
+    <link href="Styles/normalize.css" rel="stylesheet" />
+    <link href="Styles/style.css" rel="stylesheet" />
+    <script src="Scripts/jquery.leanModal.min.js"></script>
+
+    <script src="Scripts/jquery.spritely-0.6.js"></script>
+
+    <script type="text/javascript">
+
+        (function ($) {
+            $(document).ready(function () {
+
+                $('#hero').sprite({ fps: 6, no_of_frames: 3 });
+                $('#up-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#right-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#down-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#left-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#space-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#v-btn').sprite({ fps: 2, no_of_frames: 2 });
+                $('#nerva').sprite({ fps: 8, no_of_frames: 11 });
+
+                // Play sound
+                document.getElementById("initAudio").play();
+            });
+        })(jQuery);
+
+    </script>
+
+</head>
+<body>
+
+    <div id="mute"></div>
+
+    <div id="wrapper">
+        <img src="Images/logo.png" data-intro="An awesome 18th-century painter, who found beauty in everyday, common things." data-position="right" />
+        <nav id="main-menu">
+            <ul>
+                <li><a href="#howto" class="button" rel="leanModal">How to play</a></li>
+                <li><a class="button" href="single-game.html">Singleplayer</a></li>
+                <li><a class="button" href="login.html">Multiplayer</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="howto" class="modal">
+
+        <div id="howto-story">
+            <!-- You can move in four directions accross the field - up, down, left and right. You can pick up and move figures. Your goal is to move every figure while walking the shortest possible path. If you walk too much over it, you Nerva is rising. When the Nerva is 100, you're too angry to continue and the game is over. -->
+            Целта на играта "Sinkbreaker" е играчът да пренесе фигурите от плочки по възможно най-краткия път, така че те да не се застъпват. Ако превиши този път, Нервата се вдига. Когато удари 100, играчът е твърде ядосан, за да продължи, и играта приключва.
+        </div>
+
+        <div id="howto-table">
+            <table>
+                <tr>
+                    <td></td>
+                    <td id="up-btn"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="left-btn"></td>
+                    <td></td>
+                    <td id="right-btn"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="down-btn"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="v-btn"></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <!--<div id="nerva"></div>-->
+
+        <div class="howto-explain">
+            <p>За да се движиш нагоре, натисни стрелката нагоре (&uarr;) от клавиатурата.</p>
+            <p>За да се движиш надолу, натисни стрелката надолу  (&darr;) от клавиатурата.</p>
+            <p>За да се движиш наляво, натисни лявата стрелка (&larr;) от клавиатурата.</p>
+            <p>За да се движиш надясно, натисни дясната стрелка (&rarr;) от клавиатурата.</p>
+
+            <p>За да вземеш или поставиш фигура, натисни V (V) от клавиатурата.</p>
+            <p>За да избереш коя фигура искаш да вземеш, ако фигурите са повече от една, натисни SPACE, за да ги разместиш.</p>
+
+        </div>
+
+        <div class="figures-explain">
+            <p>Има 8 вида фигури:</p>
+
+            <img src="Images/angle-dl.jpg" />
+            <img src="Images/angle-dr.jpg" />
+            <img src="Images/angle-ul.jpg" />
+            <img src="Images/angle-ur.jpg" />
+            <img src="Images/ninetile.jpg" />
+            <img src="Images/plus.jpg" />
+            <img src="Images/hline.jpg" />
+            <img src="Images/vline.jpg" />
+
+            <p>Всяка фигура се взима от централната й плочка, обозначена в по-тъмен цвят.</p>
+        </div>
+
+    </div>
+    
+    <audio src="Audio/Jaunty%20Gumption.mp3" controls="controls" id="initAudio" /></audio>
+    <audio src="Audio/166186__drminky__menu-screen-mouse-over.mp3" controls="controls" id="hoverAudio" /></audio>
+    <audio src="Audio/click.wav" controls="controls" id="clickAudio" /></audio>
+
+    
+
+    <script>
+
+        var mute = document.getElementById("mute");
+        mute.addEventListener("click", function () {
+            var song = document.getElementById("initAudio");
+
+            if (song.paused) {
+                song.play();
+                mute.style.backgroundPosition = "0 0";
+            } else {
+                song.pause();
+                mute.style.backgroundPosition = "-24px 0";
+            }
+
+        });
+
+
+        var buttons = $(".button");
+        var first = buttons[0];
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("mouseover", function () {
+                document.getElementById("hoverAudio").play();
+            });
+
+            buttons[i].addEventListener("click", function () {
+                document.getElementById("clickAudio").play();
+            });
+        }
+
+        $("a[rel*=leanModal]").leanModal();
+
+
+    </script>
+
+    <div id="chrome">
+        Designed for chrome.
+    </div>
+</body>
+</html>

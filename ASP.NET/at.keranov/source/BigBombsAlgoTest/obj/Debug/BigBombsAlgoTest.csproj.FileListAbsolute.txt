@@ -1,0 +1,16 @@
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Debug\BigBombsAlgoTest.exe.config
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Debug\BigBombsAlgoTest.exe
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Debug\BigBombsAlgoTest.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\obj\Debug\BigBombsAlgoTest.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\obj\Debug\BigBombsAlgoTest.exe
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\obj\Debug\BigBombsAlgoTest.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Debug\BigBombsAlgo.dll
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Debug\BigBombsAlgo.pdb
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\bin\Debug\BigBombsAlgoTest.exe.config
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\bin\Debug\BigBombsAlgoTest.exe
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\bin\Debug\BigBombsAlgoTest.pdb
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\bin\Debug\BigBombsAlgo.exe
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\bin\Debug\BigBombsAlgo.pdb
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\obj\Debug\BigBombsAlgoTest.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\obj\Debug\BigBombsAlgoTest.exe
+C:\Users\krstan4o\Downloads\at.keranov\source\BigBombsAlgoTest\obj\Debug\BigBombsAlgoTest.pdb

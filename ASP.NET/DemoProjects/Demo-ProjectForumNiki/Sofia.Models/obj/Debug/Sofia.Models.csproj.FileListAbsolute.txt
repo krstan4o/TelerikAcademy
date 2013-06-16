@@ -1,0 +1,15 @@
+C:\Dev\Sofia\Sofia.Models\bin\Debug\Sofia.Models.dll.config
+C:\Dev\Sofia\Sofia.Models\bin\Debug\Sofia.Models.dll
+C:\Dev\Sofia\Sofia.Models\bin\Debug\Sofia.Models.pdb
+C:\Dev\Sofia\Sofia.Models\bin\Debug\EntityFramework.dll
+C:\Dev\Sofia\Sofia.Models\bin\Debug\EntityFramework.xml
+C:\Dev\Sofia\Sofia.Models\obj\Debug\Sofia.Models.dll
+C:\Dev\Sofia\Sofia.Models\obj\Debug\Sofia.Models.pdb
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\bin\Debug\Sofia.Models.dll.config
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\bin\Debug\Sofia.Models.dll
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\bin\Debug\Sofia.Models.pdb
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\bin\Debug\EntityFramework.dll
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\bin\Debug\EntityFramework.xml
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\obj\Debug\Sofia.Models.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\obj\Debug\Sofia.Models.dll
+D:\Telerik\ASP.NET\DemoProjects\Demo-ProjectForumNiki\Sofia.Models\obj\Debug\Sofia.Models.pdb

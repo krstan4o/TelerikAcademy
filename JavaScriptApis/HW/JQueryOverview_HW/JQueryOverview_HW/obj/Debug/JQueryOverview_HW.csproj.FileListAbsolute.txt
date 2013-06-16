@@ -1,0 +1,5 @@
+D:\Telerik\JavaScriptApis\HW\JQueryOverview_HW\JQueryOverview_HW\bin\JQueryOverview_HW.dll
+D:\Telerik\JavaScriptApis\HW\JQueryOverview_HW\JQueryOverview_HW\bin\JQueryOverview_HW.pdb
+D:\Telerik\JavaScriptApis\HW\JQueryOverview_HW\JQueryOverview_HW\obj\Debug\JQueryOverview_HW.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScriptApis\HW\JQueryOverview_HW\JQueryOverview_HW\obj\Debug\JQueryOverview_HW.dll
+D:\Telerik\JavaScriptApis\HW\JQueryOverview_HW\JQueryOverview_HW\obj\Debug\JQueryOverview_HW.pdb

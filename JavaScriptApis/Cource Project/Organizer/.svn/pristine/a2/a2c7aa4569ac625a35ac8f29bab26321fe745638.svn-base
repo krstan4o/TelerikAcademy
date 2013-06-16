@@ -1,0 +1,180 @@
+﻿
+#calendar_wrapper {
+    width: 100%;
+    /*height: 100%;*/
+    background-color: #efefef;
+}
+
+.demo-section {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#special-days {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    /*height: 100%;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#calendar {
+    margin-left: 75px;
+    text-align: center;
+    overflow: hidden;
+}
+    /*table*/
+    #calendar .k-content {
+        border-collapse: collapse;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    /*table header(year; next/previous month)*/
+    #calendar .k-header {
+        height: 54px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+        #calendar .k-header a {
+            color: #494949;
+        }
+
+    #calendar .k-nav-prev {
+        float: left;
+    }
+
+    #calendar .k-nav-fast {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #calendar .k-nav-next {
+        float: right;
+    }
+
+    #calendar .k-i-arrow-w {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        background-image: url('../images/arrow_slide_prev.png');
+        -moz-background-size: 45px;
+        -o-background-size: 45px;
+        -webkit-background-size: 45px;
+        background-size: 45px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    #calendar .k-i-arrow-e {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        background-image: url('../images/arrow_slide_next.png');
+        -moz-background-size: 45px;
+        -o-background-size: 45px;
+        -webkit-background-size: 45px;
+        background-size: 45px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    #calendar,
+    #calendar .k-content,
+    #calendar .k-header,
+    #calendar th,
+    #calendar .k-link,
+    #calendar .k-state-hover,
+    #calendar .k-state-selected,
+    #calendar .k-state-focused {
+        background: transparent;
+        border-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        #calendar .k-content .k-state-hover,
+        #calendar .k-content .k-state-focused {
+            border-collapse: collapse;
+            border: 1px solid black;
+            background-color: #fcf1b0;
+        }
+
+        #calendar .k-state-selected, #calendar .k-state-selected.k-state-focused {
+            /*font-size: 24px;*/
+            font-weight: bold;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        #calendar .k-content .k-link {
+            padding: 4px 6px;
+            color: rgb(14, 12, 12);
+        }
+
+            #calendar .k-content .k-link:hover {
+                padding: 4px 6px;
+                color: rgb(14, 12, 12);
+                -webkit-filter: drop-shadow(2px 2px 2px #808080);
+                filter: drop-shadow(2px 2px 2px #808080);
+            }
+
+        #calendar td.k-today {
+            background-color: #73c4ff;
+        }
+
+        #calendar td div.calendar-cell-content {
+            height: 30px;
+            font-size: 16px;
+            line-height: 30px;
+            white-space: nowrap;
+            overflow: hidden;
+            -ms-text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            color: white;
+            padding-left: 6px;
+        }
+
+        #calendar td.k-other-month {
+            background-color: #c3c3c3;
+        }
+
+            #calendar td.k-other-month .k-link {
+                color: #494949;
+            }
+
+        #calendar th,
+        #calendar td {
+            text-align: center;
+            border: 1px solid black;
+            color: rgb(14, 12, 12);
+            overflow: hidden;
+        }
+
+        #calendar th {
+            height: 33px;
+            color: #494949;
+        }
+
+        #calendar td {
+            /*height: 110px;*/
+            text-align: left;
+            vertical-align: top;
+        }
+
+            #calendar td a {
+                height: 102px;
+                overflow: initial!important;
+                display: block;
+                font-size: 18px;
+                text-decoration: none;
+            }
+
+            #calendar td a:hover {
+                overflow: auto!important;
+            }

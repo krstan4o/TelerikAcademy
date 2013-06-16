@@ -1,0 +1,38 @@
+﻿<div class="tasks">
+    <img alt="Go back to main menu" src="../images/back.png" onclick="location.href='#/main.html';" />
+    <img class="add-newtask-button" alt="Create new task" src="../images/add_blue.png" onclick="location.href='#/addevent.html';" />
+    <img class="remove-contact-button" alt="Create new task" src="../images/remove_blue.png" onclick="deleteEventFromDatabase();" />
+
+    <div id="task-legend">
+        List of all Tasks
+        <!--<img class="add-newtask-button" alt="Create new task" src="../images/Icon_pack/1371214675_14_Add.png" onclick="location.href='#/addevent.html';" />
+        Create new Category
+        <img class="add-newcategory-button" alt="Create new category" src="../images/Icon_pack/1371214675_14_Add.png" onclick="location.href='#/addevent.html';" />-->
+    </div>
+
+    <div id="tasks-container" data-bind="template: 'tasks-list'">
+    </div>
+
+    <script id="tasks-list" class="ui-widget-content" type="text/x-jquery-tmpl">
+        <div id='${id.$oid}' class="task-wrapper">
+            <span>Title: ${title}</span>
+            <span>Color: ${color}</span>
+            <span>Priority: ${priority}</span>
+            <span>Date: ${date}</span>
+            <span>Comment: ${comment}</span>
+        </div>
+    </script>
+    
+    <script>
+        var id = 0;
+        function getNextId() {
+            return id++;
+        }
+    </script>
+
+    <script>
+        $('#tasks-list').tmpl(calendarEventsFromDb).appendTo('#tasks-container');
+
+        $('#tasks-container').selectable();
+    </script>
+</div>

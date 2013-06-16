@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Sofia.Web.ViewModels.ForumPostViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@foreach (var post in Model)
+{
+    <div>
+        (Rating: <span id="rating_@post.Id">@post.Rating</span>)
+        <a href="#" class="up-vote" data-id="@post.Id" >up</a>
+        <a href="#" class="down-vote" data-id="@post.Id" >down</a>
+        <a href="/Questions/@post.Id/@post.Title">@post.Title</a>
+        (Author: @post.Username)
+    </div>
+}
+<script>
+    $(".up-vote").click(function (e) {
+        var id = $(this).attr("data-id");
+        $("#rating_" + id).load("/ForumPosts/VoteUp/" + id);
+        e.preventDefault();
+    });
+    $(".down-vote").click(function (e) {
+        var id = $(this).attr("data-id");
+        $("#rating_" + id).load("/ForumPosts/VoteDown/" + id);
+        e.preventDefault();
+    });
+</script>

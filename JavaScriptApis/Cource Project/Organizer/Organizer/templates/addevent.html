@@ -1,0 +1,65 @@
+﻿<div class="add-calendarevent">
+    <img alt="Go back to tasks" src="../images/back.png" onclick="location.href='#/tasks.html';" />
+
+    <div id="event-legend">
+        Create new Task
+    </div>
+
+    <form id="add-event-form">
+        <div id="left-pane">
+            <label for="date">When</label>
+            <input id="event-date" type="datetime-local" name="date" />
+
+            <label for="duration">How long</label>
+            <input id="event-duration" type="datetime-local" name="duration" />
+
+            <label for="color">Color</label>
+            <input id="event-color" type="color" name="color" />
+
+            <label for="location">Where</label>
+            <input id="event-location" type="text" name="location" />
+
+            <p>Priority</p>
+            <label for="priority">Low</label>
+            <input class="event-priority" type="radio" name="priority" value="low" />
+            <label for="priority">Medium</label>
+            <input class="event-priority" type="radio" name="priority" value="medium" />
+            <label for="priority">High</label>
+            <input class="event-priority" type="radio" name="priority" value="high" />
+            <label for="priority">Critical</label>
+            <input class="event-priority" type="radio" name="priority" value="critical" />
+
+            <p>CategoryType</p>
+            <select id="event-category" name="categoryType"></select>
+
+            <img id="share_button" src="images/fbshare.png" />
+            
+            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="organizer">Tweet</a>
+<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+        <div id="right-pane">
+            <label for="title"></label>
+            <input id="event-title" type="text" name="title" placeholder="Add a title" />
+
+            <label for="comment"></label>
+            <textarea id="event-comment" name="comment" placeholder="Add a message"></textarea>
+        </div>
+
+        <a id="submit-new-event" href="#/tasks.html" onclick="addEventToDatabase();"></a>
+    </form>
+    <script>
+        $(function () {
+            var select = document.getElementById('event-category');
+
+            for (var key in CategoryType) {
+                if (CategoryType.hasOwnProperty(key)) {
+                    var opt = document.createElement("option");
+                    opt.textContent = key;
+                    opt.value = key;
+                    select.appendChild(opt);
+                }
+            }
+        });
+    </script>
+</div>

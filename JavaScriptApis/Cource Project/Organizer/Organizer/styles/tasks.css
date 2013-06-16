@@ -1,0 +1,37 @@
+﻿
+#task-legend {
+    height: 54px;
+    color: #494949;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+#tasks-container {
+    margin-left: 75px;
+    background-color: rgba(255,255,255,0.7);
+    width: 90%;
+    height: 714px;
+    overflow: auto;
+}
+
+.task-wrapper {
+    font-size: 18px;
+    color: #494949;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 5px 5px;
+    border-bottom: 1px solid #0094ff;
+}
+
+#feedback {
+    font-size: 1.4em;
+}
+
+#tasks-container .ui-selecting {
+    background: #0287e7;
+}
+
+#tasks-container .ui-selected {
+    background: #0287e7;
+    color: white;
+}

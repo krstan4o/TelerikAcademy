@@ -1,0 +1,35 @@
+﻿div#container {
+    
+    height: 300px;
+    width:750px;
+    border: 1px solid black;
+    background-color:aquamarine;
+    border-radius:12px;
+   word-wrap:break-word;
+  
+}
+div {
+  padding:5px;
+  margin:5px;
+  
+}
+#slider-controls {
+    display:inline-block;
+    margin-left:350px;
+}
+#slider-controls img:hover {
+    background-color:orange;
+}
+.hidden {
+
+    display:none;
+}
+
+.selected {
+    position: relative;
+    text-align:center;
+    vertical-align:middle;
+    display:block;
+
+ 
+}

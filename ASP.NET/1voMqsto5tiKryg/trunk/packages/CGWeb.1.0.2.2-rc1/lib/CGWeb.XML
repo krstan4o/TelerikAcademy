@@ -1,0 +1,2275 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CGWeb</name>
+    </assembly>
+    <members>
+        <member name="T:CGWeb.Chatroom">
+            <summary>
+            A <see cref="T:CGWeb.UserRoom"/> that allows users to send messages to each other.
+            </summary>
+        </member>
+        <member name="T:CGWeb.UserRoom">
+            <summary>
+            Represents a room that users can enter to communicate with others. This class is abstract.
+            </summary>
+        </member>
+        <member name="T:CGWeb.ObservableRoom">
+            <summary>
+            Represents a room that notifies its subscribers when an <see cref="T:CGWeb.User"/> joins or leaves it. This class is abstract.
+            </summary>
+        </member>
+        <member name="M:CGWeb.ObservableRoom.OnUserJoined(CGWeb.UserEventArgs)">
+            <summary>
+            Call this method to raise the <see cref="E:CGWeb.ObservableRoom.UserJoined"/> event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.ObservableRoom.OnUserLeft(CGWeb.UserLeftEventArgs)">
+            <summary>
+            Call this method to raise the <see cref="E:CGWeb.ObservableRoom.UserLeft"/> event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.ObservableRoom.UnsubscribeEventHandlers">
+            <summary>
+            Removes all event handlers from the events that the <see cref="T:CGWeb.ObservableRoom"/> exposes.
+            Override this method and and ensure any events defined in derived classes are disposed as well.
+            Remember to call base the implementation.
+            </summary>
+        </member>
+        <member name="E:CGWeb.ObservableRoom.UserJoined">
+            <summary>
+            Raised whenever a <see cref="T:CGWeb.User"/> joins the room.
+            </summary>
+        </member>
+        <member name="E:CGWeb.ObservableRoom.UserLeft">
+            <summary>
+            Raised whenever a <see cref="T:CGWeb.User"/> leaves the room.
+            </summary>
+        </member>
+        <member name="T:CGWeb.IIdentifiable">
+            <summary>
+            Represents objects that can be identified by both name and I.
+            </summary>
+        </member>
+        <member name="P:CGWeb.IIdentifiable.Id">
+            <summary>
+            The unique I of the object.
+            </summary>
+        </member>
+        <member name="P:CGWeb.IIdentifiable.Name">
+            <summary>
+            The name of the object.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserRoom.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:CGWeb.UserRoom.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:CGWeb.UserRoom.Contains(CGWeb.User)">
+            <summary>
+            Returns a value indicating whether the specified <see cref="T:CGWeb.User"/> is present in the room.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to check.</param>
+            <returns>True if the user is connected to the room, false otherwise.</returns>
+        </member>
+        <member name="M:CGWeb.UserRoom.TryConnectUser(CGWeb.User)">
+            <summary>
+            Attempts to connect the specified <see cref="T:CGWeb.User"/> to the <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to connect.</param>
+            <returns><see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.</returns>
+            <exception cref="T:System.ArgumentNullException">User is null</exception>
+        </member>
+        <member name="M:CGWeb.UserRoom.DisconnectUser(CGWeb.User)">
+            <summary>
+            Disconnects the specified <see cref="T:CGWeb.User"/> from the <see cref="T:CGWeb.UserRoom"/> and for
+            <see cref="F:System.String.Empty"/> as reason.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to be disconnected.</param>
+        </member>
+        <member name="M:CGWeb.UserRoom.DisconnectUser(CGWeb.User,System.String)">
+            <summary>
+            Disconnects the specified <see cref="T:CGWeb.User"/> from the <see cref="T:CGWeb.UserRoom"/> 
+            for the specified reason.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to be disconnected.</param>
+            <param name="reason">The reason why the user is being disconnected.	</param>
+        </member>
+        <member name="M:CGWeb.UserRoom.ToString">
+            <summary>
+            Returns a string that represents the current object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CGWeb.UserRoom.Id">
+            <summary>
+            Gets the ID of the <see cref="T:CGWeb.UserRoom"/>.
+            </summary>		
+        </member>
+        <member name="P:CGWeb.UserRoom.Name">
+            <summary>
+            Gets or sets the name of the <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.UserRoom.Count">
+            <summary>
+            Gets the number of users in the current <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.UserRoom.IsEmpty">
+            <summary>
+            Gets a value indicating whether the current <see cref="T:CGWeb.UserRoom"/> is empty.
+            </summary>
+        </member>
+        <member name="P:CGWeb.UserRoom.State">
+            <summary>
+            Gets the current state of the <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.UserRoom.IsActive">
+            <summary>
+            Gets a value indicating whether the <see cref="T:CGWeb.UserRoom"/> is active.
+            This property is semantic sugar for <see cref="P:CGWeb.UserRoom.State"/> == <see cref="F:CGWeb.UserRoomState.Open"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Chatroom.#ctor(System.String)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Chatroom"/> with no users and the specified name.
+            </summary>
+            <param name="name">The name of the chatroom.</param>
+        </member>
+        <member name="M:CGWeb.Chatroom.GetChatroomsOfUser(CGWeb.User)">
+            <summary>
+            Polls the server for all <see cref="T:CGWeb.Chatroom"/> the current <see cref="T:CGWeb.User"/> participates in.
+            </summary>
+            <returns><see cref="T:System.Collections.Generic.IEnumerable`1"/> containing all <see cref="T:CGWeb.Chatroom"/> the user is in.</returns>
+            <remarks>Update UserExtension.GetChatrooms documentation as you change this one.</remarks>
+        </member>
+        <member name="M:CGWeb.Chatroom.TryConnectUser(CGWeb.User)">
+            <summary>
+            Attempts to connect the specified <see cref="T:CGWeb.User"/> to the <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to connect.</param>
+            <returns>
+              <see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="M:CGWeb.Chatroom.DisconnectUser(CGWeb.User,System.String)">
+            <summary>
+            Disconnects the specified <see cref="T:CGWeb.User"/> from the <see cref="T:CGWeb.UserRoom"/>
+            for the specified reason.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to be disconnected.</param>
+            <param name="reason">The reason why the user is being disconnected.</param>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="M:CGWeb.Chatroom.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Chatroom.Contains(CGWeb.User)">
+            <summary>
+            Returns a value indicating whether the specified <see cref="T:CGWeb.User"/> is present in the room.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to check.</param>
+            <returns>
+            True if the user is connected to the room, false otherwise.
+            </returns>
+        </member>
+        <member name="T:CGWeb.DefaultActionResult">
+            <summary>
+            Default implementation for <see cref="T:CGWeb.IActionResult"/>
+            </summary>
+        </member>
+        <member name="T:CGWeb.IActionResult">
+            <summary>
+            Represents the result of an action.
+            </summary>
+        </member>
+        <member name="P:CGWeb.IActionResult.HasSucceeded">
+            <summary>
+            Gets a value indicating whether the action succeeded.
+            </summary>
+        </member>
+        <member name="P:CGWeb.IActionResult.Reason">
+            <summary>
+            Gets the reason why the action resulted in the way it did.
+            </summary>
+        </member>
+        <member name="M:CGWeb.DefaultActionResult.#ctor(System.Boolean,System.String)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.DefaultActionResult"/> based on the specified parameters.
+            </summary>
+            <param name="success">Value indicating whether the action has succeeded.</param>
+            <param name="reason">Message explaining the reason behind the result of the action.</param>
+        </member>
+        <member name="P:CGWeb.DefaultActionResult.HasSucceeded">
+            <summary>
+            Gets a value indicating whether the action succeeded.
+            </summary>
+        </member>
+        <member name="P:CGWeb.DefaultActionResult.Reason">
+            <summary>
+            Gets the reason why the action resulted in the way it did.
+            </summary>
+        </member>
+        <member name="P:CGWeb.DefaultActionResult.Success">
+            <summary>
+            Gets an <see cref="T:CGWeb.DefaultActionResult"/> that has succeeded for no reason.
+            </summary>
+        </member>
+        <member name="P:CGWeb.DefaultActionResult.Failure">
+            <summary>
+            Gets an <see cref="T:CGWeb.DefaultActionResult"/> that has failed for no reason.
+            </summary>
+        </member>
+        <member name="T:CGWeb.ConnectionState">
+            <summary>
+            Represents the state of a <see cref="T:CGWeb.User"/>`s connection.
+            </summary>
+        </member>
+        <member name="F:CGWeb.ConnectionState.Offline">
+            <summary>
+            The user is not logged on the main lobby.
+            </summary>
+        </member>
+        <member name="F:CGWeb.ConnectionState.Online">
+            <summary>
+            The user is logged on the main lobby.
+            </summary>
+        </member>
+        <member name="F:CGWeb.ConnectionState.LoggingOff">
+            <summary>
+            The user is in the process of being logged off.
+            </summary>
+        </member>
+        <member name="T:CGWeb.PlayerState">
+            <summary>
+            Represents the business of <see cref="T:CGWeb.User"/>.
+            </summary>
+        </member>
+        <member name="F:CGWeb.PlayerState.Available">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is available for chatting and playing.
+            </summary>
+        </member>
+        <member name="F:CGWeb.PlayerState.Playing">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is currently playing.
+            </summary>
+        </member>
+        <member name="F:CGWeb.PlayerState.Queued">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is waiting in a automated queue to play.
+            </summary>
+        </member>
+        <member name="F:CGWeb.PlayerState.Busy">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is busy and is unavaiable to reach.
+            </summary>
+        </member>
+        <member name="F:CGWeb.PlayerState.InGameroom">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is waiting in a gameroom to start a game.
+            </summary>
+        </member>
+        <member name="T:CGWeb.UserRoomState">
+            <summary>
+            Represents the states that a <see cref="T:CGWeb.UserRoom"/> goes through.
+            </summary>
+        </member>
+        <member name="F:CGWeb.UserRoomState.Open">
+            <summary>
+            The <see cref="T:CGWeb.UserRoom"/> is accepting new clients.
+            </summary>
+        </member>
+        <member name="F:CGWeb.UserRoomState.Closing">
+            <summary>
+            The <see cref="T:CGWeb.UserRoom"/> is in the process of being closed.
+            </summary>
+        </member>
+        <member name="F:CGWeb.UserRoomState.Closed">
+            <summary>
+            The <see cref="T:CGWeb.UserRoom"/> is closed and may not be used anymore.
+            </summary>
+        </member>
+        <member name="T:CGWeb.GameState">
+            <summary>
+            Represents the states that a <see cref="T:CGWeb.Games.Game"/> goes trough.
+            </summary>
+        </member>
+        <member name="F:CGWeb.GameState.NotStarted">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is yet to start.
+            </summary>
+        </member>
+        <member name="F:CGWeb.GameState.Started">
+            <summary>
+            The <see cref="T:CGWeb.User"/> is being played.
+            </summary>
+        </member>
+        <member name="F:CGWeb.GameState.Ended">
+            <summary>
+            The <see cref="T:CGWeb.User"/> has finished.
+            </summary>
+        </member>
+        <member name="T:CGWeb.UserEventArgs">
+            <summary>
+            Provides data for events that involve a <see cref="T:CGWeb.User"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserEventArgs.#ctor(CGWeb.User)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.UserEventArgs"/> with the specified <see cref="T:CGWeb.User"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to use.</param>
+        </member>
+        <member name="P:CGWeb.UserEventArgs.User">
+            <summary>
+            The <see cref="T:CGWeb.User"/> that caused the event.
+            </summary>
+        </member>
+        <member name="T:CGWeb.UserLeftEventArgs">
+            <summary>
+            Provides data for the <see cref="E:CGWeb.ObservableRoom.UserLeft"/>. event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserLeftEventArgs.#ctor(CGWeb.User,System.String)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.UserEventArgs"/> with the specified <see cref="T:CGWeb.User"/> 
+            and reason.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to use.</param>
+            <param name="reason">The reason for which the user is leaving</param>
+        </member>
+        <member name="P:CGWeb.UserLeftEventArgs.User">
+            <summary>
+            The <see cref="T:CGWeb.User"/> that caused the event.
+            </summary>
+        </member>
+        <member name="P:CGWeb.UserLeftEventArgs.Reason">
+            <summary>
+            The reason why the user has left the <see cref="T:CGWeb.UserRoom"/>
+            </summary>
+        </member>
+        <member name="T:CGWeb.UserRoomEventArgs">
+            <summary>
+            Provides data for events that involve a <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserRoomEventArgs.#ctor(CGWeb.UserRoom)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.UserRoomEventArgs"/> with the specified <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="userRoom">The <see cref="T:CGWeb.UserRoom"/> to use.</param>
+        </member>
+        <member name="P:CGWeb.UserRoomEventArgs.UserRoom">
+            <summary>
+            The <see cref="T:CGWeb.UserRoom"/> that caused the event.
+            </summary>
+        </member>
+        <member name="T:CGWeb.ParameterizedActionResult`1">
+            <summary>
+            Default implementation of <see cref="T:CGWeb.IActionResult`1"/>
+            </summary>
+            <typeparam name="T">The type of the information you`d like to include.</typeparam>
+        </member>
+        <member name="T:CGWeb.IActionResult`1">
+            <summary>
+            Represents an <see cref="T:CGWeb.IActionResult"/> that contains additional information about the outcome of the action.
+            </summary>
+            <typeparam name="T">The type of the information you`d like to include.</typeparam>
+        </member>
+        <member name="P:CGWeb.IActionResult`1.Data">
+            <summary>
+            Gets any additional data involved in the action.
+            </summary>
+        </member>
+        <member name="M:CGWeb.ParameterizedActionResult`1.#ctor(System.Boolean,System.String,`0)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.ParameterizedActionResult`1"/> based on the specified parameters.
+            </summary>
+            <param name="success">Value indicating whether the action has succeeded.</param>
+            <param name="reason">Message explaining the reason behind the result of the action.</param>
+            <param name="data">Additional data to include in the result.</param>
+        </member>
+        <member name="M:CGWeb.ParameterizedActionResult`1.#ctor(CGWeb.IActionResult,`0)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.ParameterizedActionResult`1"/> based on the specified parameters.
+            </summary>
+            <param name="actionResult">An <see cref="T:CGWeb.IActionResult"/> to copy from.</param>
+            <param name="data">Additional data to include in the result.</param>
+        </member>
+        <member name="P:CGWeb.ParameterizedActionResult`1.HasSucceeded">
+            <summary>
+            Gets a value indicating whether the action succeeded.
+            </summary>
+        </member>
+        <member name="P:CGWeb.ParameterizedActionResult`1.Reason">
+            <summary>
+            Gets the reason why the action resulted in the way it did.
+            </summary>
+        </member>
+        <member name="P:CGWeb.ParameterizedActionResult`1.Data">
+            <summary>
+            Gets additional data involved in the action.
+            </summary>
+            <value>
+            The data.
+            </value>
+        </member>
+        <member name="T:CGWeb.User">
+            <summary>
+            Represents a single user (player). This class is abstract.
+            </summary>
+        </member>
+        <member name="M:CGWeb.User.#ctor">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.User"/> instance.
+            </summary>
+        </member>
+        <member name="M:CGWeb.User.IsInRole(System.String)">
+            <summary>
+            Returns a value indicating whether the <see cref="T:CGWeb.User"/> is in the given role.
+            </summary>
+            <param name="role">The role to test the <see cref="T:CGWeb.User"/> against.</param>
+            <returns>True if the user is in the specified role, False otherwise.</returns>
+        </member>
+        <member name="M:CGWeb.User.ToString">
+            <summary>
+            Returns a string that represents the current object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CGWeb.User.System">
+            <summary>
+            Gets the System <see cref="T:CGWeb.User"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.None">
+            <summary>
+            Special value to use instead of null so we dont have to guard against null values all the time.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.System#Security#Principal#IIdentity#AuthenticationType">
+            <summary>
+            Gets the type of authentication used. Currently, hardcoded is "Forms".
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.IsAuthenticated">
+            <summary>
+            Gets a value indicating whether the <see cref="T:CGWeb.User"/> has been authenticated.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.Name">
+            <summary>
+            Gets the name of the <see cref="T:CGWeb.User"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.System#Security#Principal#IPrincipal#Identity">
+            <summary>
+            Gets the identity of the current <see cref="T:CGWeb.User"/> which is the <see cref="T:CGWeb.User"/> itself.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.IsLoggedOn">
+            <summary>
+            Gets or sets a value indicating whether the user is logged on. This property is semantic sugar for
+            <see cref="T:CGWeb.ConnectionState"/> == <see cref="F:CGWeb.ConnectionState.Online"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.LastRoomCreated">
+            <summary>
+            Gets or sets the last time that the user has created a room.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.Entity">
+            <summary>
+            Gets the entity of the current <see cref="T:CGWeb.User"/> - 
+            an object that uniquely defines the user and contains all the custom information about him.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.ConnectionId">
+            <summary>
+            Gets the connection id of the <see cref="T:CGWeb.User"/> in signalr or string.empty if the <see cref="T:CGWeb.User"/> hasnt connected yet.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.ConnectionState">
+            <summary>
+            Gets the connection state of the <see cref="T:CGWeb.User"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.PlayerState">
+            <summary>
+            Gets the state of the <see cref="T:CGWeb.User"/> in relation to whether he is currently playing, waiting to play or else.
+            </summary>
+        </member>
+        <member name="P:CGWeb.User.TimeZone">
+            <summary>
+            Gets or sets the time zone the <see cref="T:CGWeb.User"/> is in.
+            </summary>
+        </member>
+        <member name="T:CGWeb.User.DefaultCredentials">
+            <summary>
+            Straightforward implementation of IIdentifiable.
+            </summary>
+        </member>
+        <member name="T:CGWeb.User.GhostUser">
+            <summary>
+            Represents a special type of a user to be used instead null values.
+            </summary>
+        </member>
+        <member name="M:CGWeb.User.GhostUser.#ctor">
+            <summary>
+            Creates a new <see cref="T:CGWeb.User.GhostUser"/> instance.
+            </summary>
+        </member>
+        <member name="M:CGWeb.User.GhostUser.IsInRole(System.String)">
+            <summary>
+            Returns a value indicating whether the <see cref="T:CGWeb.User"/> is in the given role.
+            </summary>
+            <param name="role">The role to test the <see cref="T:CGWeb.User"/> against.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CGWeb.User.SystemUser">
+            <summary>
+            Represents a special type of a user that has unlimited privileges.
+            </summary>
+        </member>
+        <member name="M:CGWeb.User.SystemUser.#ctor">
+            <summary>
+            Creates a new <see cref="T:CGWeb.User.SystemUser"/> instance.
+            </summary>
+        </member>
+        <member name="M:CGWeb.User.SystemUser.IsInRole(System.String)">
+            <summary>
+            Returns a value indicating whether the <see cref="T:CGWeb.User"/> is in the given role.
+            </summary>
+            <param name="role">The role to test the <see cref="T:CGWeb.User"/> against.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CGWeb.ServerErrorMessages">
+            <summary>
+            Contains the messages explaining why an error occurred or an action failed.
+            </summary>
+        </member>
+        <member name="T:CGWeb.UserExtensions">
+            <summary>
+            Extends <see cref="T:CGWeb.User"/>. Provides a gateway to CGWeb.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserExtensions.CanCreateRoom(CGWeb.User)">
+            <summary>
+            Returns a value indicating whether the user can create a <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to check.</param>
+            <returns>True if the <see cref="T:CGWeb.User"/> is logged in and hasnt recently created another room,
+            false otherwise.</returns>
+        </member>
+        <member name="M:CGWeb.UserExtensions.TryLogOn(CGWeb.User)">
+            <summary>
+            Attempts to log the <see cref="T:CGWeb.User"/> on.
+            </summary>
+            <returns><see cref="T:CGWeb.IActionResult"/> containing details about the result of the operation.</returns>
+            <exception cref="T:System.ArgumentNullException">User is null</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.LogOff(CGWeb.User)">
+            <summary>
+            Logs the <see cref="T:CGWeb.User"/> off.
+            </summary>
+            <exception cref="T:System.ArgumentNullException">User is null</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.GetGameroom(CGWeb.User)">
+            <summary>
+            Gets the gameroom the <see cref="T:CGWeb.User"/> is in, or returns null if the user is not in a gameroom.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserExtensions.GetChatrooms(CGWeb.User)">
+            <summary>
+            Polls the server for the player created chatrooms the current user participates in. This method will not return a chatroom that belongs to a gameroom.
+            </summary>
+            <returns><see cref="T:System.Array"/> containing all <see cref="T:CGWeb.Chatroom"/> the user is in.</returns>
+        </member>
+        <member name="M:CGWeb.UserExtensions.TryQueueForGame(CGWeb.User,CGWeb.Games.Game)">
+            <summary>
+            Attempts to queue the <see cref="T:CGWeb.User"/> for playing the specified game. If successful, this method immediately adds the <see cref="T:CGWeb.User"/>
+            into a automated <see cref="T:CGWeb.Gameroom"/> that waits until it has been filled with enough players.
+            The game starts right after the latter condition has been met.
+            </summary>
+            <param name="user">The user to queue.</param>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> for which the player wants to queue.</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">user
+            or
+            game</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.TryQueueForGame(CGWeb.User,CGWeb.Games.Game,System.EventHandler)">
+            <summary>
+            Attempts to queue the <see cref="T:CGWeb.User"/> for playing the specified game. If successful, this method immediately adds the <see cref="T:CGWeb.User"/>
+            into a automated <see cref="T:CGWeb.Gameroom"/> that waits until it has been filled with enough players.
+            The game starts right after the latter condition has been met.
+            <para>
+            The provided event handler will be called when the Gameroom.GameStarting event is raised. 
+            (Any JS clients are notified automatically)
+            </para>
+            </summary>
+            <param name="user">The user to queue.</param>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> for which the player wants to queue.</param>
+            <param name="gameStartingEventHandler">An event handler to be called when the automated gameroom is starting.</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            user
+            or
+            game
+            </exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.LeaveQueue(CGWeb.User)">
+            <summary>
+            Removes the <see cref="T:CGWeb.User"/> from the game queue.
+            </summary>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.TryCreateCustomGameroom(CGWeb.User,System.String,CGWeb.Games.Game)">
+            <summary>
+            Attempts to create a custom <see cref="T:CGWeb.Gameroom"/> for the specified <see cref="T:CGWeb.User"/> with the specified name and game to host.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> that wants to create the <see cref="T:CGWeb.Gameroom"/> </param>
+            <param name="gameroomName">The name of the <see cref="T:CGWeb.Gameroom"/>.</param>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> that the <see cref="T:CGWeb.Gameroom"/> will host.</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.ParameterizedActionResult`1"/>,
+            containing information about the success of the operation and the <see cref="T:CGWeb.Gameroom"/> itself if successful.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            user
+            or
+            gameroomName
+            or
+            game
+            </exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.TryCreateChatroom(CGWeb.User,System.String)">
+            <summary>
+            Attempts to create a <see cref="T:CGWeb.Chatroom"/> and adds the <see cref="T:CGWeb.User"/> it in.
+            </summary>
+            <param name="user">The user on whose behalf to create the chatroom.</param>
+            <param name="chatName">The chat`s name.</param>
+            <returns> 
+            An instance of <see cref="T:CGWeb.ParameterizedActionResult`1"/>,
+            containing information about the success of the operation and the <see cref="T:CGWeb.Chatroom"/> itself if successful.</returns>
+            <exception cref="T:System.ArgumentNullException">user or name</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.TryJoinRoom(CGWeb.User,CGWeb.UserRoom)">
+            <summary>
+            Attempts to join the specified <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> that wants to join the specified <see cref="T:CGWeb.UserRoom"/></param>
+            <param name="room">The room to join.</param>
+            <returns><see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.</returns>
+            <exception cref="T:System.ArgumentNullException">user or room</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.LeaveRoom(CGWeb.User,CGWeb.UserRoom)">
+            <summary>
+            Disconnects the <see cref="T:CGWeb.User"/> from the specified <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> that wants to leave.</param>
+            <param name="room">The <see cref="T:CGWeb.UserRoom"/> to leave.</param>
+            <exception cref="T:System.ArgumentNullException">room</exception>
+        </member>
+        <member name="M:CGWeb.UserExtensions.LeaveRoom(CGWeb.User,CGWeb.UserRoom,System.String)">
+            <summary>
+            Disconnects the <see cref="T:CGWeb.User"/> from the specified <see cref="T:CGWeb.UserRoom"/> 
+            for the specified reason.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> that wants to leave.</param>
+            <param name="room">The <see cref="T:CGWeb.UserRoom"/> to leave.</param>
+            <param name="reason">The reason why the user is leaving.</param>
+            <exception cref="T:System.ArgumentNullException">room</exception>
+        </member>
+        <member name="T:CGWeb.UserRoomExtensions">
+            <summary>
+            Extends the functionality of <see cref="T:CGWeb.UserRoom"/>. Provides a gateway to CGWeb.
+            </summary>
+        </member>
+        <member name="M:CGWeb.UserRoomExtensions.TryClose(CGWeb.UserRoom)">
+            <summary>
+            Attempts to close the specified <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="room">The <see cref="T:CGWeb.UserRoom"/> to close.</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.IActionResult"/> containing information about the success of the action.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">room</exception>
+        </member>
+        <member name="M:CGWeb.UserRoomExtensions.ToUserRoomInfo(CGWeb.UserRoom)">
+            <summary>
+            Converts <see cref="T:CGWeb.UserRoom"/> to <see cref="T:CGWeb.Hubs.UserRoomInfo"/>.
+            Internal since it returns a null value if the room is null instead of exceptioning.
+            </summary>
+            <param name="room">The room to convert.</param>
+            <returns>
+            <see cref="T:CGWeb.Hubs.UserRoomInfo"/> containing information about the current <see cref="T:CGWeb.UserRoom"/>
+            or null if the null if the room is null.
+            </returns>
+        </member>
+        <member name="T:CGWeb.ChatroomExtensions">
+            <summary>
+            User for extending the functionality of <see cref="T:CGWeb.Chatroom"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.ChatroomExtensions.IsCreatedByGameroom(CGWeb.Chatroom)">
+            <summary>
+            Gets a value indicating whether the <see cref="T:CGWeb.Chatroom"/> has been created as a part of a <see cref="T:CGWeb.Gameroom"/>.
+            </summary>
+            <param name="chatroom">The <see cref="T:CGWeb.Chatroom"/> to check.</param>
+            <returns>True if the <see cref="T:CGWeb.Chatroom"/> has been created as part of a <see cref="T:CGWeb.Gameroom"/>. False otherwise.</returns>
+        </member>
+        <member name="T:CGWeb.Games.DefaultGameCreationArgs">
+            <summary>
+            Straightforward implementation of <see cref="T:CGWeb.Games.IGameCreationArgs"/> to simplify implementing the latter.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Games.IGameCreationArgs">
+            <summary>
+            Defines basic values that needed for creating a <see cref="T:CGWeb.Games.Game"/>
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.IGameCreationArgs.RequiredPlayers">
+            <summary>
+            Gets the required players in the <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Games.DefaultGameCreationArgs.#ctor(System.Int32)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Games.DefaultGameCreationArgs"/> from number of players.
+            </summary>
+            <param name="players">The required number of players in the game.</param>
+        </member>
+        <member name="M:CGWeb.Games.DefaultGameCreationArgs.#ctor(CGWeb.Games.IGameCreationArgs)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Games.DefaultGameCreationArgs"/> from the specified <see cref="T:CGWeb.Games.IGameCreationArgs"/>.
+            </summary>
+            <param name="args">The arguments to copy from.</param>
+        </member>
+        <member name="M:CGWeb.Games.DefaultGameCreationArgs.#ctor">
+            <summary>
+            Empty constructor to be used for serialization.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.DefaultGameCreationArgs.RequiredPlayers">
+            <summary>
+            Gets or sets the required players in the <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Games.Game">
+            <summary>
+            Represents a base class for Creating Genres` games. This class is abstract.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Games.Game.#ctor(System.Int32)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Games.Game"/> instance with the specified arguments.
+            </summary>
+            <param name="numberOfPlayers">The required number of players for the game.</param>
+        </member>
+        <member name="M:CGWeb.Games.Game.OnGameEnded(System.EventArgs)">
+            <summary>
+            S
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CGWeb.Games.Game.Start(CGWeb.User[])">
+            <summary>
+            Starts the <see cref="T:CGWeb.Games.Game"/> with the specified <see cref="T:CGWeb.User"/>s.
+            </summary>
+            <param name="players">The players that will play the game.</param>
+        </member>
+        <member name="M:CGWeb.Games.Game.OnUserDisconnect(CGWeb.User)">
+            <summary>
+            Called whenever a <see cref="T:CGWeb.User"/> disconnects from the game. Override this method to implement the game`s behaviour when
+            a <see cref="T:CGWeb.User"/> leaves the game.
+            </summary>
+            <param name="user"><see cref="T:CGWeb.User"/> that disconnected.</param>
+        </member>
+        <member name="M:CGWeb.Games.Game.IsUserOnTheMove(CGWeb.User)">
+            <summary>
+            Returns a value indicating whether the specified <see cref="T:CGWeb.User"/> can act at the current moment.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to check for.</param>
+        </member>
+        <member name="M:CGWeb.Games.Game.IsSameModeAs(CGWeb.Games.Game)">
+            <summary>
+            Returns a value indicating whether this game is in the same mode as the specified <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> to test against.</param>
+        </member>
+        <member name="E:CGWeb.Games.Game.Ended">
+            <summary>
+            Event that is raised when the <see cref="T:CGWeb.Games.Game"/> has ended.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.Game.Name">
+            <summary>
+            Gets the name of the <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.Game.RequiredPlayers">
+            <summary>
+            Gets the minimum amount of players to start the <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.Game.State">
+            <summary>
+            Gets a value indicating the current <see cref="T:CGWeb.GameState"/>.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Games.GameFilter">
+            <summary>
+            Represents a filter that is used to differentiate <see cref="T:CGWeb.Games.Game"/>s.
+            </summary>
+        </member>
+        <member name="F:CGWeb.Games.GameFilter.Empty">
+            <summary>
+            Use this to get all gamerooms (applies no filtering).
+            </summary>
+        </member>
+        <member name="M:CGWeb.Games.GameFilter.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Games.GameFilter"/> with the specified parameters.
+            Use String.Empty or 0 to specify that you want to ignore a given property.
+            </summary>
+            <param name="gameName">The name of the game you are interested in.</param>
+            <param name="requiredPlayers">The maximum amount of players that can join the game.</param>
+            <param name="owner">The owner of the gameroom.</param>
+        </member>
+        <member name="M:CGWeb.Games.GameFilter.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Games.GameFilter.Equals(CGWeb.Games.GameFilter)">
+            <summary>
+            Determines whether the specified <see cref="T:CGWeb.Games.GameFilter"/> is equal to this instance.
+            </summary>
+            <param name="filter">The <see cref="T:CGWeb.Games.GameFilter"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:CGWeb.Games.GameFilter"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Games.GameFilter.op_Equality(CGWeb.Games.GameFilter,CGWeb.Games.GameFilter)">
+            <summary>
+            Tests gamefilters for equality.
+            </summary>
+            <param name="value1">Source gamefilters.</param>
+            <param name="value2">Source gamefilters.</param>
+            <returns>True if the gamefilter are equal, otherwise false</returns>
+        </member>
+        <member name="M:CGWeb.Games.GameFilter.op_Inequality(CGWeb.Games.GameFilter,CGWeb.Games.GameFilter)">
+            <summary>
+            Tests gamefilters for inequality.
+            </summary>
+            <param name="value1">Source gamefilters.</param>
+            <param name="value2">Source gamefilters.</param>
+            <returns>True if the gamefilter are not equal, otherwise false</returns>
+        </member>
+        <member name="M:CGWeb.Games.GameFilter.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="P:CGWeb.Games.GameFilter.GameName">
+            <summary>
+            The name of the <see cref="T:CGWeb.Games.Game"/> that you are interested in.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.GameFilter.RequiredPlayers">
+            <summary>
+            The maximum amount of players that can join the game.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.GameFilter.OwnerName">
+            <summary>
+            The name of the owner of the <see cref="T:CGWeb.Gameroom"/> hosting the game.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Gameroom">
+            <summary>
+            A <see cref="T:CGWeb.UserRoom"/> that users play games in.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Gameroom.#ctor(System.String,CGWeb.Games.Game)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Gameroom"/> with the specified name and <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+            <param name="name">The unique name of the gameroom.</param>
+            <param name="game">The game which this gameroom will host.</param>
+        </member>
+        <member name="M:CGWeb.Gameroom.UnsubscribeEventHandlers">
+            <summary>
+            Removes all event handlers from the events that the <see cref="T:CGWeb.ObservableRoom"/> exposes.
+            Override this method and and ensure any events defined in derived classes are disposed as well.
+            Remember to call base the implementation.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Gameroom.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Gameroom.Contains(CGWeb.User)">
+            <summary>
+            Returns a value indicating whether the specified <see cref="T:CGWeb.User"/> is present in the room.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to check.</param>
+            <returns>
+            True if the user is connected to the room, false otherwise.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Gameroom.TryStartGame">
+            <summary>
+            Tries to starts the <see cref="T:CGWeb.Games.Game"/>. There must be enough players in the gameroom and all the players must be ready
+            in order for the method to succeed. You may not start a game a second time.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Gameroom.HandleGameEnded(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Game.Ended event. Raises Gameroom.GameEnded, sets the User.PlayerState to available and 
+            unsubscribes itself from the Game.Ended.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Gameroom.TryConnectUser(CGWeb.User)">
+            <summary>
+            Attempts to connect the specified <see cref="T:CGWeb.User"/> to the <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to connect.</param>
+            <returns>
+              <see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="M:CGWeb.Gameroom.CanUserJoin(CGWeb.User)">
+            <summary>
+            Returns a value indicating whether the user can join the current gameroom.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Gameroom.DisconnectUser(CGWeb.User,System.String)">
+            <summary>
+            Disconnects the specified <see cref="T:CGWeb.User"/> from the <see cref="T:CGWeb.UserRoom"/>
+            for the specified reason.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to be disconnected.</param>
+            <param name="reason">The reason why the user is being disconnected.</param>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="M:CGWeb.Gameroom.GetGameroomOfUser(CGWeb.User)">
+            <summary>
+            Gets the gameroom the specified <see cref="T:CGWeb.User"/> is in, or null if the user is not in a game.
+            </summary>
+            <param name="user">The user to get the gameroom for.</param>
+            <remarks>Update UserExtensions.GetGameroom`s documentation as you change this one</remarks>
+        </member>
+        <member name="E:CGWeb.Gameroom.GameStarting">
+            <summary>
+            An event raised just before the <see cref="T:CGWeb.Games.Game"/> begins.
+            Note: You may not subscribe the same method twice to this event.
+            </summary>
+        </member>
+        <member name="E:CGWeb.Gameroom.GameEnded">
+            <summary>
+            An event raised after the <see cref="T:CGWeb.Games.Game"/> ends.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Gameroom.Game">
+            <summary>
+            Gets or sets the <see cref="T:CGWeb.Games.Game"/> for the current <see cref="T:CGWeb.Gameroom"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Gameroom.HasStarted">
+            <summary>
+            Gets a value indicating whether the game has started.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Gameroom.Owner">
+            <summary>
+            Gets the <see cref="T:CGWeb.User"/> that currently owns the gameroom.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Gameroom.PlayersReadyStates">
+            <summary>
+            Gets a dictionary mapping each player to a value indicating whether he`s ready to start the game. Currently is not used.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Gameroom.Chat">
+            <summary>
+            Gets the <see cref="T:CGWeb.Chatroom"/> in the current gameroom.
+            </summary>
+        </member>
+        <member name="T:CGWeb.GuestUser">
+            <summary>
+            Represents a <see cref="T:CGWeb.User"/> who lives only for his active session.
+            </summary>
+        </member>
+        <member name="M:CGWeb.GuestUser.#ctor(System.String)">
+            <summary>
+            Initializes a <see cref="T:CGWeb.GuestUser"/> with the specified username.
+            </summary>
+            <param name="username">The desired username.</param>
+        </member>
+        <member name="M:CGWeb.GuestUser.IsInRole(System.String)">
+            <summary>
+            Returns a value indicating whether the <see cref="T:CGWeb.GuestUser"/> is in the given role.
+            </summary>
+            <param name="role">The role to test the <see cref="T:CGWeb.GuestUser"/> against.</param>
+        </member>
+        <member name="T:CGWeb.GuestUserEntity">
+            <summary>
+            A class holding basic info about the <see cref="T:CGWeb.GuestUser"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.GuestUserEntity.ToString">
+            <summary>
+            Returns a string that represents the current <see cref="T:CGWeb.GuestUser"/> by his username, id and last login..
+            </summary>
+        </member>
+        <member name="P:CGWeb.GuestUserEntity.Name">
+            <summary>
+            Gets the name of the <see cref="T:CGWeb.GuestUser"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.GuestUserEntity.Id">
+            <summary>
+            Gets the <see cref="T:CGWeb.GuestUser"/>`s id.
+            </summary>
+        </member>
+        <member name="P:CGWeb.GuestUserEntity.LastLogOnDate">
+            <summary>
+            Gets the last time the <see cref="T:CGWeb.GuestUser"/> has logged on.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Lobby">
+            <summary>
+            Represents the lobby, gathering place for all players.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.OnUserRoomCreated(CGWeb.UserRoomEventArgs)">
+            <summary>
+            Call this method to raise the <see cref="E:CGWeb.Lobby.UserRoomCreated"/> event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.OnUserRoomClosing(CGWeb.UserRoomEventArgs)">
+            <summary>
+            Call this method to raise the Closing event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.OnUserRoomClosed(CGWeb.UserRoomEventArgs)">
+            <summary>
+            Call this method to raise the UserRoomClosed event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.OnCustomGameCreated(CGWeb.UserRoomEventArgs)">
+            <summary>
+            Call this method to raise the CustomGameCreated event.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.Init">
+            <summary>
+            Creates the instance of the <see cref="T:CGWeb.Lobby"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.TryLogOnUser(CGWeb.User)">
+            <summary>
+            Attempts to log the specified <see cref="T:CGWeb.User"/> in. 
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to log in.</param>
+            <returns>Update UserExtensions.TryLogOn documentation as you change this one.</returns>
+            <exception cref="T:System.ArgumentNullException">User is null</exception>
+        </member>
+        <member name="M:CGWeb.Lobby.LogOffUser(CGWeb.User)">
+            <summary>
+            Logs the specified <see cref="T:CGWeb.User"/> out.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to be logged out</param>
+            <exception cref="T:System.ArgumentNullException">User is null</exception>
+            <remarks>Update UserExtensions.LogOff documentation as you change this one.</remarks>
+        </member>
+        <member name="M:CGWeb.Lobby.GetLoggedUsers">
+            <summary>
+            Gets a list of all currently logged on users.
+            </summary>
+            <returns>
+            A instance of <see cref="T:System.Collections.Generic.IEnumerable`1"/> containing all logged on users
+            at the time that the call was made.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Lobby.GetChatrooms">
+            <summary>
+            Gets a list of all active <see cref="T:CGWeb.Chatroom"/>s.
+            </summary>
+            <returns>
+            A instance of <see cref="T:System.Collections.Generic.IEnumerable`1"/> containing all custom <see cref="T:CGWeb.Chatroom"/>
+            at the time that the call was made.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Lobby.GetCustomGamerooms">
+            <summary>
+            Gets a list of all custom <see cref="T:CGWeb.Gameroom"/>s.
+            </summary>
+            <returns>
+            A instance of <see cref="T:System.Collections.Generic.IEnumerable`1"/> containing all custom
+            <see cref="T:CGWeb.Gameroom"/>
+            at the time that the call was made.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Lobby.FindUserByName(System.String)">
+            <summary>
+            Finds a user by his <see cref="T:CGWeb.User"/> or returns null if no such <see cref="T:CGWeb.User"/> is logged on.
+            </summary>
+            <param name="username">The username of the <see cref="T:CGWeb.User"/> that you seek.</param>
+            <returns>The <see cref="T:CGWeb.User"/> if the user is logged on, null otherwise</returns>
+        </member>
+        <member name="M:CGWeb.Lobby.FindUserById(System.String)">
+            <summary>
+            Finds a <see cref="T:CGWeb.User"/> by his id or returns null if no such <see cref="T:CGWeb.User"/> is logged on.
+            </summary>
+            <param name="id">The id of the <see cref="T:CGWeb.User"/> that you seek.</param>
+            <returns>The <see cref="T:CGWeb.User"/> if the used is logged on, null otherwise</returns>
+        </member>
+        <member name="M:CGWeb.Lobby.FindChatroom(System.String)">
+            <summary>
+            Finds and returns a <see cref="T:CGWeb.Chatroom"/> by its id or null if such doesnt exist.
+            </summary>
+            <param name="roomId">The id to look for.</param>
+            <returns>An instance of <see cref="T:CGWeb.Chatroom"/> in the lobby, null if the null doesnt exists.</returns>
+        </member>
+        <member name="M:CGWeb.Lobby.FindGameroom(System.String)">
+            <summary>
+            Finds and returns a <see cref="T:CGWeb.Gameroom"/> by its id or null if such doesnt exist.
+            </summary>
+            <param name="gameroomId">The id to look for.</param>
+            <returns>An instance of <see cref="T:CGWeb.Gameroom"/> in the lobby, null if the null doesnt exists.</returns>
+        </member>
+        <member name="M:CGWeb.Lobby.FilterGamerooms(CGWeb.Games.GameFilter)">
+            <summary>
+            Filters the custom gamerooms by the specified <see cref="T:CGWeb.Games.GameFilter"/>.
+            </summary>
+            <param name="filter">The filtering to be applied.</param>
+            <returns>A subset of all gamerooms containing only those that apply to the criteria the 
+            <see cref="T:CGWeb.Games.GameFilter"/></returns>
+        </member>
+        <member name="M:CGWeb.Lobby.TryQueueUserForGame(CGWeb.User,CGWeb.Games.Game,System.EventHandler)">
+            <summary>
+            Attempts to queue the <see cref="T:CGWeb.User"/> for playing the specified game. If successful, this method immediately adds the <see cref="T:CGWeb.User"/>
+            into a automated <see cref="T:CGWeb.Gameroom"/> that waits until it has been filled with enough players.
+            The game starts right after the latter condition has been met.
+            <para>
+            In order to be notified when the game is starting, provide a not null event handler for the Gameroom.GameStarting event. 
+            (Any JS clients are notified automatically)
+            </para>
+            </summary>
+            <param name="user">The user to queue.</param>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> for which the player wants to queue.</param>
+            <param name="gameStartingHandler">A <see cref="T:System.EventHandler"/> to be called when the <see cref="T:CGWeb.Games.Game"/> starting</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.IActionResult"/> containing information about the result of the operation.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            user
+            or
+            game
+            </exception>
+        </member>
+        <member name="M:CGWeb.Lobby.LeaveQueue(CGWeb.User)">
+            <summary>
+            Causes the specified <see cref="T:CGWeb.User"/> to leave the game queue.
+            </summary>
+            <param name="user">The user to remove from the queue.</param>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="M:CGWeb.Lobby.TryCreateCustomGame(CGWeb.User,System.String,CGWeb.Games.Game)">
+            <summary>
+            Attempts to create a custom <see cref="T:CGWeb.Gameroom"/> for the specified <see cref="T:CGWeb.User"/> with the specified name and game to host.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> that requests the game`s creation</param>
+            <param name="gameroomName">The name of the gameroom.</param>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> that the gameroom will host.</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.ParameterizedActionResult`1"/>,
+            containing information about the success of the operation and the <see cref="T:CGWeb.Gameroom"/> itself if successful.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            user
+            or
+            gameroomName
+            or
+            game
+            </exception>
+        </member>
+        <member name="M:CGWeb.Lobby.TryCreateChatroom(CGWeb.User,System.String)">
+            <summary>
+            Attempts to create a <see cref="T:CGWeb.Chatroom"/> and add the <see cref="T:CGWeb.User"/> it in.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> creating the room and its first inhabitant.</param>
+            <param name="name">The chat`s name.</param>
+            <returns> 
+            An instance of <see cref="T:CGWeb.ParameterizedActionResult`1"/>,
+            containing information about the success of the operation and the <see cref="T:CGWeb.Chatroom"/> itself if successful.</returns>
+            <exception cref="T:System.ArgumentNullException">user or name</exception>
+        </member>
+        <member name="M:CGWeb.Lobby.TryCloseCustomGame(CGWeb.Gameroom)">
+            <summary>
+            Attempts to close the specified user created <see cref="T:CGWeb.Gameroom"/>.
+            </summary>
+            <param name="gameroom">The gameroom to close.</param>
+            <returns>
+            An instance of <see cref="T:CGWeb.IActionResult"/> containing information about the success of the action.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">gameroom</exception>
+        </member>
+        <member name="M:CGWeb.Lobby.CloseGameroom(CGWeb.Gameroom)">
+            <summary>
+            Closes the given gameroom disregarding its origin.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Lobby.TryCloseChatroom(CGWeb.Chatroom)">
+            <summary>
+            Attempts to disconnect all <see cref="T:CGWeb.User"/>s from the given <see cref="T:CGWeb.Chatroom"/> and to close it.
+            </summary>
+            <param name="chat">The <see cref="T:CGWeb.Chatroom"/> to be disposed.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CGWeb.Lobby.CloseUserRoom(CGWeb.UserRoom)">
+            <summary>
+            Closes a room by disconnecting all the players. Raises events for closing the room.
+            </summary>
+        </member>
+        <member name="E:CGWeb.Lobby.UserRoomCreated">
+            <summary>
+            Raised whenever a <see cref="T:CGWeb.UserRoom"/> has been created. Used internally to hook notifiers for
+            JS clients.
+            </summary>
+        </member>
+        <member name="E:CGWeb.Lobby.UserRoomClosing">
+            <summary>
+            Raised before a <see cref="T:CGWeb.UserRoom"/> is closed.
+            </summary>
+        </member>
+        <member name="E:CGWeb.Lobby.UserRoomClosed">
+            <summary>
+            Raised after a <see cref="T:CGWeb.UserRoom"/> is closed.
+            </summary>
+        </member>
+        <member name="E:CGWeb.Lobby.CustomGameCreated">
+            <summary>
+            Raised after a custom <see cref="T:CGWeb.Gameroom"/> is created.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Lobby.Instance">
+            <summary>
+            Gets the active <see cref="T:CGWeb.Lobby"/> instance.
+            </summary>
+        </member>
+        <member name="T:CGWeb.MatchMaker">
+            <summary>
+            Static class for matching queued players in automated gamelobbies.
+            </summary>
+        </member>
+        <member name="M:CGWeb.MatchMaker.FindAppropriateRoom(CGWeb.Games.Game,System.Collections.Generic.ICollection{CGWeb.Gameroom})">
+            <summary>
+            Find the best open <see cref="T:CGWeb.Gameroom"/>.
+            </summary>
+            <param name="game">The <see cref="T:CGWeb.Games.Game"/> to look for.</param>
+            <param name="rooms">Collection of the <see cref="T:CGWeb.Gameroom"/> to look in.</param>
+        </member>
+        <member name="T:CGWeb.ServerSettings">
+            <summary>
+            Struct holding all current server settings.
+            </summary>
+        </member>
+        <member name="F:CGWeb.ServerSettings.GameroomCreatedChatNameEnding">
+            <summary>
+            Gets the string to be appended to a <see cref="T:CGWeb.Chatroom"/>`s name when it has been created as part of a <see cref="T:CGWeb.Gameroom"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.ServerSettings.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.ServerSettings.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="P:CGWeb.ServerSettings.RoomCreationInterval">
+            <summary>
+            Gets or sets the interval at which users may create new rooms.
+            </summary>
+        </member>
+        <member name="P:CGWeb.ServerSettings.DisconnectInterval">
+            <summary>
+            Gets or sets the interval at which users are to be logged off after they have disconnected from the hub.
+            </summary>
+        </member>
+        <member name="P:CGWeb.ServerSettings.Default">
+            <summary>
+            Gets the default server settings.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Games.GameInfo">
+            <summary>
+            Contains basic information about a <see cref="T:CGWeb.Games.Game"/>
+            </summary>
+        </member>
+        <member name="M:CGWeb.Games.GameInfo.#ctor(System.Type,System.Type,System.Type,System.Func{CGWeb.Games.IGameCreationArgs,CGWeb.Games.Game})">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Games.GameInfo"/> instance with the specified parameters.
+            </summary>
+            <param name="game">The type of the game.</param>
+            <param name="gameArgs">The type of the game`s creationg arguments.</param>
+            <param name="gameHub">The type of the hub that will serve the game.</param>
+            <param name="activator">The function to instantiate the game.</param>
+        </member>
+        <member name="P:CGWeb.Games.GameInfo.GameType">
+            <summary>
+            Gets the type of the game.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.GameInfo.GameCreationArgsType">
+            <summary>
+            Gets the type of the arguments to be supplied when instantiating the game.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.GameInfo.GameHubType">
+            <summary>
+            Gets the type of the hub 
+            </summary>
+        </member>
+        <member name="P:CGWeb.Games.GameInfo.Activator">
+            <summary>
+            Gets the activator function of the game.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Games.WebResource">
+            <summary>
+            Represents a resource found over the web.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Games.WebResource.#ctor(System.String)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Games.WebResource"/> with the specified path.
+            </summary>
+            <param name="path">The path at which the <see cref="T:CGWeb.Games.WebResource"/> is.</param>
+        </member>
+        <member name="M:CGWeb.Games.WebResource.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Games.WebResource.Equals(CGWeb.Games.WebResource)">
+            <summary>
+            Determines whether the specified <see cref="T:CGWeb.Games.WebResource"/> is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:CGWeb.Games.WebResource"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:CGWeb.Games.WebResource"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Games.WebResource.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:CGWeb.Games.WebResource.op_Equality(CGWeb.Games.WebResource,CGWeb.Games.WebResource)">
+            <summary>
+            Tests web respources for equality.
+            </summary>
+            <param name="value1">Source web respource.</param>
+            <param name="value2">Source web respource.</param>
+            <returns>True if the web respources are equal, otherwise false</returns>
+        </member>
+        <member name="M:CGWeb.Games.WebResource.op_Inequality(CGWeb.Games.WebResource,CGWeb.Games.WebResource)">
+            <summary>
+            Tests web respources for inequality.
+            </summary>
+            <param name="value1">Source web respource.</param>
+            <param name="value2">Source web respource.</param>
+            <returns>True if the web respources are not equal, otherwise false</returns>
+        </member>
+        <member name="P:CGWeb.Games.WebResource.Path">
+            <summary>
+            Gets the path to the web resource.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Hubs.CGWebHubPipelineModule">
+            <summary>
+            A <see cref="T:Microsoft.AspNet.SignalR.Hubs.HubPipelineModule"/> that handles connections to and from CGWeb.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.CGWebHubPipelineModule.OnBeforeConnect(Microsoft.AspNet.SignalR.Hubs.IHub)">
+            <summary>
+            This method is called before the connect components of any modules added later to the <see cref="T:Microsoft.AspNet.SignalR.Hubs.IHubPipeline" /> are
+            executed. If this returns false, then those later-added modules and the <see cref="M:Microsoft.AspNet.SignalR.Hubs.IHub.OnConnected" /> method will
+            not be run.
+            </summary>
+            <param name="hub">The hub the client has connected to.</param>
+            <returns>
+            true, if the connect components of later added modules and the <see cref="M:Microsoft.AspNet.SignalR.Hubs.IHub.OnConnected" /> method should be executed;
+            false, otherwise.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Hubs.CGWebHubPipelineModule.OnBeforeDisconnect(Microsoft.AspNet.SignalR.Hubs.IHub)">
+            <summary>
+            This method is called before the disconnect components of any modules added later to the <see cref="T:Microsoft.AspNet.SignalR.Hubs.IHubPipeline" /> are
+            executed. If this returns false, then those later-added modules and the <see cref="M:Microsoft.AspNet.SignalR.Hubs.IHub.OnDisconnected" /> method will
+            not be run.
+            </summary>
+            <param name="hub">The hub the client has disconnected from.</param>
+            <returns>
+            true, if the disconnect components of later added modules and the <see cref="M:Microsoft.AspNet.SignalR.Hubs.IHub.OnDisconnected" /> method should be executed;
+            false, otherwise.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Hubs.CGWebHubPipelineModule.OnBeforeReconnect(Microsoft.AspNet.SignalR.Hubs.IHub)">
+            <summary>
+            This method is called before the reconnect components of any modules added later to the <see cref="T:Microsoft.AspNet.SignalR.Hubs.IHubPipeline" /> are
+            executed. If this returns false, then those later-added modules and the <see cref="M:Microsoft.AspNet.SignalR.Hubs.IHub.OnReconnected" /> method will
+            not be run.
+            </summary>
+            <param name="hub">The hub the client has reconnected to.</param>
+            <returns>
+            true, if the reconnect components of later added modules and the <see cref="M:Microsoft.AspNet.SignalR.Hubs.IHub.OnReconnected" /> method should be executed;
+            false, otherwise.
+            </returns>
+        </member>
+        <member name="T:CGWeb.Hubs.ChatroomHub">
+            <summary>
+            Class handling communication between the clients and the chat module.
+            Contains method for joining/leaving <see cref="T:CGWeb.Chatroom"/> 
+            and sending/whispering/receiving messages.
+            </summary>
+            <remarks>
+            Raises the following events on the client side:
+            	<para>- chatroomClosing(<see cref="T:CGWeb.Chatroom"/> chatroom);</para>
+            	<para>- messageReceived(<see cref="T:System.String"/> chatroomId, <see cref="T:System.String"/> message);</para>
+            	<para>- whispered(<see cref="T:System.String"/> message);</para>
+            	<para></para>
+            	<para>- userJoined(<see cref="T:CGWeb.User"/> user);</para>
+            	<para>- userLeft(<see cref="T:CGWeb.User"/> user, <see cref="T:System.String"/> reason);</para>
+            	<para>- invitedToChat(<see cref="T:System.String"/> chatId, <see cref="T:CGWeb.User"/> user);</para>
+            </remarks>
+        </member>
+        <member name="M:CGWeb.Hubs.ChatroomHub.TryCreateChatroom(System.String)">
+            <summary>
+            Attempts to create a chatroom for the caller.
+            </summary>
+            <param name="name">The name of the chatroom.</param>
+            <returns><see cref="T:CGWeb.ParameterizedActionResult`1"/> containing information about the success of the action 
+            and the <see cref="T:CGWeb.Chatroom"/> itself is successful</returns>
+        </member>
+        <member name="M:CGWeb.Hubs.ChatroomHub.InviteToChat(System.String,System.String[])">
+            <summary>
+            Sends an invitation to the users with the specified usernames to the specified chat from the caller.
+            </summary>
+            <param name="chatId">The id of the chatroom to invite the users to.</param>
+            <param name="usernames">A collection of usernames to look for.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.ChatroomHub.TryJoinChatroom(System.String)">
+            <summary>
+            Attempts to add the caller to the chatroom with the specified id.
+            </summary>
+            <param name="roomId">The id of the chatroom to look for.</param>
+            <returns><see cref="T:CGWeb.ParameterizedActionResult`1"/> containing information about the success of the action 
+            and the <see cref="T:CGWeb.Chatroom"/> itself is successful</returns>
+        </member>
+        <member name="M:CGWeb.Hubs.ChatroomHub.LeaveChatroom(System.String)">
+            <summary>
+            Removes the caller from the chatroom with the specified id.
+            </summary>
+            <param name="roomId"></param>
+        </member>
+        <member name="M:CGWeb.Hubs.ChatroomHub.SendMessage(System.String,System.String)">
+            <summary>
+            Sends a message to the chatroom with the specified id and the specified text from the name of the caller.
+            </summary>
+            <param name="roomId">The id of the chatroom.</param>
+            <param name="text">The text of the message.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.ChatroomHub.Whisper(System.String,System.String)">
+            <summary>
+            Sends a whisper to the user with the specified username and the specified text from the name of the caller.
+            </summary>
+            <param name="username">The recipient of the message.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="T:CGWeb.Hubs.GameroomHub">
+            <summary>
+            Class handling communication between the clients and the games module. 
+            Contains methods for joining/leaving/queuing/starting games.
+            </summary>
+            <remarks>
+            Raises the following events on the client side:
+            	<para>- gameroomClosing();</para>
+            	<para>- gameStarting();</para>
+            	<para>- gameEnded();</para>
+            	<para></para>
+            	<para>- userJoined(<see cref="T:System.String"/> gameroomId, <see cref="T:CGWeb.User"/> user);</para>
+            	<para>- userLeft(<see cref="T:System.String"/> gameroomId, <see cref="T:CGWeb.User"/> user, <see cref="T:System.String"/> reason);</para>
+            	<para>- invitedToGame(<see cref="T:System.String"/> gameroomId, <see cref="T:CGWeb.User"/> user);</para>
+            </remarks>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.TryCreateCustomGameroom(System.String,System.String,System.String)">
+            <summary>
+            Attempts to create a custom chatroom from the caller`s behalf with the specified parameters.
+            </summary>
+            <param name="roomName">The name of the gameroom.</param>
+            <param name="gameName">The name of the game to be played.</param>
+            <param name="mode">JSON contaning information about the appropriate IGameArgs.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.InviteToGameroom(System.String[])">
+            <summary>
+            Sends an invitation to the users with the specified usernames to the gameroom the caller is in.
+            </summary>
+            <param name="usernames">A collection of usernames to look for.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.TryJoinGameroom(System.String)">
+            <summary>
+            Attempts to add the caller to the gameroom with the specified id.
+            </summary>
+            <param name="gameroomId">The id of the game to connect.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.LeaveGameroom">
+            <summary>
+            Removes the caller from the currently inhabited gameroom.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.TryQueueForGame(System.String,System.String)">
+            <summary>
+            Attempts to enqueue the caller to an automated <see cref="T:CGWeb.Gameroom"/>
+            </summary>
+            <param name="gameName">The name of the game to play.</param>
+            <param name="mode">JSON object that can be parsed into the appropriate <see cref="T:CGWeb.Games.IGameCreationArgs"/></param>
+            <returns></returns>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.TryStartGame">
+            <summary>
+            Attempts to start the game.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.GameroomHub.KickPlayer(System.String,System.String)">
+            <summary>
+            Kick the player with the specified username and the specified reason.
+            </summary>
+            <param name="username">The username of the user to be kicked.</param>
+            <param name="reason">The reason of the kick.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.HubHelper.JoinRoom(CGWeb.User,CGWeb.UserRoom)">
+            <summary>
+            Joins a <see cref="T:CGWeb.UserRoom"/>. Encapsulates shared functions between the chat and the gameroom hub.
+            </summary>
+            <param name="user">The <see cref="T:CGWeb.User"/> to join the room.</param>
+            <param name="room">The <see cref="T:CGWeb.UserRoom"/> the user wants to be added to.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.HubHelper.LeaveRoom(CGWeb.User,CGWeb.UserRoom,System.String)">
+            <summary>
+            Leaves a <see cref="T:CGWeb.UserRoom"/>. Encapsulates shared functionality between the chat and the gameroom hub.
+            </summary>
+            <param name="user">The user to disconnect.</param>
+            <param name="room">The room from which to disconnect the user.</param>
+            <param name="reason">The reason why the user is disconnected.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.HubHelper.SetUserConnectionId(CGWeb.User,System.String)">
+            <summary>
+            Sets the connection id of the user. Call everytime a user connects to a hub with a different
+            connection id than the current one.
+            </summary>
+            <param name="user">The user to update.</param>
+            <param name="newConnectionId">The new connection id to use.</param>
+        </member>
+        <member name="T:CGWeb.Hubs.LobbyHub">
+            <summary>
+            Class handling communication between clients and the <see cref="T:CGWeb.Lobby"/>.
+            </summary>
+            <remarks>
+            Raises the following events on the client side:
+            	<para>- userLoggedIn(<see cref="T:CGWeb.User"/> user);</para>
+            	<para>- userLoggedOut(<see cref="T:CGWeb.User"/> user);</para>
+            	<para>- customGameCreated(<see cref="T:CGWeb.Gameroom"/> gameroom);</para>
+            	<para>- customGameClosed(<see cref="T:CGWeb.Gameroom"/> gameroom);</para>
+            	<para>- invalidatedConnection();</para>
+            </remarks>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.PollGameroomInfo">
+            <summary>
+            Polls the server for information about the <see cref="T:CGWeb.Gameroom"/> the user is currently in.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.PollChatroomInfo(System.String)">
+            <summary>
+            Polls the server for information about the <see cref="T:CGWeb.Chatroom"/> with the specified id.
+            </summary>
+            <param name="chatroomId">The id of the <see cref="T:CGWeb.Chatroom"/> to look up.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.PollChatroomInfo">
+            <summary>
+            Polls the server for information about all <see cref="T:CGWeb.Chatroom"/> the current <see cref="T:CGWeb.User"/> is in.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.PollUserInfo(System.String)">
+            <summary>
+            Polls the server for information about the <see cref="T:CGWeb.User"/> with the specified username.
+            </summary>
+            <param name="username">The username of the <see cref="T:CGWeb.User"/> to look up.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.PollUserInfo">
+            <summary>
+            Polls the server for information about the current <see cref="T:CGWeb.User"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.FilterGamerooms(CGWeb.Games.GameFilter)">
+            <summary>
+            Polls the server for information about all custom games that the specified filter applies to.
+            </summary>
+            <param name="filter">The filter to apply.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.LobbyHub.SendSystemNotification(System.String,CGWeb.User)">
+            <summary>
+            Sends a notification to the specified user.
+            </summary>
+            <param name="message">The text of the message.</param>
+            <param name="user">The <see cref="T:CGWeb.User"/> to send the notification to.</param>
+        </member>
+        <member name="T:CGWeb.Hubs.UserRoomInfo">
+            <summary>
+            Simple DTO used for sending information about a <see cref="T:CGWeb.UserRoom"/> to the client.
+            Needed since we cannot serialize the UserRoom.GetUsers() since it`s a method.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.UserRoomInfo.#ctor(CGWeb.UserRoom)">
+            <summary>
+            Constructs a new <see cref="T:CGWeb.Hubs.UserRoomInfo"/> object, carrying information about the specified 
+            <see cref="T:CGWeb.UserRoom"/>.
+            </summary>
+            <param name="room">The room to hold information about</param>
+        </member>
+        <member name="P:CGWeb.Hubs.UserRoomInfo.Room">
+            <summary>
+            Gets the room this <see cref="T:CGWeb.Hubs.UserRoomInfo"/> holds;
+            </summary>
+        </member>
+        <member name="P:CGWeb.Hubs.UserRoomInfo.Users">
+            <summary>
+            Gets the users of the current <see cref="T:CGWeb.UserRoom"/>.
+            <see cref="T:CGWeb.Hubs.UserRoomInfo"/> was created.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Math.Color">
+            <summary>
+            Represents a color defined with the 3 basic channels - RedColor, GreenColor and BlueColor. Note: This class`s color definitions are NOT optimized in any way, dont overuse it
+            </summary>
+        </member>
+        <member name="M:CGWeb.Math.Color.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Initializes a new Color with the specified values for the red, green and blue channels.
+            </summary>
+            <param name="red">The red channel value.</param>
+            <param name="green">The green channel value.</param>
+            <param name="blue">The blue channel value.</param>
+        </member>
+        <member name="M:CGWeb.Math.Color.#ctor(System.Byte)">
+            <summary>
+            Initializes a new Color by setting the given value to all channels.
+            </summary>
+            <param name="rgb">The red, green and blue channel value.</param>
+        </member>
+        <member name="M:CGWeb.Math.Color.Equals(CGWeb.Math.Color)">
+            <summary>
+            Determines whether the specified <see cref="T:CGWeb.Math.Color"/> is equal to this instance.
+            </summary>
+            <param name="color">The <see cref="T:CGWeb.Math.Color"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:CGWeb.Math.Color"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Math.Color.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Math.Color.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:CGWeb.Math.Color.op_Equality(CGWeb.Math.Color,CGWeb.Math.Color)">
+            <summary>
+            Tests color for equality.
+            </summary>
+            <param name="value1">Source color.</param>
+            <param name="value2">Source color.</param>
+            <returns>True if the color are true, otherwise else</returns>
+        </member>
+        <member name="M:CGWeb.Math.Color.op_Inequality(CGWeb.Math.Color,CGWeb.Math.Color)">
+            <summary>
+            Tests color for inequality.
+            </summary>
+            <param name="value1">Source color.</param>
+            <param name="value2">Source color.</param>
+            <returns>True if the color are not equal, otherwise false</returns>
+        </member>
+        <member name="M:CGWeb.Math.Color.ToString">
+            <summary>
+            Stringifies the color. Returns a string that can be used in css/html.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CGWeb.Math.Color.FromName(System.String)">
+            <summary>
+            Returns a color from the specified string.
+            </summary>
+            <param name="color">The string to get the color from.</param>
+        </member>
+        <member name="P:CGWeb.Math.Color.Red">
+            <summary>
+            Gets or sets the red component of the color.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Green">
+            <summary>
+            Gets or sets the green component of the color.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Blue">
+            <summary>
+            Gets or sets the blue component of the color.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.White">
+            <summary>
+            Gets a system-defined color that has an RGB value of #FFFFFF.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Black">
+            <summary>
+            Gets a system-defined color that has an RGB value of #000000.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.RedColor">
+            <summary>
+            Gets a system-defined color that has an RGB value of #FF0000.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.GreenColor">
+            <summary>
+            Gets a system-defined color that has an RGB value of #008000.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.BlueColor">
+            <summary>
+            Gets a system-defined color that has an RGB value of #0000FF.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Gray">
+            <summary>
+            Gets a system-defined color that has an RGB value of #808080.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Purple">
+            <summary>
+            Gets a system-defined color that has an RGB value of #800080.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Yellow">
+            <summary>
+            Gets a system-defined color that has an RGB value of #FFFF00.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.Orange">
+            <summary>
+            Gets a system-defined color that has an RGB value of #FFA500.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Math.Color.DodgerBlue">
+            <summary>
+            Gets a system-defined color that has an RGB value of #1E00FF.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Math.MathHelper">
+            <summary>
+            Class providing extension methods for easing commonly found math problems.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Math.MathHelper.IsInClosedInterval(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Determines whether the given value is in the closed interval specified by its left and right borders.
+            </summary>
+            <param name="value">The value to check.</param>
+            <param name="left">The left side of the closed interval</param>
+            <param name="right">The right side of the closed interval</param>
+        </member>
+        <member name="M:CGWeb.Math.MathHelper.Clamp(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Clamps the given integer in the specified range.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Math.Point">
+            <summary>
+            Represents a point in a carthesian coordinate system.
+            </summary>
+        </member>
+        <member name="F:CGWeb.Math.Point.X">
+            <summary>
+            Gets or sets the X component of the point.
+            </summary>
+        </member>
+        <member name="F:CGWeb.Math.Point.Y">
+            <summary>
+            Gets or sets the Y component of the point.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Math.Point.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of a Point with the specified x and y coordinates.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:CGWeb.Math.Point.Equals(CGWeb.Math.Point)">
+            <summary>
+            Determines whether the specified <see cref="T:CGWeb.Math.Point"/> is equal to this instance.
+            </summary>
+            <param name="point">The <see cref="T:CGWeb.Math.Point"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:CGWeb.Math.Point"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Math.Point.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Math.Point.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:CGWeb.Math.Point.op_Equality(CGWeb.Math.Point,CGWeb.Math.Point)">
+            <summary>
+            Tests points for equality.
+            </summary>
+            <param name="value1">Source point.</param>
+            <param name="value2">Source point</param>
+            <returns>True if the points are equal, otherwise else</returns>
+        </member>
+        <member name="M:CGWeb.Math.Point.op_Inequality(CGWeb.Math.Point,CGWeb.Math.Point)">
+            <summary>
+            Tests points for inequality.
+            </summary>
+            <param name="value1">Source point.</param>
+            <param name="value2">Source point</param>
+            <returns>True if the points are not equal, otherwise else</returns>
+        </member>
+        <member name="T:CGWeb.Services.CGWebModule">
+            <summary>
+            HttpModule that handles authentication for the CGWeb platform.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Services.CGWebModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Initializes a module and prepares it to handle requests.
+            </summary>
+            <param name="context">An <see cref="T:System.Web.HttpApplication" /> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application</param>
+        </member>
+        <member name="M:CGWeb.Services.CGWebModule.Dispose">
+            <summary>
+            Disposes of the resources (other than memory) used by the module that implements <see cref="T:System.Web.IHttpModule" />.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.CGWebRequest">
+            <summary>
+            Represents a request to CGWeb. It`s a simple custom wrapper around the original <see cref="T:System.Web.HttpRequest"/>
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.IRequest">
+            <summary>
+            Represents a request to CGWeb. It`s a simple custom wrapper around the original <see cref="T:System.Web.HttpRequest"/>
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.Cookies">
+            <summary>
+            Gets a collection of the cookies sent by the client.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.Form">
+            <summary>
+            Gets a collection of form variables.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.Headers">
+            <summary>
+            Gets a collection of HTTP headers.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.QueryString">
+            <summary>
+            Gets a collection of HTTP query string variables.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.ServerVariables">
+            <summary>
+            Gets a collection of Web server variables.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.Url">
+            <summary>
+            Gets information about the URL of the current request.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.IRequest.User">
+            <summary>
+            Gets the <see cref="T:CGWeb.User"/> that initiated the request.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Services.CGWebRequest.#ctor(System.Web.HttpRequest)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Services.CGWebRequest"/> around the specified <see cref="T:System.Web.HttpRequest"/>.
+            </summary>
+            <param name="request">The request to wrap.</param>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.Cookies">
+            <summary>
+            Gets a collection of the cookies sent by the client.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.Form">
+            <summary>
+            Gets a collection of form variables.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.Headers">
+            <summary>
+            Gets a collection of HTTP headers.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.QueryString">
+            <summary>
+            Gets a collection of HTTP query string variables.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.ServerVariables">
+            <summary>
+            Gets a collection of Web server variables.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.Url">
+            <summary>
+            Gets information about the URL of the current request.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.CGWebRequest.User">
+            <summary>
+            Gets the <see cref="T:CGWeb.User"/> that initiated the request.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.DefaultAuthenticator">
+            <summary>
+            Default implementation for <see cref="T:CGWeb.Services.IAuthenticator"/>.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.IAuthenticator">
+            <summary>
+            Defines methods for authenticating <see cref="T:CGWeb.User"/>s.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Services.IAuthenticator.Authenticate(CGWeb.Services.IRequest)">
+            <summary>
+            Authenticates the <see cref="T:CGWeb.User"/> based on the current <see cref="T:CGWeb.Services.IRequest"/>. 
+            Should return a <see cref="T:CGWeb.User"/> who is already logged on the main <see cref="T:CGWeb.Lobby"/> or null if the authentication fails.
+            </summary>
+            <param name="request">The request to the server.</param>
+        </member>
+        <member name="M:CGWeb.Services.DefaultAuthenticator.Authenticate(CGWeb.Services.IRequest)">
+            <summary>
+            Authenticates the <see cref="T:CGWeb.User"/> based on the current <see cref="T:CGWeb.Services.IRequest"/>. 
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.DefaultMessageCenter">
+            <summary>
+            Provides default implementation for the <see cref="T:CGWeb.Services.IMessageCenter"/> interface.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.IMessageCenter">
+            <summary>
+            Defines a service for formatting the chat messages that the clients receive.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Services.IMessageCenter.FormatCommon(CGWeb.User,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Formats a normal message in the chat.
+            </summary>
+            <param name="author">The author of the message.</param>
+            <param name="timestamp">The date and time in UTC when the message was send.</param>
+            <param name="timeZone">The time zone the recipient is in.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="M:CGWeb.Services.IMessageCenter.FormatWhisper(CGWeb.User,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Formats a whisper.
+            </summary>
+            <param name="author">The author of the message.</param>
+            <param name="timestamp">The date and time in UTC when the message was send.</param>
+            <param name="timeZone">The time zone the recipient is in.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="M:CGWeb.Services.IMessageCenter.FormatSystem(System.DateTime,System.Int32,System.String)">
+            <summary>
+            Formats a system message.
+            </summary>
+            <param name="timestamp">The date and time in UTC when the message was send.</param>
+            <param name="timeZone">The time zone the recipient is in.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="M:CGWeb.Services.DefaultMessageCenter.FormatCommon(CGWeb.User,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Formats a normal message in the chat. Returns Author:[localized timestamp]: text
+            </summary>
+            <param name="author">The author of the message.</param>
+            <param name="timestamp">The date and time in UTC when the message was send.</param>
+            <param name="timeZone">The time zone the recipient is in.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="M:CGWeb.Services.DefaultMessageCenter.FormatWhisper(CGWeb.User,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Formats a whisper. Returns Author[localized timestamp] whispers: text.
+            </summary>
+            <param name="author">The author of the message.</param>
+            <param name="timestamp">The date and time in UTC when the message was send.</param>
+            <param name="timeZone">The time zone the recipient is in.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="M:CGWeb.Services.DefaultMessageCenter.FormatSystem(System.DateTime,System.Int32,System.String)">
+            <summary>
+            Formats a system message. Returns the text on a new line.
+            </summary>
+            <param name="timestamp">The date and time in UTC when the message was send.</param>
+            <param name="timeZone">The time zone the recipient is in.</param>
+            <param name="text">The text of the message itself.</param>
+        </member>
+        <member name="T:CGWeb.Hubs.AuthorizeGameAttribute">
+            <summary>
+            Authorizes a <see cref="T:Microsoft.AspNet.SignalR.Hub"/>. Only authenticated players that 
+            are already playing the specified <see cref="T:CGWeb.Games.Game"/> may connect.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Hubs.AuthorizeGameAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new <see cref="T:CGWeb.Hubs.AuthorizeGameAttribute"/>.
+            </summary>
+            <param name="gameType">The type of the game that you want this hub to map to.</param>
+        </member>
+        <member name="M:CGWeb.Hubs.AuthorizeGameAttribute.UserAuthorized(System.Security.Principal.IPrincipal)">
+            <summary>
+            Authorizes the <see cref="T:System.Security.Principal.IPrincipal"/>.
+            </summary>
+            <param name="user">The user to authorize.</param>
+            <returns>True if the user is authorized, false otherwise.</returns>
+        </member>
+        <member name="P:CGWeb.Hubs.AuthorizeGameAttribute.GameType">
+            <summary>
+            Gets the type of the <see cref="T:CGWeb.Games.Game"/>, that
+            the <see cref="T:Microsoft.AspNet.SignalR.Hub"/> is hosting, that this attribute is applied to.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Services.RoleManager">
+            <summary>
+            Static class for managing roles of <see cref="T:CGWeb.User"/>s.
+            </summary>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.Guest">
+            <summary>
+            Gets the string used to denote the Guest role.
+            </summary>
+            <value>Guest</value>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.Chatter">
+            <summary>
+            Gets the string used to denote the Chatter role. A chatter may only use the chat hub.
+            </summary>
+            <value>Chatter</value>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.Player">
+            <summary>
+            Gets the string used to denote the Player role. A player may use all the hubs without the admin hub.
+            </summary>
+            <value>Player</value>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.Admin">
+            <summary>
+            Gets the string used to identify the Admin role. An admin may use all hubs.
+            </summary>
+            <value>Admin</value>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.Empty">
+            <summary>
+            Gets an empty string. This exists since string.Empty is static readonly and cannot be used in attribute properties.
+            </summary>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.ChatHubRoles">
+            <summary>
+            Gets a string holding all the roles that are allowed to use the chat.
+            </summary>
+            <value>Admin, Player, Chatter, Guest</value>
+        </member>
+        <member name="F:CGWeb.Services.RoleManager.GameroomHubRoles">
+            <summary>
+            Gets a string holding all the roles that are allowed to use the gamelobby hub.
+            </summary>
+            <value>Admin, Player, Guest</value>
+        </member>
+        <member name="T:CGWeb.Services.ServiceManager">
+            <summary>
+            Represents a service container. Use this class to register your service providers and <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Services.ServiceManager.RegisterService``1(System.Func{``0})">
+            <summary>
+            Registers the object returned by the given activator function to the given service.
+            </summary>
+            <typeparam name="T">The argsType of the service.</typeparam>
+            <param name="activator">Function that creates the service object.</param>
+        </member>
+        <member name="M:CGWeb.Services.ServiceManager.RegisterGame``3(System.Func{``1,``0})">
+            <summary>
+            Registers the specified game in the lobby allowing it to be played.
+            </summary>
+            <typeparam name="TGameArgs">The type of the arguments to supply when creating the <see cref="T:CGWeb.Games.Game"/>. 
+            Must inherit from <see cref="T:CGWeb.Games.IGameCreationArgs"/></typeparam>
+            <typeparam name="TGame">The type of the game itself. Must inherit from <see cref="T:CGWeb.Games.Game"/></typeparam>
+            <typeparam name="TGameHub">The hub that will handle the communication from/to the game. </typeparam>
+            <param name="activator">Function instantiating a <see cref="T:CGWeb.Games.Game"/> based on the given <see cref="T:CGWeb.Games.IGameCreationArgs"/></param>
+        </member>
+        <member name="M:CGWeb.Services.ServiceManager.ResolveGame(System.String)">
+            <summary>
+            Resolves the specified gameName to a registered <see cref="T:CGWeb.Games.Game"/>.
+            </summary>
+            <param name="gameName">The of the <see cref="T:CGWeb.Games.Game"/> to resolve for.</param>
+            <returns>
+            A <see cref="T:CGWeb.Games.GameInfo"/> object containing information about the <see cref="T:CGWeb.Games.Game"/> if
+            such exists, null otherwise.
+            </returns>
+        </member>
+        <member name="M:CGWeb.Services.ServiceManager.Init">
+            <summary>
+            Initializes default services and prepares CGWeb.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.ServiceManager.MessageCenter">
+            <summary>
+            Gets the current <see cref="T:CGWeb.Services.IMessageCenter"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.ServiceManager.Authenticator">
+            <summary>
+            Gets the current <see cref="T:CGWeb.Services.IAuthenticator"/>.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Services.ServiceManager.Settings">
+            <summary>
+            Gets or sets the settings to use for CGWeb.
+            </summary>
+        </member>
+        <member name="T:CGWeb.Utilities.MultiKey`2">
+            <summary>
+            Represents a key that can be used in a dual key dictionary. This class is a semantic version of Tuple.
+            </summary>
+        </member>
+        <member name="M:CGWeb.Utilities.MultiKey`2.#ctor(`0,`1)">
+            <summary>
+            Initializes a new dual key with the given pair of objects.
+            </summary>
+            <param name="key1">The first part of the key.</param>
+            <param name="key2">The second part of the key</param>
+        </member>
+        <member name="M:CGWeb.Utilities.MultiKey`2.GetHashCode">
+            <summary>
+            Returns a hash code for this instance.
+            </summary>
+            <returns>
+            A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
+            </returns>
+        </member>
+        <member name="M:CGWeb.Utilities.MultiKey`2.Equals(CGWeb.Utilities.MultiKey{`0,`1})">
+            <summary>
+            Indicates whether the current key is equal to another key.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Utilities.MultiKey`2.Key1">
+            <summary>
+            The first part of the dual key.
+            </summary>
+        </member>
+        <member name="P:CGWeb.Utilities.MultiKey`2.Key2">
+            <summary>
+            The second part of the dual key.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,8 @@
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Release\BigBombsAlgoTest.exe.config
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Release\BigBombsAlgoTest.exe
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Release\BigBombsAlgoTest.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Release\BigBombsAlgo.dll
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\bin\Release\BigBombsAlgo.pdb
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\obj\Release\BigBombsAlgoTest.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\obj\Release\BigBombsAlgoTest.exe
+C:\Users\Atanas\Documents\GitHub\BigBombsProject\BigBombsAlgoTest\obj\Release\BigBombsAlgoTest.pdb

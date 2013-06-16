@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sofia.Web", "Sofia.Web\Sofia.Web.csproj", "{4E90CC4E-4937-4160-A840-7E7E2F022CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sofia.Web.Tests", "Sofia.Web.Tests\Sofia.Web.Tests.csproj", "{1C63974E-574F-4402-841D-C72D6645AA8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{ED6DEAFB-8B81-4331-8497-31B5E1F6B01D}"
+	ProjectSection(SolutionItems) = preProject
+		External Libraries\Kendo.Mvc.dll = External Libraries\Kendo.Mvc.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sofia.Models", "Sofia.Models\Sofia.Models.csproj", "{6B1D4D24-5DCD-4D40-A0E0-ABA4B1733270}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sofiadev.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sofia.Web\\Sofia.Web.csproj
+		SccProjectName1 = Sofia.Web
+		SccLocalPath1 = Sofia.Web
+		SccProjectUniqueName2 = Sofia.Web.Tests\\Sofia.Web.Tests.csproj
+		SccProjectName2 = Sofia.Web.Tests
+		SccLocalPath2 = Sofia.Web.Tests
+		SccProjectUniqueName3 = Sofia.Models\\Sofia.Models.csproj
+		SccProjectName3 = Sofia.Models
+		SccLocalPath3 = Sofia.Models
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E90CC4E-4937-4160-A840-7E7E2F022CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E90CC4E-4937-4160-A840-7E7E2F022CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E90CC4E-4937-4160-A840-7E7E2F022CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E90CC4E-4937-4160-A840-7E7E2F022CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C63974E-574F-4402-841D-C72D6645AA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C63974E-574F-4402-841D-C72D6645AA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C63974E-574F-4402-841D-C72D6645AA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C63974E-574F-4402-841D-C72D6645AA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1D4D24-5DCD-4D40-A0E0-ABA4B1733270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1D4D24-5DCD-4D40-A0E0-ABA4B1733270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1D4D24-5DCD-4D40-A0E0-ABA4B1733270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1D4D24-5DCD-4D40-A0E0-ABA4B1733270}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

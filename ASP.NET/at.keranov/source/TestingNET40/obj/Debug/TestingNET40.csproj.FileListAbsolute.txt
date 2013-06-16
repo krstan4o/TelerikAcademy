@@ -1,0 +1,17 @@
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\TestingNET40.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\TestingNET40.pdb
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Newtonsoft.Json.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Owin.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\bin\Newtonsoft.Json.xml
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\obj\Debug\TestingNET40.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\obj\Debug\TestingNET40.dll
+C:\Users\krstan4o\Downloads\at.keranov\source\TestingNET40\obj\Debug\TestingNET40.pdb

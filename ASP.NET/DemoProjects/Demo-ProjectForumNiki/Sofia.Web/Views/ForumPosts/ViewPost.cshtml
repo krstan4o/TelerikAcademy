@@ -1,0 +1,29 @@
+﻿@model Sofia.Web.ViewModels.FullForumPostViewModel
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<h1>@ViewBag.Title</h1>
+@Html.Raw(Model.Content)
+
+@foreach (var answer in Model.Answers)
+{
+    <hr />
+    <p>
+        @answer.Username: @Html.Raw(answer.Content)
+    </p>
+}
+
+@using (Html.BeginForm("DoAnswer", "ForumPosts"))
+{
+    
+    <fieldset>
+        <legend>Answer</legend>
+        @Html.Hidden("ForumPostId", Model.Id)
+        @Html.Kendo().Editor().Name("Content").Value("").HtmlAttributes(new { col = 50 })
+        <p>
+            <input type="submit" value="New Answer" />
+        </p>
+    </fieldset>
+}
