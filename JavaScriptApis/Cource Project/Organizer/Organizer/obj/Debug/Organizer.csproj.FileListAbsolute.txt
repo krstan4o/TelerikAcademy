@@ -1,0 +1,5 @@
+D:\Telerik\JavaScriptApis\Cource Project\Organizer\Organizer\bin\Organizer.dll
+D:\Telerik\JavaScriptApis\Cource Project\Organizer\Organizer\bin\Organizer.pdb
+D:\Telerik\JavaScriptApis\Cource Project\Organizer\Organizer\obj\Debug\Organizer.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScriptApis\Cource Project\Organizer\Organizer\obj\Debug\Organizer.dll
+D:\Telerik\JavaScriptApis\Cource Project\Organizer\Organizer\obj\Debug\Organizer.pdb

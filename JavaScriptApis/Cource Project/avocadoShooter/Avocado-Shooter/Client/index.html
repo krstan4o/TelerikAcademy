@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <title>Avocado Shooter</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/game.css">
+    <script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="js/GameObject.js"></script>
+    <script src="http://localhost:80/socket.io/socket.io.js"></script>
+    <script src="js/localStorage.js"></script>
+    <script src="js/requestAnimationFrame.js"></script>
+    <script src="js/Keys.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/Bullet.js"></script>
+    <script src="js/rememberState.js"></script>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/game.css">
+</head>
+
+<body>
+    <div id="container"></div>
+    <p id="name">Name: Master</p>
+    <p id="playersOnline">Players online: 0</p>
+    <p id="hp">HP: 10 </p>
+    <p id="damage">Damage: 1</p>
+    <p id="deads">Deads:</p>
+    <canvas id="gameCanvas" width="1000" height="1000"></canvas>
+    <img src="imgs/share_button2.png" id="share_button" />
+    <p>
+        <fb:like></fb:like>
+    </p>
+    <div id="fb-root"></div>
+    <script src="js/facebook.js"></script>
+    <script>
+        init();
+        animate();
+        gameAudio();
+    </script>
+</body>
+</html>

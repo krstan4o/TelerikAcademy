@@ -1,0 +1,5 @@
+C:\Users\Plamen\Desktop\JS APP Project\avocado-shooter\Avocado-Shooter\bin\Avocado-Shooter.dll
+C:\Users\Plamen\Desktop\JS APP Project\avocado-shooter\Avocado-Shooter\bin\Avocado-Shooter.pdb
+C:\Users\Plamen\Desktop\JS APP Project\avocado-shooter\Avocado-Shooter\obj\Debug\Avocado-Shooter.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Desktop\JS APP Project\avocado-shooter\Avocado-Shooter\obj\Debug\Avocado-Shooter.dll
+C:\Users\Plamen\Desktop\JS APP Project\avocado-shooter\Avocado-Shooter\obj\Debug\Avocado-Shooter.pdb
