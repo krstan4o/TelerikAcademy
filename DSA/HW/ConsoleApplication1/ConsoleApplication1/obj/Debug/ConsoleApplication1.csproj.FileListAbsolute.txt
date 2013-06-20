@@ -1,6 +1,0 @@
-D:\Telerik\DSA\HW\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-D:\Telerik\DSA\HW\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-D:\Telerik\DSA\HW\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-D:\Telerik\DSA\HW\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
-D:\Telerik\DSA\HW\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-D:\Telerik\DSA\HW\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
