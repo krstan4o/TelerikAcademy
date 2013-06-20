@@ -1,0 +1,8 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\bin\Debug\_05.MOL.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\bin\Debug\_05.MOL.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\bin\Debug\_05.MOL.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\obj\Debug\_05.MOL.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\obj\Debug\_05.MOL.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\obj\Debug\05. MOL.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\bin\Debug\PowerCollections.dll
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\05. MOL\bin\Debug\PowerCollections.xml

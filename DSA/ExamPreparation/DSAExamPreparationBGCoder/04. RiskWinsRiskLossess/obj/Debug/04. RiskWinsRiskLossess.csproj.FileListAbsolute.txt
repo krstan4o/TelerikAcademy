@@ -1,0 +1,6 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\04. RiskWinsRiskLossess\bin\Debug\_04.RiskWinsRiskLossess.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\04. RiskWinsRiskLossess\bin\Debug\_04.RiskWinsRiskLossess.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\04. RiskWinsRiskLossess\bin\Debug\_04.RiskWinsRiskLossess.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\04. RiskWinsRiskLossess\obj\Debug\04. RiskWinsRiskLossess.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\04. RiskWinsRiskLossess\obj\Debug\_04.RiskWinsRiskLossess.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\04. RiskWinsRiskLossess\obj\Debug\_04.RiskWinsRiskLossess.pdb

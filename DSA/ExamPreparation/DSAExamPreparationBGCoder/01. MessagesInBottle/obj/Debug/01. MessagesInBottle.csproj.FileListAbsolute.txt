@@ -1,0 +1,6 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\01. MessagesInBottle\bin\Debug\_01.MessagesInBottle.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\01. MessagesInBottle\bin\Debug\_01.MessagesInBottle.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\01. MessagesInBottle\bin\Debug\_01.MessagesInBottle.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\01. MessagesInBottle\obj\Debug\01. MessagesInBottle.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\01. MessagesInBottle\obj\Debug\_01.MessagesInBottle.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\01. MessagesInBottle\obj\Debug\_01.MessagesInBottle.pdb

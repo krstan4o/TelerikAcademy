@@ -1,0 +1,6 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. AcademyTasks\bin\Debug\_02.AcademyTasks.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. AcademyTasks\bin\Debug\_02.AcademyTasks.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. AcademyTasks\bin\Debug\_02.AcademyTasks.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. AcademyTasks\obj\Debug\02. AcademyTasks.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. AcademyTasks\obj\Debug\_02.AcademyTasks.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. AcademyTasks\obj\Debug\_02.AcademyTasks.pdb
