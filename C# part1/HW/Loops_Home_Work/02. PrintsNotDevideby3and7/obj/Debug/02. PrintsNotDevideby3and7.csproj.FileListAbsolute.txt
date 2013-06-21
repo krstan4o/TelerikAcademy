@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\02. PrintsNotDevideby3and7\bin\Debug\_02.PrintsNotDevideby3and7.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\02. PrintsNotDevideby3and7\bin\Debug\_02.PrintsNotDevideby3and7.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\02. PrintsNotDevideby3and7\bin\Debug\_02.PrintsNotDevideby3and7.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\02. PrintsNotDevideby3and7\obj\Debug\_02.PrintsNotDevideby3and7.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\02. PrintsNotDevideby3and7\obj\Debug\_02.PrintsNotDevideby3and7.pdb

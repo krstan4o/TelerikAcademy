@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\Recursion_HW\05. SubsequenceVariations\bin\Debug\_05.SubsequenceVariations.exe.config
+D:\Telerik\DSA\HW\Recursion_HW\05. SubsequenceVariations\bin\Debug\_05.SubsequenceVariations.exe
+D:\Telerik\DSA\HW\Recursion_HW\05. SubsequenceVariations\bin\Debug\_05.SubsequenceVariations.pdb
+D:\Telerik\DSA\HW\Recursion_HW\05. SubsequenceVariations\obj\Debug\_05.SubsequenceVariations.exe
+D:\Telerik\DSA\HW\Recursion_HW\05. SubsequenceVariations\obj\Debug\_05.SubsequenceVariations.pdb

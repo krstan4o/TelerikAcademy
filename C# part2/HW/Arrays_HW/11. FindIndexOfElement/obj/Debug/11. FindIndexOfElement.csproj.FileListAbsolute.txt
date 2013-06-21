@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\11. FindIndexOfElement\bin\Debug\_11.FindIndexOfElement.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\11. FindIndexOfElement\bin\Debug\_11.FindIndexOfElement.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\11. FindIndexOfElement\bin\Debug\_11.FindIndexOfElement.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\11. FindIndexOfElement\obj\Debug\11. FindIndexOfElement.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\11. FindIndexOfElement\obj\Debug\_11.FindIndexOfElement.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\11. FindIndexOfElement\obj\Debug\_11.FindIndexOfElement.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\11. FindIndexOfElement\bin\Debug\_11.FindIndexOfElement.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\11. FindIndexOfElement\bin\Debug\_11.FindIndexOfElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\11. FindIndexOfElement\bin\Debug\_11.FindIndexOfElement.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\11. FindIndexOfElement\obj\Debug\11. FindIndexOfElement.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\11. FindIndexOfElement\obj\Debug\_11.FindIndexOfElement.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\11. FindIndexOfElement\obj\Debug\_11.FindIndexOfElement.pdb

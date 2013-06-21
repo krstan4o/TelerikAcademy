@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\Recursion_HW\12. EightQueenPuzzle\bin\Debug\_12.EightQueenPuzzle.exe.config
+D:\Telerik\DSA\HW\Recursion_HW\12. EightQueenPuzzle\bin\Debug\_12.EightQueenPuzzle.exe
+D:\Telerik\DSA\HW\Recursion_HW\12. EightQueenPuzzle\bin\Debug\_12.EightQueenPuzzle.pdb
+D:\Telerik\DSA\HW\Recursion_HW\12. EightQueenPuzzle\obj\Debug\_12.EightQueenPuzzle.exe
+D:\Telerik\DSA\HW\Recursion_HW\12. EightQueenPuzzle\obj\Debug\_12.EightQueenPuzzle.pdb

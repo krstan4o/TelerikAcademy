@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\04. MaxSequenceofEqualElements\bin\Debug\_04.MaxSequenceofEqualElements.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\04. MaxSequenceofEqualElements\bin\Debug\_04.MaxSequenceofEqualElements.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\04. MaxSequenceofEqualElements\bin\Debug\_04.MaxSequenceofEqualElements.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\04. MaxSequenceofEqualElements\obj\Debug\_04.MaxSequenceofEqualElements.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\04. MaxSequenceofEqualElements\obj\Debug\_04.MaxSequenceofEqualElements.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\04. MaxSequenceofEqualElements\obj\Debug\04. MaxSequenceofEqualElements.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\04. MaxSequenceofEqualElements\bin\Debug\_04.MaxSequenceofEqualElements.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\04. MaxSequenceofEqualElements\obj\Debug\_04.MaxSequenceofEqualElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\04. MaxSequenceofEqualElements\obj\Debug\_04.MaxSequenceofEqualElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\04. MaxSequenceofEqualElements\bin\Debug\_04.MaxSequenceofEqualElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\04. MaxSequenceofEqualElements\bin\Debug\_04.MaxSequenceofEqualElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\04. MaxSequenceofEqualElements\obj\Debug\04. MaxSequenceofEqualElements.csprojResolveAssemblyReference.cache

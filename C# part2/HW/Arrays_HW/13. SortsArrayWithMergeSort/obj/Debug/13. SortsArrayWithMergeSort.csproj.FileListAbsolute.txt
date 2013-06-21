@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\13. SortsArrayWithMergeSort\bin\Debug\_13.SortsArrayWithMergeSort.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\13. SortsArrayWithMergeSort\bin\Debug\_13.SortsArrayWithMergeSort.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\13. SortsArrayWithMergeSort\bin\Debug\_13.SortsArrayWithMergeSort.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\13. SortsArrayWithMergeSort\obj\Debug\_13.SortsArrayWithMergeSort.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\13. SortsArrayWithMergeSort\obj\Debug\_13.SortsArrayWithMergeSort.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\13. SortsArrayWithMergeSort\obj\Debug\13. SortsArrayWithMergeSort.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\13. SortsArrayWithMergeSort\bin\Debug\_13.SortsArrayWithMergeSort.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\13. SortsArrayWithMergeSort\obj\Debug\_13.SortsArrayWithMergeSort.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\13. SortsArrayWithMergeSort\obj\Debug\_13.SortsArrayWithMergeSort.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\13. SortsArrayWithMergeSort\bin\Debug\_13.SortsArrayWithMergeSort.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\13. SortsArrayWithMergeSort\bin\Debug\_13.SortsArrayWithMergeSort.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\13. SortsArrayWithMergeSort\obj\Debug\13. SortsArrayWithMergeSort.csprojResolveAssemblyReference.cache

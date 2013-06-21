@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\09. CalculateNCatalanNumber\bin\Debug\_09.CalculateNCatalanNumber.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\09. CalculateNCatalanNumber\bin\Debug\_09.CalculateNCatalanNumber.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\09. CalculateNCatalanNumber\bin\Debug\_09.CalculateNCatalanNumber.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\09. CalculateNCatalanNumber\obj\Debug\09. CalculateNCatalanNumber.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\09. CalculateNCatalanNumber\obj\Debug\_09.CalculateNCatalanNumber.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\09. CalculateNCatalanNumber\obj\Debug\_09.CalculateNCatalanNumber.pdb

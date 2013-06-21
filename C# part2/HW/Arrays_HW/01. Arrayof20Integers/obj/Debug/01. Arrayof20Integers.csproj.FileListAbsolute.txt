@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\01. Arrayof20Integers\bin\Debug\_01.Arrayof20Integers.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\01. Arrayof20Integers\bin\Debug\_01.Arrayof20Integers.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\01. Arrayof20Integers\bin\Debug\_01.Arrayof20Integers.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\01. Arrayof20Integers\obj\Debug\01. Arrayof20Integers.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\01. Arrayof20Integers\obj\Debug\_01.Arrayof20Integers.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\01. Arrayof20Integers\obj\Debug\_01.Arrayof20Integers.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\01. Arrayof20Integers\bin\Debug\_01.Arrayof20Integers.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\01. Arrayof20Integers\obj\Debug\_01.Arrayof20Integers.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\01. Arrayof20Integers\obj\Debug\_01.Arrayof20Integers.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\01. Arrayof20Integers\bin\Debug\_01.Arrayof20Integers.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\01. Arrayof20Integers\bin\Debug\_01.Arrayof20Integers.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\01. Arrayof20Integers\obj\Debug\01. Arrayof20Integers.csprojResolveAssemblyReference.cache

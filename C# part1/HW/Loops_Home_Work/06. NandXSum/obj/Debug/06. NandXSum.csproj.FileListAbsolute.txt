@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\06. NandXSum\bin\Debug\_06.NandXSum.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\06. NandXSum\obj\Debug\06. NandXSum.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\06. NandXSum\bin\Debug\_06.NandXSum.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\06. NandXSum\bin\Debug\_06.NandXSum.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\06. NandXSum\obj\Debug\_06.NandXSum.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\06. NandXSum\obj\Debug\_06.NandXSum.pdb

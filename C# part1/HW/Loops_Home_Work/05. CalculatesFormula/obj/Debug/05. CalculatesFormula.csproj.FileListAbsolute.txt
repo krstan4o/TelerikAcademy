@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\05. CalculatesFormula\bin\Debug\_05.CalculatesFormula.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\05. CalculatesFormula\bin\Debug\_05.CalculatesFormula.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\05. CalculatesFormula\bin\Debug\_05.CalculatesFormula.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\05. CalculatesFormula\obj\Debug\_05.CalculatesFormula.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\05. CalculatesFormula\obj\Debug\_05.CalculatesFormula.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\05. CalculatesFormula\obj\Debug\05. CalculatesFormula.csprojResolveAssemblyReference.cache

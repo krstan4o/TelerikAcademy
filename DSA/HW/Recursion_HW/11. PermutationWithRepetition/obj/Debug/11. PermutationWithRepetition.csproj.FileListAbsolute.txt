@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\Recursion_HW\11. PermutationWithRepetition\bin\Debug\_11.PermutationWithRepetition.exe.config
+D:\Telerik\DSA\HW\Recursion_HW\11. PermutationWithRepetition\bin\Debug\_11.PermutationWithRepetition.exe
+D:\Telerik\DSA\HW\Recursion_HW\11. PermutationWithRepetition\bin\Debug\_11.PermutationWithRepetition.pdb
+D:\Telerik\DSA\HW\Recursion_HW\11. PermutationWithRepetition\obj\Debug\_11.PermutationWithRepetition.exe
+D:\Telerik\DSA\HW\Recursion_HW\11. PermutationWithRepetition\obj\Debug\_11.PermutationWithRepetition.pdb

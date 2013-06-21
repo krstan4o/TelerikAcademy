@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\04. CalculatesNandKFact\bin\Debug\_04.CalculatesNandKFact.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\04. CalculatesNandKFact\bin\Debug\_04.CalculatesNandKFact.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\04. CalculatesNandKFact\bin\Debug\_04.CalculatesNandKFact.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\04. CalculatesNandKFact\obj\Debug\_04.CalculatesNandKFact.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\04. CalculatesNandKFact\obj\Debug\_04.CalculatesNandKFact.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\04. CalculatesNandKFact\obj\Debug\04. CalculatesNandKFact.csprojResolveAssemblyReference.cache

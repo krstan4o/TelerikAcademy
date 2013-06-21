@@ -1,0 +1,10 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\10. SequenceofGivenSum\bin\Debug\_10.SequenceofGivenSum.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\10. SequenceofGivenSum\bin\Debug\_10.SequenceofGivenSum.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\10. SequenceofGivenSum\bin\Debug\_10.SequenceofGivenSum.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\10. SequenceofGivenSum\obj\Debug\_10.SequenceofGivenSum.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\10. SequenceofGivenSum\obj\Debug\_10.SequenceofGivenSum.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\10. SequenceofGivenSum\bin\Debug\_10.SequenceofGivenSum.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\10. SequenceofGivenSum\bin\Debug\_10.SequenceofGivenSum.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\10. SequenceofGivenSum\bin\Debug\_10.SequenceofGivenSum.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\10. SequenceofGivenSum\obj\Debug\_10.SequenceofGivenSum.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\10. SequenceofGivenSum\obj\Debug\_10.SequenceofGivenSum.pdb

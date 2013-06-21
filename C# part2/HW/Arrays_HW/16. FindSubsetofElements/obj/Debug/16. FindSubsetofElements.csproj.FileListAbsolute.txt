@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\16. FindSubsetofElements\bin\Debug\_16.FindSubsetofElements.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\16. FindSubsetofElements\bin\Debug\_16.FindSubsetofElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\16. FindSubsetofElements\bin\Debug\_16.FindSubsetofElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\16. FindSubsetofElements\obj\Debug\_16.FindSubsetofElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\16. FindSubsetofElements\obj\Debug\_16.FindSubsetofElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\16. FindSubsetofElements\obj\Debug\16. FindSubsetofElements.csprojResolveAssemblyReference.cache

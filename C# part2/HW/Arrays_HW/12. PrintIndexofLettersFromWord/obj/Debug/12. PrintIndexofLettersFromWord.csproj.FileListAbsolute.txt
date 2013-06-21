@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\12. PrintIndexofLettersFromWord\bin\Debug\_12.PrintIndexofLettersFromWord.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\12. PrintIndexofLettersFromWord\bin\Debug\_12.PrintIndexofLettersFromWord.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\12. PrintIndexofLettersFromWord\bin\Debug\_12.PrintIndexofLettersFromWord.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\12. PrintIndexofLettersFromWord\obj\Debug\12. PrintIndexofLettersFromWord.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\12. PrintIndexofLettersFromWord\obj\Debug\_12.PrintIndexofLettersFromWord.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\12. PrintIndexofLettersFromWord\obj\Debug\_12.PrintIndexofLettersFromWord.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\12. PrintIndexofLettersFromWord\bin\Debug\_12.PrintIndexofLettersFromWord.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\12. PrintIndexofLettersFromWord\bin\Debug\_12.PrintIndexofLettersFromWord.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\12. PrintIndexofLettersFromWord\bin\Debug\_12.PrintIndexofLettersFromWord.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\12. PrintIndexofLettersFromWord\obj\Debug\12. PrintIndexofLettersFromWord.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\12. PrintIndexofLettersFromWord\obj\Debug\_12.PrintIndexofLettersFromWord.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\12. PrintIndexofLettersFromWord\obj\Debug\_12.PrintIndexofLettersFromWord.pdb

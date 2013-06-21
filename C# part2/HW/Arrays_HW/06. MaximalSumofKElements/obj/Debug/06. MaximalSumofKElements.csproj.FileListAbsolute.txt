@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\06. MaximalSumofKElements\bin\Debug\_06.MaximalSumofKElements.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\06. MaximalSumofKElements\bin\Debug\_06.MaximalSumofKElements.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\06. MaximalSumofKElements\bin\Debug\_06.MaximalSumofKElements.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\06. MaximalSumofKElements\obj\Debug\06. MaximalSumofKElements.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\06. MaximalSumofKElements\obj\Debug\_06.MaximalSumofKElements.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\06. MaximalSumofKElements\obj\Debug\_06.MaximalSumofKElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\06. MaximalSumofKElements\bin\Debug\_06.MaximalSumofKElements.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\06. MaximalSumofKElements\bin\Debug\_06.MaximalSumofKElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\06. MaximalSumofKElements\bin\Debug\_06.MaximalSumofKElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\06. MaximalSumofKElements\obj\Debug\06. MaximalSumofKElements.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\06. MaximalSumofKElements\obj\Debug\_06.MaximalSumofKElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\06. MaximalSumofKElements\obj\Debug\_06.MaximalSumofKElements.pdb

@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\08. GCDofTwoNumbers\bin\Debug\_08.GCDofTwoNumbers.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\08. GCDofTwoNumbers\bin\Debug\_08.GCDofTwoNumbers.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\08. GCDofTwoNumbers\bin\Debug\_08.GCDofTwoNumbers.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\08. GCDofTwoNumbers\obj\Debug\08. GCDofTwoNumbers.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\08. GCDofTwoNumbers\obj\Debug\_08.GCDofTwoNumbers.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\08. GCDofTwoNumbers\obj\Debug\_08.GCDofTwoNumbers.pdb

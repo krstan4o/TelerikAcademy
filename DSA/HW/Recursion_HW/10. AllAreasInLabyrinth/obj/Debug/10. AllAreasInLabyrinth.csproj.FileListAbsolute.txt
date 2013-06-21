@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\Recursion_HW\10. AllAreasInLabyrinth\bin\Debug\_10.AllAreasInLabyrinth.exe.config
+D:\Telerik\DSA\HW\Recursion_HW\10. AllAreasInLabyrinth\bin\Debug\_10.AllAreasInLabyrinth.exe
+D:\Telerik\DSA\HW\Recursion_HW\10. AllAreasInLabyrinth\bin\Debug\_10.AllAreasInLabyrinth.pdb
+D:\Telerik\DSA\HW\Recursion_HW\10. AllAreasInLabyrinth\obj\Debug\_10.AllAreasInLabyrinth.exe
+D:\Telerik\DSA\HW\Recursion_HW\10. AllAreasInLabyrinth\obj\Debug\_10.AllAreasInLabyrinth.pdb

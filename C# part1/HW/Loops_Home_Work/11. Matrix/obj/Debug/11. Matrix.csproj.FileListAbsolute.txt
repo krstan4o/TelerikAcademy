@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\11. Matrix\bin\Debug\_11.Matrix.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\11. Matrix\bin\Debug\_11.Matrix.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\11. Matrix\bin\Debug\_11.Matrix.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\11. Matrix\obj\Debug\_11.Matrix.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\11. Matrix\obj\Debug\_11.Matrix.pdb

@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\10. PrintsAllCards\bin\Debug\_10.PrintsAllCards.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\10. PrintsAllCards\bin\Debug\_10.PrintsAllCards.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\10. PrintsAllCards\bin\Debug\_10.PrintsAllCards.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\10. PrintsAllCards\obj\Debug\10. PrintsAllCards.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\10. PrintsAllCards\obj\Debug\_10.PrintsAllCards.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\10. PrintsAllCards\obj\Debug\_10.PrintsAllCards.pdb

@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\18. RemovesElementsToSortArray\bin\Debug\_18.RemovesElementsToSortArray.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\18. RemovesElementsToSortArray\bin\Debug\_18.RemovesElementsToSortArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\18. RemovesElementsToSortArray\bin\Debug\_18.RemovesElementsToSortArray.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\18. RemovesElementsToSortArray\obj\Debug\_18.RemovesElementsToSortArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\18. RemovesElementsToSortArray\obj\Debug\_18.RemovesElementsToSortArray.pdb

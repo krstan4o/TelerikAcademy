@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\Recursion_HW\06. AllStringSubsets\bin\Debug\_06.AllStringSubsets.exe.config
+D:\Telerik\DSA\HW\Recursion_HW\06. AllStringSubsets\bin\Debug\_06.AllStringSubsets.exe
+D:\Telerik\DSA\HW\Recursion_HW\06. AllStringSubsets\bin\Debug\_06.AllStringSubsets.pdb
+D:\Telerik\DSA\HW\Recursion_HW\06. AllStringSubsets\obj\Debug\_06.AllStringSubsets.exe
+D:\Telerik\DSA\HW\Recursion_HW\06. AllStringSubsets\obj\Debug\_06.AllStringSubsets.pdb

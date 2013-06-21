@@ -1,0 +1,5 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\01. PrintNumbersToN\bin\Debug\_01.PrintNumbersToN.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\01. PrintNumbersToN\bin\Debug\_01.PrintNumbersToN.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\01. PrintNumbersToN\bin\Debug\_01.PrintNumbersToN.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\01. PrintNumbersToN\obj\Debug\_01.PrintNumbersToN.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\01. PrintNumbersToN\obj\Debug\_01.PrintNumbersToN.pdb

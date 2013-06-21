@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\20. PrintsVariationsofKElements\bin\Debug\_20.PrintsVariationsofKElements.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\20. PrintsVariationsofKElements\bin\Debug\_20.PrintsVariationsofKElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\20. PrintsVariationsofKElements\bin\Debug\_20.PrintsVariationsofKElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\20. PrintsVariationsofKElements\obj\Debug\20. PrintsVariationsofKElements.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\20. PrintsVariationsofKElements\obj\Debug\_20.PrintsVariationsofKElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\20. PrintsVariationsofKElements\obj\Debug\_20.PrintsVariationsofKElements.pdb

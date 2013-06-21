@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\12. TrailingZeroes\bin\Debug\_12.TrailingZeroes.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\12. TrailingZeroes\bin\Debug\_12.TrailingZeroes.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\12. TrailingZeroes\bin\Debug\_12.TrailingZeroes.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\12. TrailingZeroes\obj\Debug\12. TrailingZeroes.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\12. TrailingZeroes\obj\Debug\_12.TrailingZeroes.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\12. TrailingZeroes\obj\Debug\_12.TrailingZeroes.pdb

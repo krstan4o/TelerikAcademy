@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\17. FindSubsetSumofKElements\bin\Debug\_17.FindSubsetSumofKElements.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\17. FindSubsetSumofKElements\bin\Debug\_17.FindSubsetSumofKElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\17. FindSubsetSumofKElements\bin\Debug\_17.FindSubsetSumofKElements.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\17. FindSubsetSumofKElements\obj\Debug\17. FindSubsetSumofKElements.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\17. FindSubsetSumofKElements\obj\Debug\_17.FindSubsetSumofKElements.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\17. FindSubsetSumofKElements\obj\Debug\_17.FindSubsetSumofKElements.pdb

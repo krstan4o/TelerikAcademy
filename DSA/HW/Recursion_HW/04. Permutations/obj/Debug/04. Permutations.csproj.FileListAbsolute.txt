@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\Recursion_HW\04. Permutations\bin\Debug\_04.Permutations.exe.config
+D:\Telerik\DSA\HW\Recursion_HW\04. Permutations\bin\Debug\_04.Permutations.exe
+D:\Telerik\DSA\HW\Recursion_HW\04. Permutations\bin\Debug\_04.Permutations.pdb
+D:\Telerik\DSA\HW\Recursion_HW\04. Permutations\obj\Debug\_04.Permutations.exe
+D:\Telerik\DSA\HW\Recursion_HW\04. Permutations\obj\Debug\_04.Permutations.pdb

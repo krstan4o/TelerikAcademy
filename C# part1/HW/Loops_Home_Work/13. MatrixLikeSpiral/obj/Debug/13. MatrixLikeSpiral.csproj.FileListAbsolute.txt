@@ -1,0 +1,6 @@
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\13. MatrixLikeSpiral\bin\Debug\_13.MatrixLikeSpiral.exe.config
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\13. MatrixLikeSpiral\bin\Debug\_13.MatrixLikeSpiral.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\13. MatrixLikeSpiral\bin\Debug\_13.MatrixLikeSpiral.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\13. MatrixLikeSpiral\obj\Debug\_13.MatrixLikeSpiral.exe
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\13. MatrixLikeSpiral\obj\Debug\_13.MatrixLikeSpiral.pdb
+D:\U4ilishte\Telerik\C# Programs\DOMASHNO\Loops_Home_Work\13. MatrixLikeSpiral\obj\Debug\13. MatrixLikeSpiral.csprojResolveAssemblyReference.cache

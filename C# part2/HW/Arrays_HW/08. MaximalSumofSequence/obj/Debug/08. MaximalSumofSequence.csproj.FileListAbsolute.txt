@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\08. MaximalSumofSequence\bin\Debug\_08.MaximalSumofSequence.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\08. MaximalSumofSequence\bin\Debug\_08.MaximalSumofSequence.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\08. MaximalSumofSequence\bin\Debug\_08.MaximalSumofSequence.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\08. MaximalSumofSequence\obj\Debug\08. MaximalSumofSequence.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\08. MaximalSumofSequence\obj\Debug\_08.MaximalSumofSequence.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\08. MaximalSumofSequence\obj\Debug\_08.MaximalSumofSequence.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\08. MaximalSumofSequence\bin\Debug\_08.MaximalSumofSequence.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\08. MaximalSumofSequence\bin\Debug\_08.MaximalSumofSequence.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\08. MaximalSumofSequence\bin\Debug\_08.MaximalSumofSequence.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\08. MaximalSumofSequence\obj\Debug\08. MaximalSumofSequence.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\08. MaximalSumofSequence\obj\Debug\_08.MaximalSumofSequence.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\08. MaximalSumofSequence\obj\Debug\_08.MaximalSumofSequence.pdb

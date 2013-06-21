@@ -1,0 +1,12 @@
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\07. SortingArray\bin\Debug\_07.SortingArray.exe.config
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\07. SortingArray\bin\Debug\_07.SortingArray.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\07. SortingArray\bin\Debug\_07.SortingArray.pdb
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\07. SortingArray\obj\Debug\07. SortingArray.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\07. SortingArray\obj\Debug\_07.SortingArray.exe
+D:\U4ilishte\Telerik\C# Programs\Arrays_HW\07. SortingArray\obj\Debug\_07.SortingArray.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\07. SortingArray\bin\Debug\_07.SortingArray.exe.config
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\07. SortingArray\obj\Debug\_07.SortingArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\07. SortingArray\obj\Debug\_07.SortingArray.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\07. SortingArray\bin\Debug\_07.SortingArray.exe
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\07. SortingArray\bin\Debug\_07.SortingArray.pdb
+D:\U4ilishte\Telerik\C# 2 4ast\HW\Arrays_HW\07. SortingArray\obj\Debug\07. SortingArray.csprojResolveAssemblyReference.cache
