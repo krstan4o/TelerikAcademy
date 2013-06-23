@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. RowsOfColoredBalls", "04. RowsOfColoredNumbers\04. RowsOfColoredBalls.csproj", "{489D0AD8-11A0-4105-85E5-D3F3BC4456E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. SumOfSubRows", "07. Circles\06. SumOfSubRows.csproj", "{002505E1-CBC2-4AC6-ABF7-E6A0840B39B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{489D0AD8-11A0-4105-85E5-D3F3BC4456E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489D0AD8-11A0-4105-85E5-D3F3BC4456E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489D0AD8-11A0-4105-85E5-D3F3BC4456E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489D0AD8-11A0-4105-85E5-D3F3BC4456E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002505E1-CBC2-4AC6-ABF7-E6A0840B39B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002505E1-CBC2-4AC6-ABF7-E6A0840B39B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002505E1-CBC2-4AC6-ABF7-E6A0840B39B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002505E1-CBC2-4AC6-ABF7-E6A0840B39B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

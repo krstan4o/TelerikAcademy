@@ -4,3 +4,5 @@ D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\bin
 D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\bin\Debug\PowerCollections.dll
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\bin\Debug\PowerCollections.xml

@@ -1,49 +1,103 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Numerics;
-class Program
+using System.Linq;
+using System.Text;
+using Wintellect.PowerCollections;
+
+public class ShipDamage
 {
+    static PriorityQueue<Task> tasks;
     static void Main()
     {
-        //Finding number of Subsets Of wanted SUm
 
-        long wantedSum = long.Parse(Console.ReadLine());
-        int count = 0;
-        int numberOfElements = int.Parse(Console.ReadLine());
-        long[] elements = new long[numberOfElements];
-        string subset = "";
-        for (int i = 0; i < elements.Length; i++)
+        int n = int.Parse(Console.ReadLine());
+        tasks = new PriorityQueue<Task>();
+
+        StringBuilder sb = new StringBuilder();
+       
+        for (int i = 0; i < n; i++)
         {
-
-            elements[i] = long.Parse(Console.ReadLine());
-        }
-        int maxSubsets = (int)Math.Pow(2, numberOfElements) - 1;
-
-        for (int i = 1; i <= maxSubsets; i++)
-        {
-            subset = "";
-            long checkingSum = 0;
-            for (int j = 0; j <= numberOfElements; j++)
+            string[] commandParameters = Console.ReadLine().Split();
+            if (commandParameters[0][0] == 'N')
             {
-                int mask = 1 << j;
-                int nAndMask = i & mask;
-                int bit = nAndMask >> j;
-                if (bit == 1)
-                {
-                    checkingSum = checkingSum + elements[j];
-                    subset = subset + " " + elements[j];
-                }
+                
+                tasks.Enqueue(new Task(commandParameters[1], commandParameters[2]));
             }
-            if (checkingSum == wantedSum)
+            else
             {
-                count++;
+                sb.AppendLine(Solve());
             }
         }
-        Console.WriteLine(count);
+        Console.Write(sb);
+    }
 
-     
+    static string Solve()
+    {
+        if (tasks.Count > 0)
+        {
+            return tasks.Dequeue().Name;
+        }
+        else
+        {
+            return "Rest";
+        }
+    }
 
-        
+
+}
+
+public class PriorityQueue<T> 
+    where T : IComparable<T>
+{
+    private OrderedBag<T> bag;
+
+    public PriorityQueue()
+    {
+        this.bag = new OrderedBag<T>();
+    } 
+
+    public int Count
+    {
+        get { return bag.Count; }
+        private set { }
+    }
+
+    public void Enqueue(T element)
+    {
+        bag.Add(element);
+    }
+
+    public T Dequeue()
+    {
+
+        var element = bag.GetFirst();
+        bag.Remove(element);
+        return element;
     }
 }
 
+public class Task : IComparable<Task>
+{
+    public int Complexity { get; set; }
+    public string Name { get; set; }
+
+    public Task(string complexity, string name) 
+    {
+        this.Complexity = int.Parse(complexity);
+        this.Name = name;
+    }
+
+    public override int GetHashCode()
+    {
+        return this.Complexity ^ this.Name.GetHashCode();
+    }
+
+    public int CompareTo(Task other)
+    {
+        if (this.Complexity.CompareTo(other.Complexity)==0)
+        {
+            return this.Name.CompareTo(other.Name);
+        }
+        return this.Complexity.CompareTo(other.Complexity);
+    }
+}
