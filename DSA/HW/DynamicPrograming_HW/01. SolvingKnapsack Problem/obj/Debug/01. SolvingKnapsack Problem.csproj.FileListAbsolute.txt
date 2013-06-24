@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\DynamicPrograming_HW\01. SolvingKnapsack Problem\bin\Debug\_01.SolvingKnapsack_Problem.exe.config
+D:\Telerik\DSA\HW\DynamicPrograming_HW\01. SolvingKnapsack Problem\bin\Debug\_01.SolvingKnapsack_Problem.exe
+D:\Telerik\DSA\HW\DynamicPrograming_HW\01. SolvingKnapsack Problem\bin\Debug\_01.SolvingKnapsack_Problem.pdb
+D:\Telerik\DSA\HW\DynamicPrograming_HW\01. SolvingKnapsack Problem\obj\Debug\_01.SolvingKnapsack_Problem.exe
+D:\Telerik\DSA\HW\DynamicPrograming_HW\01. SolvingKnapsack Problem\obj\Debug\_01.SolvingKnapsack_Problem.pdb

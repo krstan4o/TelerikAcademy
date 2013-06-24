@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\03. Task-CardWardsBatka\bin\Debug\_03.Task_CardWardsBatka.exe.config
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\03. Task-CardWardsBatka\bin\Debug\_03.Task_CardWardsBatka.exe
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\03. Task-CardWardsBatka\bin\Debug\_03.Task_CardWardsBatka.pdb
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\03. Task-CardWardsBatka\obj\Debug\03. Task-CardWardsBatka.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\03. Task-CardWardsBatka\obj\Debug\_03.Task_CardWardsBatka.exe
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\03. Task-CardWardsBatka\obj\Debug\_03.Task_CardWardsBatka.pdb

@@ -1,0 +1,9 @@
+C:\Users\krstan4o\Desktop\Graphs_HW\02. FriendsInNeed\bin\Debug\_02.FriendsInNeed.exe.config
+C:\Users\krstan4o\Desktop\Graphs_HW\02. FriendsInNeed\bin\Debug\_02.FriendsInNeed.exe
+C:\Users\krstan4o\Desktop\Graphs_HW\02. FriendsInNeed\bin\Debug\_02.FriendsInNeed.pdb
+C:\Users\krstan4o\Desktop\Graphs_HW\02. FriendsInNeed\obj\Debug\02. FriendsInPesho.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\Graphs_HW\02. FriendsInNeed\obj\Debug\_02.FriendsInNeed.exe
+C:\Users\krstan4o\Desktop\Graphs_HW\02. FriendsInNeed\obj\Debug\_02.FriendsInNeed.pdb
+D:\Telerik\DSA\HW\Graphs_HW\02. FriendsInNeed\bin\Debug\_02.FriendsInNeed.exe.config
+D:\Telerik\DSA\HW\Graphs_HW\02. FriendsInNeed\obj\Debug\_02.FriendsInNeed.exe
+D:\Telerik\DSA\HW\Graphs_HW\02. FriendsInNeed\obj\Debug\_02.FriendsInNeed.pdb

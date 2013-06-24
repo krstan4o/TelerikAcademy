@@ -1,0 +1,6 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. Sudoku\bin\Debug\_02.Sudoku.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. Sudoku\obj\Debug\02. Sudoku.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. Sudoku\bin\Debug\_02.Sudoku.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. Sudoku\bin\Debug\_02.Sudoku.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. Sudoku\obj\Debug\_02.Sudoku.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\02. Sudoku\obj\Debug\_02.Sudoku.pdb

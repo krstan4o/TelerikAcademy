@@ -1,0 +1,3 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

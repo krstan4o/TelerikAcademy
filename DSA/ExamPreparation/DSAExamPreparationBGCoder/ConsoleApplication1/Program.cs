@@ -1,103 +1,72 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Wintellect.PowerCollections;
 
 public class ShipDamage
 {
-    static PriorityQueue<Task> tasks;
-    static void Main()
+    static void Main() 
     {
-
         int n = int.Parse(Console.ReadLine());
-        tasks = new PriorityQueue<Task>();
-
-        StringBuilder sb = new StringBuilder();
-       
         for (int i = 0; i < n; i++)
         {
-            string[] commandParameters = Console.ReadLine().Split();
-            if (commandParameters[0][0] == 'N')
+            string line = Console.ReadLine();
+            HTMLValidator htmlValidator = new HTMLValidator();
+            if (htmlValidator.Validate(line))
             {
-                
-                tasks.Enqueue(new Task(commandParameters[1], commandParameters[2]));
+                Console.WriteLine("VALID");
             }
             else
             {
-                sb.AppendLine(Solve());
+                Console.WriteLine("INVALID");
             }
         }
-        Console.Write(sb);
-    }
-
-    static string Solve()
-    {
-        if (tasks.Count > 0)
-        {
-            return tasks.Dequeue().Name;
-        }
-        else
-        {
-            return "Rest";
-        }
-    }
-
-
-}
-
-public class PriorityQueue<T> 
-    where T : IComparable<T>
-{
-    private OrderedBag<T> bag;
-
-    public PriorityQueue()
-    {
-        this.bag = new OrderedBag<T>();
-    } 
-
-    public int Count
-    {
-        get { return bag.Count; }
-        private set { }
-    }
-
-    public void Enqueue(T element)
-    {
-        bag.Add(element);
-    }
-
-    public T Dequeue()
-    {
-
-        var element = bag.GetFirst();
-        bag.Remove(element);
-        return element;
     }
 }
 
-public class Task : IComparable<Task>
+public class HTMLValidator 
 {
-    public int Complexity { get; set; }
-    public string Name { get; set; }
+    private Stack<string> tags;
 
-    public Task(string complexity, string name) 
+    public HTMLValidator() 
     {
-        this.Complexity = int.Parse(complexity);
-        this.Name = name;
+        this.tags = new Stack<string>();
     }
 
-    public override int GetHashCode()
+    public bool Validate(string htmlCode) 
     {
-        return this.Complexity ^ this.Name.GetHashCode();
-    }
+        string[] elements = htmlCode.Split(new char[] { '<' }, StringSplitOptions.RemoveEmptyEntries);
 
-    public int CompareTo(Task other)
-    {
-        if (this.Complexity.CompareTo(other.Complexity)==0)
+        for (int i = 0; i < elements.Length; i++)
         {
-            return this.Name.CompareTo(other.Name);
+            string element = elements[i];
+            element = element.Substring(0, element.Length - 1); // removing <
+
+            if (element[0] == '/') // we have clossing tag
+            {
+                element = element.Substring(1); // removing /
+
+                if (tags.Count == 0)
+                {
+                    return false;
+                }
+                else 
+                {
+                    string elementFromStack = tags.Pop();
+                    if (elementFromStack != element)
+                    {
+                        return false;
+                    }
+                }
+            }
+            else
+            {
+                tags.Push(element);
+            }
         }
-        return this.Complexity.CompareTo(other.Complexity);
+
+        if (tags.Count == 0)
+        {
+            return true;
+        }
+        return false;
     }
 }

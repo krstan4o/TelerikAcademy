@@ -1,0 +1,9 @@
+C:\Users\krstan4o\Desktop\Graphs_HW\01. Salaries\bin\Debug\_01.Salaries.exe.config
+C:\Users\krstan4o\Desktop\Graphs_HW\01. Salaries\bin\Debug\_01.Salaries.exe
+C:\Users\krstan4o\Desktop\Graphs_HW\01. Salaries\bin\Debug\_01.Salaries.pdb
+C:\Users\krstan4o\Desktop\Graphs_HW\01. Salaries\obj\Debug\01. Salaries.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\Graphs_HW\01. Salaries\obj\Debug\_01.Salaries.exe
+C:\Users\krstan4o\Desktop\Graphs_HW\01. Salaries\obj\Debug\_01.Salaries.pdb
+D:\Telerik\DSA\HW\Graphs_HW\01. Salaries\bin\Debug\_01.Salaries.exe.config
+D:\Telerik\DSA\HW\Graphs_HW\01. Salaries\obj\Debug\_01.Salaries.exe
+D:\Telerik\DSA\HW\Graphs_HW\01. Salaries\obj\Debug\_01.Salaries.pdb

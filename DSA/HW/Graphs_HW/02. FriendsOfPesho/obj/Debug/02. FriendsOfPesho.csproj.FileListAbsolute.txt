@@ -1,0 +1,3 @@
+D:\Telerik\DSA\HW\Graphs_HW\02. FriendsOfPesho\bin\Debug\_02.FriendsInNeed.exe.config
+D:\Telerik\DSA\HW\Graphs_HW\02. FriendsOfPesho\obj\Debug\_02.FriendsInNeed.exe
+D:\Telerik\DSA\HW\Graphs_HW\02. FriendsOfPesho\obj\Debug\_02.FriendsInNeed.pdb

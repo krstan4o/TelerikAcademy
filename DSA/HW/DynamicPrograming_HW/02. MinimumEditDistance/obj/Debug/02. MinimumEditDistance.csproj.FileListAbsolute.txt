@@ -1,0 +1,5 @@
+D:\Telerik\DSA\HW\DynamicPrograming_HW\02. MinimumEditDistance\bin\Debug\_02.MinimumEditDistance.exe.config
+D:\Telerik\DSA\HW\DynamicPrograming_HW\02. MinimumEditDistance\bin\Debug\_02.MinimumEditDistance.exe
+D:\Telerik\DSA\HW\DynamicPrograming_HW\02. MinimumEditDistance\bin\Debug\_02.MinimumEditDistance.pdb
+D:\Telerik\DSA\HW\DynamicPrograming_HW\02. MinimumEditDistance\obj\Debug\_02.MinimumEditDistance.exe
+D:\Telerik\DSA\HW\DynamicPrograming_HW\02. MinimumEditDistance\obj\Debug\_02.MinimumEditDistance.pdb

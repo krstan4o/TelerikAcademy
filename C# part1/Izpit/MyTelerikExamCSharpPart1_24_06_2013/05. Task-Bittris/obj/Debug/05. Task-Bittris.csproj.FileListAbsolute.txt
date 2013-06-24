@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\05. Task-Bittris\bin\Debug\_05.Task_Bittris.exe.config
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\05. Task-Bittris\bin\Debug\_05.Task_Bittris.exe
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\05. Task-Bittris\bin\Debug\_05.Task_Bittris.pdb
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\05. Task-Bittris\obj\Debug\05. Task-Bittris.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\05. Task-Bittris\obj\Debug\_05.Task_Bittris.exe
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\05. Task-Bittris\obj\Debug\_05.Task_Bittris.pdb

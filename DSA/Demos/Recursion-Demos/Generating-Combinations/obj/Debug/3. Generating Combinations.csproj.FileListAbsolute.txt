@@ -1,0 +1,5 @@
+D:\Telerik\DSA\Demos\Recursion-Demos\Generating-Combinations\bin\Debug\Generating-Combinations.exe
+D:\Telerik\DSA\Demos\Recursion-Demos\Generating-Combinations\bin\Debug\Generating-Combinations.pdb
+D:\Telerik\DSA\Demos\Recursion-Demos\Generating-Combinations\obj\Debug\3. Generating Combinations.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\Demos\Recursion-Demos\Generating-Combinations\obj\Debug\Generating-Combinations.exe
+D:\Telerik\DSA\Demos\Recursion-Demos\Generating-Combinations\obj\Debug\Generating-Combinations.pdb

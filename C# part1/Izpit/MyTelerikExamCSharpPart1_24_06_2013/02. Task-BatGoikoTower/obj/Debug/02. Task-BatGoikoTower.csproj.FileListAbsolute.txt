@@ -1,0 +1,5 @@
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\02. Task-BatGoikoTower\bin\Debug\_02.Task_BatGoikoTower.exe.config
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\02. Task-BatGoikoTower\bin\Debug\_02.Task_BatGoikoTower.exe
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\02. Task-BatGoikoTower\bin\Debug\_02.Task_BatGoikoTower.pdb
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\02. Task-BatGoikoTower\obj\Debug\_02.Task_BatGoikoTower.exe
+C:\Users\krstan4o\Desktop\TelerikExamCSharpPart1_24_06_2013\02. Task-BatGoikoTower\obj\Debug\_02.Task_BatGoikoTower.pdb

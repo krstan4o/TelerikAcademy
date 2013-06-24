@@ -1,0 +1,6 @@
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\10. SimpleRecursionTraining\bin\Debug\_10.SimpleRecursionTraining.exe.config
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\10. SimpleRecursionTraining\bin\Debug\_10.SimpleRecursionTraining.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\10. SimpleRecursionTraining\bin\Debug\_10.SimpleRecursionTraining.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\10. SimpleRecursionTraining\obj\Debug\_10.SimpleRecursionTraining.exe
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\10. SimpleRecursionTraining\obj\Debug\_10.SimpleRecursionTraining.pdb
+D:\Telerik\DSA\ExamPreparation\DSAExamPreparationBGCoder\10. SimpleRecursionTraining\obj\Debug\10. SimpleRecursionTraining.csprojResolveAssemblyReference.cache
