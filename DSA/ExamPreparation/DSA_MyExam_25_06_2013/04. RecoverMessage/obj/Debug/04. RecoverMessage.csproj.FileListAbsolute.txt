@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\04. RecoverMessage\bin\Debug\_04.RecoverMessage.exe.config
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\04. RecoverMessage\bin\Debug\_04.RecoverMessage.exe
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\04. RecoverMessage\bin\Debug\_04.RecoverMessage.pdb
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\04. RecoverMessage\obj\Debug\04. RecoverMessage.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\04. RecoverMessage\obj\Debug\_04.RecoverMessage.exe
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\04. RecoverMessage\obj\Debug\_04.RecoverMessage.pdb

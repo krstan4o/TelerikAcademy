@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\01. Coins\bin\Debug\_01.Coins.exe.config
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\01. Coins\bin\Debug\_01.Coins.exe
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\01. Coins\bin\Debug\_01.Coins.pdb
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\01. Coins\obj\Debug\01. Coins.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\01. Coins\obj\Debug\_01.Coins.exe
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\01. Coins\obj\Debug\_01.Coins.pdb

@@ -1,0 +1,8 @@
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\bin\Debug\_01.Task.exe.config
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\bin\Debug\_01.Task.exe
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\bin\Debug\_01.Task.pdb
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\obj\Debug\01. Task.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\obj\Debug\_01.Task.exe
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\obj\Debug\_01.Task.pdb
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\bin\Debug\PowerCollections.dll
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task\bin\Debug\PowerCollections.xml

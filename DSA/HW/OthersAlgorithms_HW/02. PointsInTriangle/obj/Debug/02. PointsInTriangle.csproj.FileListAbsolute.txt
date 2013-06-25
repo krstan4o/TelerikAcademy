@@ -1,0 +1,5 @@
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\02. PointsInTriangle\bin\Debug\_02.PointsInTriangle.exe.config
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\02. PointsInTriangle\bin\Debug\_02.PointsInTriangle.exe
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\02. PointsInTriangle\bin\Debug\_02.PointsInTriangle.pdb
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\02. PointsInTriangle\obj\Debug\_02.PointsInTriangle.exe
+C:\Users\krstan4o\Desktop\OthersAlgorithms_HW\02. PointsInTriangle\obj\Debug\_02.PointsInTriangle.pdb

@@ -1,0 +1,5 @@
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task-\bin\Debug\_01.Task_.exe.config
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task-\obj\Debug\_01.Task_.exe
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task-\obj\Debug\_01.Task_.pdb
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task-\bin\Debug\_01.Task_.exe
+C:\Users\krstan4o\Desktop\DSA_Exam_25_06_2013\01. Task-\bin\Debug\_01.Task_.pdb
