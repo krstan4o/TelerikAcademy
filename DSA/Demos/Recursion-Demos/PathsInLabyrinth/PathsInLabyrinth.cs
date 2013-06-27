@@ -73,16 +73,16 @@ class PathsInLabyrinth
         // Uncomment the code below to create larger labirinth
         // Test with size = 10 and size = 100
 
-        //int size = 10;
-        //lab = new char[size, size];
-        //for (int row = 0; row < size; row++)
-        //{
-        //    for (int col = 0; col < size; col++)
-        //    {
-        //        lab[row, col] = ' ';
-        //    }
-        //}
-        //lab[size - 1, size - 1] = 'e';
+        int size = 100;
+        lab = new char[size, size];
+        for (int row = 0; row < size; row++)
+        {
+            for (int col = 0; col < size; col++)
+            {
+                lab[row, col] = ' ';
+            }
+        }
+        lab[size - 1, size - 1] = 'e';
 
         FindPathToExit(0, 0);
     }

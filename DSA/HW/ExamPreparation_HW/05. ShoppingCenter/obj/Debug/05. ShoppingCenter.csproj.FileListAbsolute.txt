@@ -1,0 +1,7 @@
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\bin\Debug\_05.ShoppingCenter.exe.config
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\bin\Debug\_05.ShoppingCenter.exe
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\bin\Debug\_05.ShoppingCenter.pdb
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\bin\Debug\PowerCollections.dll
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\obj\Debug\05. ShoppingCenter.csprojResolveAssemblyReference.cache
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\obj\Debug\_05.ShoppingCenter.exe
+D:\Telerik\DSA\HW\ExamPreparation_HW\05. ShoppingCenter\obj\Debug\_05.ShoppingCenter.pdb

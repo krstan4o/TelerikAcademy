@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using Wintellect.PowerCollections;
 
 namespace _01.Task
 {
@@ -53,7 +53,7 @@ namespace _01.Task
     {
         private StringBuilder result;
         private Dictionary<string, int> FindByName;
-        private List<string> queue;
+        private BigList<string> queue; 
 
         private Dictionary<int, string> wtf = new Dictionary<int, string>();
         
@@ -66,7 +66,7 @@ namespace _01.Task
             
             this.result = new StringBuilder();
             this.FindByName = new Dictionary<string, int>();
-            this.queue = new List<string>(1000000);
+            this.queue = new BigList<string>();
 
 
         }
@@ -147,9 +147,7 @@ namespace _01.Task
                 {
                     int count = FindByName[name];
                     count++;
-                    FindByName[name] = count;
-                    HashSet<int> wtf = new HashSet<int>();
-                    
+                    FindByName[name] = count;                    
                 }
                 else
                 {
