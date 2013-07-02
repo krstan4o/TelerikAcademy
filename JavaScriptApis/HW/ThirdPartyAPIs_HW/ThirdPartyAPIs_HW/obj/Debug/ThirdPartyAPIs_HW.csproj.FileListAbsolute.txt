@@ -1,0 +1,5 @@
+D:\Telerik\JavaScriptApis\HW\ThirdPartyAPIs_HW\ThirdPartyAPIs_HW\bin\ThirdPartyAPIs_HW.dll
+D:\Telerik\JavaScriptApis\HW\ThirdPartyAPIs_HW\ThirdPartyAPIs_HW\bin\ThirdPartyAPIs_HW.pdb
+D:\Telerik\JavaScriptApis\HW\ThirdPartyAPIs_HW\ThirdPartyAPIs_HW\obj\Debug\ThirdPartyAPIs_HW.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScriptApis\HW\ThirdPartyAPIs_HW\ThirdPartyAPIs_HW\obj\Debug\ThirdPartyAPIs_HW.dll
+D:\Telerik\JavaScriptApis\HW\ThirdPartyAPIs_HW\ThirdPartyAPIs_HW\obj\Debug\ThirdPartyAPIs_HW.pdb

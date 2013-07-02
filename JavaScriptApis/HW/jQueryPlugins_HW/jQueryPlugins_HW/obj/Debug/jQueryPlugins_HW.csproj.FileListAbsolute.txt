@@ -1,0 +1,5 @@
+D:\Telerik\JavaScriptApis\HW\jQueryPlugins_HW\jQueryPlugins_HW\bin\jQueryPlugins_HW.dll
+D:\Telerik\JavaScriptApis\HW\jQueryPlugins_HW\jQueryPlugins_HW\bin\jQueryPlugins_HW.pdb
+D:\Telerik\JavaScriptApis\HW\jQueryPlugins_HW\jQueryPlugins_HW\obj\Debug\jQueryPlugins_HW.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScriptApis\HW\jQueryPlugins_HW\jQueryPlugins_HW\obj\Debug\jQueryPlugins_HW.dll
+D:\Telerik\JavaScriptApis\HW\jQueryPlugins_HW\jQueryPlugins_HW\obj\Debug\jQueryPlugins_HW.pdb

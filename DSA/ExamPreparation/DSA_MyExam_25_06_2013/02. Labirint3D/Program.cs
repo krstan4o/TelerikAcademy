@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _02.Labirint3D
 {
     class Program
     {
-        static char[, ,] lab;
+        static char[,,] lab;
         static int bestMinMovesCounter = int.MaxValue;
-
+        static List<int> movess = new List<int>();
         static void Main(string[] args)
         {
             string[] input = Console.ReadLine().Split();
@@ -50,9 +51,22 @@ namespace _02.Labirint3D
 
         static void FindPathToExit(int row, int col, int level, int movesCounter)
         {
+            if (level < 0 || level >= lab.GetLength(0))
+            {
+                if (movesCounter < bestMinMovesCounter)
+                {
+                    bestMinMovesCounter = movesCounter;
+                    
+                }
+
+                return;
+                // we escaped
+            }
+
             if (movesCounter >= bestMinMovesCounter)
             {
                 return;
+                
             }
             else
             {
@@ -60,18 +74,6 @@ namespace _02.Labirint3D
                 {
                     // We are out of the labyrinth -> can't find a path
                     return;
-                }
-                else if (level < 0 || level >= lab.GetLength(0))
-                {
-                    if (movesCounter < bestMinMovesCounter)
-                    {
-                        bestMinMovesCounter = movesCounter;
-
-
-                    }
-
-                    return;
-                    // we escaped
                 }
                 else
                 {
@@ -81,8 +83,9 @@ namespace _02.Labirint3D
                         lab[level, row, col] = 's';
 
                         // Recursively explore all possible directions
-                        FindPathToExit(row + 1, col, level, movesCounter + 1); // down
                         FindPathToExit(row, col + 1, level, movesCounter + 1); // right
+                        FindPathToExit(row + 1, col, level, movesCounter + 1); // down
+                        
                         FindPathToExit(row, col - 1, level, movesCounter + 1); // left
                         FindPathToExit(row - 1, col, level, movesCounter + 1); // up
 
