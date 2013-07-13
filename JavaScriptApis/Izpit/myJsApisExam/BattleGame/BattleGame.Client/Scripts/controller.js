@@ -111,6 +111,7 @@ var controllers = (function () {
                 }, function (err) {
                 });
             });
+
             //Games
             wrapper.on("click", "#open-games-container a", function () {
                 $("#game-join-inputs").remove();
@@ -125,36 +126,52 @@ var controllers = (function () {
 
             wrapper.on("click", "td", function myfunction() {
                 var htmlTasks = ui.generateTasks();
-
+                $("#unit-moves").html(htmlTasks);
                 $().find(".selected-unit").removeClass("selected-unit");
                 var unit = $(this).children("div")[0];
                
-                unit.addClass("selected-unit");
-                
-                
-                $("#unit-moves").html(htmlTasks);
+              
+                $(unit).addClass("selected");
+            
+              
+               
             });
             wrapper.on("click", "#attack", function myfunction() {
-                var unitId = $(".selected-unit").id;
-                var data = {};
-                self.persister.battle.attack(
+                var gameId = self.persister.game.getCurrentGameId();
+                
+                var unit = $(".selected");
+                var unitId = unit.id;
+              
             });
             wrapper.on("click", "#defend", function myfunction() {
+                var unit = $(".selected");
+                var unitId = unit[0].id;
+                var gameId = self.persister.game.getCurrentGameId();
+                
+                self.persister.battle.defend(gameId, unitId, function () {
+                    alert("success");
+                }, function () {
+                    alert("errorrrrr");
+                });
             });
             wrapper.on("click", "#move", function myfunction() {
             });
+
+
+
 
             wrapper.on("click", "#btn-join-game", function () {
                 var game = {
                     id: $(this).parents("li").first().data("game-id")
                 };
-            
+                
                 var password = $("#tb-game-pass").val();
 
                 if (password) {
                     game.password = password;
                 }
                 self.persister.game.join(game);
+                
             });
             wrapper.on("click", "#btn-create-game", function () {
                 var game = {
@@ -166,6 +183,9 @@ var controllers = (function () {
                 }
                 self.persister.game.create(game);
             });
+
+
+
 
             wrapper.on("click", "#active-games-container li.game-status-full a.btn-active-game", function () {
                 var gameCreator = $(this).parent().data("creator");
@@ -195,6 +215,7 @@ var controllers = (function () {
             });
 
             wrapper.on("click", ".active-games .game-status-in-progress", function () {
+                self.persister.game.setCurrentGameId($(this).data("game-id"));
                 self.loadGame(selector, $(this).data("game-id"));
             });
         },

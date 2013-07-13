@@ -1,0 +1,66 @@
+﻿
+20. Describe the procedure of replacing a HDD containing partition part of a volume group(LVM).
+
+1 Backup Your System
+  You should always backup your system before attempting a pvmove operation.
+2.Distributing Old Extents to Existing Disks in Volume Group
+  If you have enough free extents on the other disks in the volume group, you have it easy. Simply run
+  
+# pvmove /dev/hdb
+pvmove -- moving physical extents in active volume group "dev"
+pvmove -- WARNING: moving of active logical volumes may cause data loss!
+pvmove -- do you want to continue? [y/n] y
+pvmove -- 249 extents of physical volume "/dev/hdb" successfully moved
+
+3.  Remove the disk
+  We can now remove the  disk from the volume group.
+
+# vgreduce dev /dev/hdb
+vgreduce -- doing automatic backup of volume group "dev"
+vgreduce -- volume group "dev" successfully reduced by physical volume:
+vgreduce -- /dev/hdb
+
+  The drive can now be either physically removed when the machine is next powered down or reallocated to other users.
+4. Prepare the disk 
+  First, you need to pvcreate the new disk to make it available to LVM. In this recipe we show that you don't need to partition a disk to be able to use it.
+
+# pvcreate /dev/sdf
+pvcreate -- physical volume "/dev/sdf" successfully created
+
+ As of version 2.02.54 this is no longer necessary because initialisation will occur automatically if required. Prior initialisation may 
+ still be desirable in order to deviate from the default settings used by pvcreate, obtain better diagnostics by proceeding one step at 
+ a time, or retain compatibility with older versions of LVM.
+5.  Add it to the volume group
+    A physical volume can be added to a volume group using the vgextend command:
+
+# vgextend dev /dev/sdf
+vgextend -- INFO: maximum logical volume size is 255.99 Gigabyte
+vgextend -- doing automatic backup of volume group "dev"
+vgextend -- volume group "dev" successfully extended
+6.  Move the data
+    Next we move the data from the old disk onto the new one. Note that it is not necessary to unmount the file system before doing this.
+    Although it is *highly* recommended that you do a full backup before attempting this operation in case of a power outage or some other 
+    problem that may interrupt it. The pvmove command can take a considerable amount of time to complete and it also exacts a performance 
+    hit on the two volumes so, although it isn't necessary, it is advisable to do this when the volumes are not too busy.
+
+# pvmove /dev/hdb /dev/sdf
+pvmove -- moving physical extents in active volume group "dev"
+pvmove -- WARNING: moving of active logical volumes may cause data loss!
+pvmove -- do you want to continue? [y/n] y
+pvmove -- 249 extents of physical volume "/dev/hdb" successfully moved
+
+7.  Remove the unused disk 
+ We can now remove the old  disk from the volume group.
+
+# vgreduce dev /dev/hdb
+vgreduce -- doing automatic backup of volume group "dev"
+vgreduce -- volume group "dev" successfully reduced by physical volume:
+vgreduce -- /dev/hdb
+
+The drive can now be either physically removed when the machine is next powered down or reallocated to some other users.
+
+
+http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html
+http://forums.fedoraforum.org/showthread.php?t=126359
+http://tldp.org/HOWTO/LVM-HOWTO/removeadisk.html
+

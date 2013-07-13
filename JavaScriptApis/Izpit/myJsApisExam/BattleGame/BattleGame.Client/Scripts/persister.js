@@ -90,6 +90,14 @@ var persisters = (function () {
     var GamePersister = Class.create({
         init: function (url) {
             this.rootUrl = url + "game/";
+            this.gameId = "";
+        },
+        setCurrentGameId:function (gameId) {
+            this.gameId = gameId;
+            debugger;
+        },
+        getCurrentGameId:function () {
+            return this.gameId
         },
         create: function (game, success, error) {
             var gameData = {
@@ -134,7 +142,7 @@ var persisters = (function () {
             this.rootUrl = url + "battle/";
         },
         move: function (gameId, data, success, error) {
-            var url = this.rootUrl + gameId + '/move' + sessionKey;
+            var url = this.rootUrl + gameId + '/move/' + sessionKey;
             var gameData = {
                 unitId: data.unitId,
                 position: { x : data.position.x, y : data.position.y }
@@ -142,20 +150,17 @@ var persisters = (function () {
             httpRequester.postJSON(url, gameData, success, error);
         },
         attack: function (gameId, data, success, error) {
-            var url = this.rootUrl + gameId + '/attack' + sessionKey;
+            var url = this.rootUrl + gameId + '/attack/' + sessionKey;
             var gameData = {
                 unitId: data.unitId,
                 position: { x: data.position.x, y: data.position.y }
             };
             httpRequester.postJSON(url, gameData, success, error);
         },
-        defend: function (gameId, data, success, error) {
-            var url = this.rootUrl + gameId + '/defend' + sessionKey;
-            var gameData = {
-                unitId: data.unitId,
-                position: { x: data.position.x, y: data.position.y }
-            };
-            httpRequester.postJSON(url, gameData, success, error);
+        defend: function (gameId, unitId, success, error) {
+            var url = this.rootUrl + gameId + '/defend/' + sessionKey;
+           
+            httpRequester.postJSON(url, unitId, success, error);
         }
     });
     return {

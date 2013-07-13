@@ -1,0 +1,6 @@
+D:\Telerik\C# part2\Izpit\BgCoderPractice_CSharp2_05_02_2013\02. JoroTheRabbit\bin\Debug\_02.JoroTheRabbit.exe.config
+D:\Telerik\C# part2\Izpit\BgCoderPractice_CSharp2_05_02_2013\02. JoroTheRabbit\bin\Debug\_02.JoroTheRabbit.exe
+D:\Telerik\C# part2\Izpit\BgCoderPractice_CSharp2_05_02_2013\02. JoroTheRabbit\bin\Debug\_02.JoroTheRabbit.pdb
+D:\Telerik\C# part2\Izpit\BgCoderPractice_CSharp2_05_02_2013\02. JoroTheRabbit\obj\Debug\02. JoroTheRabbit.csprojResolveAssemblyReference.cache
+D:\Telerik\C# part2\Izpit\BgCoderPractice_CSharp2_05_02_2013\02. JoroTheRabbit\obj\Debug\_02.JoroTheRabbit.exe
+D:\Telerik\C# part2\Izpit\BgCoderPractice_CSharp2_05_02_2013\02. JoroTheRabbit\obj\Debug\_02.JoroTheRabbit.pdb
