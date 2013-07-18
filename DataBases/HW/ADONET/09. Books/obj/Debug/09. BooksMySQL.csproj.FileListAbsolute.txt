@@ -1,0 +1,3 @@
+D:\Telerik\DataBases\HW\ADONET\09. Books\bin\Debug\_09.Books.exe.config
+D:\Telerik\DataBases\HW\ADONET\09. Books\obj\Debug\_09.Books.exe
+D:\Telerik\DataBases\HW\ADONET\09. Books\obj\Debug\_09.Books.pdb

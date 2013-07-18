@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\_08.InheritEmployee.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\_08.InheritEmployee.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\_08.InheritEmployee.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\obj\Debug\08. InheritEmployee.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\obj\Debug\_08.InheritEmployee.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\08. InheritEmployee\obj\Debug\_08.InheritEmployee.pdb

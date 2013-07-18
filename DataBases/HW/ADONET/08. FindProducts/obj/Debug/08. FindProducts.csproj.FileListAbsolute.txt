@@ -1,0 +1,5 @@
+D:\Telerik\DataBases\HW\ADONET\08. FindProducts\bin\Debug\_08.FindProducts.exe.config
+D:\Telerik\DataBases\HW\ADONET\08. FindProducts\bin\Debug\_08.FindProducts.exe
+D:\Telerik\DataBases\HW\ADONET\08. FindProducts\bin\Debug\_08.FindProducts.pdb
+D:\Telerik\DataBases\HW\ADONET\08. FindProducts\obj\Debug\_08.FindProducts.exe
+D:\Telerik\DataBases\HW\ADONET\08. FindProducts\obj\Debug\_08.FindProducts.pdb

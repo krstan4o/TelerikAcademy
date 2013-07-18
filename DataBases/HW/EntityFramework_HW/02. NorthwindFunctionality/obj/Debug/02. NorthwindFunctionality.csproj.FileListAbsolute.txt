@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\_02.NorthwindFunctionality.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\_02.NorthwindFunctionality.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\_02.NorthwindFunctionality.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\obj\Debug\02. NorthwindFunctionality.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\obj\Debug\_02.NorthwindFunctionality.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\02. NorthwindFunctionality\obj\Debug\_02.NorthwindFunctionality.pdb

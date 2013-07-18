@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe.config
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\obj\Debug\StudentSystem.Client.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\StudentSystem.Client.pdb
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\StudentSystem.Data.dll
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\StudentSystem.Data.pdb
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\obj\Debug\StudentSystem.Client.exe
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Client\obj\Debug\StudentSystem.Client.pdb

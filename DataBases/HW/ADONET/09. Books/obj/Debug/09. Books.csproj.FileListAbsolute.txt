@@ -1,0 +1,7 @@
+D:\Telerik\DataBases\HW\ADONET\09. Books\bin\Debug\_09.Books.exe.config
+D:\Telerik\DataBases\HW\ADONET\09. Books\bin\Debug\_09.Books.exe
+D:\Telerik\DataBases\HW\ADONET\09. Books\bin\Debug\_09.Books.pdb
+D:\Telerik\DataBases\HW\ADONET\09. Books\bin\Debug\MySql.Data.dll
+D:\Telerik\DataBases\HW\ADONET\09. Books\obj\Debug\09. Books.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\ADONET\09. Books\obj\Debug\_09.Books.exe
+D:\Telerik\DataBases\HW\ADONET\09. Books\obj\Debug\_09.Books.pdb

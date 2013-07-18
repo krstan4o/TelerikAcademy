@@ -1,0 +1,18 @@
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\10.SQLite.exe.config
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\10.SQLite.exe
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\10.SQLite.pdb
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\System.Data.SQLite.dll
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\obj\Debug\10.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\obj\Debug\10.SQLite.exe
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\obj\Debug\10.SQLite.pdb
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\Plamen\SkyDrive\IV Semester\Databases\7. ADO.NET\Homework\ADO.NET\10.SQLite\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\bin\Debug\10.SQLite.exe.config
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\obj\Debug\10.SQLite.exe
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\obj\Debug\10.SQLite.pdb
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\bin\Debug\10.SQLite.exe
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\bin\Debug\10.SQLite.pdb
+D:\Telerik\DataBases\HW\ADONET\10. SQLite\obj\Debug\10.SQLite.csprojResolveAssemblyReference.cache

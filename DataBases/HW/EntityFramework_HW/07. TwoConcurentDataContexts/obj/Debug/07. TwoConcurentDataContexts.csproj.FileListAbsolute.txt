@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\_07.TwoConcurentDataContexts.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\_07.TwoConcurentDataContexts.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\_07.TwoConcurentDataContexts.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\obj\Debug\07. TwoConcurentDataContexts.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\obj\Debug\_07.TwoConcurentDataContexts.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\07. TwoConcurentDataContexts\obj\Debug\_07.TwoConcurentDataContexts.pdb

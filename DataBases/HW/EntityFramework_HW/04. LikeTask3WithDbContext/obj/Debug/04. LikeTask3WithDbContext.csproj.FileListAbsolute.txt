@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\_04.LikeTask3WithDbContext.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\_04.LikeTask3WithDbContext.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\_04.LikeTask3WithDbContext.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\obj\Debug\_04.LikeTask3WithDbContext.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\obj\Debug\_04.LikeTask3WithDbContext.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\04. LikeTask3WithDbContext\obj\Debug\04. LikeTask3WithDbContext.csprojResolveAssemblyReference.cache

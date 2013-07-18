@@ -1,0 +1,5 @@
+D:\Telerik\DataBases\HW\ADONET\07. InsertRowsInExcel\bin\Debug\_07.InsertRowsInExcel.exe.config
+D:\Telerik\DataBases\HW\ADONET\07. InsertRowsInExcel\bin\Debug\_07.InsertRowsInExcel.exe
+D:\Telerik\DataBases\HW\ADONET\07. InsertRowsInExcel\bin\Debug\_07.InsertRowsInExcel.pdb
+D:\Telerik\DataBases\HW\ADONET\07. InsertRowsInExcel\obj\Debug\_07.InsertRowsInExcel.exe
+D:\Telerik\DataBases\HW\ADONET\07. InsertRowsInExcel\obj\Debug\_07.InsertRowsInExcel.pdb

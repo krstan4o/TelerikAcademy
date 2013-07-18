@@ -1,0 +1,6 @@
+D:\Telerik\DataBases\HW\ADONET\06. ReadExcel\bin\Debug\_06.ReadExcel.exe.config
+D:\Telerik\DataBases\HW\ADONET\06. ReadExcel\bin\Debug\_06.ReadExcel.exe
+D:\Telerik\DataBases\HW\ADONET\06. ReadExcel\bin\Debug\_06.ReadExcel.pdb
+D:\Telerik\DataBases\HW\ADONET\06. ReadExcel\obj\Debug\06. ReadExcel.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\ADONET\06. ReadExcel\obj\Debug\_06.ReadExcel.exe
+D:\Telerik\DataBases\HW\ADONET\06. ReadExcel\obj\Debug\_06.ReadExcel.pdb

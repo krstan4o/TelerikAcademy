@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\11.Groups.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\11.Groups.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\11.Groups.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\11.Groups.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\11.Groups.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\obj\Debug\11.Groups.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\obj\Debug\11.Groups.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\11.Groups\obj\Debug\11.Groups.pdb

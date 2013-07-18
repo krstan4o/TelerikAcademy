@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\_10.StoredProcedures.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\obj\Debug\10. StoredProcedures.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\_10.StoredProcedures.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\_10.StoredProcedures.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\obj\Debug\_10.StoredProcedures.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\10. StoredProcedures\obj\Debug\_10.StoredProcedures.pdb

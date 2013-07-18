@@ -1,0 +1,7 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\bin\Debug\Northwind.Data.dll.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\obj\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\Northwind.Data\obj\Debug\Northwind.Data.pdb

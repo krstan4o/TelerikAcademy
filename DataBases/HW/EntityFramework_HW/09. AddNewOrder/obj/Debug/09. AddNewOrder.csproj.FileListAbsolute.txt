@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\_09.AddNewOrder.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\obj\Debug\09. AddNewOrder.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\_09.AddNewOrder.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\_09.AddNewOrder.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\obj\Debug\_09.AddNewOrder.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\09. AddNewOrder\obj\Debug\_09.AddNewOrder.pdb

@@ -1,0 +1,8 @@
+C:\Users\krstan4o\Desktop\ADONET\03. ProductsAndCategoryes\bin\Debug\_03.ProductsAndCategoryes.exe.config
+C:\Users\krstan4o\Desktop\ADONET\03. ProductsAndCategoryes\bin\Debug\_03.ProductsAndCategoryes.exe
+C:\Users\krstan4o\Desktop\ADONET\03. ProductsAndCategoryes\bin\Debug\_03.ProductsAndCategoryes.pdb
+C:\Users\krstan4o\Desktop\ADONET\03. ProductsAndCategoryes\obj\Debug\_03.ProductsAndCategoryes.exe
+C:\Users\krstan4o\Desktop\ADONET\03. ProductsAndCategoryes\obj\Debug\_03.ProductsAndCategoryes.pdb
+D:\Telerik\DataBases\HW\ADONET\03. ProductsAndCategoryes\bin\Debug\_03.ProductsAndCategoryes.exe.config
+D:\Telerik\DataBases\HW\ADONET\03. ProductsAndCategoryes\obj\Debug\_03.ProductsAndCategoryes.exe
+D:\Telerik\DataBases\HW\ADONET\03. ProductsAndCategoryes\obj\Debug\_03.ProductsAndCategoryes.pdb

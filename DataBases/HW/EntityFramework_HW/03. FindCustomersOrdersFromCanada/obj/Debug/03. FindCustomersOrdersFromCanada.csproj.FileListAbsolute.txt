@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\_03.FindCustomersOrdersFromCanada.exe.config
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\obj\Debug\03. FindCustomersOrdersFromCanada.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\_03.FindCustomersOrdersFromCanada.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\_03.FindCustomersOrdersFromCanada.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\Northwind.Data.dll
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\Northwind.Data.pdb
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\obj\Debug\_03.FindCustomersOrdersFromCanada.exe
+D:\Telerik\DataBases\HW\EntityFramework_HW\03. FindCustomersOrdersFromCanada\obj\Debug\_03.FindCustomersOrdersFromCanada.pdb

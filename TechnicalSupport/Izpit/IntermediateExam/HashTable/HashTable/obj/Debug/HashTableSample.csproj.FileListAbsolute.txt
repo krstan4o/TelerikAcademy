@@ -1,0 +1,1 @@
+D:\Telerik\TechnicalSupport\Izpit\HashTable\HashTable\bin\Debug\HashTable.exe.config

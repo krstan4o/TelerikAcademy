@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\ADONET\04. AddProduct\bin\Debug\_04.AddProduct.exe.config
+C:\Users\krstan4o\Desktop\ADONET\04. AddProduct\bin\Debug\_04.AddProduct.exe
+C:\Users\krstan4o\Desktop\ADONET\04. AddProduct\bin\Debug\_04.AddProduct.pdb
+C:\Users\krstan4o\Desktop\ADONET\04. AddProduct\obj\Debug\04. AddProduct.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\ADONET\04. AddProduct\obj\Debug\_04.AddProduct.exe
+C:\Users\krstan4o\Desktop\ADONET\04. AddProduct\obj\Debug\_04.AddProduct.pdb

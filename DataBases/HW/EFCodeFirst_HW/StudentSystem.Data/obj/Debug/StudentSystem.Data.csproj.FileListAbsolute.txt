@@ -1,0 +1,8 @@
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll.config
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\bin\Debug\StudentSystem.Data.pdb
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\obj\Debug\StudentSystem.Data.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\obj\Debug\StudentSystem.Data.dll
+D:\Telerik\DataBases\HW\EFCodeFirst_HW\StudentSystem.Data\obj\Debug\StudentSystem.Data.pdb

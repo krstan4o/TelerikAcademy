@@ -1,0 +1,9 @@
+C:\Users\krstan4o\Desktop\ADONET\01. NumberOfCategories\bin\Debug\_01.NumberOfCategories.exe.config
+C:\Users\krstan4o\Desktop\ADONET\01. NumberOfCategories\bin\Debug\_01.NumberOfCategories.exe
+C:\Users\krstan4o\Desktop\ADONET\01. NumberOfCategories\bin\Debug\_01.NumberOfCategories.pdb
+C:\Users\krstan4o\Desktop\ADONET\01. NumberOfCategories\obj\Debug\01. NumberOfCategories.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\ADONET\01. NumberOfCategories\obj\Debug\_01.NumberOfCategories.exe
+C:\Users\krstan4o\Desktop\ADONET\01. NumberOfCategories\obj\Debug\_01.NumberOfCategories.pdb
+D:\Telerik\DataBases\HW\ADONET\01. NumberOfCategories\bin\Debug\_01.NumberOfCategories.exe.config
+D:\Telerik\DataBases\HW\ADONET\01. NumberOfCategories\obj\Debug\_01.NumberOfCategories.exe
+D:\Telerik\DataBases\HW\ADONET\01. NumberOfCategories\obj\Debug\_01.NumberOfCategories.pdb

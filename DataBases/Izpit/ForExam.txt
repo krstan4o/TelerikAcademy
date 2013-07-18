@@ -1,2 +1,10 @@
 -- Да разгледаме paging във sql Server, в mysql има команда, но в sql Server трябва сами да си я имплементираме.
 -- В mysql съществуват регулярни изрази
+			MONGODB
+svalqme ot mongodb.org ima si4ki vajni komanti v TryItOUT
+--mongod.exe - server
+mongo.exe - client
+zadaljitelno se puska kliento
+
+--MongoDB - pri startirane davame --smallfiles - ina4e iska 3GB prostranstvo
+--path za koi path da izpolzva v momenta e defaultniq - C:/data/db

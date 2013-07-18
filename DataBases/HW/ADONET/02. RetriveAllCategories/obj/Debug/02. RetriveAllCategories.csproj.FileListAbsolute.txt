@@ -1,0 +1,6 @@
+C:\Users\krstan4o\Desktop\ADONET\02. RetriveAllCategories\bin\Debug\_02.RetriveAllCategories.exe.config
+C:\Users\krstan4o\Desktop\ADONET\02. RetriveAllCategories\obj\Debug\02. RetriveAllCategories.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\ADONET\02. RetriveAllCategories\bin\Debug\_02.RetriveAllCategories.exe
+C:\Users\krstan4o\Desktop\ADONET\02. RetriveAllCategories\bin\Debug\_02.RetriveAllCategories.pdb
+C:\Users\krstan4o\Desktop\ADONET\02. RetriveAllCategories\obj\Debug\_02.RetriveAllCategories.exe
+C:\Users\krstan4o\Desktop\ADONET\02. RetriveAllCategories\obj\Debug\_02.RetriveAllCategories.pdb
