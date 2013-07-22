@@ -1,0 +1,9 @@
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\_02.ToListProblem.exe.config
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\_02.ToListProblem.exe
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\_02.ToListProblem.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\obj\Debug\_02.ToListProblem.exe
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\obj\Debug\_02.ToListProblem.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\TelerikAcademyDB.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\02. ToListProblem\bin\Debug\TelerikAcademyDB.pdb

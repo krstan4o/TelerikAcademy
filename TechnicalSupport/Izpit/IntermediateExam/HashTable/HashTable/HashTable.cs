@@ -55,11 +55,11 @@ namespace HashTableSample
         {
             int hashedIndex = this.GenerateIndex(key);
 
-            if (this.hashTable[hashedIndex].Count == 1 && this.hashTable[hashedIndex].First != key)
+            if (this.hashTable[hashedIndex].Count == 1 && this.hashTable[hashedIndex].First.Equals(key))
             {
                 throw new ArgumentException("Key was not found in the hash-table.");
             }
-            else if (this.hashTable[hashedIndex].Count == 1 && this.hashTable[hashedIndex].First == key)
+            else if (this.hashTable[hashedIndex].Count == 1 && this.hashTable[hashedIndex].First.Equals(key))
             {
                 this.hashTable[hashedIndex].RemoveFirst();
                 this.hashTable[hashedIndex] = null;
@@ -141,19 +141,20 @@ namespace HashTableSample
             this.hashTable = new LinkedList<KeyValuePair<K, T>>[this.Capacity];
         }
 
-        private void IncreaseCapacity()
-        {
-            var newCapacity = Capacity * 2;
+     private void IncreaseCapacity()
+{
+    var newCapacity = Capacity * 2;
+ 
+    LinkedList<KeyValuePair<K, T>>[] copiedArray = new LinkedList<KeyValuePair<K, T>>[newCapacity];
+ 
+    for(int i = 0; i < this.hashTable.Length; i++)
+    {
+        copiedArray[i] = this.hashTable[i];
+    }
+ 
+    ReAddValues(copiedArray, newCapacity);
+}
 
-            LinkedList<KeyValuePair<K, T>>[] copiedArray = new LinkedList<KeyValuePair<K, T>>[newCapacity];
-
-            for (int i = 0; i < this.hashTable.Length; i++)
-            {
-                copiedArray[i] = this.hashTable[i];
-            }
-
-            ReAddValues(copiedArray, Capacity);
-        }
 
         private int GenerateIndex(K key)
         {

@@ -1,0 +1,129 @@
+CREATE TABLE Logs(
+  Id int NOT NULL IDENTITY,
+  LogDate datetime,
+  MsgText nvarchar(300),
+  CONSTRAINT PK_Logs_Id PRIMARY KEY (Id)
+)
+
+GO
+
+INSERT INTO Logs(LogDate, MsgText) VALUES ('1990-01-01', 'Sample log ');
+DECLARE @Counter int = 0
+WHILE (SELECT COUNT(*) FROM Logs) < 1000000
+BEGIN
+  INSERT INTO Logs(LogDate, MsgText)
+  SELECT DATEADD(MONTH, @Counter + 3, LogDate), MsgText + CONVERT(varchar, @Counter) FROM Logs
+  SET @Counter = @Counter + 1
+END
+
+
+
+CHECKPOINT; DBCC DROPCLEANBUFFERS; -- Empty the SQL Server cache
+
+----------------------------TASK 1--------------------------------
+SELECT l.LogDate
+FROM Logs l
+WHERE YEAR(l.LogDate) < 2012 AND YEAR(l.LogDate) > 2001
+
+--RESULT:
+-- 16sec. without cache
+-- 6sec. with cache
+----------------------------TASK 2--------------------------------
+
+CREATE INDEX IDX_Logs_LogDate ON Logs(LogDate)
+-- creation time for index: 34 sec.
+
+CHECKPOINT; DBCC DROPCLEANBUFFERS; -- Empty the SQL Server cache
+
+SELECT l.LogDate
+FROM Logs l
+WHERE YEAR(l.LogDate) < 2012 AND YEAR(l.LogDate) > 2001
+
+-- search time: 10 secs with index
+----------------------------TASK 3--------------------------------
+
+CREATE FULLTEXT CATALOG LogsFullTextForLogText
+WITH ACCENT_SENSITIVITY = OFF
+
+CREATE FULLTEXT INDEX ON Logs(MsgText)
+KEY INDEX PK_Logs
+ON LogsFullTextForLogText
+WITH CHANGE_TRACKING AUTO
+
+--Empty the SQL Server cache
+CHECKPOINT; DBCC DROPCLEANBUFFERS;
+--Search from full text
+SELECT * FROM Logs
+WHERE MsgText LIKE '% 1256789'
+
+--Empty the SQL Server cache
+CHECKPOINT; DBCC DROPCLEANBUFFERS;
+--Search from full text
+SELECT * FROM Logs
+WHERE CONTAINS(MsgText,'1256789')
+
+----------------------------TASK 4--------------------------------
+
+CREATE DATABASE DatabasePerformance;
+
+USE DatabasePerformance;
+
+CREATE TABLE Logs(
+LogId int NOT NULL AUTO_INCREMENT,
+LogDate datetime,
+LogText nvarchar(100),
+CONSTRAINT PK_Logs_LogId PRIMARY KEY(LogId)
+);
+DROP TABLE Logs;
+
+DELIMITER $$
+CREATE PROCEDURE PopulateDB()
+BEGIN
+DECLARE counter INT DEFAULT 0;
+DECLARE minDate datetime;
+DECLARE maxDate datetime;
+SET minDate = '1980-01-01 00:00:00';
+SET maxDate = '2014-01-01 00:00:00';
+START TRANSACTION;
+WHILE counter < 1000000 DO
+INSERT INTO Logs(LogDate, LogText)
+VALUES(TIMESTAMPADD(SECOND, FLOOR(RAND() * TIMESTAMPDIFF(SECOND, minDate, maxDate)), minDate),
+CONCAT('Text', CAST(counter as CHAR)));
+SET counter = counter + 1;
+END WHILE;
+COMMIT;
+END $$
+DROP PROCEDURE PopulateDB
+
+CALL PopulateDB()
+
+
+
+
+CREATE DATABASE PartitioningDB;
+
+USE PartitioningDB;
+
+CREATE TABLE Logs(
+LogId int NOT NULL AUTO_INCREMENT,
+LogDate datetime,
+LogText nvarchar(100),
+CONSTRAINT PK_Logs_LogId PRIMARY KEY(LogId, LogDate)
+) PARTITION BY RANGE(YEAR(LogDate))(
+PARTITION p0 VALUES LESS THAN (1990),
+    PARTITION p2 VALUES LESS THAN (2000),
+PARTITION p3 VALUES LESS THAN (2010),
+PARTITION p4 VALUES LESS THAN MAXVALUE
+);
+
+CALL PopulateDB()
+
+SELECT * FROM Logs PARTITION (p0)
+
+USE DatabasePerformance;
+SELECT * FROM Logs
+WHERE LogDate < '1990-01-01'
+
+USE PartitioningDB
+SELECT * FROM Logs PARTITION(p0)
+WHERE LogDate < '1990-01-01'

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using StudentSystem.Data;
+using System.Data.Entity;
 
 namespace StudentSystem.Client
 {
     public static class StudentSystem
     {
+
         public static void AddStudent(string name, string number) 
         {
             StudentSystemDB db = new StudentSystemDB();
@@ -16,7 +18,7 @@ namespace StudentSystem.Client
                 Student newStudent = new Student();
                 newStudent.Name = name;
                 newStudent.Number = number;
-
+               
                 db.Students.Add(newStudent);
                 db.SaveChanges();
             }
@@ -112,6 +114,70 @@ namespace StudentSystem.Client
             {
                 var course = db.Courses.First(x => x.Name == name);
                 db.Courses.Remove(course);
+                db.SaveChanges();
+            }
+        }
+
+        public static void AddStudentToCourse(int courseId, int studentId) 
+        {
+            StudentSystemDB db = new StudentSystemDB();
+            using (db)
+            {
+               db.Students.First(x => x.StudentId == studentId).
+                    Courses.Add(db.Courses.First(x => x.CoursesId == courseId));
+             
+                db.SaveChanges();
+            }
+        }
+
+        public static void DeleteStudentFromCourse(int courseId, int studentId)
+        {
+            StudentSystemDB db = new StudentSystemDB();
+            using (db)
+            {
+                db.Students.First(x => x.StudentId == studentId).
+                     Courses.Remove(db.Courses.First(x => x.CoursesId == courseId));
+
+                db.SaveChanges();
+            }
+        }
+
+        public static void AddHomeWork(int courseId, int studentId, string content)
+        {
+            StudentSystemDB db = new StudentSystemDB();
+            using (db)
+            {
+              
+                db.Homeworks.Add(new Homework() { 
+                    Content = content,
+                    Student = db.Students.First(x => x.StudentId == studentId),
+                    Course = db.Courses.First(x=> x.CoursesId == courseId),
+                    TimeSend = DateTime.Now
+                });
+
+                db.SaveChanges();
+            }
+        }
+
+        public static void UpdateHomeWork(int homeworkId, string newContent)
+        {
+            StudentSystemDB db = new StudentSystemDB();
+            using (db)
+            {
+
+                var homework = db.Homeworks.First(x => x.HomeworkId == homeworkId);
+                homework.Content = newContent;
+                db.SaveChanges();
+            }
+        }
+
+        public static void DeleteHomeWork(int homeworkId)
+        {
+            StudentSystemDB db = new StudentSystemDB();
+            using (db)
+            {
+
+                db.Homeworks.Remove(db.Homeworks.First(x => x.HomeworkId == homeworkId));
                 db.SaveChanges();
             }
         }

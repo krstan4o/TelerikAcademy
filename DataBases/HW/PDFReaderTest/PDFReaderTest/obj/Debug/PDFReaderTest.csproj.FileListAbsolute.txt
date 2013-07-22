@@ -1,0 +1,7 @@
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\bin\Debug\PDFReaderTest.exe.config
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\bin\Debug\PDFReaderTest.exe
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\bin\Debug\PDFReaderTest.pdb
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\obj\Debug\PDFReaderTest.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\obj\Debug\PDFReaderTest.exe
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\obj\Debug\PDFReaderTest.pdb
+D:\Telerik\DataBases\HW\PDFReaderTest\PDFReaderTest\bin\Debug\iTextSharp.dll

@@ -1,0 +1,8 @@
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\bin\Debug\Supermarket.EntityModel.dll.config
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\bin\Debug\Supermarket.EntityModel.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\bin\Debug\Supermarket.EntityModel.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\obj\Debug\Supermarket.EntityModel.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\obj\Debug\Supermarket.EntityModel.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.EntityModel\obj\Debug\Supermarket.EntityModel.pdb

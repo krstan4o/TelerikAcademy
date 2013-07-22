@@ -1,1 +1,7 @@
 D:\Telerik\TechnicalSupport\Izpit\HashTable\HashTable\bin\Debug\HashTable.exe.config
+D:\Telerik\TechnicalSupport\Izpit\IntermediateExam\HashTable\HashTable\bin\Debug\HashTable.exe.config
+D:\Telerik\TechnicalSupport\Izpit\IntermediateExam\HashTable\HashTable\bin\Debug\HashTable.exe
+D:\Telerik\TechnicalSupport\Izpit\IntermediateExam\HashTable\HashTable\bin\Debug\HashTable.pdb
+D:\Telerik\TechnicalSupport\Izpit\IntermediateExam\HashTable\HashTable\obj\Debug\HashTableSample.csprojResolveAssemblyReference.cache
+D:\Telerik\TechnicalSupport\Izpit\IntermediateExam\HashTable\HashTable\obj\Debug\HashTable.exe
+D:\Telerik\TechnicalSupport\Izpit\IntermediateExam\HashTable\HashTable\obj\Debug\HashTable.pdb

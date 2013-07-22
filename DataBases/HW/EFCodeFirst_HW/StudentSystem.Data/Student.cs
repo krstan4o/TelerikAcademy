@@ -11,6 +11,7 @@ namespace StudentSystem.Data
     {
         [Key]
         public int StudentId { get; set; }
+        [Required]
         public string Name { get; set; }
         public string Number { get; set; }
         public virtual ICollection<Course> Courses { get; set; }

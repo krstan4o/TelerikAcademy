@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\SupermarketOpenAccess.Model.dll.config
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\SupermarketOpenAccess.Model.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\SupermarketOpenAccess.Model.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\obj\Debug\SupermarketOpenAccess.Model.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\obj\Debug\SupermarketOpenAccess.Model.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketOpenAccess.Model\obj\Debug\SupermarketOpenAccess.Model.pdb

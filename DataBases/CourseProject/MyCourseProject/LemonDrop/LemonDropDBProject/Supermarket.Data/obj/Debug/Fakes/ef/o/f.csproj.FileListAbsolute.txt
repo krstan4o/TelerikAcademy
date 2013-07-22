@@ -1,0 +1,9 @@
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\b\EntityFramework.Fakes.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\b\EntityFramework.Fakes.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\b\EntityFramework.Fakes.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\b\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\b\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\b\EntityFramework.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\o\f.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\o\EntityFramework.Fakes.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.Data\obj\Debug\Fakes\ef\o\EntityFramework.Fakes.pdb

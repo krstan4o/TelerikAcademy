@@ -1,24 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
+using System.Data.Entity.Migrations;
+using System.Data.Entity;
 using StudentSystem.Data;
+using System.Linq;
+using StudentSystem.Data.Migrations;
 namespace StudentSystem.Client
 {
     class Program
     {
         static void Main()
         {
-            string name = "Kyci Petrow";
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<StudentSystemDB, Configuration>());
+            string name = "Kycsii";
             string number = "222";
-           // StudentSystem.AddStudent(name, number);
-           // StudentSystem.UpdateStudentByNumber("223", "mama mu", "223");
-           // StudentSystem.UpdateStudentByStudentId(2, "asasas mu", "223");
-           //   StudentSystem.DeleteStudentByNumber("222222");
-           //   StudentSystem.DeleteStudentById(1);
+           StudentSystem.AddStudent(name, number);
 
-           // StudentSystem.AddCourse("PHP", "http://abv.bg");
+           
+
+           StudentSystem.AddHomeWork(1, 2, "Nemam domashno nema vreme");
+           StudentSystem.UpdateHomeWork(1, "alelelele");
+
         }
     }
 }

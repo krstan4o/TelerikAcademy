@@ -1,0 +1,16 @@
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\bin\Debug\TelerikAcademyDB.dll.config
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\bin\Debug\TelerikAcademyDB.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\bin\Debug\TelerikAcademyDB.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\obj\Debug\TelerikAcademyModel.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\obj\Debug\TelerikAcademyDB.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyDB\obj\Debug\TelerikAcademyDB.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\bin\Debug\TelerikAcademyDB.dll.config
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\bin\Debug\TelerikAcademyDB.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\bin\Debug\TelerikAcademyDB.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\obj\Debug\TelerikAcademyModel.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\obj\Debug\TelerikAcademyDB.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\TelerikAcademyModel\obj\Debug\TelerikAcademyDB.pdb

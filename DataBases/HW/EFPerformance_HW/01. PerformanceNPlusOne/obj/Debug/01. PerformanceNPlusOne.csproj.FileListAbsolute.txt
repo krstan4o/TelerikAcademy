@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\_01.PerformanceNPlusOne.exe.config
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\_01.PerformanceNPlusOne.exe
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\_01.PerformanceNPlusOne.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\obj\Debug\01. PerformanceNPlusOne.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\obj\Debug\_01.PerformanceNPlusOne.exe
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\obj\Debug\_01.PerformanceNPlusOne.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\TelerikAcademyDB.dll
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\TelerikAcademyDB.pdb
+D:\Telerik\DataBases\HW\EFPerformance_HW\01. PerformanceNPlusOne\bin\Debug\EntityFramework.xml

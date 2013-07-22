@@ -1,0 +1,6 @@
+D:\Telerik\DataBases\HW\01. Add10MilionsToDB\01. Add10MilionsToDB\bin\Debug\_01.Add10MilionsToDB.exe.config
+D:\Telerik\DataBases\HW\01. Add10MilionsToDB\01. Add10MilionsToDB\bin\Debug\_01.Add10MilionsToDB.exe
+D:\Telerik\DataBases\HW\01. Add10MilionsToDB\01. Add10MilionsToDB\bin\Debug\_01.Add10MilionsToDB.pdb
+D:\Telerik\DataBases\HW\01. Add10MilionsToDB\01. Add10MilionsToDB\obj\Debug\01. Add10MilionsToDB.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\01. Add10MilionsToDB\01. Add10MilionsToDB\obj\Debug\_01.Add10MilionsToDB.exe
+D:\Telerik\DataBases\HW\01. Add10MilionsToDB\01. Add10MilionsToDB\obj\Debug\_01.Add10MilionsToDB.pdb

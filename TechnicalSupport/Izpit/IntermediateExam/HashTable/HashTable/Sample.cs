@@ -21,12 +21,12 @@ namespace HashTableSample
 
             table.Clear();
 
-            for (int i = 0; i < 3000; i++)
+            for (int i = 0; i < 100000; i++)
             {
                 table.Add(i, (i + 1).ToString());
             }
 
-            Console.WriteLine(table[1456]);
+            Console.WriteLine(table[99999]);
         }
     }
 }
