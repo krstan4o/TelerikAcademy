@@ -1,0 +1,66 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Supermarket.Data;
+using System.Data.OleDb;
+using System.Data.SQLite;
+
+namespace VendorsTotalReport.Client
+{
+    public class VendorsTotalReport
+    {
+        static void Main()
+        {
+            List<ProductRaport> productRaports = MongoDbProvider.db.LoadData<ProductRaport>().ToList();
+
+            string query = "SELECT * FROM Taxes";
+            SqLiteProvider.ExecuteSqlQueryReturnValue(query, null, delegate(SQLiteDataReader reader)
+            {
+                while (reader.Read())
+                {
+                    Console.WriteLine(reader.GetValue(0));
+                }
+            });
+            //From Sqlite and 
+            //CreateExcelTotalReport(productRaports);
+        }
+
+        private static void CreateExcelTotalReport(List<ProductRaport> productRaports)
+        {
+            string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;" +
+           @"Data Source=Products-Total-Report.xlsx; Extended Properties=""Excel 12.0 Xml;HDR=YES""";
+
+            OleDbConnection dbCon = new OleDbConnection(connectionString);
+            CreateTable(dbCon);
+            foreach (var pr in productRaports)
+	        {
+                InsertRow(pr, dbCon);                
+            }
+        }
+
+        private static void InsertRow(ProductRaport pr, OleDbConnection dbCon)
+        {
+            
+            dbCon.Open();
+            OleDbCommand cmd = new OleDbCommand(
+                "INSERT INTO [Sheet1$] ([Vendor], [Incomes], [Expenses], [Taxes], [Financial Result]) VALUES (@Vendor, @Incomes)" //add columns
+                , dbCon);
+            cmd.Parameters.AddWithValue("@Vendor", pr.Vendor_name);
+            cmd.Parameters.AddWithValue("@Incomes", pr.TotalIncomes);
+            cmd.ExecuteNonQuery();
+            dbCon.Close();
+        }
+
+        private static void CreateTable(OleDbConnection dbCon)
+        {
+            dbCon.Open();
+            OleDbCommand cmd = new OleDbCommand(
+                "CREATE TABLE [Sheet1] ([Vendor] nvarchar(255), [Incomes] number, [Expenses] number, [Taxes] number, [Financial Result] number"
+                , dbCon);
+            cmd.ExecuteNonQuery();
+            dbCon.Close();
+        }
+    }
+}

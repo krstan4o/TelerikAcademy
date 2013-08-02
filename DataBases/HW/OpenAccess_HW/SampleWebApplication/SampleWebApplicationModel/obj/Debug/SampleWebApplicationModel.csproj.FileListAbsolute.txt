@@ -1,0 +1,8 @@
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\bin\Debug\SampleWebApplicationModel.dll.config
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\bin\Debug\SampleWebApplicationModel.dll
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\bin\Debug\SampleWebApplicationModel.pdb
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\obj\Debug\SampleWebApplicationModel.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\obj\Debug\SampleWebApplicationModel.dll
+D:\Telerik\DataBases\HW\OpenAccess_HW\SampleWebApplication\SampleWebApplicationModel\obj\Debug\SampleWebApplicationModel.pdb

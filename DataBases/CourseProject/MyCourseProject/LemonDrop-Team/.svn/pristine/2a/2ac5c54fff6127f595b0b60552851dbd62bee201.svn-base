@@ -1,0 +1,26 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Supermarket.WebClient.index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="SiteStyle.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="containers">            
+            <h3>Task1: Load Excel Reports from ZIP File and from MySQL</h3>
+            <asp:Button ID="btnGenerateSQLDB" runat="server" OnClick="btnGenerateSQL_Click" Text="GenerateSQLDB"></asp:Button>
+        </div>
+        <div class="containers">            
+            <h3>Task2: Generate PDF Aggregated Sales Reports</h3>
+            <asp:Button ID="btnGeneratePDF" runat="server"  Text="GeneratePDF" OnClick="btnGeneratePDF_Click"></asp:Button>
+        </div>        
+        <div class="containers">            
+            <h3>Task3: Generate XML Sales Report by Vendors</h3>
+            <asp:Button ID="btnGenerateXMLVendors" runat="server"  Text="GenerateXMLVendors" OnClick="btnGenerateXMLVendors_Click"></asp:Button>
+        </div>
+    </form>
+</body>
+</html>

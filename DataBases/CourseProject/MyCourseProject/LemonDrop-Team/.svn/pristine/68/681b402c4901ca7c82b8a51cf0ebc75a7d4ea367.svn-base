@@ -1,0 +1,8 @@
+﻿.label {
+     min-width: 180px;
+     display: inline-block;
+}
+
+.textbox {
+    margin:5px;
+}

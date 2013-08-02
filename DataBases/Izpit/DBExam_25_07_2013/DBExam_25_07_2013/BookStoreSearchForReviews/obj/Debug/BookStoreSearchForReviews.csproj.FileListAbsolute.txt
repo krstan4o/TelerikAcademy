@@ -1,0 +1,13 @@
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\BookStoreSearchForReviews.exe.config
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\BookStoreSearchForReviews.exe
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\BookStoreSearchForReviews.pdb
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\BookStore.Data.dll
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\BookStore.Data.pdb
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\obj\Debug\BookStoreSearchForReviews.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\obj\Debug\BookStoreSearchForReviews.exe
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\BookStoreSearchForReviews\obj\Debug\BookStoreSearchForReviews.pdb
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\DBExam_25_07_2013\BookStoreSearchForReviews\bin\Debug\BookStoreSearchForReviews.exe.config
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\DBExam_25_07_2013\BookStoreSearchForReviews\obj\Debug\BookStoreSearchForReviews.exe
+D:\Telerik\DataBases\Izpit\DBExam_25_07_2013\DBExam_25_07_2013\BookStoreSearchForReviews\obj\Debug\BookStoreSearchForReviews.pdb

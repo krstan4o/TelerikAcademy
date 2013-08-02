@@ -1,0 +1,44 @@
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\PDFReaderGenerator.exe.config
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\PDFReaderGenerator.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\PDFReaderGenerator.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Supermarket.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\EntityFramework.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Driver.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MySql.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\System.Data.SQLite.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Bson.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\itextsharp.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Supermarket.Data.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Driver.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Bson.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\obj\Debug\PDFReaderGenerator.csprojResolveAssemblyReference.cache
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\obj\Debug\PDFReaderGenerator.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\PDFReaderGenerator\obj\Debug\PDFReaderGenerator.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\PDFReaderGenerator.exe.config
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\PDFReaderGenerator.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\PDFReaderGenerator.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Supermarket.Data.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Driver.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MySql.Data.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\System.Data.SQLite.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Bson.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\itextsharp.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Supermarket.Data.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Driver.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\MongoDB.Bson.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\obj\Debug\PDFReaderGenerator.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\obj\Debug\PDFReaderGenerator.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\PDFReaderGenerator\obj\Debug\PDFReaderGenerator.pdb

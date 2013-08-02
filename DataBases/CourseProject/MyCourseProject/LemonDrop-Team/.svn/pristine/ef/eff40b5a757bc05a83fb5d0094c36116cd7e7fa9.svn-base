@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketEntity.Model", "SupermarketEntity.Model\SupermarketEntity.Model.csproj", "{6C501688-910C-4B9F-B98F-1016B120644A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketOpenAccess.Model", "SupermarketOpenAccess.Model\SupermarketOpenAccess.Model.csproj", "{C50145E6-A244-4F1F-B41F-90D1925B4A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.ConsoleClient", "Supermarket.ConsoleClient\Supermarket.ConsoleClient.csproj", "{EA8E96A7-B9C9-4B95-B008-E405C605DD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.EntityModel", "Supermarket.EntityModel\Supermarket.EntityModel.csproj", "{0829AF86-B398-4CAC-BAF1-173ADC011EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.Data", "Supermarket.Data\Supermarket.Data.csproj", "{F94AC0E3-BAF9-43E0-BE7D-69DEB188EF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.GenerateSalesReport", "Supermarket.GenerateSalesReport\Supermarket.GenerateSalesReport.csproj", "{4053D72C-3BA0-4E51-814C-BBCAF5DCD0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketMongoDB", "SupermarketMondoDB\SupermarketMongoDB.csproj", "{E682FCE0-7F73-409E-9297-6E2828E001CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorsTotalReport.Client", "VendorsTotalReport.Client\VendorsTotalReport.Client.csproj", "{ACE61DE7-20DF-42FD-91B3-E080095C67C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFromExcel.Client", "ReadFromExcel.Client\ReadFromExcel.Client.csproj", "{C4E3B8EB-5D60-4655-BF13-7401D4E406AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFReaderGenerator", "PDFReaderGenerator\PDFReaderGenerator.csproj", "{3D16BB19-0484-4303-8AB0-E9D020606490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.WebClient", "Supermarket.WebClient\Supermarket.WebClient.csproj", "{4F158215-34D3-4FED-B94F-FE56EC3BC757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C501688-910C-4B9F-B98F-1016B120644A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C501688-910C-4B9F-B98F-1016B120644A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C501688-910C-4B9F-B98F-1016B120644A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C501688-910C-4B9F-B98F-1016B120644A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50145E6-A244-4F1F-B41F-90D1925B4A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50145E6-A244-4F1F-B41F-90D1925B4A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50145E6-A244-4F1F-B41F-90D1925B4A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50145E6-A244-4F1F-B41F-90D1925B4A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8E96A7-B9C9-4B95-B008-E405C605DD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8E96A7-B9C9-4B95-B008-E405C605DD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8E96A7-B9C9-4B95-B008-E405C605DD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8E96A7-B9C9-4B95-B008-E405C605DD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0829AF86-B398-4CAC-BAF1-173ADC011EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0829AF86-B398-4CAC-BAF1-173ADC011EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0829AF86-B398-4CAC-BAF1-173ADC011EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0829AF86-B398-4CAC-BAF1-173ADC011EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94AC0E3-BAF9-43E0-BE7D-69DEB188EF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94AC0E3-BAF9-43E0-BE7D-69DEB188EF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94AC0E3-BAF9-43E0-BE7D-69DEB188EF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94AC0E3-BAF9-43E0-BE7D-69DEB188EF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4053D72C-3BA0-4E51-814C-BBCAF5DCD0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4053D72C-3BA0-4E51-814C-BBCAF5DCD0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4053D72C-3BA0-4E51-814C-BBCAF5DCD0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4053D72C-3BA0-4E51-814C-BBCAF5DCD0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E682FCE0-7F73-409E-9297-6E2828E001CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E682FCE0-7F73-409E-9297-6E2828E001CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E682FCE0-7F73-409E-9297-6E2828E001CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E682FCE0-7F73-409E-9297-6E2828E001CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE61DE7-20DF-42FD-91B3-E080095C67C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE61DE7-20DF-42FD-91B3-E080095C67C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE61DE7-20DF-42FD-91B3-E080095C67C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE61DE7-20DF-42FD-91B3-E080095C67C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E3B8EB-5D60-4655-BF13-7401D4E406AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E3B8EB-5D60-4655-BF13-7401D4E406AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E3B8EB-5D60-4655-BF13-7401D4E406AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E3B8EB-5D60-4655-BF13-7401D4E406AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D16BB19-0484-4303-8AB0-E9D020606490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D16BB19-0484-4303-8AB0-E9D020606490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D16BB19-0484-4303-8AB0-E9D020606490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D16BB19-0484-4303-8AB0-E9D020606490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F158215-34D3-4FED-B94F-FE56EC3BC757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F158215-34D3-4FED-B94F-FE56EC3BC757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F158215-34D3-4FED-B94F-FE56EC3BC757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F158215-34D3-4FED-B94F-FE56EC3BC757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

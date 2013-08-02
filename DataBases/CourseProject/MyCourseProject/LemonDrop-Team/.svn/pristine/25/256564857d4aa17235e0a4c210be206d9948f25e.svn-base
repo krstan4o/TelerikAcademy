@@ -1,0 +1,73 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Xml.Linq;
+using System.Xml;
+using Supermarket.EntityModel;
+
+namespace Supermarket.GenerateSalesReport
+{
+    public class Program
+    {
+        static void Main()
+        {
+            using(SupermarketDatabaseEntities db = new SupermarketDatabaseEntities())
+            {
+               // XDocument miXML = new XDocument(
+               //new XDeclaration("1.0", "utf-8", "yes"),
+
+               //new XElement("Sales",
+               //                    new XElement("sale",
+               //                        new XAttribute("vendor", "VENDOR NAME"),
+               //                        new XElement("summary",
+               //                            new XAttribute("date", "Data"),
+               //                            new XAttribute("total-sum", "Sum"))
+               //                            )
+               //                            )
+               //                           );
+
+                string path = "../../../GenerateSales.xml";
+                XDocument doc = new XDocument(new XDeclaration("1.0", "utf-8", "yes"));
+                XElement sales = new XElement("Sales");
+                doc.Add(sales);
+                foreach (var vendor in db.sales.GroupBy(x =>x.Product.Vendor.VendorName))
+                {
+                    string vendorName = vendor.First().Product.Vendor.VendorName;
+
+                    XElement root = new XElement("Sale");
+                    root.Add(new XAttribute("vendor", vendorName));
+                    
+                    foreach (var peni in vendor.GroupBy(x=>x.Data))
+                    {
+                        double total = 0.0;
+                        //total = peni.First().Sum;
+                        foreach (var item in peni)
+                        {
+                            total += item.Sum;
+                        }
+                        XElement summary = new XElement("summary");
+                        string data =  peni.First().Data.ToString();
+                        summary.Add(new XAttribute("date", data));
+                        summary.Add(new XAttribute("total-sum", total.ToString()));
+                        root.Add(summary);
+                        total = 0.0;
+
+                    }
+                    sales.Add(root);
+
+                }
+                //doc.Element("Sales").Add(root);
+                doc.Save(path);  
+
+                //XmlDocument doc = new XmlDocument();
+                //XmlNode docNode = doc.CreateXmlDeclaration("1.0", "utf-8", "yes");
+                //doc.AppendChild(docNode);
+              
+                //XmlElement root = doc.CreateElement("Sales");  
+                //doc.InsertBefore(docNode, doc.DocumentElement);
+                //doc.AppendChild(root);
+                //XmlNode productsNode = doc.CreateElement("Sale");
+            }
+        }
+    }
+}

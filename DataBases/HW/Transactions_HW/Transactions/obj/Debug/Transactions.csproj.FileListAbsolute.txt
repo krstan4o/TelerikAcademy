@@ -1,0 +1,7 @@
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\bin\Debug\Transactions.dll.config
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\bin\Debug\Transactions.dll
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\bin\Debug\Transactions.pdb
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\obj\Debug\Transactions.dll
+D:\Telerik\DataBases\HW\Transactions_HW\Transactions\obj\Debug\Transactions.pdb

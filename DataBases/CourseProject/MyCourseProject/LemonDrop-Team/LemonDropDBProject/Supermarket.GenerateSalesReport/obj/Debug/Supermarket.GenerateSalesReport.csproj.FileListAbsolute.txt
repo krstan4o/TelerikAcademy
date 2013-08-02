@@ -1,0 +1,44 @@
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.csprojResolveAssemblyReference.cache
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.exe.config
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\EntityFramework.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.EntityModel.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\MongoDB.Driver.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\MySql.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\System.Data.SQLite.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\MongoDB.Bson.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.Data.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.EntityModel.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\EntityFramework.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\MongoDB.Driver.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\MongoDB.Bson.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.exe.config
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.exe
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.exe
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.EntityModel.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.EntityModel.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.exe.config
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.GenerateSalesReport.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.EntityModel.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\Supermarket.EntityModel.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.GenerateSalesReport\obj\Debug\Supermarket.GenerateSalesReport.pdb

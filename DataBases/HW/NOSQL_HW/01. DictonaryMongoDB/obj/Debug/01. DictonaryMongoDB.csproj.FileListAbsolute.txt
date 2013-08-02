@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\_01.DictonaryMongoDB.exe.config
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\_01.DictonaryMongoDB.exe
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\_01.DictonaryMongoDB.pdb
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\MongoDB.Bson.dll
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\MongoDB.Driver.dll
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\MongoDB.Bson.xml
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\bin\Debug\MongoDB.Driver.xml
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\obj\Debug\01. DictonaryMongoDB.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\obj\Debug\_01.DictonaryMongoDB.exe
+D:\Telerik\DataBases\HW\NOSQL_HW\01. DictonaryMongoDB\obj\Debug\_01.DictonaryMongoDB.pdb

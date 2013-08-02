@@ -1,0 +1,80 @@
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.exe.config
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Bson.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MySql.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketOpenAccess.Model.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\System.Data.SQLite.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.Data.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketOpenAccess.Model.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Bson.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Driver.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\itextsharp.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.exe.config
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.exe
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.Data.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketEntity.Model.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketOpenAccess.Model.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.Data.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketEntity.Model.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketOpenAccess.Model.pdb
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.exe
+C:\Users\User\Desktop\Lemons\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.exe.config
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.ConsoleClient.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Bson.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MySql.Data.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.Data.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketOpenAccess.Model.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\System.Data.SQLite.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\itextsharp.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Supermarket.Data.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\SupermarketOpenAccess.Model.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Bson.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\MongoDB.Driver.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.pdb

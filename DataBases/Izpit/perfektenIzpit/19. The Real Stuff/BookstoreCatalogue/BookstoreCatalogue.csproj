@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EE55985-8041-4710-9544-E0D6724B5ED2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookstoreCatalogue</RootNamespace>
+    <AssemblyName>BookstoreCatalogue</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Author.cs">
+      <DependentUpon>Bookstore.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Book.cs">
+      <DependentUpon>Bookstore.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bookstore.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bookstore.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bookstore.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bookstore.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bookstore.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bookstore.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="MainLogic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryEntry.cs" />
+    <Compile Include="Review.cs">
+      <DependentUpon>Bookstore.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="Bookstore.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Bookstore.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Bookstore.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Bookstore.edmx</DependentUpon>
+      <LastGenOutput>Bookstore.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Bookstore.edmx.diagram">
+      <DependentUpon>Bookstore.edmx</DependentUpon>
+    </None>
+    <None Include="Bookstore.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Bookstore.edmx</DependentUpon>
+      <LastGenOutput>Bookstore.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LogOutput.txt" />
+    <Content Include="Some SQL queries.sql" />
+    <Content Include="XML\complex-books.xml" />
+    <Content Include="XML\reviews-queries.xml" />
+    <Content Include="XML\reviews-search-results.xml" />
+    <Content Include="XML\simple-books.xml" />
+    <Content Include="XML\simple-query1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logs.Data\Logs.Data.csproj">
+      <Project>{39c10d75-f949-4bf9-83f5-757c16710a1b}</Project>
+      <Name>Logs.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logs.Models\Logs.Models.csproj">
+      <Project>{a7ce81c7-8c33-4647-8fb8-9e7db673b6df}</Project>
+      <Name>Logs.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

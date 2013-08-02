@@ -1,0 +1,109 @@
+﻿.label
+{
+    min-width: 180px;
+    display: inline-block;
+}
+.containers .mGrid
+{
+    padding-left: 10px;
+}
+.containers
+{
+    vertical-align: central;
+   
+    border-bottom: 1px solid black;
+}
+h1
+{
+    text-align: center;
+}
+.containers:last-child
+{
+    border-bottom: none;
+}
+.textbox
+{
+    margin: 5px;
+}
+#form1
+{
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 70px;
+    background-color: mediumaquamarine;
+    
+    text-align: center;
+}
+
+input
+{
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    margin: 10px;
+}
+input:hover, .button-link:focus
+{
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+
+#grdResult, #grdResult1, grdResult2, grdResult3, grdResult4, grdResult5, grdResult6
+{
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid gray;
+}
+
+.mGrid
+{ 
+    width: 95%; 
+    background-color: #fff; 
+    margin: 5px 10px 10px 0; 
+    border: solid 1px #525252; 
+    border-collapse: collapse; 
+    padding: 100px;
+}
+.mGrid td
+{ 
+    padding: 2px; 
+    border: solid 1px #c1c1c1;
+    color: #717171; 
+}
+.mGrid th
+{ 
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #424242 url(images/grd_head.png) repeat-x top; 
+    border-left: solid 1px #525252; 
+    font-size: 0.9em; 
+}
+.mGrid .alt { background: #fcfcfc url(images/grd_alt.png) repeat-x top; }
+.mGrid .pgr { background: #424242 url(images/grd_pgr.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td
+{ 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+}   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; } 

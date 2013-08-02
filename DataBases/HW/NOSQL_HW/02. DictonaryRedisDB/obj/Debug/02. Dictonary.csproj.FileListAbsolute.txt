@@ -1,0 +1,6 @@
+D:\Telerik\DataBases\HW\NOSQL_HW\02. Dictonary\bin\Debug\_02.Dictonary.exe.config
+D:\Telerik\DataBases\HW\NOSQL_HW\02. Dictonary\bin\Debug\_02.Dictonary.exe
+D:\Telerik\DataBases\HW\NOSQL_HW\02. Dictonary\bin\Debug\_02.Dictonary.pdb
+D:\Telerik\DataBases\HW\NOSQL_HW\02. Dictonary\obj\Debug\02. Dictonary.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\NOSQL_HW\02. Dictonary\obj\Debug\_02.Dictonary.exe
+D:\Telerik\DataBases\HW\NOSQL_HW\02. Dictonary\obj\Debug\_02.Dictonary.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Sales>
+  <Sale vendor="AgrisBulgaria">
+    <summary date="7/20/2013 12:00:00 AM" total-sum="167" />
+    <summary date="7/21/2013 12:00:00 AM" total-sum="15" />
+    <summary date="7/22/2013 12:00:00 AM" total-sum="64" />
+  </Sale>
+  <Sale vendor="Ariana Corp.">
+    <summary date="7/21/2013 12:00:00 AM" total-sum="30" />
+  </Sale>
+  <Sale vendor="GreensOOD">
+    <summary date="7/21/2013 12:00:00 AM" total-sum="771.13" />
+  </Sale>
+  <Sale vendor="Nestle Sofia Corp.">
+    <summary date="7/20/2013 12:00:00 AM" total-sum="31.2" />
+    <summary date="7/21/2013 12:00:00 AM" total-sum="150.2" />
+    <summary date="7/22/2013 12:00:00 AM" total-sum="653.4" />
+  </Sale>
+  <Sale vendor="Orbit Ltd.">
+    <summary date="7/21/2013 12:00:00 AM" total-sum="49" />
+  </Sale>
+  <Sale vendor="Peshtera OOD">
+    <summary date="7/20/2013 12:00:00 AM" total-sum="37" />
+  </Sale>
+  <Sale vendor="Targovishte Bottling Company Ltd.">
+    <summary date="7/20/2013 12:00:00 AM" total-sum="30" />
+  </Sale>
+  <Sale vendor="TraqnaAgro">
+    <summary date="7/20/2013 12:00:00 AM" total-sum="99.8" />
+    <summary date="7/21/2013 12:00:00 AM" total-sum="77" />
+    <summary date="7/22/2013 12:00:00 AM" total-sum="341.2" />
+  </Sale>
+  <Sale vendor="Tuborg Ltd.">
+    <summary date="7/21/2013 12:00:00 AM" total-sum="59.8" />
+  </Sale>
+  <Sale vendor="Zagorka AD">
+    <summary date="7/20/2013 12:00:00 AM" total-sum="69.75" />
+    <summary date="7/21/2013 12:00:00 AM" total-sum="54.75" />
+    <summary date="7/22/2013 12:00:00 AM" total-sum="140.2" />
+  </Sale>
+</Sales>

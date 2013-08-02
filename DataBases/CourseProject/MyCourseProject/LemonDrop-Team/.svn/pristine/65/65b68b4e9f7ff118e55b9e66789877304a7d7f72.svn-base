@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sales>
+  <sale vendor="GreensOOD Corp.">
+    <expenses month="Jul-2013">55.00</expenses>
+    <expenses month="Aug-2013">66.00</expenses>
+  </sale>
+  <sale vendor="TraqnaAgro">
+    <expenses month="Jul-2013">25.00</expenses>
+    <expenses month="Aug-2013">11.00</expenses>
+  </sale>
+  <sale vendor="Danone">
+    <expenses month="Jul-2013">44.00</expenses>
+    <expenses month="Aug-2013">91.00</expenses>
+  </sale>
+  <sale vendor="DobrudjaLTD">
+    <expenses month="Jul-2013">22.00</expenses>
+    <expenses month="Aug-2013">24.00</expenses>
+  </sale>
+  <sale vendor="AgrisBulgaria">
+    <expenses month="Jul-2013">19.00</expenses>
+    <expenses month="Aug-2013">25.00</expenses>
+  </sale>
+  <sale vendor="Nestle Sofia Corp.">
+    <expenses month="Jul-2013">56.00</expenses>
+    <expenses month="Aug-2013">78.00</expenses>
+  </sale>
+  <sale vendor="Targovishte Bottling Company Ltd.">
+    <expenses month="Jul-2013">66.00</expenses>
+    <expenses month="Aug-2013">77.00</expenses>
+  </sale>
+  <sale vendor="Ariana Corp.">
+    <expenses month="Jul-2013">88.00</expenses>
+    <expenses month="Aug-2013">99.00</expenses>
+  </sale>
+  <sale vendor="Orbit Ltd.">
+    <expenses month="Jul-2013">15.00</expenses>
+    <expenses month="Aug-2013">27.00</expenses>
+  </sale>
+  <sale vendor="Peshtera OOD">
+    <expenses month="Jul-2013">31.00</expenses>
+    <expenses month="Aug-2013">45.00</expenses>
+  </sale>
+  <sale vendor="Cheetos Bulgaria">
+    <expenses month="Jul-2013">77.00</expenses>
+    <expenses month="Aug-2013">12.00</expenses>
+  </sale>
+  <sale vendor="CocaCola">
+    <expenses month="Jul-2013">88.00</expenses>
+    <expenses month="Aug-2013">56.00</expenses>
+  </sale>
+  <sale vendor="Beks">
+    <expenses month="Jul-2013">59.00</expenses>
+    <expenses month="Aug-2013">58.00</expenses>
+  </sale>
+  <sale vendor="Histar OOD">
+    <expenses month="Jul-2013">47.00</expenses>
+    <expenses month="Aug-2013">81.00</expenses>
+  </sale>
+  <sale vendor="Tuborg Ltd.">
+    <expenses month="Jul-2013">86.00</expenses>
+    <expenses month="Aug-2013">87.00</expenses>
+  </sale>
+  <sale vendor="Zagorka AD">
+    <expenses month="Jul-2013">90.00</expenses>
+    <expenses month="Aug-2013">99.00</expenses>
+  </sale>
+  <sale vendor="Kamenitza">
+    <expenses month="Jul-2013">28.00</expenses>
+    <expenses month="Aug-2013">32.00</expenses>
+  </sale>
+  <sale vendor="Fanta Ltd">
+    <expenses month="Jul-2013">66.00</expenses>
+    <expenses month="Aug-2013">68.00</expenses>
+  </sale>
+  <sale vendor="PepsiCo">
+    <expenses month="Jul-2013">45.00</expenses>
+    <expenses month="Aug-2013">31.00</expenses>
+  </sale>
+  <sale vendor="Orehite 'Bulgaria AD'">
+    <expenses month="Jul-2013">53.00</expenses>
+    <expenses month="Aug-2013">56.00</expenses>
+  </sale>
+  <sale vendor="Derby Ltd">
+    <expenses month="Jul-2013">66.00</expenses>
+    <expenses month="Aug-2013">67.00</expenses>
+  </sale>
+  </sales>

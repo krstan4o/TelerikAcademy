@@ -1,0 +1,8 @@
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\bin\Debug\Logs.Models.dll
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\bin\Debug\Logs.Models.pdb
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\obj\Debug\Logs.Models.csprojResolveAssemblyReference.cache
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\obj\Debug\Logs.Models.dll
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\obj\Debug\Logs.Models.pdb
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\bin\Debug\Logs.Models.dll.config
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\bin\Debug\EntityFramework.dll
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\Logs.Models\bin\Debug\EntityFramework.xml

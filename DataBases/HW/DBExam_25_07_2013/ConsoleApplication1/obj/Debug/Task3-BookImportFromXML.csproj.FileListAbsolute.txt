@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\obj\Debug\Task3-BookImportFromXML.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\BookStore.Data.dll
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\BookStore.Data.pdb
+D:\Telerik\DataBases\HW\DBExam_25_07_2013\ConsoleApplication1\bin\Debug\EntityFramework.xml

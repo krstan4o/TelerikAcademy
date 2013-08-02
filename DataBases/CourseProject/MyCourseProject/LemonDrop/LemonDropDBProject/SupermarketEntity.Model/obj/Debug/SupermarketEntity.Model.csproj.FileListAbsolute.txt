@@ -1,5 +1,0 @@
-D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketEntity.Model\bin\Debug\SupermarketEntity.Model.dll
-D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketEntity.Model\bin\Debug\SupermarketEntity.Model.pdb
-D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketEntity.Model\obj\Debug\SupermarketEntity.Model.csprojResolveAssemblyReference.cache
-D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketEntity.Model\obj\Debug\SupermarketEntity.Model.dll
-D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\SupermarketEntity.Model\obj\Debug\SupermarketEntity.Model.pdb

@@ -1,0 +1,10 @@
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\Bookstore.Model.dll.config
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\Bookstore.Model.dll
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\Bookstore.Model.pdb
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\Bookstore.Data.dll
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\Bookstore.Data.pdb
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\bin\Debug\EntityFramework.xml
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\obj\Debug\Bookstore.Model.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\obj\Debug\Bookstore.Model.dll
+D:\Telerik\DataBases\Izpit\DatabasesExamRebuild\Bookstore.Model\obj\Debug\Bookstore.Model.pdb

@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+
+namespace Supermarket.WebClient
+{
+    public partial class index : System.Web.UI.Page
+    {
+        protected string dataDir = "data";
+        protected string resultDir = "result";
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!Directory.Exists(Server.MapPath(resultDir)))
+            {
+                Directory.CreateDirectory(Server.MapPath(resultDir));
+            }
+        }
+
+        protected void btnGenerateSQL_Click(object sender, EventArgs e)
+        {
+            Task1CopyToSQL.CopyMysqlToSql();
+
+            string zipPath = Server.MapPath(dataDir + "/Sample-Sales-Reports.zip");
+            string tempDir = Server.MapPath(@"tempDir");
+            Task1CopyToSQL.ReadFromExcel(tempDir, zipPath);
+        }
+
+        protected void btnGeneratePDF_Click(object sender, EventArgs e)
+        {
+            string savePath = resultDir + "/Aggregated Sales Report.pdf";
+            Task2GeneratePDF.PDFGenarator(Server.MapPath(savePath));
+        }
+
+        protected void btnGenerateXMLVendors_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
+
+        
+    }
+}

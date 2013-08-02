@@ -1,1 +1,0 @@
-D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop\LemonDropDBProject\Supermarket.ConsoleClient\obj\Debug\Supermarket.ConsoleClient.csprojResolveAssemblyReference.cache

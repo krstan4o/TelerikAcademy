@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Supermarket.Data" GeneratedClassName="dbSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MONGOLAB_URI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mongodb://127.0.0.1/Supermarket</Value>
+    </Setting>
+    <Setting Name="MySqlConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=localhost;Database=supermarket;Uid=root;Pwd=;</Value>
+    </Setting>
+    <Setting Name="SQLiteConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=D:\DatabaseSVN\lemondropdbproject\Taxes.db;Version=3;</Value>
+    </Setting>
+    <Setting Name="SqlConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=.; Database=SupermarketDatabase; Integrated Security=true</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

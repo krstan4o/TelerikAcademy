@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM.Client", "ATM.Client\ATM.Client.csproj", "{A624F12F-E676-4173-A5BA-AE84E9BD233B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transactions", "Transactions\Transactions.csproj", "{BAE8D144-38AF-4F7C-B0C0-6D18CC0D7F8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A624F12F-E676-4173-A5BA-AE84E9BD233B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A624F12F-E676-4173-A5BA-AE84E9BD233B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A624F12F-E676-4173-A5BA-AE84E9BD233B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A624F12F-E676-4173-A5BA-AE84E9BD233B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE8D144-38AF-4F7C-B0C0-6D18CC0D7F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE8D144-38AF-4F7C-B0C0-6D18CC0D7F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE8D144-38AF-4F7C-B0C0-6D18CC0D7F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE8D144-38AF-4F7C-B0C0-6D18CC0D7F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

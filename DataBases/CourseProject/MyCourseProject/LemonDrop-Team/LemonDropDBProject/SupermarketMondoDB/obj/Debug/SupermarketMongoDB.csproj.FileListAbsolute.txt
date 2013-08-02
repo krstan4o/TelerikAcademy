@@ -1,0 +1,44 @@
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\obj\Debug\SupermarketMongoDB.csprojResolveAssemblyReference.cache
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketMondoDB.exe.config
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketMondoDB.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketMondoDB.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Supermarket.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\EntityFramework.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Driver.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MySql.Data.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\System.Data.SQLite.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Bson.dll
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Supermarket.Data.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Driver.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Bson.xml
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\obj\Debug\SupermarketMondoDB.exe
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\obj\Debug\SupermarketMondoDB.pdb
+D:\Telerik kurs\TeamProjects\DBProject\LemonDrop\LemonDropDBProject\SupermarketMondoDB\bin\Debug\itextsharp.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\x64\SQLite.Interop.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\x86\SQLite.Interop.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketMondoDB.exe.config
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketMondoDB.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketMondoDB.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Bson.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Driver.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Supermarket.Data.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\EntityFramework.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketEntity.Model.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MySql.Data.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\System.Data.SQLite.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\itextsharp.dll
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Supermarket.Data.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Bson.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\MongoDB.Driver.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\bin\Debug\SupermarketEntity.Model.pdb
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\obj\Debug\SupermarketMongoDB.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\obj\Debug\SupermarketMondoDB.exe
+D:\Telerik\DataBases\CourseProject\MyCourseProject\LemonDrop-Team\LemonDropDBProject\SupermarketMondoDB\obj\Debug\SupermarketMondoDB.pdb

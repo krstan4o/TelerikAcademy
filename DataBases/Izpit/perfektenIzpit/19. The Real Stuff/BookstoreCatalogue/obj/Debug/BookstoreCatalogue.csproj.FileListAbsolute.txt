@@ -1,0 +1,27 @@
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.exe.config
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.exe
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.pdb
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\EntityFramework.dll
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\EntityFramework.xml
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.csprojResolveAssemblyReference.cache
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.exe
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.pdb
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Data.dll
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Models.dll
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Data.pdb
+D:\School\Telerik\C#\Code & HW\DBs\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Models.pdb
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.exe.config
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.exe
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.pdb
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.exe
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.pdb
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\EntityFramework.dll
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Data.dll
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Models.dll
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Data.pdb
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\Logs.Models.pdb
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\bin\Debug\EntityFramework.xml
+C:\Users\krstan4o\Downloads\ExamFileForEvaluation\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.csprojResolveAssemblyReference.cache
+D:\Telerik\DataBases\Izpit\perfektenIzpit\19. The Real Stuff\BookstoreCatalogue\bin\Debug\BookstoreCatalogue.exe.config
+D:\Telerik\DataBases\Izpit\perfektenIzpit\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.exe
+D:\Telerik\DataBases\Izpit\perfektenIzpit\19. The Real Stuff\BookstoreCatalogue\obj\Debug\BookstoreCatalogue.pdb

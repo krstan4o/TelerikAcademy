@@ -1,0 +1,14 @@
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\_02.Dictonary.exe.config
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\obj\Debug\_02.Dictonary.exe
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\obj\Debug\_02.Dictonary.pdb
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\_02.Dictonary.exe
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\_02.Dictonary.pdb
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Common.dll
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Interfaces.dll
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Redis.dll
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Text.dll
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Common.xml
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Interfaces.xml
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Redis.xml
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\bin\Debug\ServiceStack.Text.xml
+D:\Telerik\DataBases\HW\NOSQL_HW\02. DictonaryRedisDB\obj\Debug\02. DictonaryRedisDB.csprojResolveAssemblyReference.cache
