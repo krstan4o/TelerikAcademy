@@ -1,0 +1,15 @@
+C:\Users\krstan4o\Desktop\Battle-Game\BattleGame\BattleGame.Client\bin\BattleGame.Client.dll
+C:\Users\krstan4o\Desktop\Battle-Game\BattleGame\BattleGame.Client\bin\BattleGame.Client.pdb
+C:\Users\krstan4o\Desktop\Battle-Game\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\Battle-Game\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.dll
+C:\Users\krstan4o\Desktop\Battle-Game\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.pdb
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\BattleGame\BattleGame.Client\bin\BattleGame.Client.dll
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\BattleGame\BattleGame.Client\bin\BattleGame.Client.pdb
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.dll
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.pdb
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\myJsApisExam\BattleGame\BattleGame.Client\bin\BattleGame.Client.dll
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\myJsApisExam\BattleGame\BattleGame.Client\bin\BattleGame.Client.pdb
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\myJsApisExam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.csprojResolveAssemblyReference.cache
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\myJsApisExam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.dll
+D:\Telerik\JavaScriptApis\Izpit\myJsApisExam\myJsApisExam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.pdb

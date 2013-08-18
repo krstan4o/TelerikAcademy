@@ -1,0 +1,49 @@
+/* Begin: codeBlockStyle */
+.codeBlockStyle, 
+.codeBlockStyle ul, 
+.codeBlockStyle li, 
+.codeBlockStyle a, 
+.codeBlockStyle span, .tabContent
+{
+    margin: 0;
+    padding: 0;
+    font-family: "segoe ui" ,arial,sans-serif;
+    font-size: 12px;
+}
+        
+.codeBlockStyle li
+{
+    float: left;
+    list-style: none;
+    margin-left: 1px;
+    display: inline-block;
+}
+        
+.codeBlockStyle a
+{
+    text-decoration: none;
+    display: inline-block;
+    _display: inline;
+    *zoom: 1;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 8px;
+    background-color: #dce8f8;
+    color: #000;
+}
+        
+.codeBlockStyle a:hover, .codeBlockStyle .current a
+{
+    background-color: #7189a9;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -2px;
+}
+        
+.tabContent
+{
+    clear: both;
+    text-align: justify;
+}
+/* End: codeBlockStyle */

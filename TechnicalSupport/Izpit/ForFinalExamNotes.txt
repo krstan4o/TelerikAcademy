@@ -1,0 +1,8 @@
+suport 1 tehni4eska zada4a za 15-20 minuti da q reshime imame uslovie podrobno
+
+golqmo upisanie da implementirame zada4ata da otg na nqkav ticket, da napisheme dokumentaciq kym zada4ata - tova sa 3te zada4i...
+
+Koda da e sushto dokumentiran...
+
+3 4asa izpit nekade sand cassle generirane za dokumentaciq nekva 
+

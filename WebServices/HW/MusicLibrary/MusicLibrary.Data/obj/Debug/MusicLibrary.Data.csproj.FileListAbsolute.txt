@@ -1,0 +1,10 @@
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\MusicLibrary.Data.dll.config
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\MusicLibrary.Data.dll
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\MusicLibrary.Data.pdb
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\EntityFramework.dll
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\MusicLibrary.Models.dll
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\MusicLibrary.Models.pdb
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\bin\Debug\EntityFramework.xml
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\obj\Debug\MusicLibrary.Data.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\obj\Debug\MusicLibrary.Data.dll
+D:\Telerik\WebServices\HW\MusicLibrary\MusicLibrary.Data\obj\Debug\MusicLibrary.Data.pdb

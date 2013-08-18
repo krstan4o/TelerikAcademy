@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Email Sender</title>
+        
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+        <style>
+            h1
+            {
+                text-align: center;
+                text-decoration: underline;
+            }
+            
+            footer
+            {
+                text-align: center;
+            }
+            div
+            {
+            
+                margin: 20px;
+            }
+            #message
+            {
+                height: 100px;
+            }
+            input
+            {
+                vertical-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Email Sender</h1>
+        <div>
+            <form>
+                <input type="text" id="from" data-role="input" value="From:"/>
+                <input type="text" id="to" value="To:"/>
+                <input type="text" id="subject" value="Subject:" />
+                <input type="text" id="message" value="Message:" />
+                <input type="submit" id="submit" value="Send Message" />
+                <input type="reset" value="Reset"/>
+            </form>
+        </div>
+
+        <script>
+            $(this).ajaxStart(function() {
+                $.mobile.loading('show');
+            });
+            $(this).ajaxStop(function() {
+                $.mobile.loading('hide');
+            });
+            
+           
+            var lastValue = "";
+            $("input[type=text]").click(function () {
+                var clicked = $(".clicked");
+                var that = $(this);
+                clicked.val(lastValue);
+                clicked.removeClass("clicked");
+                that.addClass("clicked");
+                lastValue = $(this).val();
+                clicked.val("");
+            });
+                
+            $("#reset").click(function() {
+                $("#from").val("From:");
+                $("#to").val("To:");
+                $("#subject").val("Title:");
+                $("#message").val("Content:");
+            });
+			   
+            $("#submit").unbind('click').click(function () {
+                var from = $("#from").val();
+                var to = $("#to").val();
+                var subject = $("#subject").val();
+                var content = $("#message").val();
+				
+                var message = {
+                    From:from,
+                    To:to,
+                    Title:subject,
+                    Content:content
+                };
+                
+                var myString = JSON.stringify(message);
+                var that = this;
+                $.ajax({
+                    url: "http://mailsender-2.apphb.com/api/send",
+                    type: "POST",
+                    beforeSend: function() {
+                        $.mobile.showPageLoadingMsg(true);
+                    },
+                    complete: function() {
+                        $.mobile.hidePageLoadingMsg();
+                    },
+                    timeout: 50000,
+                    contentType: "application/json",
+                    accept: "application/json; charset=utf-8",
+                    data: myString,
+                    success: function () {
+                        $("#result").css("color", "green");
+                        $("#result").html("<p>Message sended.</p>");
+                        
+                    },
+                    error: function () {
+                        $("#result").css("color", "red");
+                        $("#result").html("<p>An error occured.</p>");
+                    }
+                });
+            
+                return false;
+            });
+        </script>
+
+        <br />
+
+        <footer>
+            <span id="result">
+
+            </span>
+            &copy 2013 krstan4o
+        </footer>
+    </body>
+</html>
+    

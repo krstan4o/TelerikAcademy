@@ -1,0 +1,5 @@
+D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService\bin\GetDayService.dll
+D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService\bin\GetDayService.pdb
+D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService\obj\Debug\GetDayService.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService\obj\Debug\GetDayService.dll
+D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService\obj\Debug\GetDayService.pdb

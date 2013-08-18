@@ -1,0 +1,6 @@
+D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCount.ClientTest\bin\Debug\GetEqualStringCount.ClientTest.exe.config
+D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCount.ClientTest\obj\Debug\GetEqualStringCount.ClientTest.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCount.ClientTest\bin\Debug\GetEqualStringCount.ClientTest.exe
+D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCount.ClientTest\bin\Debug\GetEqualStringCount.ClientTest.pdb
+D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCount.ClientTest\obj\Debug\GetEqualStringCount.ClientTest.exe
+D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCount.ClientTest\obj\Debug\GetEqualStringCount.ClientTest.pdb

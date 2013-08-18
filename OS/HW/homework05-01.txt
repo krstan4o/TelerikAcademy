@@ -1,0 +1,43 @@
+﻿1. Login on grizzly and get the home folders of the usernames that have numbers in them.
+
+Login on grizzly
+ awk -F ":" '$1 ~ /[0-9]/ {print $6}' /etc/passwd
+
+Usernames that have numbers in them
+/home/iordan93
+/home/user1
+/home/djordjo7
+/home/m4rt00
+/home/Ivan72
+/home/blagovestie1
+/home/ze3rax
+/home/petko9001
+/home/gogo74
+/home/GiK986
+/home/martotko1
+/home/todor87
+/home/rossi87
+/home/d.georgiev.91
+/home/pe6o
+/home/Vali0
+/home/dandreev1
+/home/veidar45
+/home/mage3
+/home/nikolai.velkov1
+/home/stefito3
+/home/kamen779
+/home/tm206
+/home/val10
+/home/s0ny123
+/home/fuzly2
+/home/svv1234
+/home/plam40
+/home/loopback0
+/home/VLD62
+/home/vik16r
+/home/pe6ev
+/home/pacho10
+/home/4
+/home/kmalamov1
+/home/pacho19
+/home/vtodorov2

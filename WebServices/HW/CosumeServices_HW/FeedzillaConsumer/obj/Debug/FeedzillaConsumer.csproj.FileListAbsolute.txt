@@ -1,0 +1,10 @@
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\FeedzillaConsumer.exe.config
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\FeedzillaConsumer.exe
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\FeedzillaConsumer.pdb
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\System.Net.Http.Formatting.dll
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\Newtonsoft.Json.xml
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\bin\Debug\System.Net.Http.Formatting.xml
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\obj\Debug\FeedzillaConsumer.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\obj\Debug\FeedzillaConsumer.exe
+D:\Telerik\WebServices\HW\CosumeServices_HW\FeedzillaConsumer\obj\Debug\FeedzillaConsumer.pdb

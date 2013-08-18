@@ -1,0 +1,5 @@
+D:\Telerik\ASP.NET\EmailSender\EmailSender.MobileClient\bin\EmailSender.MobileClient.dll
+D:\Telerik\ASP.NET\EmailSender\EmailSender.MobileClient\bin\EmailSender.MobileClient.pdb
+D:\Telerik\ASP.NET\EmailSender\EmailSender.MobileClient\obj\Debug\EmailSender.MobileClient.csprojResolveAssemblyReference.cache
+D:\Telerik\ASP.NET\EmailSender\EmailSender.MobileClient\obj\Debug\EmailSender.MobileClient.dll
+D:\Telerik\ASP.NET\EmailSender\EmailSender.MobileClient\obj\Debug\EmailSender.MobileClient.pdb
