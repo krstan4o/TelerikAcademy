@@ -1,0 +1,9 @@
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\bin\Debug\Dropbox-Example.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\bin\Debug\Dropbox-Example.pdb
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\bin\Debug\Common.Logging.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\bin\Debug\Spring.Rest.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\bin\Debug\Spring.Social.Core.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\bin\Debug\Spring.Social.Dropbox.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\obj\x86\Debug\Dropbox-Example.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\obj\x86\Debug\Dropbox-Example.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Dropbox-Example\obj\x86\Debug\Dropbox-Example.pdb

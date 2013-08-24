@@ -1,0 +1,12 @@
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\Places.Repositories.dll.config
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\Places.Repositories.dll
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\Places.Repositories.pdb
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\EntityFramework.dll
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\Places.Models.dll
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\Places.Models.pdb
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\EntityFramework.xml
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\obj\Debug\Places.Repositories.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\obj\Debug\Places.Repositories.dll
+D:\Telerik\WebServices\Demos\Web-Services-Testing\Web-Services-Testing\Places.Repositories\obj\Debug\Places.Repositories.pdb

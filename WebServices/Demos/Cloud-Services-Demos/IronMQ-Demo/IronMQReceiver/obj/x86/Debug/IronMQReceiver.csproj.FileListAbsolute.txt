@@ -1,0 +1,6 @@
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQReceiver\bin\Debug\IronMQReceiver.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQReceiver\bin\Debug\IronMQReceiver.pdb
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQReceiver\bin\Debug\iron_mq_dotnet.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQReceiver\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQReceiver\obj\x86\Debug\IronMQReceiver.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQReceiver\obj\x86\Debug\IronMQReceiver.pdb

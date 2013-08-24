@@ -1,0 +1,16 @@
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\bin\Debug\1.ChatMessageQueueGUI.exe.config
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\bin\Debug\1.ChatMessageQueueGUI.exe
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\bin\Debug\1.ChatMessageQueueGUI.pdb
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\bin\Debug\IronMQ.NET.dll
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\1.ChatMessageQueueGUI.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\MainWindow.baml
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\MainWindow.g.cs
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\App.g.cs
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\1.ChatMessageQueueGUI_MarkupCompile.cache
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\1.ChatMessageQueueGUI.g.resources
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\_1.ChatMessageQueueGUI.Properties.Resources.resources
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\1.ChatMessageQueueGUI.csproj.GenerateResource.Cache
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\1.ChatMessageQueueGUI.exe
+C:\Users\krstan4o\Desktop\Solution1\1.ChatMessageQueueGUI\obj\Debug\1.ChatMessageQueueGUI.pdb

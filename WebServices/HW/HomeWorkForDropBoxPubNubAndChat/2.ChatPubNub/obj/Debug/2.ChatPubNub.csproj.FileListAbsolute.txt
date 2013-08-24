@@ -1,0 +1,12 @@
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\bin\Debug\2.ChatPubNub.exe.config
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\bin\Debug\2.ChatPubNub.exe
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\bin\Debug\2.ChatPubNub.pdb
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\MainWindow.baml
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\MainWindow.g.cs
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\App.g.cs
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\2.ChatPubNub_MarkupCompile.cache
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\2.ChatPubNub.g.resources
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\_2.ChatPubNub.Properties.Resources.resources
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\2.ChatPubNub.csproj.GenerateResource.Cache
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\2.ChatPubNub.exe
+C:\Users\krstan4o\Desktop\Solution1\2.ChatPubNub\obj\Debug\2.ChatPubNub.pdb

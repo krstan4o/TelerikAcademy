@@ -1,0 +1,17 @@
+﻿<Window x:Class="_1.ChatMessageQueueGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chat Application with IronMQ" SizeToContent="WidthAndHeight">
+    <Grid>
+        <Border Padding="10">
+            <StackPanel>
+                <Label>Chat History</Label>
+                <TextBox MinHeight="300" MinWidth="300" x:Name="txtChatHistory" 
+                         Margin="0 0 0 20" BorderBrush="Black"/>
+                <TextBox MinHeight="50" x:Name="txtMessage" Margin="0 0 0 10"
+                         BorderBrush="Black"/>
+                <Button x:Name="btnSend" Content="Send Message" FontSize="20" Click="btnSend_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

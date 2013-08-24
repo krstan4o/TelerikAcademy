@@ -1,0 +1,48 @@
+﻿1. Create a routing table called lsa. Then add all of your existing routes to it. And finally make your machine use that table instead of table 'main'.
+
+First add a name for the new routing table to the /etc/iproute2/rt_tables file. This can be appended to it with the command echo 2 lsa >> /etc/iproute2/rt_tables. The result looks like this: 
+#
+# reserved values
+#
+255     local
+254     main
+253     default
+0       unspec
+#
+# local
+#
+#1      inr.ruhep
+2 lsa
+Above I mentioned that the command ip route is actually a shortcut for the longer command ip route show table main. Since there is no shortcut to list the new routing table, you have no choice but to use the long form: ip route show table lsa. Entering this command now will reveal that this new table is still empty. 
+All that is necessary is to add the new default route to the lsa table -- the old main table will continue to handle the rest. The reason for this will soon become clear. Here is the existing main table: 
+~# ip route show table main
+192.168.1.0/24 dev eth0  proto kernel  scope link  src 192.168.1.10
+192.168.2.0/24 dev eth1  proto kernel  scope link  src 192.168.2.10 
+default via 192.168.1.1 dev eth0
+~# _
+
+As follows, add the new default route to table lsa and then display it: 
+~# ip route add default via 192.168.2.1 dev eth1 table cheapskate
+~# ip route show table lsa
+default via 192.168.2.1 dev eth1
+~# _
+As you can see, the entire table consists of a single line. However, it is not yet being used. To implement it, the command, ip rule is required. Routing tables determine packet destinations, but now we need the kernel to use different routing tables depending on their source addresses. The existing set of ip rules is very simple: 
+~# ip rule
+0:      from all lookup local
+32766:  from all lookup main
+32767:  from all lookup default
+~# _
+At this point you need to add a new rule: 
+~# ip rule add from 192.168.2.10 lookup cheapskate prio 1000
+This command adds a rule for when a packet has a from pattern of 192.168.2.10 in which case the routing table cheapskate should be used with a priority level of 1000. In this example the pattern only needs to match one address, but you can set patterns in a Linux router to match different sets of addresses. 
+~# ip rule
+0:      from all lookup local
+1000:   from 192.168.2.10 lookup cheapskate
+32766:  from all lookup main
+32767:  from all lookup default
+~# _
+The kernel searches the list of ip rules starting with the lowest priority number, processing each routing table until the packet has been routed successfully. 
+The default ruleset always has a local table with a match pattern of all. The local table (priority 0) handles traffic that is supposed to stay on the localhost, as well as broadcast traffic. 
+After the local rule comes our new rule with a priority of 1000. This priority number is arbitrary, but makes it easy to add other rules before and after it later on. 
+Our new rule comes before the main table, which is the one that is modified by the old route command. The last rule is for the default table. I'm not certain what it's for, as I've always found it to be empty, and seeing as there is a default route in the table main, no traffic ever gets to the table default. 
+

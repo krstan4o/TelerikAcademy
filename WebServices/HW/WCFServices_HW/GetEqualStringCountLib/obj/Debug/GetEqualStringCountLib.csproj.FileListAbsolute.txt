@@ -1,6 +1,0 @@
-D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCountLib\obj\Debug\GetEqualStringCountLib.csprojResolveAssemblyReference.cache
-D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCountLib\bin\Debug\GetEqualStringCountLib.dll.config
-D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCountLib\bin\Debug\GetEqualStringCountLib.dll
-D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCountLib\bin\Debug\GetEqualStringCountLib.pdb
-D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCountLib\obj\Debug\GetEqualStringCountLib.dll
-D:\Telerik\WebServices\HW\WCFServices_HW\GetEqualStringCountLib\obj\Debug\GetEqualStringCountLib.pdb

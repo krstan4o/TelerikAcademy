@@ -1,0 +1,9 @@
+. В Package Manager конзолата въвеждате следното:
+
+Install-Package Microsoft.AspNet.WebApi.Cors -Pre
+
+Като преди това се уверете, че дефолтния проект е Web API проекта.
+
+2. Отворете WebApiConfig.cs файла (в App_Start папката) и добавете в метода Register:
+
+config.EnableCors(new EnableCorsAttribute("*", "*", "*"));

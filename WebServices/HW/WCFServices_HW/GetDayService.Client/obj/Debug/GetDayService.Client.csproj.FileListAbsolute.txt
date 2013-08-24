@@ -1,6 +1,0 @@
-D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService.Client\bin\Debug\GetDayService.Client.exe.config
-D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService.Client\bin\Debug\GetDayService.Client.exe
-D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService.Client\bin\Debug\GetDayService.Client.pdb
-D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService.Client\obj\Debug\GetDayService.Client.csprojResolveAssemblyReference.cache
-D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService.Client\obj\Debug\GetDayService.Client.exe
-D:\Telerik\WebServices\HW\WCFServices_HW\GetDayService.Client\obj\Debug\GetDayService.Client.pdb

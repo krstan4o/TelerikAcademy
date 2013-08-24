@@ -1,0 +1,9 @@
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\bin\Debug\Logentries-Demo.exe.config
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\bin\Debug\Logentries-Demo.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\bin\Debug\Logentries-Demo.pdb
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\bin\Debug\le_nlog.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\bin\Debug\NLog.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\bin\Debug\NLog.xml
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\obj\Debug\Logentries-Demo.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\obj\Debug\Logentries-Demo.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\Logentries-Demo-Not-Working\obj\Debug\Logentries-Demo.pdb

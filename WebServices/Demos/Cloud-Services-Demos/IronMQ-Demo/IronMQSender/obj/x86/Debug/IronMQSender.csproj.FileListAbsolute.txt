@@ -1,0 +1,7 @@
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\bin\Debug\IronMQSender.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\bin\Debug\IronMQSender.pdb
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\bin\Debug\iron_mq_dotnet.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\obj\x86\Debug\IronMQSender.csprojResolveAssemblyReference.cache
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\obj\x86\Debug\IronMQSender.exe
+D:\Telerik\WebServices\Demos\Cloud-Services-Demos\IronMQ-Demo\IronMQSender\obj\x86\Debug\IronMQSender.pdb
