@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KRSTAN4O-LAPTOP</Machine>
+    <WindowsUser>krstan4o</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>20F7712288FCD3D4CBB918D216C57B65754341BC5ACABD7F616D60A9D76E3D0C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>17597ff4-63cf-4dce-b25a-d275ea505bb0_1.0.0.0_neutral__yeypn9ae0jf2c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>17597ff4-63cf-4dce-b25a-d275ea505bb0_yeypn9ae0jf2c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>17597ff4-63cf-4dce-b25a-d275ea505bb0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=krstan4o</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-30T19:56:56.643</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-08-30T19:41:32.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-08-30T19:56:32.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\image\simple-image.png">
+      <PackagePath>image\simple-image.png</PackagePath>
+      <Modified>2013-08-30T19:33:50.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-08-30T18:49:05.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\js\Helpers\BindingHelpers.js">
+      <PackagePath>js\Helpers\BindingHelpers.js</PackagePath>
+      <Modified>2013-08-30T19:28:24.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-08-30T19:26:49.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\js\observableComputer.js">
+      <PackagePath>js\observableComputer.js</PackagePath>
+      <Modified>2013-08-30T19:27:23.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-08-30T19:30:10.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-08-30T18:49:51.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2013-08-30T19:30:39.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\CollectionControls\CollectionControls\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-08-30T19:56:56.562</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

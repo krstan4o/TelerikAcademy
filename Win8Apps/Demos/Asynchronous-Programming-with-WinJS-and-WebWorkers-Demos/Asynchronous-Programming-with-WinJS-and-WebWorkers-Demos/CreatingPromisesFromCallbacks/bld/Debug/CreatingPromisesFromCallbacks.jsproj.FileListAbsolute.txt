@@ -1,0 +1,13 @@
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bin\Debug\resources.pri
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bin\Debug\AppxManifest.xml
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bin\Debug\CreatingPromisesFromCallbacks.build.appxrecipe
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\priconfig.xml.intermediate
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\layout.resfiles.intermediate
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\resources.resfiles.intermediate
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\pri.resfiles.intermediate
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\priconfig.xml
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\layout.resfiles
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\resources.resfiles
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\pri.resfiles
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\LanguageQualifiers.txt
+D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromisesFromCallbacks\bld\Debug\ProjectArchitectures.txt

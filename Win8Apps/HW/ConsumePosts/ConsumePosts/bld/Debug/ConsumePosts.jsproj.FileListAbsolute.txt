@@ -1,0 +1,13 @@
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bin\Debug\resources.pri
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bin\Debug\AppxManifest.xml
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bin\Debug\ConsumePosts.build.appxrecipe
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\priconfig.xml.intermediate
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\layout.resfiles.intermediate
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\resources.resfiles.intermediate
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\pri.resfiles.intermediate
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\priconfig.xml
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\layout.resfiles
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\resources.resfiles
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\pri.resfiles
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\LanguageQualifiers.txt
+D:\Telerik\Win8Apps\HW\ConsumePosts\ConsumePosts\bld\Debug\ProjectArchitectures.txt

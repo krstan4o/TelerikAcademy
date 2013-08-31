@@ -1,0 +1,13 @@
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bin\Debug\resources.pri
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bin\Debug\AppxManifest.xml
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bin\Debug\BulgariaApp.build.appxrecipe
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\priconfig.xml.intermediate
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\layout.resfiles.intermediate
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\resources.resfiles.intermediate
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\pri.resfiles.intermediate
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\priconfig.xml
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\layout.resfiles
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\resources.resfiles
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\pri.resfiles
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\LanguageQualifiers.txt
+D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bld\Debug\ProjectArchitectures.txt

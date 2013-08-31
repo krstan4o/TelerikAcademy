@@ -1,0 +1,9 @@
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bin\Debug\resources.pri
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bin\Debug\AppxManifest.xml
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bin\Debug\WinJSLifeCycle.build.appxrecipe
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bld\Debug\priconfig.xml
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bld\Debug\layout.resfiles
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bld\Debug\resources.resfiles
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bld\Debug\pri.resfiles
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bld\Debug\LanguageQualifiers.txt
+D:\Telerik\Win8Apps\HW\WinJSLifeCycle\WinJSLifeCycle\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DedicatedWorker</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- DedicatedWorker references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="js/primesWorker.js"></script>
+    <script src="js/primesCalculator.js"></script>
+</head>
+<body>
+    <label for="primes-first">Primes First:</label>
+    <input id="primes-first" />
+    <label for="primes-last">Primes Last:</label>
+    <input id="primes-last" />
+    <label for="primes-count">Primes Count:</label>
+    <input id="primes-count" />
+    <div>
+        <label>Number of workers</label>
+        <select id = "wokrerCountSelector">
+               <option value = "1">one</option>
+               <option value = "2">two</option>
+               <option value = "3">three</option>
+               <option value = "4">four</option>
+        </select>
+    </div>
+    <button id="calculate-primes">Calculate primes in Dedicated worker</button>
+    <div id="main-content-id" style="height: 700px; overflow-y: scroll;"></div>
+</body>
+</html>
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+    © 2013 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Contact
+

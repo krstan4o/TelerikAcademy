@@ -1,0 +1,26 @@
+﻿body {
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+.result {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    display: block;
+    -ms-word-break: inherit;
+    word-break: inherit;
+}
+#wrapper {
+    text-align:center;
+}

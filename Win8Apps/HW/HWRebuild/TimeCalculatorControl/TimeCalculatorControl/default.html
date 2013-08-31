@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>TimeCalculatorControl</title>
+
+        <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+        <!-- TimeCalculatorControl references -->
+        <link href="/css/default.css" rel="stylesheet" />
+        <script src="/js/default.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            Start date: <br />
+            <div id="start-date" data-win-control="WinJS.UI.DatePicker" data-win-options="{}"></div> <br />
+            <div class="time-control hidden">
+                Start time: <br />
+                <div  id="start-time" class="time hidden" data-win-control="WinJS.UI.TimePicker"></div> <br />
+            </div>
+            End date: <br />
+            <div id="end-date" data-win-control="WinJS.UI.DatePicker"></div> <br />
+            <div class="time-control hidden">
+                End time: <br />
+                <div id="end-time" data-win-control="WinJS.UI.TimePicker"></div> <br />
+            </div>
+            <button id="show-time-control">ShowTimeControl</button>
+            <button id="calculate-btn">Calculate</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KRSTAN4O-LAPTOP</Machine>
+    <WindowsUser>krstan4o</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8A66D5BE0B0245AC68DBEF2A66CAC552F7AE70A5E9AC4D6D46B188C2EF455B0C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>dcf02f0d-1bbd-48f8-9089-ed486872c33d_1.0.0.0_neutral__yeypn9ae0jf2c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>dcf02f0d-1bbd-48f8-9089-ed486872c33d_yeypn9ae0jf2c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>dcf02f0d-1bbd-48f8-9089-ed486872c33d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=krstan4o</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-26T20:45:39.371</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-08-26T20:32:41.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\culture\culture.html">
+      <PackagePath>pages\culture\culture.html</PackagePath>
+      <Modified>2013-08-26T20:34:21.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\demographics\demographics.html">
+      <PackagePath>pages\demographics\demographics.html</PackagePath>
+      <Modified>2013-08-26T20:36:38.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\economy\economy.html">
+      <PackagePath>pages\economy\economy.html</PackagePath>
+      <Modified>2013-08-26T20:38:20.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\geography\geography.html">
+      <PackagePath>pages\geography\geography.html</PackagePath>
+      <Modified>2013-08-26T20:39:44.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\history\history.html">
+      <PackagePath>pages\history\history.html</PackagePath>
+      <Modified>2013-08-26T20:41:24.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-08-26T20:42:47.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\politics\politics.html">
+      <PackagePath>pages\politics\politics.html</PackagePath>
+      <Modified>2013-08-26T20:43:56.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T08:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-08-26T20:33:12.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-08-26T20:33:26.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\culture\culture.js">
+      <PackagePath>pages\culture\culture.js</PackagePath>
+      <Modified>2013-08-26T20:35:17.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\demographics\demographics.js">
+      <PackagePath>pages\demographics\demographics.js</PackagePath>
+      <Modified>2013-08-26T20:36:27.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\economy\economy.js">
+      <PackagePath>pages\economy\economy.js</PackagePath>
+      <Modified>2013-08-26T20:38:32.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\geography\geography.js">
+      <PackagePath>pages\geography\geography.js</PackagePath>
+      <Modified>2013-08-26T20:39:32.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\history\history.js">
+      <PackagePath>pages\history\history.js</PackagePath>
+      <Modified>2013-08-26T20:41:13.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-08-26T20:42:19.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\politics\politics.js">
+      <PackagePath>pages\politics\politics.js</PackagePath>
+      <Modified>2013-08-26T20:44:13.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-08-26T20:44:43.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\culture\culture.css">
+      <PackagePath>pages\culture\culture.css</PackagePath>
+      <Modified>2013-08-26T20:35:06.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\demographics\demographics.css">
+      <PackagePath>pages\demographics\demographics.css</PackagePath>
+      <Modified>2013-08-26T20:36:54.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\economy\economy.css">
+      <PackagePath>pages\economy\economy.css</PackagePath>
+      <Modified>2013-08-26T20:38:10.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\geography\geography.css">
+      <PackagePath>pages\geography\geography.css</PackagePath>
+      <Modified>2013-08-26T20:39:55.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\history\history.css">
+      <PackagePath>pages\history\history.css</PackagePath>
+      <Modified>2013-08-26T20:41:03.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2013-08-26T20:42:35.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\pages\politics\politics.css">
+      <PackagePath>pages\politics\politics.css</PackagePath>
+      <Modified>2013-08-26T20:43:45.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\HW\BulgariaApp\BulgariaApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-08-26T20:45:39.309</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

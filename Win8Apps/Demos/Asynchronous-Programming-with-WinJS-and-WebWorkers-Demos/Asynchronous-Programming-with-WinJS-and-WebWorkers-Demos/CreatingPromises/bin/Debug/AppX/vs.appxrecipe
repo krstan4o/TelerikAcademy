@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KRSTAN4O-LAPTOP</Machine>
+    <WindowsUser>krstan4o</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>970DD03BD815337E48F55602F075BF9AFB04F82A7035D04065DB2C46CA7987BE</RegisteredManifestChecksum>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-27T19:22:40.346</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-02-28T09:50:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T14:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T14:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T14:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T14:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-08-20T12:54:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-08-15T06:51:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\CreatingPromises\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-08-27T19:21:53.043</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

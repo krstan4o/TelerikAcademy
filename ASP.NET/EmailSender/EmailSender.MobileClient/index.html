@@ -54,16 +54,7 @@
             });
             
            
-            var lastValue = "";
-            $("input[type=text]").click(function () {
-                var clicked = $(".clicked");
-                var that = $(this);
-                clicked.val(lastValue);
-                clicked.removeClass("clicked");
-                that.addClass("clicked");
-                lastValue = $(this).val();
-                clicked.val("");
-            });
+           
                 
             $("#reset").click(function() {
                 $("#from").val("From:");

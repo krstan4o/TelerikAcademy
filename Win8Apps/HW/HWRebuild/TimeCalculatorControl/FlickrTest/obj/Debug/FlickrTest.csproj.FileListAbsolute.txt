@@ -1,0 +1,6 @@
+D:\Telerik\Win8Apps\HW\HWRebuild\TimeCalculatorControl\FlickrTest\bin\FlickrTest.dll
+D:\Telerik\Win8Apps\HW\HWRebuild\TimeCalculatorControl\FlickrTest\bin\FlickrTest.pdb
+D:\Telerik\Win8Apps\HW\HWRebuild\TimeCalculatorControl\FlickrTest\bin\FlickrNet.dll
+D:\Telerik\Win8Apps\HW\HWRebuild\TimeCalculatorControl\FlickrTest\obj\Debug\FlickrTest.csprojResolveAssemblyReference.cache
+D:\Telerik\Win8Apps\HW\HWRebuild\TimeCalculatorControl\FlickrTest\obj\Debug\FlickrTest.dll
+D:\Telerik\Win8Apps\HW\HWRebuild\TimeCalculatorControl\FlickrTest\obj\Debug\FlickrTest.pdb
