@@ -1,1 +1,0 @@
-D:\Telerik\Win8Apps\Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\Asynchronous-Programming-with-WinJS-and-WebWorkers-Demos\UsingThenAndDone\UsingThenAndDone.jsproj;neutral
