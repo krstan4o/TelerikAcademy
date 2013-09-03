@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LocalAppData</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- LocalAppData references -->
+    <link href="/css/localDataSelfMessager.css" rel="stylesheet" />
+    <script src="/js/localDataSelfMessager.js"></script>
+</head>
+<body>
+    <div>
+        <label for="current-username-input" class="enlarged">Username:</label>
+        <input type="text" class="enlarged" id="current-username-input" />
+        <button id="set-username">Set Current User</button>
+    </div>
+
+    <div class="enlarged">Current user: <span id="current-username-display"></span></div>
+
+    <div>
+        <label for="current-message" class="enlarged">Message:</label>
+        <input type="text" class="enlarged" id="current-message" />
+        <button id="add-message">Add Message</button>
+    </div>
+
+    <label class="enlarged">
+        <input id="delete-previous-checkbox" type="checkbox" class="enlarged" /> Delete previous messages
+    </label>
+
+    <ul id="messages-list" class="enlarged">
+        <li>A message</li>
+    </ul>
+</body>
+</html>

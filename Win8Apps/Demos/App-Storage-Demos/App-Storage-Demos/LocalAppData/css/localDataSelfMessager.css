@@ -1,0 +1,35 @@
+﻿body {
+    width:1024px;
+    height:768px;
+    margin:0;
+    padding:0;
+    border:1px solid red;
+}
+
+.enlarged {
+    font-size:2em; 
+}
+
+input[type='text'].enlarged {
+    font-size:2em;
+}
+
+#set-username{
+    font-size:2em;
+}
+
+#add-message{
+    font-size:2em;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

@@ -1,0 +1,9 @@
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bin\Debug\resources.pri
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bin\Debug\AppxManifest.xml
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bin\Debug\LocalAppData.build.appxrecipe
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bld\Debug\priconfig.xml
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bld\Debug\layout.resfiles
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bld\Debug\resources.resfiles
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bld\Debug\pri.resfiles
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bld\Debug\LanguageQualifiers.txt
+C:\Dropbox\Work\VariousTests\AppLifecycleDemos\LocalAppData\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,1 @@
+D:\Telerik\Win8Apps\Demos\App-Storage-Demos\App-Storage-Demos\AccessingLocalData\AccessingLocalData.jsproj;neutral

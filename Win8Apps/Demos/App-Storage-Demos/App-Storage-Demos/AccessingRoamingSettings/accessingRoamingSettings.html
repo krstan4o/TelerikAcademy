@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AccessingRoamingSettings</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- AccessingRoamingSettings references -->
+    <link href="/css/accessingRoamingSettings.css" rel="stylesheet" />
+    <script src="/js/accessingRoamingSettings.js"></script>
+</head>
+<body class="enlarged">
+    <p>This App saves some values in roamingSettings (simpleNumber, simpleString, composite)</p>
+    <p>The roamingStorageQuota is <span id="roaming-storage-quota-display"></span>KB</p>
+
+    <p>Then it reads those values:</p>
+
+    <button id="simulate-datachanged-button" class="enlarged">Simulate datachanged event</button>
+    <button id="change-setting-button" class="enlarged">Decrease simpleNumber setting</button>
+
+    <ul id="settings-list">
+    </ul>
+</body>
+</html>

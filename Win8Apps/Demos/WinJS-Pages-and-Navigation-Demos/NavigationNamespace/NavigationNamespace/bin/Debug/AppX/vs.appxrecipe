@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KRSTAN4O-LAPTOP</Machine>
+    <WindowsUser>krstan4o</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>EF1B55FE3392070FF5A77FA27286603624646BA4B499AA16DDE36E682B41A4B4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>253d1ddd-e65d-4197-ac9d-cc39eddf91db_1.0.0.0_neutral__mn0dvqpmbk0m2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>253d1ddd-e65d-4197-ac9d-cc39eddf91db_mn0dvqpmbk0m2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>253d1ddd-e65d-4197-ac9d-cc39eddf91db</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=George</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-02T22:41:45.471</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-07-09T11:35:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\css\dom-logger.css">
+      <PackagePath>css\dom-logger.css</PackagePath>
+      <Modified>2013-07-11T13:27:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\pages\contacts\contacts.css">
+      <PackagePath>pages\contacts\contacts.css</PackagePath>
+      <Modified>2013-07-09T11:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2013-07-09T11:35:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-07-16T14:53:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\js\dom-logger.js">
+      <PackagePath>js\dom-logger.js</PackagePath>
+      <Modified>2013-07-11T13:29:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\js\navigation-operations.js">
+      <PackagePath>js\navigation-operations.js</PackagePath>
+      <Modified>2013-08-26T10:04:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-07-09T11:35:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\pages\contacts\contacts.js">
+      <PackagePath>pages\contacts\contacts.js</PackagePath>
+      <Modified>2013-07-15T09:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-08-26T10:00:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\pages\contacts\contacts.html">
+      <PackagePath>pages\contacts\contacts.html</PackagePath>
+      <Modified>2013-07-16T15:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-09-02T23:28:35.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-09-02T23:28:35.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8Apps\Demos\WinJS-Pages-and-Navigation-Demos\NavigationNamespace\NavigationNamespace\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-02T22:41:43.559</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20789</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

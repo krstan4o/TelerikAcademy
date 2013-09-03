@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ITGEORGE-LAPTOP</Machine>
+    <WindowsUser>George</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>CB283DAD639D988E24E6CEE6E4FC4A21961B9290DB6B9828A03CACA3CE5A3F21</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>939bc41b-2e6c-41eb-ae6d-fbdd77aa1dc2_1.0.0.0_neutral__mn0dvqpmbk0m2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>939bc41b-2e6c-41eb-ae6d-fbdd77aa1dc2_mn0dvqpmbk0m2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>939bc41b-2e6c-41eb-ae6d-fbdd77aa1dc2</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=George</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-27T23:45:29.656</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\accessingRoamingSettings.html">
+      <PackagePath>accessingRoamingSettings.html</PackagePath>
+      <Modified>2013-02-27T23:58:00.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T16:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\js\accessingRoamingSettings.js">
+      <PackagePath>js\accessingRoamingSettings.js</PackagePath>
+      <Modified>2013-02-28T00:03:58.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\css\accessingRoamingSettings.css">
+      <PackagePath>css\accessingRoamingSettings.css</PackagePath>
+      <Modified>2013-02-27T23:51:04.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dropbox\Work\school-academy\Meeting-25-WinJS\App-Storage-Demos\AccessingRoamingSettings\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-26T20:57:52.500</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

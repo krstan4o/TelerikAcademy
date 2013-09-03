@@ -1,0 +1,30 @@
+﻿body {
+}
+
+th, td {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+td {
+    text-align:center;
+    vertical-align: top;
+}
+
+#page-holder {
+    overflow:scroll;
+    width:960px;
+    height:540px;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
