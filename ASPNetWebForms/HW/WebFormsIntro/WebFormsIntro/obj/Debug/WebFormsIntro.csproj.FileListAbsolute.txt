@@ -1,0 +1,5 @@
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\WebFormsIntro\WebFormsIntro\bin\WebFormsIntro.dll.config
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\WebFormsIntro\WebFormsIntro\bin\WebFormsIntro.dll
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\WebFormsIntro\WebFormsIntro\bin\WebFormsIntro.pdb
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\WebFormsIntro\WebFormsIntro\obj\Debug\WebFormsIntro.dll
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\WebFormsIntro\WebFormsIntro\obj\Debug\WebFormsIntro.pdb

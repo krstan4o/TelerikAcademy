@@ -1,0 +1,5 @@
+D:\Telerik\XAMLWPF\HW\ComplexBinding\CountryTownSystem\bin\Debug\CountryTownSystem.dll
+D:\Telerik\XAMLWPF\HW\ComplexBinding\CountryTownSystem\bin\Debug\CountryTownSystem.pdb
+D:\Telerik\XAMLWPF\HW\ComplexBinding\CountryTownSystem\obj\Debug\CountryTownSystem.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\HW\ComplexBinding\CountryTownSystem\obj\Debug\CountryTownSystem.dll
+D:\Telerik\XAMLWPF\HW\ComplexBinding\CountryTownSystem\obj\Debug\CountryTownSystem.pdb

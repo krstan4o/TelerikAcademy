@@ -1,0 +1,15 @@
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\bin\Debug\Gallery.exe.config
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\MainWindow.baml
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\MainWindow.g.cs
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\App.g.cs
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery_MarkupCompile.cache
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery.g.resources
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery.Properties.Resources.resources
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery.csproj.GenerateResource.Cache
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\bin\Debug\Gallery.exe
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\bin\Debug\Gallery.pdb
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery.exe
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery.pdb
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Telerik\XAMLWPF\HW\Gallery\Gallery\obj\Debug\Gallery_MarkupCompile.lref

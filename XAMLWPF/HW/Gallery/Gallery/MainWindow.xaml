@@ -1,0 +1,38 @@
+﻿<Window x:Class="Gallery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vms="clr-namespace:Gallery.ViewModels"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <vms:GalleryViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <TabControl ItemsSource="{Binding Albums}" DisplayMemberPath="Name">
+            <TabControl.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel >
+                        <StackPanel Margin="0,-5,0,10"
+                            DataContext="{Binding Images}">
+                            <TextBlock FontWeight="Bold"
+                                       HorizontalAlignment="Center"
+                                       FontSize="24"
+                                       Text="{Binding Title}"/>
+
+                            <Image Source="{Binding ImageSource}"
+                                   Width="300"
+                                   HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Command="{Binding Prev}">Prev</Button>
+                            <Button Grid.Column="1" Command="{Binding Next}">Next</Button>
+                        </Grid>
+                    </StackPanel>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+        </TabControl>
+    </Grid>
+</Window>

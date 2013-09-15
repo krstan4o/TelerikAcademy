@@ -1,0 +1,10 @@
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\AspNetControls\AspNetControls\bin\AspNetControls.dll
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\AspNetControls\AspNetControls\bin\AspNetControls.pdb
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\AspNetControls\AspNetControls\obj\Debug\AspNetControls.csprojResolveAssemblyReference.cache
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\AspNetControls\AspNetControls\obj\Debug\AspNetControls.dll
+C:\Projects\TelerikAkademy\WebDevelopment\Asp.net\AspNetControls\AspNetControls\obj\Debug\AspNetControls.pdb
+D:\Telerik\ASPNetWebForms\HW\AspNetControls\AspNetControls\bin\AspNetControls.dll
+D:\Telerik\ASPNetWebForms\HW\AspNetControls\AspNetControls\bin\AspNetControls.pdb
+D:\Telerik\ASPNetWebForms\HW\AspNetControls\AspNetControls\obj\Debug\AspNetControls.csprojResolveAssemblyReference.cache
+D:\Telerik\ASPNetWebForms\HW\AspNetControls\AspNetControls\obj\Debug\AspNetControls.dll
+D:\Telerik\ASPNetWebForms\HW\AspNetControls\AspNetControls\obj\Debug\AspNetControls.pdb

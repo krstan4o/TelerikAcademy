@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stores>
+  <store>
+    <name>Stupid asdasd</name>
+    <phones>
+      <phone>
+        <vendor>Apple</vendor>
+        <model>iPhone 5</model>
+        <year>2012</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\apple-iphone-5.jpeg</image>
+        <os>
+          <name>iOS</name>
+          <version>iOS</version>
+          <manufacturer>Apple</manufacturer>
+        </os>
+      </phone>
+      <phone>
+        <vendor>HTC</vendor>
+        <model>One</model>
+        <year>2014</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>Android</name>
+          <version>Android</version>
+          <manufacturer>Google Inc.</manufacturer>
+        </os>
+      </phone>
+    </phones>
+  </store>
+  <store>
+    <name>Smart Store</name>
+    <phones>
+      <phone>
+        <vendor>HTC</vendor>
+        <model>One</model>
+        <year>2014</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>Android</name>
+          <version>Android</version>
+          <manufacturer>Google Inc.</manufacturer>
+        </os>
+      </phone>
+      <phone>
+        <vendor>Google</vendor>
+        <model>Nexus</model>
+        <year>2014</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>Android</name>
+          <version>Android</version>
+          <manufacturer>Google Inc.</manufacturer>
+        </os>
+      </phone>
+      <phone>
+        <vendor>Nokia</vendor>
+        <model>Lumia 920</model>
+        <year>2014</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>WindowsPhone</name>
+          <version>WindowsPhone</version>
+          <manufacturer>Microsoft</manufacturer>
+        </os>
+      </phone>
+      <phone>
+        <vendor>BlackBerry</vendor>
+        <model>Q10</model>
+        <year>2014</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>BlackBerry OS</name>
+          <version>BlackBerry OS</version>
+          <manufacturer>BlackBerry</manufacturer>
+        </os>
+      </phone>
+      <phone>
+        <vendor>Nokia</vendor>
+        <model>2100</model>
+        <year>2003</year>
+        <image>D:\Solutions\AdvancedDataBinding\PhonesStore\bin\Debug\..\..\Images\htc-8x.jpg</image>
+        <os>
+          <name>None</name>
+          <version>None</version>
+          <manufacturer>Nokia</manufacturer>
+        </os>
+      </phone>
+    </phones>
+  </store>
+  <store>
+    <name>pesho123</name>
+    <phones>
+      <phone>
+        <vendor>stupidPhone</vendor>
+        <model>hurDur</model>
+        <year>2000</year>
+        <image>D:\Telerik\XAMLWPF\HW\AdvancedDataBinding\PhonesStore\bin\Debug</image>
+        <os>
+          <name>iOS</name>
+          <version>iOS</version>
+          <manufacturer>Apple</manufacturer>
+        </os>
+      </phone>
+    </phones>
+  </store>
+  <store>
+    <name />
+    <phones />
+  </store>
+  <store>
+    <name />
+    <phones />
+  </store>
+</stores>

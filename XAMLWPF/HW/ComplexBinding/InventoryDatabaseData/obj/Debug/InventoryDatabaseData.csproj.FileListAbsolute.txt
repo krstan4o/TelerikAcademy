@@ -1,0 +1,8 @@
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\bin\Debug\InventoryDatabaseData.dll.config
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\bin\Debug\InventoryDatabaseData.dll
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\bin\Debug\InventoryDatabaseData.pdb
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\bin\Debug\EntityFramework.dll
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\bin\Debug\EntityFramework.xml
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\obj\Debug\InventoryDatabaseData.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\obj\Debug\InventoryDatabaseData.dll
+D:\Telerik\XAMLWPF\HW\ComplexBinding\InventoryDatabaseData\obj\Debug\InventoryDatabaseData.pdb

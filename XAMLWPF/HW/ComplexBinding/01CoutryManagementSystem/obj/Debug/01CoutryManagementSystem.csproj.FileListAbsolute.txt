@@ -1,0 +1,15 @@
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\bin\Debug\01CoutryManagementSystem.exe.config
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\bin\Debug\01CoutryManagementSystem.exe
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\bin\Debug\01CoutryManagementSystem.pdb
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\bin\Debug\CountryTownSystem.dll
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\bin\Debug\CountryTownSystem.pdb
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\01CoutryManagementSystem.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\MainWindow.baml
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\MainWindow.g.cs
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\App.g.cs
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\01CoutryManagementSystem_MarkupCompile.cache
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\01CoutryManagementSystem.g.resources
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\_01CoutryManagementSystem.Properties.Resources.resources
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\01CoutryManagementSystem.csproj.GenerateResource.Cache
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\01CoutryManagementSystem.exe
+D:\Telerik\XAMLWPF\HW\ComplexBinding\01CoutryManagementSystem\obj\Debug\01CoutryManagementSystem.pdb
