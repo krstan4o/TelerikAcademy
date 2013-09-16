@@ -1,0 +1,2 @@
+https://orange.codeplex.com/ - client
+https://orangemail.codeplex.com/ - services
