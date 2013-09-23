@@ -1,0 +1,21 @@
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\bin\Debug\Countries System Simple.exe.config
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.csprojResolveAssemblyReference.cache
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\MainWindow.baml
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\MainWindow.g.cs
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\App.g.cs
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple_MarkupCompile.cache
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.g.resources
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries_System_Simple.Properties.Resources.resources
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.csproj.GenerateResource.Cache
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\bin\Debug\Countries System Simple.exe
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\bin\Debug\Countries System Simple.pdb
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\bin\Debug\CountriesSystem.ViewModels.dll
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\bin\Debug\CountriesSystem.ViewModels.pdb
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.exe
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.pdb
+\\ICHO-LAP\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\bin\Debug\Countries System Simple.exe.config
+\\ICHO-LAP\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.exe
+\\ICHO-LAP\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\Countries System Simple\obj\Debug\Countries System Simple.pdb
+C:\Users\krstan4o\Downloads\HW_6.-Complex-data-binding\Countries System Simple\bin\Debug\Countries System Simple.exe.config
+C:\Users\krstan4o\Downloads\HW_6.-Complex-data-binding\Countries System Simple\obj\Debug\Countries System Simple.exe
+C:\Users\krstan4o\Downloads\HW_6.-Complex-data-binding\Countries System Simple\obj\Debug\Countries System Simple.pdb

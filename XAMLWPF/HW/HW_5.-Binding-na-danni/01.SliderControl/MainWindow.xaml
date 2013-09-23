@@ -1,0 +1,15 @@
+﻿<Window x:Class="_01.SliderControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>        
+        <Slider Name="FontSizeSlider" Value="10" Minimum="10" Maximum="100" ></Slider>
+        <TextBlock FontSize="{Binding ElementName=FontSizeSlider, Path=Value}">This is some text to test the slider</TextBlock>
+        <Label Content="{Binding ElementName=FontSizeSlider, Path=Value}" />
+        <StackPanel Orientation="Horizontal">
+            <Button Margin="0 0 5 0" Click="ToSmall">To small</Button>
+            <Button Margin="0 0 5 0" Click="ToMiddle">To middle</Button>
+            <Button Margin="0 0 5 0" Click="ToLarge">To large</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

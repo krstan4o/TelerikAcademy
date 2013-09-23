@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfAlbumModel>
+  <AlbumModel id="4ec3b8ab-e2a7-48ce-9c10-afbb5783160f">
+    <imageModels id="0465654c-bc1f-4b86-9e91-19fdf1930b83" title="Star Wars 1" imageSource="http://2.bp.blogspot.com/-amTgFK88GKk/UMuVI-TytSI/AAAAAAAAA3I/ZDaUtdxKuCo/s1600/NEeDa303gbaDgh_1_2.jpg" />
+    <imageModels id="5d664826-e560-4703-a8a5-6aabdab7aa02" title="Star Wars 2" imageSource="http://3.bp.blogspot.com/-gXilzP8tGMo/UJ4TkYyVVyI/AAAAAAAAALY/JcS16SNtigM/s400/star+wars+wallpaper+5.jpeg" />
+    <imageModels id="f87b9172-027e-41a7-9255-1e023b2e0a97" title="star-wars-revenge" imageSource="http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2012/11/star-wars-revenge-of-the-sith-3d.jpg" />
+    <imageModels id="439331d0-c861-49c1-b51f-d968c9eabf30" />
+  </AlbumModel>
+  <AlbumModel id="353fc99e-31e9-45d8-a141-b918c0faa937">
+    <imageModels id="8b57d53d-c0f0-4890-bd0d-7c3f2e3008c1" title="Farscape 1" imageSource="http://www.awkwardgeeks.com/wp-content/uploads/2013/05/Farscape-crew.jpg" />
+    <imageModels id="b99cd467-9b2f-41ed-b74a-739f74a51481" title="Farscape 2" imageSource="http://images1.wikia.nocookie.net/__cb20130422123123/muppet/images/c/c8/Farscapecast0715.jpg" />
+    <imageModels id="5a9a0d4a-d7e8-4aca-9fc2-3d72c2fcc749" title="Farscape 3" imageSource="http://tuningintoscifitv.com/wp-content/uploads/2012/10/Farscape-Crew.jpg" />
+  </AlbumModel>
+  <AlbumModel id="87efa0cb-31ba-4738-a5b0-7673cee24e57">
+    <imageModels id="37895498-bfb7-4115-8380-cfb51e390a56" title="Stargate" imageSource="http://images3.wikia.nocookie.net/__cb20080930035259/stargate/images/2/28/304.jpg" />
+    <imageModels id="1c645148-1a8b-4e9c-a65b-388462ae393c" title="Stargate" imageSource="http://stargatetothecosmos.org/wp-content/uploads/2012/05/Stargate_Trinity___Wallpaper_by_mercscilla.jpg" />
+    <imageModels id="55bb46db-8f8e-40b2-9028-a9fedf128f63" title="Stargate" imageSource="http://3.bp.blogspot.com/-bddUDfKKUWs/UM-nBJjvsRI/AAAAAAACNvw/hKcjlvKFnic/s150/Stargate_sg1_poster68.jpg" />
+    <imageModels id="098a1e56-143a-4d87-8318-28f0d72fa596" title="stargate4" imageSource="http://www.euderion.de/Materialien/Gallery%20Euderion/Atlantis/149%20Stargate%20Teyla%20und%20Carter.jpg" />
+    <imageModels id="5657b57f-1e6f-474e-a79a-59cdaa0d71ce" />
+  </AlbumModel>
+</ArrayOfAlbumModel>

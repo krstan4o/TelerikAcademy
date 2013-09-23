@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <album>
+    <name>Phones</name>
+    <images>
+      <image>
+        <title>Apple Iphone 5</title>
+        <source>..\..\..\ViewModels\Images\apple-iphone-5.jpeg</source>
+      </image>
+      <image>
+        <title>HTC 8X</title>
+        <source>..\..\..\ViewModels\Images\htc-8x.jpg</source>
+      </image>
+      <image>
+        <title>Samsung Galaxy S4</title>
+        <source>..\..\..\ViewModels\Images\samsung-s4.jpg</source>
+      </image>
+      <image>
+        <title>Nakov</title>
+        <source>C:\Users\Svetlio\Desktop\ninja-top.gif</source>
+      </image>
+    </images>
+  </album>
+  <album>
+    <name>National Flags</name>
+    <images>
+      <image>
+        <title>Germany</title>
+        <source>..\..\..\ViewModels\Images\Germany.png</source>
+      </image>
+      <image>
+        <title>England</title>
+        <source>..\..\..\ViewModels\Images\England.png</source>
+      </image>
+      <image>
+        <title>United States</title>
+        <source>..\..\..\ViewModels\Images\UnitedStates.png</source>
+      </image>
+      <image>
+        <title>Bulgaria</title>
+        <source>..\..\..\ViewModels\Images\Bulgaria.png</source>
+      </image>
+    </images>
+  </album>
+  <album>
+    <name>Computers</name>
+    <images>
+      <image>
+        <title>Apple Mac Book Pro</title>
+        <source>..\..\..\ViewModels\Images\AppleMacBook.jpg</source>
+      </image>
+      <image>
+        <title>Sony Vaio S</title>
+        <source>..\..\..\ViewModels\Images\sony_vaio_s.jpg</source>
+      </image>
+      <image>
+        <title>Lenovo ThinkPad T530</title>
+        <source>..\..\..\ViewModels\Images\ThinkPad_T530.gif</source>
+      </image>
+      <image>
+        <title>Dell XPS 15</title>
+        <source>..\..\..\ViewModels\Images\XPS_15.jpg</source>
+      </image>
+    </images>
+  </album>
+</gallery>

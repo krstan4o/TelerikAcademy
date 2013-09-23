@@ -1,0 +1,5 @@
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\CountriesSystem.ViewModels\obj\Debug\CountriesSystem.ViewModels.csprojResolveAssemblyReference.cache
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\CountriesSystem.ViewModels\bin\Debug\CountriesSystem.ViewModels.dll
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\CountriesSystem.ViewModels\bin\Debug\CountriesSystem.ViewModels.pdb
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\CountriesSystem.ViewModels\obj\Debug\CountriesSystem.ViewModels.dll
+D:\Projects\Telerik Academy\Desktop and Mobile\XAML\XAML Projects\Complex List Data Binding\CountriesSystem.ViewModels\obj\Debug\CountriesSystem.ViewModels.pdb

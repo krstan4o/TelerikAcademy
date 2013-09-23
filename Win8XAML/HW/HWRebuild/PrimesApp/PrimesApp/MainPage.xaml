@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="PrimesApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PrimesApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" Margin="10" ScrollViewer.VerticalScrollBarVisibility="Visible">
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <TextBlock FontSize="20">StartNumber:</TextBlock>
+            <TextBox Name="StartNumberBox" Height="20" Margin="5"></TextBox>
+            <TextBlock FontSize="20" Margin="5">EndNumber:</TextBlock>
+            <TextBox Name="EndNumberBox" Height="20"></TextBox>
+            <Button Margin="5"
+                    Click="CalculatePrimesClick">CalculatePrimes</Button>
+        </StackPanel>
+
+        <ToggleSwitch Name="listPrimes" OnContent="ListPrimesConcatenations" OffContent="ListNonPrimesConcatenations">
+        </ToggleSwitch>
+        
+        <TextBlock Name="Primes" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Visible"></TextBlock>
+    </StackPanel>
+  
+   
+   
+</Page>

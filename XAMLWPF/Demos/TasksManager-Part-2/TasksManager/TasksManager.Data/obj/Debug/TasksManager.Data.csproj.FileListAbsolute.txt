@@ -1,0 +1,10 @@
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Data.dll.config
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Data.dll
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Data.pdb
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\EntityFramework.dll
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Models.dll
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Models.pdb
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\bin\Debug\EntityFramework.xml
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\obj\Debug\TasksManager.Data.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\obj\Debug\TasksManager.Data.dll
+D:\Telerik\XAMLWPF\Demos\TasksManager-Part-2\TasksManager\TasksManager.Data\obj\Debug\TasksManager.Data.pdb

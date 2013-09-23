@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. TextBox", "TextBox\1. TextBox.csproj", "{895D3AE1-E04F-491B-BBE0-21318A8FF2AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ButtonWithLabel", "ButtonWithLabel\2. ButtonWithLabel.csproj", "{E4EF6B3C-261F-4462-8034-B27B850D8957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. CheckedColletions", "CheckedColletions\3. CheckedColletions.csproj", "{288EDF5E-6895-46D4-BE04-CA627F9C6213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ComboBox", "ComboBox\4. ComboBox.csproj", "{521CFB48-EDFF-4A72-847E-6BA898C23B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. ListView", "ListView\5. ListView.csproj", "{F8AF38AC-FAFF-428E-A54A-41C0839B947F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPad", "WordPad\WordPad.csproj", "{2C533081-3CA7-4350-9D42-9F3011338A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895D3AE1-E04F-491B-BBE0-21318A8FF2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895D3AE1-E04F-491B-BBE0-21318A8FF2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895D3AE1-E04F-491B-BBE0-21318A8FF2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895D3AE1-E04F-491B-BBE0-21318A8FF2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EF6B3C-261F-4462-8034-B27B850D8957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EF6B3C-261F-4462-8034-B27B850D8957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EF6B3C-261F-4462-8034-B27B850D8957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EF6B3C-261F-4462-8034-B27B850D8957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288EDF5E-6895-46D4-BE04-CA627F9C6213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288EDF5E-6895-46D4-BE04-CA627F9C6213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288EDF5E-6895-46D4-BE04-CA627F9C6213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288EDF5E-6895-46D4-BE04-CA627F9C6213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521CFB48-EDFF-4A72-847E-6BA898C23B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521CFB48-EDFF-4A72-847E-6BA898C23B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521CFB48-EDFF-4A72-847E-6BA898C23B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521CFB48-EDFF-4A72-847E-6BA898C23B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AF38AC-FAFF-428E-A54A-41C0839B947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AF38AC-FAFF-428E-A54A-41C0839B947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AF38AC-FAFF-428E-A54A-41C0839B947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AF38AC-FAFF-428E-A54A-41C0839B947F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C533081-3CA7-4350-9D42-9F3011338A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C533081-3CA7-4350-9D42-9F3011338A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C533081-3CA7-4350-9D42-9F3011338A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C533081-3CA7-4350-9D42-9F3011338A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿<Window x:Class="Countries_System_Complex.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewMods="clr-namespace:CountriesSystem.ViewModels;assembly=CountriesSystem.ViewModels"
+        Title="MainWindow" Height="400" Width="525">
+    <Window.DataContext>
+        <viewMods:CountriesSystemViewModel/>
+    </Window.DataContext>
+    
+    <StackPanel>
+        <ListView ItemsSource="{Binding Countries}" 
+                  ScrollViewer.CanContentScroll="True" Height="400"
+                  Background="Bisque" >
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="Language" DisplayMemberBinding="{Binding Language}"/>
+                        <GridViewColumn Header="Flag">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding FlagPath}" Width="150"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Towns">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ListView ItemsSource="{Binding Towns}">
+                                        <ListView.View>
+                                            <GridView>
+                                                <GridView.Columns>
+                                                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                                                    <GridViewColumn Header="Population" DisplayMemberBinding="{Binding Population}"/>
+                                                </GridView.Columns>
+                                            </GridView>
+                                        </ListView.View>
+                                    </ListView>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
+</Window>

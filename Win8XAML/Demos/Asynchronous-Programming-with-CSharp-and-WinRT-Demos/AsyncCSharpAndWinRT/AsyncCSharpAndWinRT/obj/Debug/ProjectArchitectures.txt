@@ -1,0 +1,1 @@
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\AsyncCSharpAndWinRT\UsingAsyncWinRTMethods.csproj;neutral

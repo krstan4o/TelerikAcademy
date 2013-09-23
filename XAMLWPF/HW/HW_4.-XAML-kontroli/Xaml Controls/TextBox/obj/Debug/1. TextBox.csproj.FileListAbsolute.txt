@@ -1,0 +1,3 @@
+D:\SkyDrive\Telerik\WPF\Xaml Controls\TextBox\bin\Debug\TextBox.exe.config
+D:\SkyDrive\Telerik\WPF\Xaml Controls\TextBox\obj\Debug\TextBox.exe
+D:\SkyDrive\Telerik\WPF\Xaml Controls\TextBox\obj\Debug\TextBox.pdb

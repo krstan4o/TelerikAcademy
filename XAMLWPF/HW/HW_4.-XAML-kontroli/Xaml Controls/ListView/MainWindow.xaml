@@ -1,0 +1,22 @@
+﻿<Window x:Class="ListView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListView ItemsSource="{x:Static Fonts.SystemFontFamilies}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding LineSpacing}" />
+                    <GridViewColumn Header="Enabled">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="True" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Value" DisplayMemberBinding="{Binding}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

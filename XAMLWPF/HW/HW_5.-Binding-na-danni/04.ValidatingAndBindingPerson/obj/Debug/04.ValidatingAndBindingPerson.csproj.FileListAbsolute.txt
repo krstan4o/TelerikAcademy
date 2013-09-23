@@ -1,0 +1,15 @@
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\bin\Debug\04.ValidatingAndBindingPerson.exe.config
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\bin\Debug\04.ValidatingAndBindingPerson.exe
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\bin\Debug\04.ValidatingAndBindingPerson.pdb
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson.csprojResolveAssemblyReference.cache
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\MainWindow.g.cs
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\App.g.cs
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson_MarkupCompile.cache
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson_MarkupCompile.lref
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\MainWindow.baml
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson.g.resources
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\_04.ValidatingAndBindingPerson.Properties.Resources.resources
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson.csproj.GenerateResource.Cache
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson.exe
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\04.ValidatingAndBindingPerson.pdb
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\04.ValidatingAndBindingPerson\obj\Debug\GeneratedInternalTypeHelper.g.cs

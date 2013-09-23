@@ -1,0 +1,5 @@
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemaReserve.EntityModels\bin\Debug\CinemaReserve.EntityModels.dll
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemaReserve.EntityModels\bin\Debug\CinemaReserve.EntityModels.pdb
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemaReserve.EntityModels\obj\Debug\CinemaReserve.EntityModels.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemaReserve.EntityModels\obj\Debug\CinemaReserve.EntityModels.dll
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemaReserve.EntityModels\obj\Debug\CinemaReserve.EntityModels.pdb

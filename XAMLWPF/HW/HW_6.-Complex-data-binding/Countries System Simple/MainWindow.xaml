@@ -1,0 +1,31 @@
+﻿<Window x:Class="Countries_System_Simple.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewMods="clr-namespace:CountriesSystem.ViewModels;assembly=CountriesSystem.ViewModels"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <viewMods:CountriesSystemViewModel/>
+    </Window.DataContext>
+
+    <DockPanel DataContext="{Binding Countries}" Background="Bisque">
+        <UniformGrid DockPanel.Dock="Top">
+            <Button Content="Previous Country" Click="Button_OnPrevCountryClick"/>
+            <Button Content="Next Country" Click="Button_OnNextCountryClick"/>
+        </UniformGrid>
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+            <StackPanel>
+                <TextBox Text="{Binding Name}"/>
+                <TextBox Text="{Binding Language}"/>
+                <Image Source="{Binding FlagPath}" Width="150"/>
+            </StackPanel>
+            <StackPanel DataContext="{Binding Towns}">
+                <TextBox Text="{Binding Name}"/>
+                <TextBox Text="{Binding Population}"/>
+                <UniformGrid>
+                    <Button Content="Previous Town" Click="Button_OnPrevTownClick"/>
+                    <Button Content="Next Town" Click="Button_OnNextTownClick"/>
+                </UniformGrid>
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
+</Window>

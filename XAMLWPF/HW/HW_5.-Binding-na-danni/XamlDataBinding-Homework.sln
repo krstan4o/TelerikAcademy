@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SliderControl", "01.SliderControl\01.SliderControl.csproj", "{D64CD782-7B8A-4C2E-8B85-A8914AA91DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.BindingTextBoxColors", "03.BindingTextBoxColors\03.BindingTextBoxColors.csproj", "{F878B50B-47C5-40A8-9A56-29A84C770581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ValidatingAndBindingPerson", "04.ValidatingAndBindingPerson\04.ValidatingAndBindingPerson.csproj", "{09CF2555-3FDE-45FD-ABCD-606F227D1560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64CD782-7B8A-4C2E-8B85-A8914AA91DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64CD782-7B8A-4C2E-8B85-A8914AA91DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64CD782-7B8A-4C2E-8B85-A8914AA91DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64CD782-7B8A-4C2E-8B85-A8914AA91DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F878B50B-47C5-40A8-9A56-29A84C770581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F878B50B-47C5-40A8-9A56-29A84C770581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F878B50B-47C5-40A8-9A56-29A84C770581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F878B50B-47C5-40A8-9A56-29A84C770581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CF2555-3FDE-45FD-ABCD-606F227D1560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CF2555-3FDE-45FD-ABCD-606F227D1560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CF2555-3FDE-45FD-ABCD-606F227D1560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CF2555-3FDE-45FD-ABCD-606F227D1560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

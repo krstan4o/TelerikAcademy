@@ -1,0 +1,8 @@
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\bin\Debug\Products.Data.dll.config
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\bin\Debug\Products.Data.dll
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\bin\Debug\Products.Data.pdb
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\bin\Debug\EntityFramework.dll
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\bin\Debug\EntityFramework.xml
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\obj\Debug\Products.Data.csprojResolveAssemblyReference.cache
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\obj\Debug\Products.Data.dll
+D:\SkyDrive\Telerik\WPF\ComplexListDataBinding\Products.Data\obj\Debug\Products.Data.pdb

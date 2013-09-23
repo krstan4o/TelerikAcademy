@@ -1,0 +1,136 @@
+﻿<Window x:Class="Countries.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModel="clr-namespace:Countries.ViewModels"
+        xmlns:attachement="clr-namespace:Countries.Attachements"
+        Title="MainWindow" Height="350" Width="725">
+    <Window.DataContext>
+        <viewModel:CountriesViewModel />
+    </Window.DataContext>
+    <StackPanel>
+        <TabControl>
+            <TabItem Header="Without ListControl">
+                <StackPanel>
+                    <UniformGrid>
+                        <TextBlock TextAlignment="Center">Countries</TextBlock>
+                        <TextBlock TextAlignment="Center">Towns</TextBlock>
+                    </UniformGrid>
+                    <UniformGrid>
+                        <StackPanel>
+                            <Border BorderBrush="Aquamarine">
+                                <TextBlock DataContext="{Binding CurrentCountry}">
+                                    <TextBox Text="{Binding Name}" />
+                                    <TextBox Text="{Binding Language}" />
+                                </TextBlock>
+                            </Border>
+                            <Button Command="{Binding Next}">Next Country</Button>
+                            <Button Command="{Binding Previous}">Previous Country</Button>
+                        </StackPanel>
+                        <StackPanel DataContext="{Binding CurrentCountry}">
+                            <TextBlock DataContext="{Binding CurrentTown}">
+                                    <TextBox Text="{Binding Name}" />
+                                    <TextBox Text="{Binding Population}" />
+                            </TextBlock>
+                            <Button Command="{Binding Next}">Next Town</Button>
+                            <Button Command="{Binding Previous}">Previous Town</Button>
+                        </StackPanel>
+                    </UniformGrid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="With ItemsControl">
+                <StackPanel>
+                    <TextBlock Foreground="#FFD95353">Hint: Click the item to select it.</TextBlock>
+                    <UniformGrid>
+                        <TextBlock TextAlignment="Center">Countries</TextBlock>
+                        <TextBlock TextAlignment="Center">Towns</TextBlock>
+                    </UniformGrid>
+                    <UniformGrid>
+                        <ItemsControl ItemsSource="{Binding Countries}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderBrush="Aquamarine" Background="AliceBlue" BorderThickness="2" attachement:Behaviours.MouseClick="{Binding SelectCountry}" attachement:Behaviours.MouseClickParameter="{Binding Name}">
+                                        <StackPanel>
+                                            <Image Source="{Binding FlagUrl}" Width="30" />
+                                            <TextBlock>
+                                                <TextBox Text="{Binding Name}"></TextBox>
+                                                <TextBlock> - </TextBlock>
+                                                <TextBox Text="{Binding Language}"></TextBox>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <ItemsControl DataContext="{Binding CurrentCountry}"
+                              ItemsSource="{Binding Towns}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderBrush="Aquamarine">
+                                        <TextBlock TextAlignment="Center">
+                                            <TextBox Text="{Binding Name}"></TextBox>
+                                            <TextBlock> with Population of </TextBlock>
+                                            <TextBox Text="{Binding Population}"></TextBox>
+                                            <TextBlock> people</TextBlock>
+                                        </TextBlock>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </UniformGrid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="With Synchronized ListControl">
+                <StackPanel>
+                    <UniformGrid>
+                        <TextBlock TextAlignment="Center">Countries</TextBlock>
+                        <TextBlock TextAlignment="Center">Towns</TextBlock>
+                    </UniformGrid>
+                    <UniformGrid>
+                        <StackPanel>
+                            <ListBox ItemsSource="{Binding Countries}"
+                                     IsSynchronizedWithCurrentItem="True">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image Source="{Binding FlagUrl}" Width="30" />
+                                            <TextBlock>
+                                                    <TextBox Text="{Binding Name}"></TextBox>
+                                                    <TextBlock> - </TextBlock>
+                                                    <TextBox Text="{Binding Language}"></TextBox>
+                                                </TextBlock>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            <Button Command="{Binding Next}">Next Country</Button>
+                            <Button Command="{Binding Previous}">Previous Country</Button>
+                        </StackPanel>
+                        <StackPanel DataContext="{Binding CurrentCountry}">
+                            <ListBox ItemsSource="{Binding Towns}"
+                                     IsSynchronizedWithCurrentItem="True">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image Source="{Binding FlagUrl}" Width="30" />
+                                            <Border BorderBrush="Aquamarine">
+                                                <TextBlock TextAlignment="Center">
+                                                    <TextBox Text="{Binding Name}"></TextBox>
+                                                    <TextBlock> with Population of </TextBlock>
+                                                    <TextBox Text="{Binding Population}"></TextBox>
+                                                    <TextBlock> people</TextBlock>
+                                                </TextBlock>
+                                            </Border>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            <Button Command="{Binding Next}">Next Town</Button>
+                            <Button Command="{Binding Previous}">Previous Town</Button>
+                        </StackPanel>
+                    </UniformGrid>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        
+    </StackPanel>
+</Window>

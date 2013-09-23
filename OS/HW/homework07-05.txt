@@ -1,0 +1,36 @@
+﻿5. Describe the procedure for creating an RPM based repository
+
+A package repository used by yum is simply a directory with one or more RPMs plus some "meta information" used by yum to be able to easily access information (dependencies, file lists, etc.) for the RPMs. yum can then to access this directory over ftp/http or a file URI (including over NFS).
+
+Steps
+
+1.Collect the packages together in one directory. You can make as many sub-directories as you want, but there needs to be a top level directory where they all live. That's where we're going to form our repository.
+2.Yum uses a digest of the information stored in each RPM to do its work. This information is created using the 'createrepo' program. If you don't have createrepo installed you can install it with:
+    yum install createrepo
+If you are generating your repository on a machine that doesn't use RPMs, you can download createrepo from http://createrepo.baseurl.org/ and build/install it manually.
+
+Once you have createrepo installed you need to run it. It only requires one argument which is the directory in which you would like to generate the repository data. So if the packages directory we made in step 1 is in /srv/my/repo then you would run:
+
+    createrepo /srv/my/repo
+You should see a lot of things fly by but it should finish without an error. In the end you should have a directory named /srv/my/repo/repodata with at least 4 files in it. Maybe more.
+
+3.To make this repository known to yum you need to add a .repo file to your yum configuration. On the systems where you want to use this repo you need to make a new file in /etc/yum.repos.d/. The file can be named anything but the extension on the file has to be .repo. Let's call this one 'myrepo.repo'.
+In the file you just need to include the following:
+
+   [myrepo]
+   name = This is my repo
+   baseurl = url://to/get/to/srv/my/repo/
+That's all you need in that file. The 'baseurl' line is the path that machine uses to get to the repository. If the machine has direct access to it or mounts it as a filesystem you can use a baseurl line like:
+
+     baseurl = file:///srv/my/repo/
+NB: there are 3 slashes (/) following the file:, not 2. That is correct.
+
+If you access the file via an http or https server you would use something like:
+
+     baseurl = http://servername/my/repo
+More details about client-side repo configuration can be found in the yum.conf man page.
+
+4.Now, every time you modify, remove or add a new RPM package to /srv/my/repo you need to recreate the repository metadata. You do that by running createrepo the same way you did in step 2.
+
+
+http://yum.baseurl.org/wiki/RepoCreate

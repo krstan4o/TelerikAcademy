@@ -1,0 +1,6 @@
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\SyncResourceAccessProblems\bin\Debug\SyncResourceAccessProblems.exe.config
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\SyncResourceAccessProblems\bin\Debug\SyncResourceAccessProblems.exe
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\SyncResourceAccessProblems\bin\Debug\SyncResourceAccessProblems.pdb
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\SyncResourceAccessProblems\obj\Debug\SyncResourceAccessProblems.csprojResolveAssemblyReference.cache
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\SyncResourceAccessProblems\obj\Debug\SyncResourceAccessProblems.exe
+D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\SyncResourceAccessProblems\obj\Debug\SyncResourceAccessProblems.pdb

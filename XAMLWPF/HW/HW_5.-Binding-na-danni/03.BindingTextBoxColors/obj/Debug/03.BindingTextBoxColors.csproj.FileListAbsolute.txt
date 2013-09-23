@@ -1,0 +1,14 @@
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\bin\Debug\03.BindingTextBoxColors.exe.config
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\bin\Debug\03.BindingTextBoxColors.exe
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\bin\Debug\03.BindingTextBoxColors.pdb
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\MainWindow.baml
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\MainWindow.g.cs
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\App.g.cs
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\03.BindingTextBoxColors_MarkupCompile.cache
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\03.BindingTextBoxColors.g.resources
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\_03.BindingTextBoxColors.Properties.Resources.resources
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\03.BindingTextBoxColors.csproj.GenerateResource.Cache
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\03.BindingTextBoxColors.exe
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\03.BindingTextBoxColors.pdb
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\1\documents\visual studio 2013\Projects\XamlDataBinding-Homework\03.BindingTextBoxColors\obj\Debug\03.BindingTextBoxColors_MarkupCompile.lref

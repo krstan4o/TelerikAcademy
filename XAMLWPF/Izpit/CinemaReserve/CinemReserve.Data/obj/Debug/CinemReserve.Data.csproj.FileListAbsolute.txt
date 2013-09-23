@@ -1,0 +1,10 @@
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\CinemReserve.Data.dll.config
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\CinemReserve.Data.dll
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\CinemReserve.Data.pdb
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\CinemaReserve.EntityModels.dll
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\EntityFramework.dll
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\CinemaReserve.EntityModels.pdb
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\bin\Debug\EntityFramework.xml
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\obj\Debug\CinemReserve.Data.csprojResolveAssemblyReference.cache
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\obj\Debug\CinemReserve.Data.dll
+D:\Telerik\XAMLWPF\Izpit\CinemaReserve\CinemReserve.Data\obj\Debug\CinemReserve.Data.pdb

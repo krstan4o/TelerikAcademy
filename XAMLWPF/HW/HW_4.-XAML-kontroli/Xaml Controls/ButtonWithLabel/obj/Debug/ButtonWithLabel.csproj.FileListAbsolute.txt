@@ -1,0 +1,12 @@
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\bin\Debug\ButtonWithLabel.exe.config
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\bin\Debug\ButtonWithLabel.exe
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\bin\Debug\ButtonWithLabel.pdb
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\MainWindow.baml
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\App.g.cs
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\ButtonWithLabel_MarkupCompile.cache
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\ButtonWithLabel.g.resources
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\ButtonWithLabel.Properties.Resources.resources
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\ButtonWithLabel.csproj.GenerateResource.Cache
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\ButtonWithLabel.exe
+D:\SkyDrive\Telerik\WPF\Xaml Controls\ButtonWithLabel\obj\Debug\ButtonWithLabel.pdb

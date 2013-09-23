@@ -1,0 +1,9 @@
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\bin\Debug\Data.Models.dll
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\bin\Debug\Data.Models.pdb
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\bin\Debug\MongoDB.Bson.dll
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\bin\Debug\MongoDB.Driver.dll
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\bin\Debug\MongoDB.Bson.xml
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\bin\Debug\MongoDB.Driver.xml
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\obj\Debug\Data.Models.csprojResolveAssemblyReference.cache
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\obj\Debug\Data.Models.dll
+c:\users\stamo_000\documents\visual studio 2012\Projects\OrangeMailServices\Data.Models\obj\Debug\Data.Models.pdb

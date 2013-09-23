@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KRSTAN4O-LAPTOP</Machine>
+    <WindowsUser>krstan4o</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>5EA09B3E6C9CBA6236CA95D9A9AC8F08447167B3A2D3C263D9049E4FEB64DDC3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f40de5ab-32d1-4047-bbc3-6db5fc347e25_1.0.0.0_neutral__mn0dvqpmbk0m2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f40de5ab-32d1-4047-bbc3-6db5fc347e25_mn0dvqpmbk0m2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f40de5ab-32d1-4047-bbc3-6db5fc347e25</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=George</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-19T08:48:09.901</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\CalculatePrimesAsync.exe">
+      <PackagePath>CalculatePrimesAsync.exe</PackagePath>
+      <Modified>2013-09-19T08:49:37.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\CalculatePrimesAsync.pdb">
+      <PackagePath>CalculatePrimesAsync.pdb</PackagePath>
+      <Modified>2013-09-19T08:49:37.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-09-17T16:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T14:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\CalculatePrimesAsync.xaml">
+      <PackagePath>CalculatePrimesAsync.xaml</PackagePath>
+      <Modified>2013-09-17T17:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\Demos\Asynchronous-Programming-with-CSharp-and-WinRT-Demos\AsyncCSharpAndWinRT\CalculatePrimesAsync\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-19T08:48:09.818</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

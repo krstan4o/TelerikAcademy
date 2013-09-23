@@ -1,0 +1,25 @@
+﻿<Window x:Class="_04.ValidatingAndBindingPerson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:person="clr-namespace:_04.ValidatingAndBindingPerson"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <person:Person Age="11" Name="Joro" x:Key="joreto" />
+    </Window.Resources>
+    <StackPanel DataContext="{StaticResource joreto}">
+        
+        <Slider Minimum="1" Maximum="103" Value="{Binding Path=Age, Mode=TwoWay}"></Slider>
+        <Label>Age</Label>
+        <TextBox>
+            <TextBox.Text>
+                <Binding Path="Age">
+                    <Binding.ValidationRules>
+                        <person:AgeValidation></person:AgeValidation>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label >Name</Label>
+        <TextBox Text="{Binding Path=Name}"></TextBox>
+    </StackPanel>
+</Window>

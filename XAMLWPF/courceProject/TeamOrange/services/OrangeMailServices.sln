@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServices", "MailServices\MailServices.csproj", "{51FF8024-BF5F-4EEC-9206-1A87C16AFB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{887B3F08-97D1-4CCC-A39D-F21844A77D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{BC28F32C-A5D5-43D8-BEDB-C10DA00240AF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs21
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MailServices\\MailServices.csproj
+		SccProjectName1 = MailServices
+		SccLocalPath1 = MailServices
+		SccProjectUniqueName2 = Data.Models\\Data.Models.csproj
+		SccProjectName2 = Data.Models
+		SccLocalPath2 = Data.Models
+		SccProjectUniqueName3 = Data\\Data.csproj
+		SccProjectName3 = Data
+		SccLocalPath3 = Data
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51FF8024-BF5F-4EEC-9206-1A87C16AFB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FF8024-BF5F-4EEC-9206-1A87C16AFB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FF8024-BF5F-4EEC-9206-1A87C16AFB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FF8024-BF5F-4EEC-9206-1A87C16AFB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887B3F08-97D1-4CCC-A39D-F21844A77D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887B3F08-97D1-4CCC-A39D-F21844A77D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887B3F08-97D1-4CCC-A39D-F21844A77D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887B3F08-97D1-4CCC-A39D-F21844A77D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC28F32C-A5D5-43D8-BEDB-C10DA00240AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC28F32C-A5D5-43D8-BEDB-C10DA00240AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC28F32C-A5D5-43D8-BEDB-C10DA00240AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC28F32C-A5D5-43D8-BEDB-C10DA00240AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

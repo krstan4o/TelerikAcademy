@@ -1,0 +1,24 @@
+﻿<Window x:Class="_03.BindingTextBoxColors.MainWindow"
+        xmlns:my="clr-namespace:_03.BindingTextBoxColors" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Background="Aqua">
+    <StackPanel>
+        <StackPanel.Resources>
+            <my:ColorNames x:Key="myColors"></my:ColorNames>
+            <Style TargetType="TextBlock">
+                <Setter Property="Foreground" Value="Black"></Setter>
+            </Style>
+        </StackPanel.Resources>
+
+        <TextBox Name="SourceTextBox" Text="default" />
+        <Label>Foreground Color</Label>
+        <ComboBox ItemsSource="{StaticResource myColors}" Text="Foreground Color" Name="ForegroundComboBox" SelectedIndex="0" />
+        <Label>BackGround Color</Label>
+        <ComboBox ItemsSource="{StaticResource myColors}" Text="BackGround Color" Name="BackgroundComboBox" SelectedIndex="1" />
+
+        <TextBlock Foreground="{Binding ElementName=ForegroundComboBox, Path=SelectedItem}" 
+                   Text="{Binding ElementName=SourceTextBox, Path=Text}"
+                   Background="{Binding ElementName=BackgroundComboBox, Path=SelectedItem}" FontSize="16" />
+    </StackPanel>
+</Window>

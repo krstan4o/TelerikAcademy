@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countries System Simple", "Countries System Simple\Countries System Simple.csproj", "{E09D5915-681C-40D3-B30D-86A3BE017924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesSystem.ViewModels", "CountriesSystem.ViewModels\CountriesSystem.ViewModels.csproj", "{3A0B3A53-DF53-46A7-984C-1A3C9D6E60D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countries System Complex", "Countries System Complex\Countries System Complex.csproj", "{A84AE1F3-0A16-4E96-966E-25491D12441D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E09D5915-681C-40D3-B30D-86A3BE017924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09D5915-681C-40D3-B30D-86A3BE017924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09D5915-681C-40D3-B30D-86A3BE017924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09D5915-681C-40D3-B30D-86A3BE017924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0B3A53-DF53-46A7-984C-1A3C9D6E60D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0B3A53-DF53-46A7-984C-1A3C9D6E60D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0B3A53-DF53-46A7-984C-1A3C9D6E60D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0B3A53-DF53-46A7-984C-1A3C9D6E60D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84AE1F3-0A16-4E96-966E-25491D12441D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84AE1F3-0A16-4E96-966E-25491D12441D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84AE1F3-0A16-4E96-966E-25491D12441D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84AE1F3-0A16-4E96-966E-25491D12441D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

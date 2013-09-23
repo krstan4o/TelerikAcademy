@@ -1,0 +1,13 @@
+﻿<Window x:Class="CheckedColletions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox Name="Output" />
+        <ComboBox SelectionChanged="ItemSelected">
+            <ComboBoxItem Content="Element" />
+            <ComboBoxItem Content="Item" />
+            <ComboBoxItem Content="Cat" />
+        </ComboBox>
+    </StackPanel>
+</Window>
