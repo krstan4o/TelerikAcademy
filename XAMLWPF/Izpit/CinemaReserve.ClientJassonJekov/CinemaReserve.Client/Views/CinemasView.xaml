@@ -1,0 +1,148 @@
+﻿<UserControl x:Class="CinemaReserve.Client.Views.CinemasView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:viewModels="clr-namespace:CinemaReserve.Client.ViewModels"
+             mc:Ignorable="d">
+
+    <UserControl.DataContext>
+        <viewModels:CinemasViewModel />
+    </UserControl.DataContext>
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Name="Cinemas" Style="{StaticResource BoxWrapper}">
+            <TextBlock Style="{StaticResource Title}">
+                Cinemas: <TextBlock Text="{Binding Cinemas.Count}"></TextBlock>
+            </TextBlock>
+
+            <ListBox ItemsSource="{Binding Cinemas}" IsSynchronizedWithCurrentItem="True">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+
+        <StackPanel Name="Movies" Style="{StaticResource BoxWrapper}">
+            <StackPanel>
+                <TextBlock Style="{StaticResource Title}">
+                    Movies: <TextBlock Text="{Binding CinemaMovies.Count}"></TextBlock>
+                </TextBlock>
+
+                <ListBox x:Name="CinemaMoviesEl" ItemsSource="{Binding CinemaMovies}" IsSynchronizedWithCurrentItem="True" DisplayMemberPath="Title" />
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Style="{StaticResource Title}">
+                    Movie Details: <TextBlock Text="{Binding CinemaMovie.Title}"></TextBlock>
+                </TextBlock>
+
+                <StackPanel Name="MovieDetails" Width="250" HorizontalAlignment="Left">
+                    <TextBlock>
+                        <Span FontWeight="Bold">Description:</Span>
+                        <TextBlock Text="{Binding CinemaMovie.Description}"></TextBlock>
+                    </TextBlock>
+
+                    <StackPanel Width="250" HorizontalAlignment="Left">
+                        <TextBlock FontWeight="Bold">Actors:</TextBlock>
+                        <ItemsControl ItemsSource="{Binding CinemaMovie.Actors}"></ItemsControl>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Name="Projections" Style="{StaticResource BoxWrapper}">
+            <StackPanel>
+                <TextBlock Style="{StaticResource Title}">
+                    Projections: <TextBlock Text="{Binding CinemaMovieProjections.Count}"></TextBlock>
+                </TextBlock>
+
+                <ListBox ItemsSource="{Binding CinemaMovieProjections}" IsSynchronizedWithCurrentItem="True" DisplayMemberPath="Time" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Name="Reservations" Style="{StaticResource BoxWrapper}">
+            <StackPanel Name="ProjectionDetails" Style="{StaticResource BoxWrapper}">
+                <TextBlock Style="{StaticResource Title}">
+                    Projection Details: <TextBlock Text="{Binding CinemaMovieProjectionsProjection.Time}"></TextBlock>
+                </TextBlock>
+
+                <ListBox ItemsSource="{Binding CinemaMovieProjectionsProjection.Seats}" IsSynchronizedWithCurrentItem="True"
+                         SelectionMode="Multiple"
+                         ScrollViewer.VerticalScrollBarVisibility="Auto" Height="300">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <UniformGrid Columns="3" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock>Row: <TextBlock Text="{Binding Row}"></TextBlock></TextBlock>
+                                <TextBlock>Col: <TextBlock Text="{Binding Column}"></TextBlock></TextBlock>
+                                <TextBlock>Status: <TextBlock Text="{Binding Status}"></TextBlock></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+
+            <StackPanel Name="ReservationCreate">
+                <TextBlock Style="{StaticResource Title}">
+                    Create
+                </TextBlock>
+
+                <Grid Style="{StaticResource Form}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0">Email</TextBlock>
+                    <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding CreateReservationEmail}"></TextBox>
+
+                    <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                            Command="{Binding CreateReservation}">
+                        Create
+                    </Button>
+                </Grid>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Name="ReservationRemove" Style="{StaticResource BoxWrapper}">
+            <TextBlock Style="{StaticResource Title}">
+                Remove
+            </TextBlock>
+
+            <Grid Style="{StaticResource Form}">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0">Email</TextBlock>
+                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding RemoveReservationEmail}"></TextBox>
+
+                <TextBlock Grid.Row="1" Grid.Column="0">User Code</TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding RemoveReservationUserCode}"></TextBox>
+
+                <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                            Command="{Binding RemoveReservation}">
+                    Remove
+                </Button>
+            </Grid>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

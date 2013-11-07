@@ -1,0 +1,53 @@
+.form { 
+    background-color: aquamarine;
+    vertical-align: top;
+    display:inline-block;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-left: 520px;
+    padding: 20px;
+    
+}
+select{
+    margin-left: 39px;
+}
+#error-container{
+    color:red;
+}
+.formm{
+    width: 760px;
+}
+.formm input{
+    margin-left: 19px;
+}
+.formm button{
+    margin-left: 86px;
+}
+#wrapper{
+    width: 750px;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+.info-holder{
+    background-color: activecaption;
+    padding: 10px;
+}
+.message{
+    display:block;
+    width: 450px;
+    text-align: justify;
+    word-break: break-all;
+}
+.message-holder{
+     margin: 15px;
+     border-bottom: 1px solid black;
+}
+#username{
+    margin-left: 21px;
+}
+#register-form form #username{
+    margin:0;
+}
+button{
+    margin-left:55px;
+}

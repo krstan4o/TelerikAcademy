@@ -2,7 +2,7 @@
 ** NODE.JS REQUIREMENTS
 **************************************************/
 var util = require("util"),					// Utility resources (logging, object inspection, etc)
-	io = require("socket.io"),				// Socket.IO
+	io = require("./socket.io/lib/socket.io.js"),				// Socket.IO
 	Player = require("./Player").Player;	// Player class
 
 

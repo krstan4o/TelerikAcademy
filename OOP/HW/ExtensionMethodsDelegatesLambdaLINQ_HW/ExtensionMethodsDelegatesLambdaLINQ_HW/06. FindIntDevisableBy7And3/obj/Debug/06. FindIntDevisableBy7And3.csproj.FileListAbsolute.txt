@@ -1,0 +1,5 @@
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\06. FindIntDevisableBy7And3\bin\Debug\_06.FindIntDevisableBy7And3.exe.config
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\06. FindIntDevisableBy7And3\bin\Debug\_06.FindIntDevisableBy7And3.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\06. FindIntDevisableBy7And3\bin\Debug\_06.FindIntDevisableBy7And3.pdb
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\06. FindIntDevisableBy7And3\obj\Debug\_06.FindIntDevisableBy7And3.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\06. FindIntDevisableBy7And3\obj\Debug\_06.FindIntDevisableBy7And3.pdb

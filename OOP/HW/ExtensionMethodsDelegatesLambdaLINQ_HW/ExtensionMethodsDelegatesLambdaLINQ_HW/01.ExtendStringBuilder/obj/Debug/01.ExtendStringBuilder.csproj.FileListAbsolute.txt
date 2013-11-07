@@ -1,0 +1,6 @@
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\01.ExtendStringBuilder\bin\Debug\01.ExtendStringBuilder.exe.config
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\01.ExtendStringBuilder\bin\Debug\01.ExtendStringBuilder.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\01.ExtendStringBuilder\bin\Debug\01.ExtendStringBuilder.pdb
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\01.ExtendStringBuilder\obj\Debug\01.ExtendStringBuilder.csprojResolveAssemblyReference.cache
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\01.ExtendStringBuilder\obj\Debug\01.ExtendStringBuilder.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\01.ExtendStringBuilder\obj\Debug\01.ExtendStringBuilder.pdb

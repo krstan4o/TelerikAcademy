@@ -1,0 +1,5 @@
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\07. TimerMethods\bin\Debug\_07.TimerMethods.exe.config
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\07. TimerMethods\bin\Debug\_07.TimerMethods.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\07. TimerMethods\bin\Debug\_07.TimerMethods.pdb
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\07. TimerMethods\obj\Debug\_07.TimerMethods.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\07. TimerMethods\obj\Debug\_07.TimerMethods.pdb

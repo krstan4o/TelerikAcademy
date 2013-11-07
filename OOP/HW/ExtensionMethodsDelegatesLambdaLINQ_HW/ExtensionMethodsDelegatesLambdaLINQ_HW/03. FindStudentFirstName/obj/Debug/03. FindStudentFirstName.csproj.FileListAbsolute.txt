@@ -1,0 +1,5 @@
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\03. FindStudentFirstName\bin\Debug\_03.FindStudentFirstName.exe.config
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\03. FindStudentFirstName\bin\Debug\_03.FindStudentFirstName.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\03. FindStudentFirstName\bin\Debug\_03.FindStudentFirstName.pdb
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\03. FindStudentFirstName\obj\Debug\_03.FindStudentFirstName.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\03. FindStudentFirstName\obj\Debug\_03.FindStudentFirstName.pdb

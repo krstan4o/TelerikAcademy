@@ -1,0 +1,1 @@
+D:\Telerik\Win8XAML\HW\Gestures\03.Gestures\PaintRT\PaintRT.csproj;neutral

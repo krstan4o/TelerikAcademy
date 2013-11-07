@@ -1,1 +1,1 @@
-D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\PrimesApp.csproj;neutral
+D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\PrimesApp.csproj;neutral

@@ -1,0 +1,5 @@
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\02. EnumarableExtMethods\bin\Debug\_02.EnumarableExtMethods.exe.config
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\02. EnumarableExtMethods\bin\Debug\_02.EnumarableExtMethods.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\02. EnumarableExtMethods\bin\Debug\_02.EnumarableExtMethods.pdb
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\02. EnumarableExtMethods\obj\Debug\_02.EnumarableExtMethods.exe
+D:\Telerik\OOP\HW\ExtensionMethodsDelegatesLambdaLINQ_HW\02. EnumarableExtMethods\obj\Debug\_02.EnumarableExtMethods.pdb

@@ -7,44 +7,44 @@
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\PrimesApp.exe">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\PrimesApp.exe">
       <PackagePath>PrimesApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\PrimesApp.pdb">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\PrimesApp.pdb">
       <PackagePath>PrimesApp.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\Assets\Logo.png">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\PrimesApp\PrimesApp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Telerik\Win8XAML\HW\HWRebuild\PrimesApp\PrimesApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -1,0 +1,16 @@
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\bin\Debug\CallHistoryTest.exe.config
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\obj\Debug\CallHistoryTest.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\bin\Debug\CallHistoryTest.exe
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\bin\Debug\CallHistoryTest.pdb
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\bin\Debug\GSMCore.dll
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\bin\Debug\GSMCore.pdb
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\obj\Debug\CallHistoryTest.exe
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\CallHistoryTest\obj\Debug\CallHistoryTest.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\bin\Debug\CallHistoryTest.exe.config
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\obj\Debug\CallHistoryTest.exe
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\obj\Debug\CallHistoryTest.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\bin\Debug\CallHistoryTest.exe
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\bin\Debug\CallHistoryTest.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\bin\Debug\GSMCore.dll
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\bin\Debug\GSMCore.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\CallHistoryTest\obj\Debug\CallHistoryTest.csprojResolveAssemblyReference.cache

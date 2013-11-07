@@ -1,0 +1,5 @@
+C:\Users\krstan4o\Downloads\1. HTML Renderer\bin\Debug\HTMLRenderer.exe
+C:\Users\krstan4o\Downloads\1. HTML Renderer\bin\Debug\HTMLRenderer.pdb
+C:\Users\krstan4o\Downloads\1. HTML Renderer\obj\Debug\HTMLRenderer.csprojResolveAssemblyReference.cache
+C:\Users\krstan4o\Downloads\1. HTML Renderer\obj\Debug\HTMLRenderer.exe
+C:\Users\krstan4o\Downloads\1. HTML Renderer\obj\Debug\HTMLRenderer.pdb

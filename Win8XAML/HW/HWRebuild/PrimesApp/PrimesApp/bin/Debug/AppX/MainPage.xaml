@@ -7,23 +7,75 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Vertical" Margin="10" ScrollViewer.VerticalScrollBarVisibility="Visible">
-        <StackPanel Orientation="Horizontal" Margin="20">
-            <TextBlock FontSize="20">StartNumber:</TextBlock>
-            <TextBox Name="StartNumberBox" Height="20" Margin="5"></TextBox>
-            <TextBlock FontSize="20" Margin="5">EndNumber:</TextBlock>
-            <TextBox Name="EndNumberBox" Height="20"></TextBox>
-            <Button x:ConnectionId='1' Margin="5"
-                                                >CalculatePrimes</Button>
-        </StackPanel>
+    <StackPanel Orientation="Horizontal">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Width="230">
+            <StackPanel Orientation="Vertical" Margin="20">
+                <TextBlock FontSize="20">StartNumber:</TextBlock>
+                <TextBox Name="StartNumberBox" Height="20" Margin="5"></TextBox>
+                <TextBlock FontSize="20" Margin="5">EndNumber:</TextBlock>
+                <TextBox Name="EndNumberBox" Height="20"></TextBox>
+                <ToggleSwitch Name="listPrimes" OnContent="On" Header="ListPrimesOnly" OffContent="Off">
+                </ToggleSwitch>
+                <Button x:ConnectionId='4' Margin="5"
+                                                      >CalculatePrimes</Button>
+                <TextBlock TextWrapping="Wrap"
+                           Name="Primes"
+                           ></TextBlock>
+            </StackPanel>
 
-        <ToggleSwitch Name="listPrimes" OnContent="ListPrimesConcatenations" OffContent="ListNonPrimesConcatenations">
-        </ToggleSwitch>
-        
-        <TextBlock Name="Primes" TextWrapping="NoWrap" ScrollViewer.VerticalScrollBarVisibility="Visible"></TextBlock>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Width="230">
+            <StackPanel Orientation="Vertical" Margin="20">
+                <TextBlock FontSize="20">StartNumber:</TextBlock>
+                <TextBox Name="StartNumberBox2" Height="20" Margin="5"></TextBox>
+                <TextBlock FontSize="20" Margin="5">EndNumber:</TextBlock>
+                
+                <TextBox Name="EndNumberBox2" Height="20"></TextBox>
+                         
+                <ToggleSwitch Name="listPrimes2" OnContent="On" Header="ListPrimesOnly" OffContent="Off">
+                </ToggleSwitch>
+                <Button x:ConnectionId='3' Margin="5"
+                                                      >CalculatePrimes</Button>
+                <TextBlock TextWrapping="Wrap"
+                           Name="Primes2"
+                           ></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Width="230">
+            <StackPanel Orientation="Vertical" Margin="20">
+                <TextBlock FontSize="20">StartNumber:</TextBlock>
+                <TextBox Name="StartNumberBox3" Height="20" Margin="5"></TextBox>
+                <TextBlock FontSize="20" Margin="5">EndNumber:</TextBlock>
+
+                <TextBox Name="EndNumberBox3" Height="20"></TextBox>
+
+                <ToggleSwitch Name="listPrimes3" OnContent="On" Header="ListPrimesOnly" OffContent="Off">
+                </ToggleSwitch>
+                <Button x:ConnectionId='2' Margin="5"
+                                                      >CalculatePrimes</Button>
+                <TextBlock TextWrapping="Wrap"
+                           Name="Primes3"
+                           ></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Width="230">
+            <StackPanel Orientation="Vertical" Margin="20">
+                <TextBlock FontSize="20">StartNumber:</TextBlock>
+                <TextBox Name="StartNumberBox4" Height="20" Margin="5"></TextBox>
+                <TextBlock FontSize="20" Margin="5">EndNumber:</TextBlock>
+
+                <TextBox Name="EndNumberBox4" Height="20"></TextBox>
+
+                <ToggleSwitch Name="listPrimes4" OnContent="On" Header="ListPrimesOnly" OffContent="Off">
+                </ToggleSwitch>
+                <Button x:ConnectionId='1' Margin="5"
+                                                      >CalculatePrimes</Button>
+                <TextBlock TextWrapping="Wrap"
+                           Name="Primes4"
+                           ></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
     </StackPanel>
-  
-   
-   
+
 </Page>
 

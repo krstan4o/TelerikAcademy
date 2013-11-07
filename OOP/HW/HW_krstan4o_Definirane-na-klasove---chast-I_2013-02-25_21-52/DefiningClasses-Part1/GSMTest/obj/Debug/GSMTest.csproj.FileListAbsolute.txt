@@ -1,0 +1,16 @@
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\bin\Debug\GSMTest.exe.config
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\obj\Debug\GSMTest.csprojResolveAssemblyReference.cache
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\bin\Debug\GSMTest.exe
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\bin\Debug\GSMTest.pdb
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\bin\Debug\GSMCore.dll
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\bin\Debug\GSMCore.pdb
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\obj\Debug\GSMTest.exe
+D:\U4ilishte\Telerik\OOP\Homework\DefiningClasses-Part1\GSMTest\obj\Debug\GSMTest.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\bin\Debug\GSMTest.exe.config
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\obj\Debug\GSMTest.exe
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\obj\Debug\GSMTest.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\bin\Debug\GSMTest.exe
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\bin\Debug\GSMTest.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\bin\Debug\GSMCore.dll
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\bin\Debug\GSMCore.pdb
+D:\Telerik\OOP\HW\HW_krstan4o_Definirane-na-klasove---chast-I_2013-02-25_21-52\DefiningClasses-Part1\GSMTest\obj\Debug\GSMTest.csprojResolveAssemblyReference.cache

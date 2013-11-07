@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using PrimesApp.Helpers;
+using Windows.Networking.BackgroundTransfer;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace PrimesApp
@@ -36,14 +37,105 @@ namespace PrimesApp
 
         }
 
-        private async void CalculatePrimesClick(object sender, RoutedEventArgs e)
+        private async void CalculatePrimesClick_1(object sender, RoutedEventArgs e)
         {
             int startNumber = int.Parse(StartNumberBox.Text);
             int endNumber = int.Parse(EndNumberBox.Text);
 
             var primes = await PrimesFunctions.CalculatePrimesRangeAsync(startNumber, endNumber);
+            var primesWithPartners = await PrimesFunctions.GetPrimesBeginsWithDiggitAsync(primes);
 
-            Primes.Text = await primes.JoinAsStringAsync(", ");
+            var result = new List<string>();
+
+            if (listPrimes.IsOn)
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, true);
+            }
+            else
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, false);
+            }
+
+            string concat = await result.JoinAsStringAsync(", ");
+
+            Primes.Text = concat;
+        }
+        private async void CalculatePrimesClick_2(object sender, RoutedEventArgs e)
+        {
+            int startNumber = int.Parse(StartNumberBox2.Text);
+            int endNumber = int.Parse(EndNumberBox2.Text);
+
+            var primes = await PrimesFunctions.CalculatePrimesRangeAsync(startNumber, endNumber);
+            var primesWithPartners = await PrimesFunctions.GetPrimesBeginsWithDiggitAsync(primes);
+
+
+            var result = new List<string>();
+
+            if (listPrimes2.IsOn)
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, true);
+            }
+            else
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, false);
+            }
+
+            string concat = await result.JoinAsStringAsync(", ");
+
+            Primes2.Text = concat;
+
+
+        }
+        private async void CalculatePrimesClick_3(object sender, RoutedEventArgs e) 
+        {
+
+            int startNumber = int.Parse(StartNumberBox3.Text);
+            int endNumber = int.Parse(EndNumberBox3.Text);
+
+            var primes = await PrimesFunctions.CalculatePrimesRangeAsync(startNumber, endNumber);
+            var primesWithPartners = await PrimesFunctions.GetPrimesBeginsWithDiggitAsync(primes);
+
+
+            var result = new List<string>();
+
+            if (listPrimes3.IsOn)
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, true);
+            }
+            else
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, false);
+            }
+
+            string concat = await result.JoinAsStringAsync(", ");
+
+            Primes3.Text = concat;
+        }
+        private async void CalculatePrimesClick_4(object sender, RoutedEventArgs e)
+        {
+            int startNumber = int.Parse(StartNumberBox4.Text);
+            int endNumber = int.Parse(EndNumberBox4.Text);
+
+            var primes = await PrimesFunctions.CalculatePrimesRangeAsync(startNumber, endNumber);
+            var primesWithPartners = await PrimesFunctions.GetPrimesBeginsWithDiggitAsync(primes);
+
+
+            var result = new List<string>();
+
+            if (listPrimes4.IsOn)
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, true);
+            }
+            else
+            {
+                result = await PrimesFunctions.GetPrimesOrNoPrimesResult(primesWithPartners, false);
+            }
+
+            string concat = await result.JoinAsStringAsync(", ");
+
+            Primes4.Text = concat;
+
+
         }
     }
 }
