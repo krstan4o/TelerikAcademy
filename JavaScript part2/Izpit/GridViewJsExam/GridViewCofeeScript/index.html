@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gallery</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/local-storage-extensions.js"></script>
+</head>
+<body>
+    <h2>Task 1,2,3</h2>
+    <div id="grid-view-holder">
+
+    </div>
+    <br /><br />
+    <h2>Task 4,5,6</h2>
+    <div id="copied">
+
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        // Task 1
+        var schoolsGrid = controls.getGridView("#grid-view-holder");
+        schoolsGrid.addHeader("Name", "Location", "Total Students", "Speciality");
+        schoolsGrid.addRow("PMG", "Burgas", 400, "Math");
+        schoolsGrid.addRow("TUES", "Sofia", 500, "IT");
+        // Task 2
+        var academyRow = schoolsGrid.addRow("Telerik Academy", "Sofia", "5000", "IT");
+        var academyGrid = academyRow.getNestedGridView();
+        academyGrid.addHeader("Title", "Start Date", "Total Students");
+        var jsRow = academyGrid.addRow("JS 2", "11-april-2013", 400);
+        var jsStudents = jsRow.getNestedGridView();
+        jsStudents.addHeader("FirstName", 'LastName', 'Grade', "Mark");
+        jsStudents.addRow('Ivan', 'Petrow', '4', 6);
+        jsStudents.addRow('Pesho', 'Georgiev', '3', 5);
+        jsStudents.addRow('Dragan', 'Petkanov', '1', 2);
+        academyGrid.addRow("SEO", "15-may-2013", 1300);
+        academyGrid.addRow("Slice and Dice", "05-april-2013", 500);
+        schoolsGrid.render();
+        // Task 4, 5
+        var schoolData = schoolsGrid.getGridViewData();
+        schoolRepository.save('schools-repository', schoolData);
+        // Task 6
+        var copiedSchoolData = schoolRepository.load('schools-repository');    
+        var copiedSchoolsGridView = controls.buildGridView("#copied", copiedSchoolData);
+               
+        // Task 3 just click on some row that below has a nested Grid and it will be colapsed/expanded
+
+    </script>
+</body>
+</html>

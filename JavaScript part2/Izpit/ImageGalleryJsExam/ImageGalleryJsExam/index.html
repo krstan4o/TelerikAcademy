@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gallery</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <meta charset="utf-16" />
+    <script src="js/local-storage-extensions.js"></script>
+</head>
+<body>
+    <h2>Task 1,2,3,7</h2>
+    <div id="image-gallery-holder">
+
+    </div>
+    <h2>Task 4,5,6</h2>
+    <div id="copied">
+
+    </div>
+    <script src="js/main.js"></script>
+    <script>
+        var gallery = controls.getImageGallery("#image-gallery-holder");
+        gallery.addImage("JS Ninja", "images/image.jpg");
+        gallery.addImage("JS Ninja", "images/image.jpg");
+        gallery.addImage("JS Ninja <br />", "images/image.jpg");
+      
+        var ninjasAlbum = gallery.addAlbum("Ninjas <br>");
+        ninjasAlbum.addImage("JS Ninja 2", "images/image.jpg");
+        ninjasAlbum.addImage("JS Ninja 2", "images/image.jpg");
+        ninjasAlbum.addImage("JS Ninja 2", "images/image.jpg");
+       
+        
+        var kidsAlbum = ninjasAlbum.addAlbum("Kids Ninjas");
+        kidsAlbum.addImage("Kid Ninja", "images/image.jpg");
+        kidsAlbum.addImage("Kid Ninja", "images/image.jpg");
+        gallery.render();
+      
+        var data = gallery.getImageGalleryData();
+        imageGalleryRepository.save("gallery", data);
+        var copiedData = imageGalleryRepository.load('gallery');
+        var copiedGallery = controls.buildImageGallery('#copied', copiedData);
+        copiedGallery.render();
+
+    </script>
+</body>
+</html>

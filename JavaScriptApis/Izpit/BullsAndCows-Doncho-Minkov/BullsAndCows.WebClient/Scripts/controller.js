@@ -22,7 +22,7 @@ var controllers = (function () {
 			this.attachUIEventHandlers(selector);
 		},
 		loadLoginFormUI: function (selector) {
-		    var loginFormHtml = ui.loginForm()
+			var loginFormHtml = ui.loginForm()
 			$(selector).html(loginFormHtml);
 		},
 		loadGameUI: function (selector) {

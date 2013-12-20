@@ -59,7 +59,6 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="packages.config" />
-    <Content Include="wtffff.html" />
     <None Include="Scripts\jquery-2.0.2.intellisense.js" />
     <Content Include="Scripts\class.js" />
     <Content Include="Scripts\controller.js" />

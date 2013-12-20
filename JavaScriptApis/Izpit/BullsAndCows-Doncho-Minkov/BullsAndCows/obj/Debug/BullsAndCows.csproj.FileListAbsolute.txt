@@ -1,3 +1,4 @@
+D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows\bin\BullsAndCows.dll.config
 D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows\bin\BullsAndCows.dll
 D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows\bin\BullsAndCows.pdb
 D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows\bin\Antlr3.Runtime.dll

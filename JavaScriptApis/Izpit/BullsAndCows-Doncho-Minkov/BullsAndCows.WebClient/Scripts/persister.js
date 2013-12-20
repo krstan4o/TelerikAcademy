@@ -91,6 +91,7 @@ var persisters = (function () {
 		join: function (game, success, error) {
 			var gameData = {
 				gameId: game.gameId,
+				number: game.number
 			};
 			if (game.password) {
 				gameData.password = CryptoJS.SHA1(game.password).toString();

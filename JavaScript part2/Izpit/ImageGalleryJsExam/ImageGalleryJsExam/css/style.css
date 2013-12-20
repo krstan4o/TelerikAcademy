@@ -1,0 +1,36 @@
+﻿li{
+    list-style:none;    
+
+}
+
+img {
+   
+    border: 2px inset gray;
+    display:inline-block;
+    border-radius:12px;
+}
+span {
+    margin:20px;
+}
+ul {
+    border:1px solid black;
+    border-radius:12px;
+    display:inline-block;
+}
+
+a {
+    text-align:center;
+    font-weight:700;
+    text-decoration:none;
+    color:black;
+    font-size:27px;
+}
+li div {
+    text-align:center;
+}
+.hidden {
+    display:none;
+}
+div {
+    display:inline-block;
+}

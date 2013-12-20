@@ -3,6 +3,7 @@ C:\Users\GGeorgiev\Downloads\BullsAndCows\BullsAndCows\BullsAndCows.WebClient\bi
 C:\Users\GGeorgiev\Downloads\BullsAndCows\BullsAndCows\BullsAndCows.WebClient\obj\Debug\BullsAndCows.WebClient.csprojResolveAssemblyReference.cache
 C:\Users\GGeorgiev\Downloads\BullsAndCows\BullsAndCows\BullsAndCows.WebClient\obj\Debug\BullsAndCows.WebClient.dll
 C:\Users\GGeorgiev\Downloads\BullsAndCows\BullsAndCows\BullsAndCows.WebClient\obj\Debug\BullsAndCows.WebClient.pdb
+D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows.WebClient\bin\BullsAndCows.WebClient.dll.config
 D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows.WebClient\bin\BullsAndCows.WebClient.dll
 D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows.WebClient\bin\BullsAndCows.WebClient.pdb
 D:\Telerik\JavaScriptApis\Izpit\BullsAndCows-Doncho-Minkov\BullsAndCows.WebClient\obj\Debug\BullsAndCows.WebClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,3 @@
+http://jsbeautifier.org/
+
+GET //http://www.kinoarena.com/movies/loadCinemaMovies/lang/bg/cinema_id/716/date/2013-10-06
