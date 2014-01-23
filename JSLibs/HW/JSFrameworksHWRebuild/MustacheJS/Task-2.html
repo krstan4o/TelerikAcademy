@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Rendering Students</title>
+        <script src="Scripts/class.js"></script>
+        <script src="Scripts/mustache.js"></script>
+        <script src="Scripts/jquery-2.0.3.js"></script>
+        <script src="Scripts/list-view.js"></script>
+        <style>
+            .hidden{
+                display:none;
+            }
+        </style>
+    </head>
+<body>
+    <div id="content">
+
+    </div>
+    <div id="marks-content" style="display:inline-block;">
+
+    </div>
+
+    <script type="x-mustache-template" id="student-template">
+        FirstName:
+        <strong>{{fname}}</strong>
+        <br />
+        LastName:
+        <strong>{{lname}}</strong>
+        <br />
+        Age:
+        <strong>{{age}}</strong>        Grade:
+        <strong><i>{{grade}}</i></strong>
+       
+    </script>
+    <script type="x-mustache-template" id="marks-template">
+        <ul class="hidden">Marks: 
+        {{#marks}}
+        <li>                
+                {{subject}}: <strong>{{score}}</strong>                
+        </li>
+        {{/marks}}
+            {{^marks}}
+            <li>
+                    This student has no marks, yet
+            </li>
+            {{/marks}}
+        </ul>
+    </script>
+    <script>
+        var Student = Class.create({
+            init: function (fname, lname, age, grade, marks) {
+                this.fname = fname;
+                this.lname = lname;
+                this.age = age;
+                this.grade = grade;
+                this.marks = marks;
+            },
+            fullname: function () {
+                return this.fname + " " + this.lname;
+            }
+        });
+
+        var Mark = Class.create({
+            init: function (subject, score) {
+                this.subject = subject;
+                this.score = score;
+            }
+        });
+
+        var students = [
+            new Student("Doncho", "Minkov", 13, 6, [new Mark("Math", 4), new Mark("JavaScript", 6)]),
+            new Student("Nikolay", "Kostov", 18, 12, [new Mark("MVC", 6), new Mark("JavaScript", 5)]),
+            new Student("Ivaylo", "Kendov", 32, 2, [new Mark("OOP", 4), new Mark("C#", 6)]),
+            new Student("Svetlin", "Nakov", 12, 12, [new Mark("Unit Testing", 5), new Mark("WPF", 6)]),
+            new Student("Asya", "Georgieva", 13, 13, [new Mark("Automation Testing", 6), new Mark("Manual Testing", 4)]),
+            new Student("Georgi", "Georgiev", 1, 0)
+        ];
+
+        var studentTemplate = Mustache.compile(document.getElementById("student-template").innerHTML);
+        var listView = controls.getListView(students, 3, 2);
+        var listViewHtml = listView.render(studentTemplate);
+        document.getElementById("content").innerHTML = listViewHtml;
+        $(document.body).on('click', 'td', function (ev) {
+           // alert('clicked');
+            var element = parseInt(ev.target.id);
+            var marksTempalte = Mustache.compile(document.getElementById('marks-template').innerHTML);
+            debugger;
+            var view = controls.getListView(students[element].marks, 1, 10);
+            var listViewHtml = view.render(marksTempalte);
+                document.getElementById("marks-content").innerHTML = listViewHtml;
+        });
+    </script>
+</body>
+
+</html>

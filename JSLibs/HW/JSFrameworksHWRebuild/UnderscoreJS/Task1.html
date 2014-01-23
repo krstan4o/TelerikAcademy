@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find all students first name is before last name. Print in descending order by fullname.</title>
+    <script src="class.js"></script>
+    <script src="Underscore.js"></script>
+</head>
+<body>
+    <script>
+        var Student = Class.create({
+            init: function (firstName, lastName, age, marks) {
+                this.firstName = firstName;
+                this.lastName = lastName;
+                this.age = age;
+                this.marks = marks;
+            },
+            fullname: function () {
+                return this.firstName + " " + this.lastName;
+            },
+            toString: function () {
+                return this.fullname();
+            }
+        });
+        
+        var Mark = Class.create({
+            init: function (mark, predmet) {
+                this.mark = mark;
+                this.predmet = predmet;
+            }
+        });
+        var Animal = Class.create({
+            init: function (specii, legs) {
+                this.specii = specii;
+                this.legs = legs;
+            }
+        });
+        var Book = Class.create({
+            init: function (title, author) {
+                this.title = title;
+                this.author = author;
+            }
+        });
+        var marks = [
+            new Mark("6", "Math"),
+             new Mark("6", "Math"),
+              new Mark("6", "Math"),
+               new Mark("6", "Math"),
+                new Mark("6", "Math"),
+                 new Mark("6", "Psichology"),
+                  new Mark("5", "English"),
+                new Mark("4", "Bilogy"),
+        ];
+
+        var students = [
+            new Student("Ivan", "Gyz", 18, marks),
+            new Student("Alban", "Bulgarov", 18, marks),
+           new Student("Gyz", "Gyz", 23, marks),
+           new Student("Gyz", "Gyz", 23, marks),
+           new Student("Gyz", "Avramsov", 23, marks),
+           new Student("Gyz", "ssss", 23, marks),
+            new Student("Gyz", "Ivanov", 25, marks),
+            new Student("Gyz", "Gyz", 24, marks),
+            new Student("Gyz", "Avramov", 23, marks),
+
+        ];
+
+        var marks = [
+          new Mark("6", "Math"),
+           new Mark("6", "Math"),
+            new Mark("6", "Math"),
+             new Mark("6", "Math"),
+              new Mark("6", "Math"),
+               new Mark("6", "Psichology"),
+                new Mark("5", "English"),
+              new Mark("3", "Bilogy"),
+        ];
+        students.push(new Student("Fname", "sss", 18, marks));
+        students.push(new Student("Fname", "Lname", 18, marks));
+        students.push(new Student("Fname", "Lname", 18, marks));
+        students.push(new Student("Fname", "vvv", 18, marks));
+        students.push(new Student("Fname", "aa", 18, marks));
+        students.push(new Student("Fname", "Lname", 18, marks));
+
+
+        var studentsWithFirstNameBeforeLast = _.chain(students).filter(function (st) {
+            return st.lastName > st.firstName;
+        }).sortBy('fullname').reverse().each(function (st) {
+            console.log(st.toString());
+            console.log('-----------');
+        });
+
+        var studentsWithAgeBetweean18And24 = _.chain(students).filter(function (st) {
+            return st.age >= 18 && st.age <= 24;
+        }).each(function (st) {
+            console.log(st.toString());
+            console.log(st.age);
+            console.log('--------------');
+        });
+        var highestMarks = -1;
+        var studentWithHighestMarks = -1;
+        var studentWithHighestMarkss = _.chain(students).each(function (st, index) {
+            var sum = 0;
+
+            for (var i = 0; i < st.marks.length; i++) {
+                sum += parseInt(st.marks[i].mark);
+            }
+            debugger;
+            sum = sum / st.marks.length;
+            if (sum > highestMarks) {
+                highestMarks = sum;
+                studentWithHighestMarks = index;
+            }
+        });
+        console.log(students[studentWithHighestMarks].toString());
+        console.log(highestMarks);
+        console.log('------------------------------------------------------');
+        var animals = [
+            new Animal("Bozainik", 2),
+               new Animal("Vle4ugo", 8),
+                new Animal("Vle4ugo", 2),
+                 new Animal("Vle4ugo", 4),
+                new Animal("Bozainik", 6),
+              new Animal("Bozainik", 4),
+               new Animal("Nasekomo", 4),
+               new Animal("Nasekomo", 6),
+               new Animal("Nasekomo", 8),
+        ];
+        var groupedAnimals = _.chain(animals).sortBy('legs').groupBy('specii').each(function (group) {
+            _.each(group, function (an) {
+                console.log(an.specii);
+                console.log(an.legs);
+            });
+        });
+
+        var totalNumberOfLegs = _.chain(animals).pluck('legs').reduce(function (memo, item) {
+            return memo + item;
+        }).value();
+
+        console.log(totalNumberOfLegs);
+
+
+        var books = [
+            new Book("Mal4anieto na iagnetata", "Kyci Petrow"), new Book("Mal4anieto na iagnetata", "Kyci Petrow"),
+            new Book("asdsd na iagnetata", "Kyci Petrow"),
+            new Book("dddd na iagnetata", "Stefan Rangelov"),
+              new Book("dddd na iagnetata", "Stefan Rangelov"),
+                new Book("dddd na iagnetata", "Stefan Rangelov"),
+                  new Book("dddd na iagnetata", "Stefan Rangelov"),
+            new Book("aaaaa na iagnetata", "Kyci Petrow"),
+            new Book("sssss na iagnetata", "Kyci Petrow"),
+            new Book("Mal4anieto na iagnetata", "Pesho Petrow"),
+            new Book("Mal4anieto na iagnetata", "Pesho Petrow")
+        ];
+
+        var mostCommonAuthor = _.chain(books).groupBy('author').sortBy('length').last().last().value().author;
+        console.log(mostCommonAuthor);
+
+        var mostCommonFName = _.chain(students).groupBy('firstName').sortBy('length').last().last().value().firstName;
+        console.log(mostCommonFName);
+
+        var mostCommonLName = _.chain(students).groupBy('lastName').sortBy('length').last().last().value().lastName;
+        console.log(mostCommonLName);
+    </script>
+</body>
+</html>
