@@ -80,7 +80,6 @@
     <None Include="App.config" />
     <None Include="Server.exe.manifest" />
     <None Include="packages.config" />
-    <None Include="TextFile1.bat" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Winamp SDK\WinAmpSDK.csproj">
